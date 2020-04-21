@@ -8,5 +8,57 @@ BrichNaturCornoII = {
 	\relative c' {
 		\clef treble
 		\key c \major \time 4/4 \tempoBrichNatur
+		\partial 4 r4 R1*7 %7
+		r2 r4 c'8.\f c16
+		c4 r r2
+		g r4\fermata \tempoBrichNaturB r %10
+		r2 r4 g8. g16
+		c4 c8. c16 g4 g8. g16
+		c4 g2 g4
+		c c8. c16 g4 g8. g16
+		c,1 %15
+		g'
+		c
+		e,
+		c'
+		c %20
+		g4 g8. g16 c4 c8. c16
+		g4 g r2
+		g4 g8. g16 c4 c8. c16
+		g4 g c e
+		g,2 c4 e %25
+		g,2 r
+		R1*7 %33
+		g,2\pE r
+		g\crescE r %35
+		g\f r
+		g r
+		g r
+		R1*12 %50
+		r8 g\f g g g g g g
+		R1
+		r2 g'
+		c,4. c8 e4. c8
+		g g g g g g g g %55
+		R1
+		r2 g'
+		c,4. c8 e4. c8
+		g2 r
+		R1*4 %63
+		g'1
+		c2 r %65
+		c g
+		c,4 r r2
+		R1*4 %71
+		g'1
+		c2 r
+		c g
+		c,4 r r2 %75
+		g'1\ff
+		c2 c
+		c g
+		c,1~\decresc
+		c4\! r r2 %80
+		R1*4 \bar "||" \hideNotes r4 %84 finis
 	}
 }

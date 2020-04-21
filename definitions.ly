@@ -186,6 +186,8 @@ pocoP = #(make-dynamic-script (markup #:line (#:normal-text #:small "poco" #:nor
 pocoPE = #(make-dynamic-script (markup #:line (#:normal-text #:small #:italic "poco" #:normal-text #:large #:bold #:italic "p")))
 cresc = #(make-music 'CrescendoEvent 'span-direction START 'span-type 'text 'span-text (markup (#:normal-text #:small "cresc.")))
 crescE = #(make-music 'CrescendoEvent 'span-direction START 'span-type 'text 'span-text (markup (#:normal-text #:small #:italic "cresc.")))
+decresc = #(make-music 'DecrescendoEvent 'span-direction START 'span-type 'text 'span-text (markup (#:normal-text #:small "decresc.")))
+decrescE = #(make-music 'DecrescendoEvent 'span-direction START 'span-type 'text 'span-text (markup (#:normal-text #:small #:italic "decresc.")))
 
 violinGroupDistance = {
 	\override StaffGrouper.staffgroup-staff-spacing =
@@ -227,6 +229,8 @@ twofourtime = {
 		#'((end . (((1 . 16) . (4 4)))))
 	}
 
+danskLyrics = { \override LyricText.font-shape = #'italic }
+
 mvTr = \once \override TextScript.X-offset = #2
 mvTrh = \once \override TextScript.X-offset = #2.5
 mvTrr = \once \override TextScript.X-offset = #3
@@ -247,6 +251,7 @@ tempoMarkup =
 %
 
 tempoBrichNatur = \tempoMarkup "Moderato"
+	tempoBrichNaturB = \tempoMarkup "Allegro ma non troppo"
 
 
 
@@ -355,13 +360,13 @@ tempoBrichNatur = \tempoMarkup "Moderato"
 	\context {
 		\ChoirStaff
 		\override StaffGrouper.staffgroup-staff-spacing =
-		  #'((basic-distance . 15)
-         (minimum-distance . 15)
+		  #'((basic-distance . 17)
+         (minimum-distance . 17)
          (padding . -100)
          (stretchability . 0))
 		\override StaffGrouper.staff-staff-spacing =
-		  #'((basic-distance . 13)
-         (minimum-distance . 13)
+		  #'((basic-distance . 15)
+         (minimum-distance . 15)
          (padding . -100)
          (stretchability . 0))
 		\override StaffGrouper.nonstaff-nonstaff-spacing =
@@ -438,6 +443,28 @@ tempoBrichNatur = \tempoMarkup "Moderato"
 
 tocSection = #(define-music-function (parser location number text) (markup? markup?)
    (add-toc-item! 'tocItemMarkup (format #f "\\contentsline {section}{\\numberline {~a}~a}" number text )))
+
+#(define (ly:create-ref-file layout pages)
+ (let* ((label-table (ly:output-def-lookup layout 'label-page-table)))
+   (if (not (null? label-table))
+     (let* ((format-line (lambda (toc-item)
+            (let* ((label (car toc-item))
+                   (text  (caddr toc-item))
+                   (label-page (and (list? label-table)
+                                    (assoc label label-table)))
+                   (page (and label-page (cdr label-page))))
+              (format #f "~a{~a}}" text page))))
+            (formatted-toc-items (map format-line (toc-items)))
+            (whole-string (string-join formatted-toc-items "\n"))
+						 (outfilename "lilypond.ref")
+            (outfile (open-output-file outfilename)))
+       (if (output-port? outfile)
+           (display whole-string outfile)
+           (ly:warning (_ "Unable to open output file ~a for the REF information") outfilename))
+       (close-output-port outfile)))))
+
+newlabel = #(define-music-function (parser location label number title) (markup? markup? markup?)
+    (add-toc-item! 'tocItemMarkup (format #f "\\newlabel{~a}{{~a}{~a}" label number title )))
 
 \include "notes/fl1.ly"
 \include "notes/fl2.ly"

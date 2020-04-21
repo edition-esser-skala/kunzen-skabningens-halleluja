@@ -55,6 +55,8 @@
 
 \usepackage{pdfpages}
 
+\usepackage{multicol}
+
 \usepackage{scrlayer-scrpage}
 \pagestyle{scrheadings}
 \clearscrheadfoot
@@ -139,9 +141,19 @@ end
   \parts{Draft}
 }{\templatetrue}
 
+\def\@firstofthree#1#2#3{#1}
+\def\@secondofthree#1#2#3{#2}
+\def\@thirdofthree#1#2#3{#3}
+\def\lyrefnumber#1{\expandafter\@setref\csname r@#1\endcsname\@firstofthree{#1}}
+\def\lyreftitle#1{\expandafter\@setref\csname r@#1\endcsname\@secondofthree{#1}}
+\def\lyrefpage#1{\expandafter\@setref\csname r@#1\endcsname\@thirdofthree{#1}}
+\def\lyref#1{{\sbseries\makebox[0pt][l]{\color{oldred}\lyrefnumber{#1}}\hspace*{2em}\lyreftitle{#1}\Dotfill\lyrefpage{#1}}}
+
+\def\Dotfill{\leavevmode\cleaders\hb@xt@ .75em{\hss .\hss }\hfill \kern \z@}
+
 \makeatother
 
-
+\input{../lilypond.ref}
 
 
 
@@ -149,7 +161,7 @@ end
 \begin{document}
 
 \titlehead{\fancytitlehead}
-\firstname{Friedrich Ludwig Æmilius}
+\firstname{Friedrich Ludwig Æmilius} % Libretto Jens Immanuel Baggensen
 \lastname{Kunzen}
 \title{Skabningens Halleluja}
 \shorttitle{Skabningens\\Halleluja}
@@ -188,7 +200,9 @@ In general, this edition closely follows the manuscript. Any changes that were i
 	\toprule
 	\itshape Mov. & \itshape Bar & \itshape Staff & \itshape Note \\
 	\midrule \endhead
-	
+	–  & –   & org   & All bass figures were supplemented by the editor. \\
+	1  & 58  & timp  & 2nd half of bar in Ms: c4–c4 \\
+	   & 31  & B     & 4th quarter: grace note missing in Ms \\
 	\bottomrule
 \end{longtable}
 
@@ -200,9 +214,47 @@ This edition has been compiled and checked with utmost diligence. Nevertheless, 
 Wolfgang Esser-Skala}
 
 
-\chapter*{Contents.}
 
-%\input{../out/lilypond.toc}
+
+\chapter*{Contents. Lyrics.}
+
+
+\begin{multicols}{2}[\lyref{brichnatur}]
+Brich, Natur, in Loblied aus!\\
+Lobt Jehoven, alle Zonen,\\
+lobet, alle Nationen,\\
+lobet Gott!\\
+Preiset ihn in vollen Chören,\\[\baselineskip]
+Himmel, Erd und Meer!\\
+Die ihr athmet, preist den Guten!\\
+Ihn, der schuf des Lichtes Gluthen,\\
+Ihn, der Odem gab!\\
+Hoch in frohe Jubeltöne\\
+schweb empor, Gesang, zu Gott!\\
+Der gesammten Schöpfung Söhne\\
+brechet aus in Jubeltöne,\\
+lobet Gott!\\
+Der gesammten Schöpfung Söhne\\
+singt im heiligsten der Töne,\\
+lobet Gott!\columnbreak
+
+Bryd, o Støv, i Lovsang ud!\\
+Lover Herren alle Zoner!\\
+Lover alle Nationer!\\
+Lover Gud!\\
+Priiser ham, den Eene Store!\\
+Priiser Ham i fulde Chore,\\
+Himmel, Jord, og Hav!\\
+Alt hvad aander, nynne, stamme\\
+Ham, som tændte Lysets Flamme!\\
+Ham, som Aande gav!\\
+Høit i glade Jubeltoner\\
+bryde Livets Lovsang [\textit{or}: Vellyst] ud!\\
+Alt det Skabtes [\textit{or}: Alle Kloders] Millioner,\\
+toner i foreente Toner,\\
+toner Gud!
+\end{multicols}
+
 
 \cleardoublepage
 \fi

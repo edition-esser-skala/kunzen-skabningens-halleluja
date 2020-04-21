@@ -6,7 +6,7 @@
 
 \include "../definitions.ly"
 
-\paper { #(define (page-post-process layout pages) (ly:create-toc-file layout pages)) }
+% \paper { #(define (page-post-process layout pages) (ly:create-ref-file layout pages)) }
 
 #(set-global-staff-size 15.87)
 
@@ -14,11 +14,11 @@
 	\bookpart {
 		\header {
 			number = "1"
-			title = "Brich, Natur in Loblied aus!"
-			dansktitle = "Bryd, o Stöv i Lovsang ud!"
+			title = "Brich, Natur, in Loblied aus!"
+			dansktitle = "Bryd, o Støv, i Lovsang ud!"
 		}
 		\paper { indent = 3.5\cm }
-		\tocSection "1" "Bryd, o Stöv, i Lovsang ud!"
+		% \newlabel "brichnatur" "1" "Brich, Natur, in Loblied aus!"
 		\score {
 			<<
 				\new StaffGroup <<
@@ -32,7 +32,7 @@
 						\set Staff.instrumentName = "Oboe I, II"
 						\set Staff.soloText = \markup { \medium \remark "Ob I" }
 						\set Staff.soloIIText = \markup { \medium \remark "Ob II" }
-						\partcombine \BrichNaturOboeI \BrichNaturOboeI
+						\partcombine \BrichNaturOboeI \BrichNaturOboeII
 					>>
 					\new Staff <<
 						\set Staff.instrumentName = "Fagotto I, II"
@@ -42,11 +42,11 @@
 					>>
 				>>
 				\new StaffGroup <<
-				\new Staff <<
-					\set Staff.instrumentName = \markup { \center-column { "Corno I, II" "in Es" } }
-					% \transpose c es
-					\partcombine \BrichNaturCornoI \BrichNaturCornoII
-				>>
+					\new Staff <<
+						\set Staff.instrumentName = \markup { \center-column { "Corno I, II" "in Es" } }
+						% \transpose c es
+						\partcombine \BrichNaturCornoI \BrichNaturCornoII
+					>>
 					\new Staff <<
 						\set Staff.instrumentName = \markup { \center-column { "Tromba I, II" "in Es" } }
 						% \transpose c es
@@ -82,6 +82,7 @@
 						\new Voice = "Soprano" { \dynamicUp \BrichNaturSopranoNotes }
 					}
 					\new Lyrics \lyricsto Soprano \BrichNaturSopranoLyrics
+					\new Lyrics \with { \danskLyrics } \lyricsto Soprano \BrichNaturSopranoLyricsDansk
 
 					\new Staff {
 						\set Staff.instrumentName = \AltoIncipit
@@ -90,6 +91,7 @@
 						\new Voice = "Alto" { \dynamicUp \BrichNaturAltoNotes }
 					}
 					\new Lyrics \lyricsto Alto \BrichNaturAltoLyrics
+					\new Lyrics \with { \danskLyrics } \lyricsto Alto \BrichNaturAltoLyricsDansk
 
 					\new Staff {
 						\set Staff.instrumentName = \TenoreIncipit
@@ -98,12 +100,14 @@
 						\new Voice = "Tenore" { \dynamicUp \BrichNaturTenoreNotes }
 					}
 					\new Lyrics \lyricsto Tenore \BrichNaturTenoreLyrics
+					\new Lyrics \with { \danskLyrics } \lyricsto Tenore \BrichNaturTenoreLyricsDansk
 
 					\new Staff {
 						\set Staff.instrumentName = "Basso"
 						\new Voice = "Basso" { \dynamicUp \BrichNaturBassoNotes }
 					}
 					\new Lyrics \lyricsto Basso \BrichNaturBassoLyrics
+					\new Lyrics \with { \danskLyrics } \lyricsto Basso \BrichNaturBassoLyricsDansk
 				>>
 				\new StaffGroup <<
 					\new Staff {

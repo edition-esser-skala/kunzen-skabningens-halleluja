@@ -8,12 +8,222 @@ BrichNaturBassoNotes = {
 	\relative c {
 		\clef bass
 		\key es \major \time 4/4 \autoBeamOff \tempoBrichNatur
-
+		\partial 4 r4 R1*7 %7
+		r2 r4 \mvTr g'8.\fE^\tuttiE g16
+		as4. f8 g4 as
+		b2 r4\fermata \tempoBrichNaturB b8. b16 %10
+		es4. es8 b4. b8
+		es,4 b' r b8. b16
+		es4. es8 b4. b8
+		es,4 b' r2
+		es2. es4 %15
+		d2 r
+		c2. c4
+		b2 r
+		as2. as4
+		g2 r4 g8 g %20
+		d4. d8 es4. es8
+		b'4 b, r g'8 g
+		d4. d8 es4. es8
+		b'4 b, es g
+		b2 es,4 g %25
+		b2 r
+		R1*4 %30
+		\mvTr d2.\pE^\solo \appoggiatura d16 c8([^\critnote b)]
+		b2. c8([ d)]
+		d([ c] b2) a4
+		b b, r2
+		\mvTr b'4\fE^\tuttiE b r2 %35
+		b r4 b
+		b2 r4 b8 b
+		b4. b8 b4. b8
+		b4 b r2
+		R1 %40
+		r4 fis2\pE g4
+		es2( f4) f
+		b,2 r
+		b'2. b4
+		f( fis2) g4 %45
+		es es f f
+		d2 r4 g\mfE
+		es2( f4) f
+		d2 r4 g\fE
+		es2( f4) f %50
+		b, r r b8 b
+		as'!4 f d' b
+		as f d b
+		es4. es8 g4. es8
+		b'2 r %55
+		R1
+		r2 d4 b
+		es4. es,8 g4. es8
+		b'2 g4 g
+		as as f f %60
+		b b g g
+		c c as as
+		b b r2
+		d,2. d4
+		es2 r %65
+		b' b,
+		es b'4 b
+		c as f c'
+		d b g d'
+		es c as es' %70
+		f d r2
+		d2. d4
+		es2 r
+		b b,
+		es r %75
+		d2.\ffE d4
+		es2 c'(
+		as) b
+		es, r
+		R1*5 \bar "||" \hideNotes r4 %84 finis
 	}
 }
 
 BrichNaturBassoLyrics = \lyricmode {
+	Brich, Na -- %8
+	tur, in Lob -- lied
+	aus! Lobt Je -- %10
+	ho -- ven, al -- le
+	Zo -- nen, lo -- bet,
+	al -- le Na -- ti --
+	o -- nen,
+	lo -- bet %15
+	Gott!
+	lo -- bet
+	Gott!
+	lo -- bet
+	Gott! Lobt Je -- %20
+	ho -- ven, al -- le
+	Zo -- nen, lo -- bet,
+	al -- le Na -- ti --
+	o -- nen, lo -- bet
+	Gott! lo -- bet %25
+	Gott!
 
+	Prei -- set %31
+	ihn in
+	vol -- len
+	Chö -- ren,
+	Him -- mel, %35
+	Erd und
+	Meer! Die ihr
+	ath -- met, preist den
+	Gu -- ten!
+	%40
+	Ihn, der
+	O -- dem
+	gab!
+	Lo -- bet,
+	lo -- bet %45
+	Ihn, der O -- dem
+	gab, der
+	O -- dem
+	gab, der
+	O -- dem %50
+	gab! Hoch in
+	fro -- he Ju -- bel --
+	tö -- ne schweb em --
+	por, Ge -- sang, zu
+	Gott! %55
+
+	Schweb em --
+	por, Ge -- sang, zu
+	Gott! Der ge --
+	samm -- ten Schöp -- fung %60
+	Söh -- ne bre -- chet
+	aus in Ju -- bel --
+	tö -- ne,
+	lo -- bet
+	Gott! %65
+	lo -- bet
+	Gott! Der ge --
+	samm -- ten Schöp -- fung
+	Söh -- ne singt im
+	hei -- lig -- sten der %70
+	Tö -- ne,
+	lo -- bet
+	Gott!
+	lo -- bet
+	Gott! %75
+	lo -- bet
+	Gott! lo --
+	bet
+	Gott! %79 finis
+}
+
+BrichNaturBassoLyricsDansk = \lyricmode {
+	Bryd, o %8
+	Støv, i Lov -- sang
+	ud! Lo -- ver %10
+	Her -- ren al -- le
+	Zo -- ner! Lo -- ver
+	al -- le Na -- ti --
+	o -- ner!
+	Lo -- ver %15
+	Gud!
+	Lo -- ver
+	Gud!
+	Lo -- ver
+	Gud! Lo -- ver %20
+	Her -- ren al -- le
+	Zo -- ner! Lo -- ver
+	al -- le Na -- ti --
+	o -- ner! Lo -- ver
+	Gud! Lo -- ver %25
+	Gud!
+
+	Prii -- ser %31
+	ham i
+	ful -- de
+	Cho -- re,
+	Him -- mel, %35
+	Jord, og
+	Hav! Alt hvad
+	aan -- der, nyn -- ne,
+	stam -- me,
+	%40
+	Ham, som
+	Aan -- de
+	gav!
+	Ham, den
+	Sam -- me, %45
+	Ham, som Aan -- de
+	gav! som
+	Aan -- de
+	gav! som
+	Aan -- de %50
+	gav! Høit i
+	gla -- de Ju -- bel --
+	to -- ner bry -- de
+	Li -- vets Lov -- sang
+	ud! %55
+
+	Bry -- de
+	Li -- vets Lov -- sang
+	ud! Alt det
+	Skab -- tes Mil -- li -- %60
+	o -- ner, to -- ner
+	i for -- een -- te
+	To -- ner,
+	to -- ner
+	Gud! %65
+	to -- ner
+	Gud! Alt det
+	Skab -- tes Mil -- li --
+	o -- ner, to -- ner
+	i for -- een -- te %70
+	To -- ner,
+	to -- ner
+	Gud!
+	to -- ner
+	Gud! %75
+	to -- ner
+	Gud!
+	to -- ner
+	Gud! %79 finis
 }
 
 % BassoNotes = {
@@ -24,5 +234,9 @@ BrichNaturBassoLyrics = \lyricmode {
 % }
 %
 % BassoLyrics = \lyricmode {
+%
+% }
+%
+% BassoLyricsDansk = \lyricmode {
 %
 % }

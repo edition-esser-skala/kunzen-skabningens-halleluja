@@ -6,7 +6,91 @@
 
 BrichNaturViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key es \major \time 4/4 \tempoBrichNatur
+		\partial 4 r4 r f,\p f r
+		r es es r
+		r es es r
+		r f g r
+		r es as r %5
+		r as g r
+		r as a r
+		r f2 es'8.\f es16
+		es4. f8 g4 as
+		b2 <b, f'>4\fermata \tempoBrichNaturB r %10
+		es4. es8 d4. d8
+		es4 b r2
+		es4. es8 d4. d8
+		es4 b r2
+		g'8 g4 g g g8 %15
+		f f4 f f f8
+		g g4 g g g8
+		d d4 d d d8
+		es es4 es es es8
+		es es4 es es es8 %20
+		b4 b8. b16 b4 b8. b16
+		b4 b r2
+		b4 b8. b16 b4 b8. b'16
+		b4 b es,16 f es d es f g a
+		b c b a b c d b es d es d es b g es %25
+		b8 f'16 f f8 f b f d f
+		b,4 r f'\p r
+		g r f r
+		es r f r
+		b,8 f'16\f f f8 f b f d f %30
+		b,4 r f\p r
+		g r f r
+		es r f r
+		d'8\cresc d d d d d d d
+		es es es es es es es es %35
+		f\f f f f f f f f
+		g g g g g, g g g
+		f d'4 d8( es) es4 cis8
+		d4 b r << { d8 d } \\ { b\p b } >>
+		<< { d( c) es( d) f( es) g( f) } \\ { b,8( a) c( b) d( c) es( d) } >> %40
+		<< { f4 } \\ { d } >> a2\sf b4\pE
+		g' g f f
+		f2 r
+		b,1
+		r4 a2\sf b4\pE %45
+		g' g f f
+		f2 r4 g\mf
+		g2 f
+		f g\f
+		g4 g f f %50
+		f r r b,8 b
+		as'! as f f d' d b b
+		as as f f d d b b
+		es4. \tuplet 5/4 8 { b32( c d es f) } g4. es32( f g a)
+		b4 r r r16 b,32 c d es f g %55
+		as!8 as f f d d b b
+		as' as f f d d b b
+		es4. \tuplet 5/4 8 { b32( c d es f) } g4. es32( f g a)
+		b4 r g8 g g g
+		as as as as f f f f %60
+		b b b b g g g g
+		c c c c as as as as
+		b4 b, r2
+		b8 b b b b b b b
+		b4 r as\p r %65
+		r b\f r b
+		b r b'8 b b b
+		c c as as f f c' c
+		d d b b g g d' d
+		es es c c as as es' es %70
+		f f d d b b f f
+		b, b b b b b b b
+		b4 r as\p r
+		b'16\f b b b b b b b b b b b b b b b
+		es,4 r r2 %75
+		b8\ff b b b b b b b
+		b'16 b b b b b b b c c c c c c c c
+		c c c c c c c c b b b b b b b b
+		b4 b b8. g16 g8.\decresc es16 %80
+		es8. b'16 b8. g16 es4 es
+		b b2 b4~
+		b b2 g4~
+		g\p g2 g4~
+		g g2 g4~ \bar "||" \hideNotes g %84 finis
 	}
 }
