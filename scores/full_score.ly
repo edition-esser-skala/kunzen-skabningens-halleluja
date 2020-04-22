@@ -11,14 +11,127 @@
 #(set-global-staff-size 15.87)
 
 \book {
+	% \bookpart {
+	% 	\header {
+	% 		number = "1"
+	% 		title = "Brich, Natur, in Loblied aus!"
+	% 		dansktitle = "Bryd, o Støv, i Lovsang ud!"
+	% 	}
+	% 	\paper { indent = 3.5\cm }
+	% 	% \newlabel "brichnatur" "1" "Brich, Natur, in Loblied aus!" "Bryd, o Støv, i Lovsang ud!"
+	% 	\score {
+	% 		<<
+	% 			\new StaffGroup <<
+	% 				\new Staff <<
+	% 					\set Staff.instrumentName = "Flauto I, II"
+	% 					\set Staff.soloText = \markup { \medium \remark "Fl I" }
+	% 					\set Staff.soloIIText = \markup { \medium \remark "Fl II" }
+	% 					\partcombine \BrichNaturFlautoI \BrichNaturFlautoII
+	% 				>>
+	% 				\new Staff <<
+	% 					\set Staff.instrumentName = "Oboe I, II"
+	% 					\set Staff.soloText = \markup { \medium \remark "Ob I" }
+	% 					\set Staff.soloIIText = \markup { \medium \remark "Ob II" }
+	% 					\partcombine \BrichNaturOboeI \BrichNaturOboeII
+	% 				>>
+	% 				\new Staff <<
+	% 					\set Staff.instrumentName = "Fagotto I, II"
+	% 					\set Staff.soloText = \markup { \medium \remark "Fag I" }
+	% 					\set Staff.soloIIText = \markup { \medium \remark "Fag II" }
+	% 					\partcombine \BrichNaturFagottoI \BrichNaturFagottoII
+	% 				>>
+	% 			>>
+	% 			\new StaffGroup <<
+	% 				\new Staff <<
+	% 					\set Staff.instrumentName = \markup { \center-column { "Corno I, II" "in Es" } }
+	% 					% \transpose c es
+	% 					\partcombine \BrichNaturCornoI \BrichNaturCornoII
+	% 				>>
+	% 				\new Staff <<
+	% 					\set Staff.instrumentName = \markup { \center-column { "Tromba I, II" "in Es" } }
+	% 					% \transpose c es
+	% 					\partcombine \BrichNaturTrombaI \BrichNaturTrombaII
+	% 				>>
+	% 			>>
+	% 			\new Staff \with { \timpStaffDistance } {
+	% 				\set Staff.instrumentName = \markup { \center-column { "Timpani" "in Es–B" } }
+	% 				% \transpose c es
+	% 				\BrichNaturTimpani
+	% 			}
+	% 			\new StaffGroup \with { \stringGroupDistance } <<
+	% 				\new GrandStaff <<
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "Violino I"
+	% 						\BrichNaturViolinoI
+	% 					}
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "Violino II"
+	% 						\BrichNaturViolinoII
+	% 					}
+	% 				>>
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "Viola"
+	% 					\BrichNaturViola
+	% 				}
+	% 			>>
+	% 			\new ChoirStaff <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = \SopranoIncipit
+	% 					\override Staff.InstrumentName.self-alignment-Y = ##f
+	% 					\override Staff.InstrumentName.self-alignment-X = #RIGHT
+	% 					\new Voice = "Soprano" { \dynamicUp \BrichNaturSopranoNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Soprano \BrichNaturSopranoLyrics
+	% 				\new Lyrics \with { \danskLyrics } \lyricsto Soprano \BrichNaturSopranoLyricsDansk
+	%
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = \AltoIncipit
+	% 					\override Staff.InstrumentName.self-alignment-Y = ##f
+	% 					\override Staff.InstrumentName.self-alignment-X = #RIGHT
+	% 					\new Voice = "Alto" { \dynamicUp \BrichNaturAltoNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Alto \BrichNaturAltoLyrics
+	% 				\new Lyrics \with { \danskLyrics } \lyricsto Alto \BrichNaturAltoLyricsDansk
+	%
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = \TenoreIncipit
+	% 					\override Staff.InstrumentName.self-alignment-Y = ##f
+	% 					\override Staff.InstrumentName.self-alignment-X = #RIGHT
+	% 					\new Voice = "Tenore" { \dynamicUp \BrichNaturTenoreNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Tenore \BrichNaturTenoreLyrics
+	% 				\new Lyrics \with { \danskLyrics } \lyricsto Tenore \BrichNaturTenoreLyricsDansk
+	%
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "Basso"
+	% 					\new Voice = "Basso" { \dynamicUp \BrichNaturBassoNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Basso \BrichNaturBassoLyrics
+	% 				\new Lyrics \with { \danskLyrics } \lyricsto Basso \BrichNaturBassoLyricsDansk
+	% 			>>
+	% 			\new StaffGroup <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = \markup { \center-column { "Violoncello" "e Basso" } }
+	% 					% \transpose c c,
+	% 					\BrichNaturOrgano
+	% 				}
+	% 			>>
+	% 			\new FiguredBass {
+	% 				\BrichNaturBassFigures
+	% 			}
+	% 		>>
+	% 		\layout { }
+	% 		\midi { \tempo 4 = 60 }
+	% 	}
+	% }
 	\bookpart {
 		\header {
-			number = "1"
-			title = "Brich, Natur, in Loblied aus!"
-			dansktitle = "Bryd, o Støv, i Lovsang ud!"
+			number = "2"
+			title = "Die Öde starrt"
+			dansktitle = "Alt hylled laae"
 		}
 		\paper { indent = 3.5\cm }
-		% \newlabel "brichnatur" "1" "Brich, Natur, in Loblied aus!"
+		% \newlabel "dieoede" "2" "Die Öde starrt" "Alt hylled laae"
 		\score {
 			<<
 				\new StaffGroup <<
@@ -26,102 +139,93 @@
 						\set Staff.instrumentName = "Flauto I, II"
 						\set Staff.soloText = \markup { \medium \remark "Fl I" }
 						\set Staff.soloIIText = \markup { \medium \remark "Fl II" }
-						\partcombine \BrichNaturFlautoI \BrichNaturFlautoII
+						\partcombine \DieOedeFlautoI \DieOedeFlautoII
 					>>
 					\new Staff <<
 						\set Staff.instrumentName = "Oboe I, II"
 						\set Staff.soloText = \markup { \medium \remark "Ob I" }
 						\set Staff.soloIIText = \markup { \medium \remark "Ob II" }
-						\partcombine \BrichNaturOboeI \BrichNaturOboeII
+						\partcombine \DieOedeOboeI \DieOedeOboeII
+					>>
+					\new Staff <<
+						\set Staff.instrumentName = \markup { \center-column { "Clarinetto I, II" "in B" } }
+						\set Staff.soloText = \markup { \medium \remark "Cl I" }
+						\set Staff.soloIIText = \markup { \medium \remark "Cl II" }
+						% \transpose c b
+						\partcombine \DieOedeClarinettoI \DieOedeClarinettoII
 					>>
 					\new Staff <<
 						\set Staff.instrumentName = "Fagotto I, II"
 						\set Staff.soloText = \markup { \medium \remark "Fag I" }
 						\set Staff.soloIIText = \markup { \medium \remark "Fag II" }
-						\partcombine \BrichNaturFagottoI \BrichNaturFagottoII
+						\partcombine \DieOedeFagottoI \DieOedeFagottoII
 					>>
 				>>
 				\new StaffGroup <<
 					\new Staff <<
 						\set Staff.instrumentName = \markup { \center-column { "Corno I, II" "in Es" } }
 						% \transpose c es
-						\partcombine \BrichNaturCornoI \BrichNaturCornoII
-					>>
-					\new Staff <<
-						\set Staff.instrumentName = \markup { \center-column { "Tromba I, II" "in Es" } }
-						% \transpose c es
-						\partcombine \BrichNaturTrombaI \BrichNaturTrombaII
+						\partcombine \DieOedeCornoI \DieOedeCornoII
 					>>
 				>>
-				\new Staff \with { \timpStaffDistance } {
-					\set Staff.instrumentName = \markup { \center-column { "Timpani" "in Es–B" } }
-					% \transpose c es
-					\BrichNaturTimpani
-				}
 				\new StaffGroup \with { \stringGroupDistance } <<
 					\new GrandStaff <<
 						\new Staff {
 							\set Staff.instrumentName = "Violino I"
-							\BrichNaturViolinoI
+							\DieOedeViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Violino II"
-							\BrichNaturViolinoII
+							\DieOedeViolinoII
 						}
 					>>
 					\new Staff {
 						\set Staff.instrumentName = "Viola"
-						\BrichNaturViola
+						\DieOedeViola
 					}
 				>>
 				\new ChoirStaff <<
 					\new Staff {
-						\set Staff.instrumentName = \SopranoIncipit
-						\override Staff.InstrumentName.self-alignment-Y = ##f
-						\override Staff.InstrumentName.self-alignment-X = #RIGHT
-						\new Voice = "Soprano" { \dynamicUp \BrichNaturSopranoNotes }
+						\set Staff.instrumentName = "Soprano"
+						\new Voice = "Soprano" { \dynamicUp \DieOedeSopranoNotes }
 					}
-					\new Lyrics \lyricsto Soprano \BrichNaturSopranoLyrics
-					\new Lyrics \with { \danskLyrics } \lyricsto Soprano \BrichNaturSopranoLyricsDansk
+					\new Lyrics \lyricsto Soprano \DieOedeSopranoLyrics
+					\new Lyrics \with { \danskLyrics } \lyricsto Soprano \DieOedeSopranoLyricsDansk
 
 					\new Staff {
-						\set Staff.instrumentName = \AltoIncipit
-						\override Staff.InstrumentName.self-alignment-Y = ##f
-						\override Staff.InstrumentName.self-alignment-X = #RIGHT
-						\new Voice = "Alto" { \dynamicUp \BrichNaturAltoNotes }
+						\set Staff.instrumentName = "Alto"
+						\new Voice = "Alto" { \dynamicUp \DieOedeAltoNotes }
 					}
-					\new Lyrics \lyricsto Alto \BrichNaturAltoLyrics
-					\new Lyrics \with { \danskLyrics } \lyricsto Alto \BrichNaturAltoLyricsDansk
+					\new Lyrics \lyricsto Alto \DieOedeAltoLyrics
+					\new Lyrics \with { \danskLyrics } \lyricsto Alto \DieOedeAltoLyricsDansk
 
 					\new Staff {
-						\set Staff.instrumentName = \TenoreIncipit
-						\override Staff.InstrumentName.self-alignment-Y = ##f
-						\override Staff.InstrumentName.self-alignment-X = #RIGHT
-						\new Voice = "Tenore" { \dynamicUp \BrichNaturTenoreNotes }
+						\set Staff.instrumentName = "Tenore"
+						\new Voice = "Tenore" { \dynamicUp \DieOedeTenoreNotes }
 					}
-					\new Lyrics \lyricsto Tenore \BrichNaturTenoreLyrics
-					\new Lyrics \with { \danskLyrics } \lyricsto Tenore \BrichNaturTenoreLyricsDansk
+					\new Lyrics \lyricsto Tenore \DieOedeTenoreLyrics
+					\new Lyrics \with { \danskLyrics } \lyricsto Tenore \DieOedeTenoreLyricsDansk
 
 					\new Staff {
 						\set Staff.instrumentName = "Basso"
-						\new Voice = "Basso" { \dynamicUp \BrichNaturBassoNotes }
+						\new Voice = "Basso" { \dynamicUp \DieOedeBassoNotes }
 					}
-					\new Lyrics \lyricsto Basso \BrichNaturBassoLyrics
-					\new Lyrics \with { \danskLyrics } \lyricsto Basso \BrichNaturBassoLyricsDansk
+					\new Lyrics \lyricsto Basso \DieOedeBassoLyrics
+					\new Lyrics \with { \danskLyrics } \lyricsto Basso \DieOedeBassoLyricsDansk
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = \markup { \center-column { "Violoncello" "e Basso" } }
 						% \transpose c c,
-						\BrichNaturOrgano
+						\DieOedeOrgano
 					}
 				>>
 				\new FiguredBass {
-					\BrichNaturBassFigures
+					\DieOedeBassFigures
 				}
 			>>
 			\layout { }
-			\midi { \tempo 4 = 60 }
+			% \midi { \tempo 4 = 80 }
 		}
 	}
 }

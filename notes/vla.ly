@@ -94,3 +94,42 @@ BrichNaturViola = {
 		g g2 g4~ \bar "||" \hideNotes g %84 finis
 	}
 }
+
+DieOedeViola = {
+	\relative c' {
+		\clef alto
+		\key c \minor \time 4/4 \tempoDieOede
+		g4\pE r r2
+		R1
+		c4 c2 c4~
+		c a2 \once \tieDashed a4~
+		a r r2 %5
+		R1*2
+		r8. b16\f b4 r8. h16 h4
+		a1~\fp
+		a %10
+		d4\f r r2
+		f1\p
+		\tempoDieOedeB f8.\f f16 f8. f16 f4 r
+		r8. e16 e8. g16 g4 r
+		R1 %15
+		r8. f16 f8. f16 f8. a16 a8. c16
+		\tempoDieOedeC b8.\mf g16 g8. g16 f8. f16 f8. f16
+		\key b \major es2.\p c4
+		c r r2
+		R1 %20
+		r4 r8. b16\ff b4 r
+		R1
+		r4 r8. b16 b4 r
+		R1
+		r4 es,\p f r %25
+		r f g b\mf
+		b'-! b,-! b-! b'-!
+		g2 f4-! f-!
+		f,-!\f r r2
+		<f c'>4-! r r2 %30
+		b4-! r r r8. b16\ff
+		b4 r r r8. b16
+		b4 r r2\fermata \bar "|." %33 finis
+	}
+}

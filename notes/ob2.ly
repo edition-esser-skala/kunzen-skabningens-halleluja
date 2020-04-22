@@ -78,3 +78,26 @@ BrichNaturOboeII = {
 		R1*4 \bar "||" \hideNotes r4 %84 finis
 	}
 }
+
+DieOedeOboeII = {
+	\relative c' {
+		\clef treble
+		\key c \minor \time 4/4 \tempoDieOede
+		R1*12 %12
+		\tempoDieOedeB R1*4 %16
+		\tempoDieOedeC R1
+		\key b \major R1*3 %20
+		r4 r8. b'16\ffE b4 r
+		R1
+		r4 r8. b16 b4 r
+		R1*2 %25
+		r2 r4 b\mf
+		g'2 f
+		es d
+		c4\f r r2
+		a4 r r2 %30
+		b4 r r2
+		R1
+		R\fermataMarkup \bar "|." %33 finis
+	}
+}

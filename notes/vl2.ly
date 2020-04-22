@@ -94,3 +94,42 @@ BrichNaturViolinoII = {
 		b b2 b4~ \bar "||" \hideNotes b4 %84 finis
 	}
 }
+
+DieOedeViolinoII = {
+	\relative c' {
+		\clef treble
+		\key c \minor \time 4/4 \tempoDieOede
+		b4\pE r r2
+		R1
+		es4 es2 es4~
+		es c2 \once \tieDashed c4~
+		c r r2 %5
+		R1*2
+		r8. e16\f e4 r8. f!16 f4
+		a,1~\fp
+		a %10
+		<d a' f'>4\f r r2
+		c'1\p
+		\tempoDieOedeB b8.\f d16 d8. b'16 b4 r
+		r8. g16 g8. b16 b4 r
+		R1 %15
+		r8. f,16 f8. a16 a8. c16 c8. es!16
+		\tempoDieOedeC d8.\mf d,16 d8. d'16 d8. d,16 d8. d'16
+		\key b \major es4(\p h\sf c) g
+		f r r2
+		R1 %20
+		r4 r8. b,16\ff b4 r
+		R1
+		r4 r8. b16 b4 r
+		R1
+		r4 g\p a r %25
+		r a b b'\mf
+		es-! es,-! d-! d'-!
+		b2 b4-! d-!
+		<f, c'>-!\f r r2
+		q4-! r r2 %30
+		<b, f' d'>4-! r r r8. b16\ff
+		b4 r r r8. b16
+		b4 r r2\fermata \bar "|." %33 finis
+	}
+}

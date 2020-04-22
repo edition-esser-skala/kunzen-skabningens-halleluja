@@ -141,13 +141,25 @@ end
   \parts{Draft}
 }{\templatetrue}
 
-\def\@firstofthree#1#2#3{#1}
-\def\@secondofthree#1#2#3{#2}
-\def\@thirdofthree#1#2#3{#3}
-\def\lyrefnumber#1{\expandafter\@setref\csname r@#1\endcsname\@firstofthree{#1}}
-\def\lyreftitle#1{\expandafter\@setref\csname r@#1\endcsname\@secondofthree{#1}}
-\def\lyrefpage#1{\expandafter\@setref\csname r@#1\endcsname\@thirdofthree{#1}}
-\def\lyref#1{{\sbseries\makebox[0pt][l]{\color{oldred}\lyrefnumber{#1}}\hspace*{2em}\lyreftitle{#1}\Dotfill\lyrefpage{#1}}}
+\def\@firstoffour#1#2#3#4{#1}
+\def\@secondoffour#1#2#3#4{#2}
+\def\@thirdoffour#1#2#3#4{#3}
+\def\@lastoffour#1#2#3#4{#4}
+\def\lyrefnumber#1{\expandafter\@setref\csname r@#1\endcsname\@firstoffour{#1}}
+\def\lyreftitle#1{\expandafter\@setref\csname r@#1\endcsname\@secondoffour{#1}}
+\def\lyreftitledansk#1{\expandafter\@setref\csname r@#1\endcsname\@thirdoffour{#1}}
+\def\lyrefpage#1{\expandafter\@setref\csname r@#1\endcsname\@lastoffour{#1}}
+\def\lyref#1{%
+  \begingroup%
+  \@tempdima.5\linewidth\relax%
+  \advance\@tempdima.5\columnsep\relax%
+  \sbseries%
+  \makebox[0pt][r]{\color{oldred}\lyrefnumber{#1}\hspace*{1.5em}}%
+  \makebox[\@tempdima][l]{\lyreftitle{#1}\Dotfill}%
+  \textit{\lyreftitledansk{#1}}%
+  \Dotfill\lyrefpage{#1}%
+  \endgroup%
+}
 
 \def\Dotfill{\leavevmode\cleaders\hb@xt@ .75em{\hss .\hss }\hfill \kern \z@}
 
@@ -238,6 +250,7 @@ Der gesammten Schöpfung Söhne\\
 singt im heiligsten der Töne,\\
 lobet Gott!\columnbreak
 
+\itshape
 Bryd, o Støv, i Lovsang ud!\\
 Lover Herren alle Zoner!\\
 Lover alle Nationer!\\
@@ -253,6 +266,33 @@ bryde Livets Lovsang [\textit{or}: Vellyst] ud!\\
 Alt det Skabtes [\textit{or}: Alle Kloders] Millioner,\\
 toner i foreente Toner,\\
 toner Gud!
+\end{multicols}
+
+\begin{multicols}{2}[\lyref{dieoede}]
+Die Öde starrt,\\
+von keinem Strahl erhellt,\\
+im Schlund der Nacht war Leere, Dunkel, Tod.\\
+Da schallt durchs Chaos schaffend dein Gebot:\\
+„Sey Welt!“\\
+Ein Sonnenheer entsprang aus alter Nacht\\
+in Licht hervor.\\
+Der Neugeschaffnen Hymne tönt empor:\\
+„Halleluja wir leben!\\
+Halleluja! du bist! du warst! und bleibest ewig\\
+Herr, unser Gott!“\columnbreak
+
+\itshape
+Alt hylled laae \textup{[\textit{or}: \textit{slumred dybt}]}\\
+i Muelighedens Skiød,\\
+i Nattens Svælg var Tomhed, Mørke, Død.\\
+Men giennem Evighedens Chaos lød\\
+dit Bliv!\\
+Og Verdener sprang frem af Intets Skiød\\
+til Lys og Liv.\\
+Nyskabte Væsners Studsen rundt brød ud:\\
+„Halleluja! vi ere!\\
+Halleluja! du er, du var, og du skal være\\
+vor Gud!”
 \end{multicols}
 
 

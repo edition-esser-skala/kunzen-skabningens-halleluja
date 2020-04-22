@@ -62,3 +62,18 @@ BrichNaturCornoI = {
 		R1*4 \bar "||" \hideNotes r4 %84 finis
 	}
 }
+
+DieOedeCornoI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoDieOede
+		R1*12 %12
+		\tempoDieOedeB R1*4 %16
+		\tempoDieOedeC R1*4 %20
+		r4 r8. g'16\ff g4 r
+		R1
+		r4 r8. g16 g4 r
+		R1*9 %32
+		R1\fermataMarkup \bar "|." %33 finis
+	}
+}

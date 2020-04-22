@@ -80,3 +80,29 @@ BrichNaturFagottoII = {
 		R1*4 \bar "||" \hideNotes r4 %84 finis
 	}
 }
+
+DieOedeFagottoII = {
+	\relative c {
+		\clef bass
+		\key c \minor \time 4/4 \tempoDieOede
+		R1*12 %12
+		\tempoDieOedeB R1*4 %16
+		\tempoDieOedeC R1
+		\key b \major R
+		r4 f(\mf f f)
+		b,1~\p %20
+		b4 b r b
+		b'1~
+		b4 b, r f'
+		g4. g8 es4 es
+		c2 r4 f
+		d2 r4 g\mf
+		es2 f
+		g4( a) b2
+		f4\f r r2
+		f4 r r2
+		b,4 r r r8. b16\ff
+		b4 r r r8. b16
+		b4 r r2\fermata \bar "|."
+	}
+}

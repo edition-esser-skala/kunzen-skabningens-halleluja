@@ -252,6 +252,9 @@ tempoMarkup =
 
 tempoBrichNatur = \tempoMarkup "Moderato"
 	tempoBrichNaturB = \tempoMarkup "Allegro ma non troppo"
+tempoDieOede = \tempoMarkup "Recitativo"
+	tempoDieOedeB = \tempoMarkup "Andante maestoso"
+	tempoDieOedeC = \tempoMarkup "a tempo"
 
 
 
@@ -463,8 +466,8 @@ tocSection = #(define-music-function (parser location number text) (markup? mark
            (ly:warning (_ "Unable to open output file ~a for the REF information") outfilename))
        (close-output-port outfile)))))
 
-newlabel = #(define-music-function (parser location label number title) (markup? markup? markup?)
-    (add-toc-item! 'tocItemMarkup (format #f "\\newlabel{~a}{{~a}{~a}" label number title )))
+newlabel = #(define-music-function (parser location label number title titledansk) (markup? markup? markup? markup?)
+    (add-toc-item! 'tocItemMarkup (format #f "\\newlabel{~a}{{~a}{~a}{~a}" label number title titledansk)))
 
 \include "notes/fl1.ly"
 \include "notes/fl2.ly"

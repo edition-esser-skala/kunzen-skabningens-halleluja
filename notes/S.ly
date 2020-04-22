@@ -237,10 +237,68 @@ BrichNaturSopranoLyricsDansk = \lyricmode {
 	Gud! %79 finis
 }
 
+DieOedeSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key c \minor \time 4/4 \autoBeamOff \tempoDieOede
+		R1*12 %12
+		\tempoDieOedeB R1*4 %16
+		\tempoDieOedeC R1
+		\key b \major R1
+		r2 r4 \mvTr f\pE^\soloE
+		d'4. d8 es4 es %20
+		f d r b
+		g'4. g8 g4 g
+		f d r f
+		b,4. b8 b4 b
+		es2 r4 c %25
+		f2 r4 b,\mfE
+		g'2 f
+		es d
+		c1\fE
+		c2 c %30
+		d1~
+		d~
+		d2 r\fermata \bar "|." %33 finis
+	}
+}
+
+DieOedeSopranoLyrics = \lyricmode {
+	„Hal -- %19
+	le -- lu -- ja wir %20
+	le -- ben! Hal --
+	le -- lu -- ja wir
+	le -- ben! Hal --
+	le -- lu -- ja! du
+	bist! du %25
+	warst! und
+	blei -- best
+	e -- wig
+	Herr,
+	un -- ser %30
+	Gott!“ __ %31 finis
+}
+
+DieOedeSopranoLyricsDansk = \lyricmode {
+	„Hal -- %19
+	le -- lu -- ja! vi %20
+	e -- re! Hal --
+	le -- lu -- ja! vi
+	e -- re! Hal --
+	le -- lu -- ja! du
+	er, du %25
+	var, og
+	du skal
+	væ -- re
+	vor __
+	_ _ %30
+	Gud!” __ %31 finis
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble
-% 		\key d \minor \time 3/4 \autoBeamOff \tempoKyrie
+%
 %
 % 	}
 % }

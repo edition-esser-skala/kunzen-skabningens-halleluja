@@ -237,6 +237,108 @@ BrichNaturTenoreLyricsDansk = \lyricmode {
 	Gud! %79 finis
 }
 
+DieOedeTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key c \minor \time 4/4 \autoBeamOff \tempoDieOede
+		r2 \mvTr b4\pE^\solo g8 as
+		b4. b8 c c c g
+		a4 r r2
+		R1*3 %6
+		r8 g b g es'4. d8
+		cis cis r4 d8 d r4
+		a r r2
+		R1 %10
+		r2 r8 d d d
+		es c a b c c f c
+		\tempoDieOedeB d4 r r8 r16 d d d c b
+		e4 r r8 g, g a
+		b4 r8 b d4. c8 %15
+		a4 r r r8 f'
+		\tempoDieOedeC b,4. b8 d4. d8
+		\key b \major g2~ g8 es c b
+		a4 r r f
+		b4. b8 c4 c %20
+		d b r b
+		es4. es8 es4 es
+		d b r f'
+		d4. d8 es4 es
+		es2 r4 f %25
+		f2 r4 d\mfE
+		es2 d
+		g f
+		f1\fE
+		f2 f %30
+		f1~
+		f~
+		f2 r\fermata \bar "|." %33 finis
+	}
+}
+
+DieOedeTenoreLyrics = \lyricmode {
+	Die Ö -- de
+	starrt, von kei -- nem Strahl er --
+	hellt,
+
+	im Schlund der Nacht war %7
+	Lee -- re, Dun -- kel,
+	Tod.
+	%10
+	Da schallt durchs
+	Cha -- os schaf -- fend dein Ge -- bot: „Sey
+	Welt!“ Ein Son -- nen -- heer ent --
+	sprang aus al -- ter
+	Nacht in Licht her -- %15
+	vor. Der
+	Neu -- ge -- schaff -- nen
+	Hym -- ne tönt em --
+	por: „Hal --
+	le -- lu -- ja wir %20
+	le -- ben! Hal --
+	le -- lu -- ja wir
+	le -- ben! Hal --
+	le -- lu -- ja! du
+	bist! du %25
+	warst! und
+	blei -- best
+	e -- wig
+	Herr,
+	un -- ser %30
+	Gott!“ __ %31 finis
+}
+
+DieOedeTenoreLyricsDansk = \lyricmode {
+	Alt hyl -- led
+	laae i Mue -- lig -- he -- dens
+	Skiød,
+
+	i Nat -- tens Svælg var %7
+	Tom -- hed, Mør -- ke,
+	Død.
+	%10
+	Men gien -- nem
+	E -- vig -- he -- dens Cha -- os lød dit
+	Bliv! Og Ver -- de -- ner sprang
+	frem af In -- tets
+	Skiød til Lys og %15
+	Liv. Ny --
+	skab -- te Væs -- ners
+	Stud -- sen rundt brød
+	ud: „Hal --
+	le -- lu -- ja! vi %20
+	e -- re! Hal --
+	le -- lu -- ja! vi
+	e -- re! Hal --
+	le -- lu -- ja! du
+	er, du %25
+	var, og
+	du, og
+	du skal
+	væ --
+	re vor %30
+	Gud!” __ %31 finis
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

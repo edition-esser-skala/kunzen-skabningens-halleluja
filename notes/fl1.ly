@@ -68,3 +68,23 @@ BrichNaturFlautoI = {
 		R1*5 \bar "||" \hideNotes r4 %84 finis
 	}
 }
+
+DieOedeFlautoI = {
+	\relative c' {
+		\clef treble
+		\key c \minor \time 4/4 \tempoDieOede
+		R1*4
+		r4 a''\pE( c es %5
+		d c b a)
+		b r r2
+		R1
+		r4 a(\pE g b
+		a g f e) %10
+		f2\f r
+		R1
+		\tempoDieOedeB R1*4 %16
+		\tempoDieOedeC R1
+		\key b \major R1*15 %32
+		R1\fermataMarkup \bar "|." %33 finis
+	}
+}

@@ -226,6 +226,64 @@ BrichNaturBassoLyricsDansk = \lyricmode {
 	Gud! %79 finis
 }
 
+DieOedeBassoNotes = {
+	\relative c {
+		\clef bass
+		\key c \minor \time 4/4 \autoBeamOff \tempoDieOede
+		R1*12 %12
+		\tempoDieOedeB R1*4 %16
+		\tempoDieOedeC R1
+		\key b \major R1
+		r2 r4 \mvTr f\pE^\soloE
+		b4. b8 b4 b %20
+		b b r b
+		b4. b8 b4 b
+		b b, r f'
+		g4. g8 es4 es
+		c2 r4 f %25
+		d2 r4 g\mfE
+		es2 f
+		g4( a) b2
+		f1\fE
+		f2 f %30
+		b1~
+		b~
+		b2 r\fermata \bar "|." %33 finis
+	}
+}
+
+DieOedeBassoLyrics = \lyricmode {
+	„Hal -- %19
+	le -- lu -- ja wir %20
+	le -- ben! Hal --
+	le -- lu -- ja wir
+	le -- ben! Hal --
+	le -- lu -- ja! du
+	bist! du %25
+	warst! und
+	blei -- best
+	e -- wig
+	Herr,
+	un -- ser %30
+	Gott!“ __ %31 finis
+}
+
+DieOedeBassoLyricsDansk = \lyricmode {
+	„Hal -- %19
+	le -- lu -- ja! vi %20
+	e -- re! Hal --
+	le -- lu -- ja! vi
+	e -- re! Hal --
+	le -- lu -- ja! du
+	er, du %25
+	var, og
+	du, og
+	du skal
+	væ --
+	re vor %30
+	Gud!” __ %31 finis
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

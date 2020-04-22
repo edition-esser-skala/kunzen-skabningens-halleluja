@@ -95,6 +95,45 @@ BrichNaturViolinoI = {
 	}
 }
 
+DieOedeViolinoI = {
+	\relative c' {
+		\clef treble
+		\key c \minor \time 4/4 \tempoDieOede
+		e4\pE r r2
+		R1
+		a4 a2 b4
+		a a2 g4
+		fis4 r r2 %5
+		R1*2
+		r8. cis'16\f cis4 r8. d16 d4
+		a,1~\fp
+		a %10
+		<d a' f'>4\f r r2
+		es'!1\p
+		\tempoDieOedeB d8.\f b'16 b8. d16 d4 r
+		r8. b16 b8. e16 e4 r
+		R1 %15
+		r8. a,,16 a8. c16 c8. f16 f8. a16
+		\tempoDieOedeC b8.\mf b,16 b8. b'16 as8. as,16 as8. as'16
+		\key b \major g2.~\p g8 b,8
+		a4 r r2
+		R1 %20
+		r4 r8. b,16\ff b4 r
+		R1
+		r4 r8. b16 b4 r
+		R1
+		r4 es\p c r %25
+		r f d b'\mf
+		g'-! g,-! f-! f'-!
+		es2 d4-! b'-!
+		<c, b'>-!\f r r2
+		<f, c' a'>4-! r r2 %30
+		<f d' b'>4-! r r r8. b,16\ff
+		b4 r r r8. b16
+		b4 r r2\fermata \bar "|." %33 finis
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

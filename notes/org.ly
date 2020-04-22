@@ -182,6 +182,82 @@ BrichNaturBassFigures = \figuremode {
 	<6 4 _!>2. <6 4 3>4 \bassFigureExtendersOff %84 finis
 }
 
+DieOedeOrgano = {
+	\relative c {
+		\clef bass
+		\key c \minor \time 4/4 \tempoDieOede
+		\mvTr c4\pE-\soloE r r2
+		R1
+		f2( ges
+		f es)
+		d1~ %5
+		d
+		g,4 r r2
+		r8. g'16\f g4 r8. gis16 gis4
+		a,1~\>
+		a\! %10
+		d2\f r
+		a1\p
+		\tempoDieOedeB b8.\f b'16 b8. b16 b4 r
+		r8. g16 g8. g16 g4 r
+		R1 %15
+		f4 f f f
+		\tempoDieOedeC r8. g16\mf g4 r8. f16 f4
+		\key b \major es2.\pE e4
+		f r r2
+		R1 %20
+		r4 r8. b,16\ff b4 r
+		R1
+		r4 r8. b16 b4 r
+		R1
+		r4 c\p f r %25
+		r d g g\mf
+		es r f r
+		g( a) b2
+		f4-!\f r r2
+		f,4-! r r2 %30
+		b4-! r r r8. b16\ff
+		b4 r r r8. b16
+		b4 r r2\fermata \bar "|." %33 finis
+	}
+}
+
+DieOedeBassFigures = \figuremode {
+	<7 _!>1
+	r
+	<7 5 _!>2 \bassFigureExtendersOn q4 <7 5 3>
+	<7 5 _!>2 q4 \bassFigureExtendersOff <4! 3>4
+	<7 5! _+>1 %5
+	r
+	r
+	r8. <6! 4+ 3>16 r4 r8. <7 5 _!>16 r4
+	<8 6>2 <7 5!>4 <9 7>
+	<8 6> <7 5!> <6 4> <5! _+> %10
+	<5!>1
+	<6 5- _!>
+	r
+	r8. <6!>16 r2.
+	r1 %15
+	<8 _!>2. <7 \t>4
+	r2 r8. <6_->16 r4
+	<5>4 <5!> <6> <6 5>
+	r1
+	r %20
+	r
+	r
+	r
+	r
+	r %25
+	r
+	r2 <6 4>
+	<6>4 <\t>2.
+	<4>2 <3>4 <2>
+	<3>1 %30
+	r
+	r
+	r %33 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass
