@@ -380,6 +380,148 @@ VomSchlafBassFigures = \figuremode {
 	<7 4 2>2 <8 3> %56 finis
 }
 
+DuRollestOrgano = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/4 \tempoDuRollest
+		\mvTr c4\f-\solo c c c
+		c c c c
+		c c c c
+		c c c c
+		c c c c %5
+		c c c c
+		c c c c
+		c c c c
+		\tempoDuRollestB c r r2
+		R1 %10
+		c4\f c c c
+		c c c c
+		c4 r r2
+		h4 r r2
+		b4 b b b %15
+		b b b b
+		a r g' r
+		f f f f
+		e e e e
+		d r r2 %20
+		g4 r r2
+		c,4 c c c
+		a16 a'( gis a gis a) c h a g f e d c h a
+		f4 r f' r
+		f r f fis %25
+		g r r2
+		g4\p r r2
+		g,1~\sfE
+		g2 r
+		g'4 r r2 %30
+		g4 r r2
+		g,1~\sfE
+		g2 r
+		g'4 r r2
+		R1 %35
+		h,2\mf r
+		c r
+		g4 r r2
+		R1
+		h1\fp %40
+		R
+		c\fp
+		R
+		\tempoDuRollestC c4.\p c8 c4 c
+		g c r2 %45
+		c4. c8 c4 c
+		g c r c
+		f << { c'( a) } \\ { a(\f f) } >> d\p
+		g << { d'( h) } \\ { h(\f g) } >> e\p
+		a,1 %50
+		g
+		g
+		\mvTr c4.\f-\tutti c'8 c4. c8
+		c,4. c'8 c4. c8
+		c,4. c'8 c4. c8 %55
+		a,4. a'8 a4. a8
+		a,4. a'8 a4. a8
+		f4. f8 d4. d8
+		h4. h8 c4. c8
+		a4. a8 h4. h8 %60
+		c4. c8 e4 c
+		g'1
+		r16 g( fis g fis g) h a g f? e d c h a g
+		c4 r r r8. c16
+		c4 r r r8. c16 %65
+		c2 r\fermata \bar "|." %66 finis
+	}
+}
+
+DuRollestBassFigures = \figuremode {
+	r1
+	r
+	<6 4 2>
+	<\t \t \t>
+	<7 4 2> %5
+	<\t \t \t>
+	<8 3>2 <6 4>4 <4 2>
+	<5 3>2 <6 4>4 <7 4 2>
+	r1
+	r %10
+	r
+	r
+	<6 4 2>
+	<6>
+	<2> %15
+	<\t>
+	<6>2 <6 _->
+	r1
+	<6\\>
+	r %20
+	<7 _!>
+	r
+	<5 3>2... \bassFigureExtendersOn q16 \bassFigureExtendersOff
+	<5>4 <5+> <6>2
+	q <\t>4 <6 5!> %25
+	r1
+	r
+	<7+ 4 2>
+	r
+	<8 3> %30
+	r
+	<7+ 4 2>
+	r
+	<8 3>
+	r %35
+	<6 5!>
+	r
+	r
+	r
+	<6 5> %40
+	r
+	r
+	r
+	r
+	<7> %45
+	r
+	<7>
+	r
+	r
+	r %50
+	<4>2 <3>4 <2>
+	<3>1
+	r1
+	r
+	r %55
+	r
+	r
+	r
+	<6 5>
+	q2 q %60
+	<9> <6>
+	<4> <3>4 <2>
+	<5 3>2... \bassFigureExtendersOn q16 \bassFigureExtendersOff
+	r
+	r %65
+	r %66 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

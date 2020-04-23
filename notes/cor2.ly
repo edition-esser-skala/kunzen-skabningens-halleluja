@@ -111,3 +111,58 @@ VomSchlafCornoII = {
 		c2. r4\fermata \bar "|." %56 finis
 	}
 }
+
+DuRollestCornoII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoDuRollest
+		g1~\f
+		g
+		g~
+		g
+		g~ %5
+		g
+		g4 g g g
+		g g g g
+		\tempoDuRollestB g r r2
+		R1 %10
+		g1~\f
+		g
+		g4 r r2
+		R1*8 %21
+		c1_\markup { \remark "Cor II in C" }
+		c'
+		R1*12 %35
+		g4\mfE r r2
+		c,4 r r2
+		g4 r r2
+		R1
+		g'\fp %40
+		R
+		c\fp
+		r2 r4 e,\p-\critnote
+		\tempoDuRollestC e4. e8 e4 e
+		g e r8 c e g %45
+		c4. c,8 c4 c
+		g c r2
+		R1
+		g'2 r4 e
+		e'4 r r c %50
+		g1
+		g,
+		c4.\f c8 c4. c8
+		c4. c8 c4. c8
+		c4. c8 c4. c8 %55
+		c'4. c8 c4. c8
+		c4. c8 c4. c8
+		c4. c8 d4. d8
+		g,4. g8 c4. c8
+		c4. c8 d4. d8 %60
+		c4. c,8 e4 c
+		g1
+		g2 g
+		c4 r r r8. c16
+		c4 r r r8. c16 %65
+		c2 r\fermata \bar "|." %66 finis
+	}
+}

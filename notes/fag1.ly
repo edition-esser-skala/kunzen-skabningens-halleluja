@@ -151,3 +151,72 @@ VomSchlafFagottoI = {
 		c2. r4\fermata \bar "|." %56 finis
 	}
 }
+
+DuRollestFagottoI = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/4 \tempoDuRollest
+		g'1~\f
+		g
+		a~
+		a
+		c~ %5
+		c
+		c4 c c c
+		c c c c
+		\tempoDuRollestB c r r2
+		R1 %10
+		g1~\f
+		g
+		a4 r r2
+		R1
+		g1~ %15
+		g
+		a4 r r2
+		f1
+		e
+		d4 r r2 %20
+		R1
+		c'
+		e
+		a,~
+		a %25
+		\pao g4 r r2
+		R1*4 %30
+		r8 d'(\pE g fis e d c h)
+		a4 r r2
+		R1*2
+		r8 fis(\mf g a h c d e) %35
+		d4 r r2
+		c4 r r2
+		\pao g4 r r2
+		R1
+		d'\fp %40
+		R
+		e\fp
+		r2 r4 c\p
+		\tempoDuRollestC c4. c8 c4 c
+		d c r \pao c %45
+		e4. e8 e4 e
+		f e r c
+		a2 r4 d
+		h2 r4 e
+		c2. c4 %50
+		c2 h4 a
+		h2. h4
+		c1\f
+		\once \tieDashed e~
+		e %55
+		\once \tieDashed c~
+		c
+		c2 d
+		h c
+		a h %60
+		c e4 c
+		r16 g( fis g fis g) h a g f e d c h a g
+		r g'( fis g fis g) h a g f e d c h a g
+		c4 r r r8. c16
+		c4 r r r8. c16 %65 finis
+		c2 r\fermata \bar "|." %66 finis
+	}
+}

@@ -101,3 +101,60 @@ DieOedeOboeII = {
 		R\fermataMarkup \bar "|." %33 finis
 	}
 }
+
+DuRollestOboeII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoDuRollest
+		e1~
+		e
+		f~
+		f
+		h~ %5
+		\once \tieDashed h
+		c8. e16 e8. f16 f8. d16 d8. e16
+		e8. g,16 g8. a16 a8. h16 h8. c16
+		\tempoDuRollestB c4 r r2
+		R1 %10
+		e,1~\f
+		e
+		f4 r r2
+		R1
+		c'~ %15
+		c
+		c4 r r2
+		c1
+		cis
+		d4 r r2 %20
+		R1
+		e,
+		c'
+		a4 cis d e
+		f g a c, %25
+		h r r2
+		R1*9 %35
+		d1\mf
+		c
+		h4 r r2
+		R1
+		g1\fp %40
+		R
+		g\fp
+		R
+		\tempoDuRollestC R1*9 %52 finis
+		c1~\f
+		c~
+		c~ %55
+		c~
+		c
+		f~
+		f2 \once \tieDashed e~
+		e \once \tieDashed d~ %60
+		d c~
+		c h4 a
+		h1
+		c2 r
+		R1 %65
+		R\fermataMarkup \bar "|." %66 finis
+	}
+}

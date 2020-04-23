@@ -111,3 +111,58 @@ VomSchlafCornoI = {
 		c2. r4\fermata \bar "|." %56 finis
 	}
 }
+
+DuRollestCornoI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoDuRollest
+		g'1~\f
+		g
+		g~
+		g
+		g~ %5
+		g
+		g4 g g g
+		g g g g
+		\tempoDuRollestB g r r2
+		R1 %10
+		g1~\f
+		g
+		g4 r r2
+		R1*8 %21
+		c1^\markup { \remark "Cor I in C" }
+		e
+		R1*12 %35
+		d4\mfE r r2
+		c4 r r2
+		g4 r r2
+		R1
+		d'\fp %40
+		R
+		e\fp
+		r2 r4 c\p
+		\tempoDuRollestC c4. c8 c4 c
+		d c r8 e, g c %45
+		e4. e8 e4 e
+		d c \pa r c
+		c2 r4 d \pd
+		d2 r4 e
+		\pao e4 r r \pao c %50
+		g'1
+		g,
+		c4.\f c8 c4. c8
+		c4. c8 c4. c8
+		c4. c8 c4. c8 %55
+		e4. e8 e4. e8
+		e4. e8 e4. e8
+		c4. c8 d4. d8
+		d4. d8 e4. e8
+		c4. c8 d4. d8 %60
+		c4. c8 e4 c
+		g1
+		g2 g
+		c4 r r r8. c16
+		c4 r r r8. c16 %65
+		c2 r\fermata \bar "|." %66 finis
+	}
+}

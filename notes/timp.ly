@@ -57,3 +57,31 @@ BrichNaturTimpani = {
 		R1*4 \bar "||" \hideNotes r4 %84 finis
 	}
 }
+
+DuRollestTimpani = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/4 \tempoDuRollest
+		R1*8 %8
+		\tempoDuRollestB R1*31 %39
+		g1\fp\trill %40
+		R
+		c\trill
+		R
+		\tempoDuRollestC R1*9 %52
+		c1~\f\startTrillSpan
+		c~
+		c~ %55
+		c~
+		c
+		R\stopTrillSpan
+		g4. g8 c4. c8
+		r2 g4. g8 %60
+		c4. c8 c4 c
+		g1\trill
+		g2 g
+		c4 r r r8. c16
+		c4 r r r8. c16 %65
+		c2 r\fermata \bar "|." %66 finis
+	}
+}

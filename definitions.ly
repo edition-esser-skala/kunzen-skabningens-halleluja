@@ -255,7 +255,10 @@ tempoBrichNatur = \tempoMarkup "Moderato"
 tempoDieOede = \tempoMarkup "Recitativo"
 	tempoDieOedeB = \tempoMarkup "Andante maestoso"
 	tempoDieOedeC = \tempoMarkup "a tempo"
-tempoVomSchlaf= \tempoMarkup "Larghetto"
+tempoVomSchlaf = \tempoMarkup "Larghetto"
+tempoDuRollest = \tempoMarkup "Allegro moderato"
+	tempoDuRollestB = \tempoMarkup "Recitativo"
+	tempoDuRollestC = \tempoMarkup "Moderato"
 
 
 
@@ -344,6 +347,8 @@ tempoVomSchlaf= \tempoMarkup "Larghetto"
 		\Score
 		\override MetronomeMark.font-series = #'medium
 		\compressFullBarRests
+		midiMinimumVolume = #.9
+    midiMaximumVolume = #1
 		\override BarNumber.break-visibility = #'#(#f #t #t) % uncomment to show each bar number
 	}
 	\context {

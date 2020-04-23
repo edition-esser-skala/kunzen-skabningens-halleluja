@@ -425,6 +425,60 @@ VomSchlafSopranoLyricsDansk = \lyricmode {
 	de. %50 finis
 }
 
+DuRollestSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \autoBeamOff \tempoDuRollest
+		R1*8 %8
+		\tempoDuRollestB R1*35 %43
+		\tempoDuRollestC R1*9 %52
+		r2 r4 \mvTr c'\fE^\tutti
+		c4. c8 c4 c
+		e c r c %55
+		c4. c8 c4 c
+		e c r c
+		f4. f8 f4 f
+		f2 r4 e
+		e e d d %60
+		d2 c~
+		c h4 a
+		h2 h4 h
+		c1~
+		c~ %65
+		c2 r\fermata \bar "|." %66 finis
+	}
+}
+
+DuRollestSopranoLyrics = \lyricmode {
+	Hal -- %53
+	le -- lu -- ja! wir
+	le -- ben! Hal -- %55
+	le -- lu -- ja! wir
+	le -- ben! Hal --
+	le -- lu -- ja! du
+	bist, du
+	warst, und blei -- best %60
+	e -- _
+	_ wig,
+	Herr, un -- ser
+	Gott! __ %64 finis
+}
+
+DuRollestSopranoLyricsDansk = \lyricmode {
+	Hal -- %53
+	le -- lu -- ja! vi
+	e -- re! Hal -- %55
+	le -- lu -- ja! vi
+	e -- re! Hal --
+	le -- lu -- ja! du
+	er, du
+	var, og du skal %60
+	væ -- _
+	_ re,
+	vor __ _ _
+	Gud! __ %64 finis
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

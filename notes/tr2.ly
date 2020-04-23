@@ -61,3 +61,31 @@ BrichNaturTrombaII = {
 		R1*4 \bar "||" \hideNotes r4 %84 finis
 	}
 }
+
+DuRollestTrombaII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoDuRollest
+		R1*8 %8
+		\tempoDuRollestB R1*31 %39
+		g1\fp %40
+		R
+		c\fp
+		R
+		\tempoDuRollestC R1*9 %52
+		c1\f
+		c
+		c %55
+		c
+		c
+		R
+		g2 c
+		r g' %60
+		c c,4 c
+		g1
+		g2 g
+		c4 r r r8. c16
+		c4 r r r8. c16 %65
+		c2 r\fermata \bar "|." %66 finis
+	}
+}

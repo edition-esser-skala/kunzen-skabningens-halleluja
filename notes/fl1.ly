@@ -133,3 +133,42 @@ VomSchlafFlautoI = {
 		b2( a4) r\fermata \bar "|." %56 finis
 	}
 }
+
+DuRollestFlautoI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoDuRollest
+		R1*8 %8
+		\tempoDuRollestB R1*17 %25
+		g''8(\pE h d c h a g fis)
+		g( a h a g fis e d)
+		c4 r r2
+		R1
+		g'8( h d c h a g fis) %30
+		g( d' g fis e d c h)
+		c4 r r2
+		R1
+		g8( h d c h a g fis)
+		g4 r r2 %35
+		R1*4
+		g1\fp %40
+		R
+		g\fp
+		R
+		\tempoDuRollestC R1*9 %52
+		c1~\f
+		c~
+		c~ %55
+		c~
+		c
+		a
+		g
+		f %60
+		e2 g4 c
+		c2 h4 a
+		h1
+		c2 r
+		R1 %65
+		R\fermataMarkup \bar "|." %66
+	}
+}

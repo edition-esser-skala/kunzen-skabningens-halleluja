@@ -284,6 +284,60 @@ DieOedeBassoLyricsDansk = \lyricmode {
 	Gud!” __ %31 finis
 }
 
+DuRollestBassoNotes = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/4 \autoBeamOff \tempoDuRollest
+		R1*8 %8
+		\tempoDuRollestB R1*35 %43
+		\tempoDuRollestC R1*9 %52
+		r2 r4 \mvTr c'\fE^\tutti
+		c4. c8 c4 c
+		c c r c %55
+		a4. a8 a4 a
+		a a r a
+		f4. f8 d4 d
+		h2 r4 c
+		a a h h %60
+		c1
+		g'2. g4
+		g2 g4 g
+		c,1~
+		c~ %65
+		c2 r\fermata \bar "|." %66 finis
+	}
+}
+
+DuRollestBassoLyrics = \lyricmode {
+	Hal -- %53
+	le -- lu -- ja! wir
+	le -- ben! Hal -- %55
+	le -- lu -- ja! wir
+	le -- ben! Hal --
+	le -- lu -- ja! du
+	bist, du
+	warst, und blei -- best %60
+	e --
+	_ wig,
+	Herr, un -- ser
+	Gott! __ %64 finis
+}
+
+DuRollestBassoLyricsDansk = \lyricmode {
+	Hal -- %53
+	le -- lu -- ja! vi
+	e -- re! Hal -- %55
+	le -- lu -- ja! vi
+	e -- re! Hal --
+	le -- lu -- ja! du
+	er, du
+	var, og du skal %60
+	væ --
+	_ _
+	re, vor __ _
+	Gud! __ %64 finis
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

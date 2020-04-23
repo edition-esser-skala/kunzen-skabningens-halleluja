@@ -253,6 +253,71 @@ VomSchlafViolinoI = {
 	}
 }
 
+DuRollestViolinoI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoDuRollest
+		c16\f c'(\> h c\! h c) e d c h a g f e d c
+		r c'(\> h c\! h c) e d c h a g f e d c
+		r d'(\> cis d\! cis d) f e d c h a g f e d
+		r d'(\> cis d\! cis d) f e d c h a g f e d
+		r g( fis g fis g) h a g h d c h d f e %5
+		d g( fis g fis g) h a g h d c h a g f
+		e8. g16 g8. a16 a8. f16 f8. g16
+		g8. e16 e8. f16 f8. d16 d8. e16
+		\tempoDuRollestB e4 r r2
+		R1 %10
+		c,16\f c'( h c h c) e d c h a g f e d c
+		r c'( h c h c) e d c h a g f e d c
+		<f d'>4 r r2
+		d'4 r r2
+		r16 e( d e d e) g f e d c b a g f e %15
+		r e'( d e d e) g f e d c b a g f e
+		<f c' f>4 r r2
+		r16 f'( e f e f) a g f e d c b a g f
+		r g'( fis g fis g) b a g f e d cis b a g
+		<d a' f'>4 r r2 %20
+		<d h'!>4 r r2
+		r16 c'( h c h c) e d c h a g f e d c
+		r c'( h c h c) e d c h a g f e d c
+		a'8. a16 cis8. cis16 d8. d16 e8. e16
+		f8. f16 g8. g16 a8. c,16 c4\trill %25
+		h g2\p g4
+		g g2 g4
+		fis1~\sf
+		fis2 r
+		g4 g2 g4 %30
+		g g2 g4
+		fis1~\sfE
+		fis2 r
+		g8( h d c h a g fis)
+		g fis([\mf g a] h c d e) %35
+		f!4 r f,4. f'8
+		e4 r e,4. e'8
+		d4 r r2
+		R1
+		f\fp %40
+		R
+		e\fp
+		R
+		\tempoDuRollestC R1*9 %52
+		r16 c(\f h c h c) e d c h a g f e d c
+		r c'( h c h c) e d c h a g f e d c
+		r c'( h c h c) e d c h a g f e d c %55
+		r c'( h c h c) e d c h a g f e d c
+		r c'( h c h c) e d c h a g f e d c
+		r a'( gis a gis a) a' g f e d c h a g f
+		r g( fis g fis g) g' f e d c h a g f e
+		r f( e f e f) f' e d c h a g f e d %60
+		r e( d e d e) e' d c h a g f e d c
+		<g d' c'>4 r r2
+		<g d' h'>4 r q r
+		<g e' c'> r r r8. c16
+		c4 r r r8. c16 %65
+		c2 r\fermata \bar "|." %66 finis
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

@@ -339,6 +339,181 @@ DieOedeTenoreLyricsDansk = \lyricmode {
 	Gud!” __ %31 finis
 }
 
+DuRollestTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key c \major \time 4/4 \autoBeamOff \tempoDuRollest
+		R1*8 %8
+		\tempoDuRollestB r4 g^\solo g g
+		c4. c8 e4. d8 %10
+		\appoggiatura d8 c4 r r2
+		R1
+		r4 a d8 d f e
+		\appoggiatura e d4 r8 d g g g d
+		e e r4 r2 %15
+		R1
+		r8 c f d b b d c
+		a4 r r2
+		R1
+		r4 a f'8 e d c %20
+		h!4 r8 d g g g d
+		e e r4 r2
+		R1*4 %26
+		r2 r4 h
+		c2 a4 g
+		fis( e') d c
+		h2 r %30
+		r4 r8 d g([ fis)] e d
+		c2 a4 g
+		fis( e') d c
+		\appoggiatura c8 h4 h r2
+		r r4 g %35
+		f'!2 f4. f8
+		e2 e4. e8
+		d2 r
+		r g,4. g8
+		g'1 %40
+		r2 g,4. g8
+		g'1
+		r2 r4 c,\p
+		c4. c8 c4 c
+		\appoggiatura e8 d4 c4 r c %45
+		e4. e8 e4 e
+		\appoggiatura g8 f4 e4 r c
+		a2 r4 d
+		h2 r4 e
+		c2 c %50
+		c2( h4) a
+		h2 h4 h
+		c2 r4 \mvTr e\fE^\tutti
+		e4. e8 e4 e
+		c e r e %55
+		e4. e8 e4 e
+		c e r c
+		c4. c8 d4 d
+		d2 r4 c
+		c c h h %60
+		g1
+		g'2. g4
+		g,2 g4 g
+		g1~
+		g~ %65
+		g2 r\fermata \bar "|." %66 finis
+	}
+}
+
+DuRollestTenoreLyrics = \lyricmode {
+	Du rol -- lest %9
+	auf der Dämm -- rung %10
+	Flor!
+
+	Die Thrä -- ne trock -- nest
+	du, die thau -- end Blu -- men
+	tränk -- te! %15
+
+	Dein Him -- mel graut nicht, wie zu --
+	vor_–
+
+	des Ta -- ges lich -- ter %20
+	Held tritt auf in vol -- lem
+	Glan -- ze!
+
+	Um -- %27
+	ar -- mend die
+	blü -- hen -- de
+	Braut, %30
+	ent -- zückt von des
+	Lich -- tes be --
+	le -- ben -- der
+	Won -- ne,
+	er -- %35
+	zäh -- let die
+	Schöp -- fung es
+	laut:
+	Das ist
+	Gott! %40
+	Das ist
+	Gott!
+	Hal --
+	le -- lu -- ja! wir
+	le -- ben! Hal -- %45
+	le -- lu -- ja! wir
+	le -- ben! du
+	bist, du
+	warst, und
+	blei -- best %50
+	e -- wig,
+	Herr, un -- ser
+	Gott! Hal --
+	le -- lu -- ja! wir
+	le -- ben! Hal -- %55
+	le -- lu -- ja! wir
+	le -- ben! Hal --
+	le -- lu -- ja! du
+	bist, du
+	warst, und blei -- best %60
+	e --
+	_ wig,
+	Herr, un -- ser
+	Gott! __ %64 finis
+}
+
+DuRollestTenoreLyricsDansk = \lyricmode {
+	Du rul -- ler %9
+	bort Na -- tu -- rens %10
+	Slør!
+
+	Du tør -- rer Dug -- gens
+	Graad, som Jor -- dens An -- sigt
+	væ -- der! %15
+
+	Din Him -- mel skiu -- les ei, som
+	før_–
+
+	see! Da -- gens ly -- se %20
+	Helt i ful -- de Glands frem --
+	træ -- der!
+
+	Han %27
+	fav -- ner sin
+	rød -- men -- de
+	Brud, %30
+	og tryl -- let af
+	Ly -- sets op --
+	li -- ven -- de
+	Glæ -- der
+	den %35
+	he -- le Na --
+	tur bry -- der
+	ud:
+	Det er
+	Gud! %40
+	Det er
+	Gud!
+	Hal --
+	le -- lu -- ja! vi
+	e -- re! Hal -- %45
+	le -- lu -- ja! vi
+	e -- re! du
+	er, du
+	var, og
+	du skal %50
+	væ -- re,
+	vor __ _ _
+	Gud! Hal --
+	le -- lu -- ja! vi
+	e -- re! Hal -- %55
+	le -- lu -- ja! vi
+	e -- re! Hal --
+	le -- lu -- ja! du
+	er, du
+	var, og du skal %60
+	væ --
+	_ _
+	re, vor __ _
+	Gud! __ %64 finis
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

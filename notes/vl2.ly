@@ -196,3 +196,68 @@ VomSchlafViolinoII = {
 		g2( a4) r\fermata \bar "|." %56 finis
 	}
 }
+
+DuRollestViolinoII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoDuRollest
+		<g e'>8\f q4 q q q8
+		q q4 q q q8
+		<a f'> q4 q q q8
+		q q4 q q q8
+		<d h'> q4 q q q8 %5
+		q q4 q q d'8
+		e8. e16 e8. f16 f8. d16 d8. e16
+		e8. g,16 g8. a16 a8. h16 h8. c16
+		\tempoDuRollestB c4 r r2
+		R1 %10
+		<g, e'>8\f q4 q q q8
+		q q4 q q q8
+		<a f'>4 r r2
+		g'4 r r2
+		<g, e'>8 q4 q q q8 %15
+		q q4 q q q8
+		<f' c' f>4 r r2
+		a8 a4 a a a8
+		g g4 g g g8
+		<d a' f'>4 r r2 %20
+		f4 r r2
+		<g, e'>8 q4 q q q8
+		r16 c'( h c h c) e d c h a g f e d c
+		a8. a16 cis8. cis16 d8. d16 e8. e16
+		f8. f16 g8. g16 a8. a16 a4 %25
+		g h,2\p h4
+		h h2 h4
+		a1~\sf
+		a2 r
+		h4 h2 h4 %30
+		h h2 h4
+		a1~\sfE
+		a2 r
+		h r
+		R1 %35
+		d'4\mf r d,4. d'8
+		c4 r c,4. c'8
+		h4 r r2
+		R1
+		d\fp %40
+		R
+		c\fp
+		R
+		\tempoDuRollestC R1*9 %52
+		r16 c(\f h c h c) e d c h a g f e d c
+		r c'( h c h c) e d c h a g f e d c
+		r c'( h c h c) e d c h a g f e d c %55
+		r c'( h c h c) e d c h a g f e d c
+		r c'( h c h c) e d c h a g f e d c
+		r a'( gis a gis a) a' g f e d c h a g f
+		r g( fis g fis g) g' f e d c h a g f e
+		r f( e f e f) f' e d c h a g f e d %60
+		r e( d e d e) e' d c h a g f e d c
+		<g d' c'>4 r r2
+		<g d' h'>4 r q r
+		<g e' c'> r r r8. c16
+		c4 r r r8. c16 %65
+		c2 r\fermata \bar "|." %66 finis
+	}
+}

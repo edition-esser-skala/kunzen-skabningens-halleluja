@@ -196,3 +196,68 @@ VomSchlafViola = {
 		c2. r4\fermata \bar "|." %56 FINIS
 	}
 }
+
+DuRollestViola = {
+	\relative c' {
+		\clef alto
+		\key c \major \time 4/4 \tempoDuRollest
+		<g e'>8\f q4 q q q8
+		q q4 q q q8
+		<a f'> q4 q q q8
+		q q4 q q q8
+		<d f> q4 q q q8 %5
+		q q4 q q h'8
+		c4 c, c c
+		c c c c
+		\tempoDuRollestB c4 r r2
+		R1 %10
+		<g e'>8\f q4 q q q8
+		q q4 q q q8
+		<a f'>4 r r2
+		d4 r r2
+		<g, e'>8 q4 q q q8 %15
+		q q4 q q q8
+		<a f'>4 r r2
+		c8 c4 c c c8
+		cis cis4 cis cis cis8
+		d4 r r2 %20
+		<g, d'>4 r r2
+		c8 c4 c c c8
+		a16 a'( gis a gis a) c h a g f e d c h a
+		f4 <f a>2 q4~
+		q q2 <fis d'>4 %25
+		<g d'> d'2\p d4
+		d d2 d4
+		c1~\sf
+		c2 r
+		h4 g2 g4 %30
+		d' d2 d4
+		c1~\sfE
+		c2 r
+		h r
+		R1 %35
+		g'4\mf r g,4. g'8
+		g4 r g,4. g'8
+		g4 r r2
+		R1
+		g\fp %40
+		R
+		g\fp
+		R
+		\tempoDuRollestC R1*9 %52
+		<g, e'>4.\f q8 q4. q8
+		q4. q8 q4. q8
+		q4. q8 q4. q8 %55
+		<a e'>4. q8 q4. q8
+		q4. q8 q4. q8
+		f'4. f8 d4. d8
+		h4. h8 c4. c8
+		a4. a8 h4. h8 %60
+		c4. c8 e4 c
+		r16 g'( fis g fis g) h a g f e d c h a g
+		r g'( fis g fis g) h a g f e d c h a g
+		c4 r r r8. c16
+		c4 r r r8. c16 %65
+		c2 r\fermata \bar "|." %66 finis
+	}
+}

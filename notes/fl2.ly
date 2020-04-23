@@ -130,3 +130,27 @@ VomSchlafFlautoII = {
 		g2( f4) r\fermata \bar "|." %56 finis
 	}
 }
+
+DuRollestFlautoII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoDuRollest
+		R1*8 %8
+		\tempoDuRollestB R1*35 %43
+		\tempoDuRollestC R1*9 %52
+		e'1~\f
+		e~
+		e~ %55
+		e~
+		e
+		f~
+		f2 \once \tieDashed e~
+		e \once \tieDashed d~ %60
+		d c4 e
+		d1
+		g2 f
+		e r
+		R1 %65
+		R\fermataMarkup \bar "|." %66 finis
+	}
+}

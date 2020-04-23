@@ -295,6 +295,60 @@ DieOedeAltoLyricsDansk = \lyricmode {
 	Gud!” __ %31 finis
 }
 
+DuRollestAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \autoBeamOff \tempoDuRollest
+		R1*8 %8
+		\tempoDuRollestB R1*35 %43
+		\tempoDuRollestC R1*9 %52
+		r2 r4 \mvTr g'\fE^\tutti
+		g4. g8 g4 g
+		g g r g %55
+		a4. a8 a4 a
+		a a r a
+		a4. a8 a4 a
+		g2 r4 g
+		f f f f %60
+		e1
+		d2. d4
+		d2 d4 d
+		e1~
+		e~ %65
+		e2 r\fermata \bar "|." %66 finis
+	}
+}
+
+DuRollestAltoLyrics = \lyricmode {
+	Hal -- %53
+	le -- lu -- ja! wir
+	le -- ben! Hal -- %55
+	le -- lu -- ja! wir
+	le -- ben! Hal --
+	le -- lu -- ja! du
+	bist, du
+	warst, und blei -- best %60
+	e --
+	_ wig,
+	Herr, un -- ser
+	Gott! __ %64 finis
+}
+
+DuRollestAltoLyricsDansk = \lyricmode {
+	Hal -- %53
+	le -- lu -- ja! vi
+	e -- re! Hal -- %55
+	le -- lu -- ja! vi
+	e -- re! Hal --
+	le -- lu -- ja! du
+	er, du
+	var, og du skal %60
+	væ --
+	_ _
+	re, vor __ _
+	Gud! __ %64 finis
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble
