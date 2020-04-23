@@ -85,3 +85,48 @@ DieOedeFlautoII = {
 		R1\fermataMarkup \bar "|." %33 finis
 	}
 }
+
+VomSchlafFlautoII = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 4/4 \tempoVomSchlaf
+		f1~\pp
+		f
+		b
+		c
+		d4 r r2 %5
+		f2. e4
+		f r r2
+		b,4\f r r2
+		a4\p r r2
+		b4\f r r2 %10
+		R1*3
+		r8 e(\pE f g a b h c)
+		d4 r r2 %15
+		R1
+		r4 e, e r
+		R1*6 %23
+		\once \override DynamicText.X-offset = #-6 g,4\f a g g
+		g r r2 %25
+		R1*7 %32
+		b4\mf g' f8 r f4
+		e4 r r2
+		R1*3 %37
+		r8 c(\p d e f g a g)
+		f2 e
+		f e %40
+		f e
+		f e
+		f16 a([\mf g f] e f e\p d cis d c b a b a g)
+		f8 r r4 r2
+		R1*4 %48
+		f2\pocoF e
+		f4 r r2 %50
+		b1\fp
+		a4 r r2
+		b1\fp
+		a8 r r4 r2
+		r r8 b'( a g) %55
+		g2( f4) r\fermata \bar "|." %56 finis
+	}
+}

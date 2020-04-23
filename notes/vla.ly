@@ -133,3 +133,66 @@ DieOedeViola = {
 		b4 r r2\fermata \bar "|." %33 finis
 	}
 }
+
+VomSchlafViola = {
+	\relative c' {
+		\clef alto
+		\key f \major \time 4/4 \tempoVomSchlaf
+		f4\ppE r f r
+		f r f r
+		g r g r
+		a r a, r
+		b r b' r %5
+		c r c, r
+		f <a c>8\pE <f a> q[ <c f>] q <a c>
+		<g b>1\fp
+		<f a>4 <a' c>8 <f a> q[ <c f>] q <a c>
+		<g b>1\fp %10
+		<f a>4 r f' r
+		f r f r
+		c r c r
+		d r a r
+		b8 f4 f'8( g) g,4 g'8 %15
+		a4 c, r c
+		c2 r
+		c4 r c r
+		g r g' r
+		e r c r %20
+		g r g' r
+		<c, e,>8(-. q-.) <d g,>(-. q-.) <e c>(-. q-.) <f d>(-. q-.)
+		<c e>4 <f, a> g g
+		g r r g
+		<c e,>8(-. q-.) <d g,>(-. q-.) <e c>(-. q-.) <f d>(-. q-.) %25
+		<e g> c c c d d h h
+		c c c c d d h h
+		c r r4 r2
+		g8 g g g g g g g
+		g8 r r4 e16\pp e8 e e e16 %30
+		fis fis8 fis fis fis16 g g8 g g g16
+		e e8 e e e16 f f8 f f f16
+		\once \slurDashed d4(\mf e16.) e'32 e16. e32 c4\f d'
+		c4 r e,,16\pp e8 e e e16
+		fis fis8 fis fis fis16 g g8 g g g16 %35
+		e e8 e e e16 f f8 f f f16
+		f1
+		g4 r r2
+		c1~
+		c~ %40
+		c~
+		c
+		c4 r r2
+		f,4 r8 d' r c4 b8
+		a f' r f, r f r g %45
+		r f r f' r d r c
+		f f4 f f a,8
+		b f' f f f r r4
+		c16\pocoF c c c c c c c c c c c c c c c
+		c4 <a' c>8\pE <f a> q[ <c f>] q <a c> %50
+		<g b>1\fp
+		<f a>4 <a' c>8 <f a> q[ <c f>] q <a c>
+		<g b>1\fp
+		<f a>8 r r4 r2
+		f4 r r2 %55
+		c2. r4\fermata \bar "|." %56 FINIS
+	}
+}

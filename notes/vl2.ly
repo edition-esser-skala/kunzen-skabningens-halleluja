@@ -133,3 +133,66 @@ DieOedeViolinoII = {
 		b4 r r2\fermata \bar "|." %33 finis
 	}
 }
+
+VomSchlafViolinoII = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 4/4 \tempoVomSchlaf
+		a8(\pp c f c) b( d f d)
+		a( c f c) a( c f c)
+		b( c e c) b( c e c)
+		a( c f c) \slurDashed a( c f c)
+		b( d f d) b( d g d) %5
+		a( c f c) g( b e b) \slurSolid
+		a4 r r2
+		b1\fp
+		a4 r r2
+		b1\fp %10
+		a8( c f c) \slurDashed b( d f d)
+		a( c f c) a( c f c)
+		g( b e b) e( g c, e) \slurSolid
+		e4( f) r2
+		b8 b,4 b'8( b) b,4 b'8 %15
+		c4 f, r8 a4 f8
+		f4( e) r2
+		c8( e) g,-! e'-! c( e) g, e'
+		d( h) g h d( h) g h
+		c( e) g, e' c( e) g, e' %20
+		d( h) g h \once \slurDashed d( h) g h
+		\once \slurDashed c(-. e-.) g(-. g-.) c(-. c-.) d(-. d-.)
+		e8.( c16) a8.( f16) e4 d
+		e r r g
+		e8(-. e-.) g(-. g-.) c(-. c-.) d(-. d-.) %25
+		e e, e e f f f f
+		e e e e f f f f
+		e e-! e-! e-! f-! f-! f-! f-!
+		c c c c h h h h
+		c16\pp c8 c c c16 c c8 c c c16 %30
+		c c8 c c c16 b! b8 b b b16
+		b b8 b b b16 a a8 a a a16
+		a4(\mf g16.) g'32 g16. g32 f4\f f'
+		e16 c,8\pp c c c16 c c8 c c c16
+		c c8 c c c16 b! b8 b b b16 %35
+		b b8 b b b16 a a8 a a a16
+		h1
+		c4 r r2
+		f2 e
+		f e %40
+		f e
+		f e
+		f16-! a( g f e f e d cis d c b a b a g)
+		a8 a' r g r f4 e8
+		f f r c r b r b %45
+		r a r a' r g r g
+		f a4 a a f8
+		r b b b b r r4
+		a16\pocoF a a a a a a a g g g g g g g g
+		a4 r r2 %50
+		b,1\fp
+		a4 r r2
+		b1\fp
+		a8 d'([ c b] a b a g)
+		f d( c b a b a g) %55
+		g2( a4) r\fermata \bar "|." %56 finis
+	}
+}

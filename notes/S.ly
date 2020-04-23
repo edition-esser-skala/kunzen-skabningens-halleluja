@@ -295,6 +295,136 @@ DieOedeSopranoLyricsDansk = \lyricmode {
 	Gud!” __ %31 finis
 }
 
+VomSchlafSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 4/4 \autoBeamOff \tempoVomSchlaf
+		R1*9 %9
+		r2 r4 r8 c'^\solo %10
+		f4. e16([ f)] g8 f e d
+		\appoggiatura d4 c2 r8 c c f
+		f4( e8) d \afterGrace d4( { c16[ e d] } c8) b
+		\appoggiatura b4 a2 r4 r8 c
+		d4 b e c %15
+		\afterGrace f4.( {  g16[ f e] } g8 a) f c a
+		a4( g) r g
+		g'4. g8 \tuplet 3/2 4 { g([ f)] e e([ d)] c }
+		c8.([ h16)] h4 r8 g h d
+		g4. g8 g16([ fis a g] f[ e)] d([ c)] %20
+		c8.([ h16)] h4 r g
+		c d e f
+		g8.([ e16)] d8.([ f16)] c4 h
+		c r r g
+		c d e f %25
+		g1~
+		g~
+		g4. gis8 a16[ g \appoggiatura g32 f16 e] \appoggiatura e32 d16[ c] \appoggiatura c32 h16([ a)]
+		g2 d'\trill
+		c4 r r2 %30
+		R1*4
+		d2 g4. g8 %35
+		c,4. c8 c4 f
+		f4. f8 f16([ e g f] e[ d)] c([ h)]
+		c8 c r4 r2
+		r4 r8 f e4. g8
+		f4 r8 f e4. g8 %40
+		f4 r8 f e4. g8
+		f4 r8 f e4. g8
+		f4 r8 g16([ f)] e([ f)] e([ d)] c([ d)] c([ b)]
+		a([ c f)] e e([ d)] c([ b)] a4.( g8)\trill
+		f4 f'8. e16 \appoggiatura e d8 r e8. d16 %45
+		\appoggiatura d8 c4 d8. c16 \appoggiatura c8 b4 c8. b16
+		a8 f16([ c')] c([ a)] a([ f')] f([ c a' g] f[ e)] d([ cis)]
+		d4~ d32[ b c d es f g a] b16.[ a32 g16.\trill f32] e16.[\trill d32] c16.([\trillE b32])
+		a8( c4) f8 e2\trill
+		f4 r r2 %50
+		R1*5 %55
+		R1\fermataMarkup \bar "|." %56 finis
+	}
+}
+
+VomSchlafSopranoLyrics = \lyricmode {
+	Vom %10
+	Schlaf im Schat -- ten -- wald er --
+	wacht, sieht, wenn der
+	Mor -- gen wie -- der
+	lacht, was
+	lebt, sich dei -- ne %15
+	Herr -- lich -- keit er --
+	neun! Sieh!
+	Vö -- gel froh auf leich -- ten
+	Schwin -- gen hi -- nauf in
+	gold -- ne Wol -- ken %20
+	drin -- gen, ihr
+	Lob -- lied wie -- der --
+	hallt in Flur und
+	Hain, ihr
+	Lob -- lied wie -- der -- %25
+	hallt __
+
+	_ _ _ in
+	Hain und
+	Flur! %30
+
+	Weit strah -- let %35
+	wach -- send dei -- ne
+	lich -- te Mor -- gen --
+	rö -- the!
+	Mild glänzt der
+	Thau, die Ro -- se %40
+	glüht, sanft weht die
+	Luft, der Bach ent --
+	flieht, und Hain -- ge -- sang er --
+	tönt zur Schöp -- fungs Fei --
+	er. Mil -- der Thau, Ro -- sen -- %45
+	duft, Hain -- ge -- sang, küh -- le
+	Luft be -- grüßt den Tag, __ er --
+	weckt __ _ _ zur
+	Mor -- gen -- fei --
+	er. %50 finis
+}
+
+VomSchlafSopranoLyricsDansk = \lyricmode {
+	Fra %10
+	Sko -- vens skyg -- ge -- ful -- de
+	Lye seer væk -- ket
+	Liv, hver Mor -- gen
+	nye, i
+	Mark og Eng din %15
+	Her -- lig -- hed frem --
+	grye! See!
+	Fug -- len fro, paa let -- te
+	Vin -- ger sig op i
+	Luf -- tens Pur -- pur %20
+	svin -- ger, Din
+	Lov -- sang dir -- rer
+	høit i gyld -- ne
+	Skye, din
+	Lov -- sang dir -- rer %25
+	høit __
+
+	_ _ _ i
+	gyld -- ne
+	Skye! %30
+
+	Vidt straa -- ler %35
+	vo -- xen -- de din
+	ly -- se Mor -- gen --
+	rø -- de!
+	Og Dug -- gens
+	Blik, og Blom -- strets %40
+	Smiil, og Vin -- dens
+	Vift, og Bæk -- kens
+	Iil, i yn -- dig Kap -- pen
+	stræ -- ber den i -- mø --
+	de, Dug -- gens Blik, Blom -- strets %45
+	Smiil, Vin -- dens Vift, Bæk -- kens
+	Iil, i yn -- dig Kap -- pen
+	stræ -- _ _ ber
+	den i -- mø --
+	de. %50 finis
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

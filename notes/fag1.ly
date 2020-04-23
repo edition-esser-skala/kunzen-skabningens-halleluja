@@ -106,3 +106,48 @@ DieOedeFagottoI = {
 		b4 r r2\fermata \bar "|." %33 finis
 	}
 }
+
+VomSchlafFagottoI = {
+	\relative c {
+		\clef bass
+		\key f \major \time 4/4 \tempoVomSchlaf
+		c'2\pp d
+		c a
+		b1
+		a2 a,
+		b4 r r2 %5
+		c'2 c,
+		f4 r r2
+		g4\f r r2
+		f4\p r r2
+		g4\f r r2 %10
+		R1*3
+		r8 e(\pE f g a b h c)
+		d4 r r2 %15
+		R1
+		r4 c c r
+		R1*6 %23
+		\once \override DynamicText.X-offset = #-6 g'8.(\mf e16) d8.( f16) e4 d
+		e r r2 %25
+		R1*6 %31
+		r2 r4 c\ppE
+		\once \override DynamicText.X-offset = #-6 d\mf e f d
+		c4 r r2
+		R1*3 %37
+		r8 c(\p h b a g f e)
+		f( c) f( c) g'( c,) g'( c,)
+		f( c) \slurDashed f( c) g'( c,) g'( c,) %40
+		f( c) f( c) g'( c,) g'( c,)
+		f( c) f( c) g'( c,) g'( c,)
+		f4 r r2
+		R1*5 %48
+		c'1\pocoFE
+		\pao f,4 r r2 %50
+		\once \override DynamicText.X-offset = #-4 g'1\fp
+		f4 r r2
+		\once \override DynamicText.X-offset = #-4 g1\fp
+		f4 r r2
+		R1 %55
+		c2. r4\fermata \bar "|." %56 finis
+	}
+}

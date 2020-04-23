@@ -134,6 +134,125 @@ DieOedeViolinoI = {
 	}
 }
 
+VomSchlafViolinoSolo = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 4/4 \tempoVomSchlaf
+		f'4.( g16 a g8) f e d
+		\appoggiatura d4 c2 f,4~ \tuplet 10/8 4 { f32 g( a b c d e f g a) }
+		b8.( g16 e4) e,~ e32 f( g a \tuplet 9/8 8 { b64 c d e f g a b h) }
+		c8.( a16 f4) es,2\trill
+		d4 d'~ d16 e!32 fis g a b c d16 \appoggiatura c32 b( a b a b g) %5
+		f16( a c8~) c16 h(-. b-. a-.) g2\trill
+		f4 r r2
+		r4 c32( d c h c d e f e f e d e f g a c b? a g a g f e)
+		f4 r r2
+		r4 c32( d c h c d e f e f e d e f g a c b? a g a g f e) %10
+		f4 r r2
+		r4 c'\trill a\trill f\trill
+		R1*4 %16
+		r2 r16 g, a16.\trill h32 c16.\trill d32 e16.\trill f32
+		g8 r g4\trill r g\trill
+		g8.[ \grace { a16 g fis } a] h8.[ \grace { c16 h a } c] d16( h f' d h g f d)
+		c4 g'\trill r g\trill %2ß
+		g8.[ \grace { a16 g fis } a] h8.[ \grace { c16 h a } c] d16( h f' d h g f d)
+		c4 r r2
+		R1*3 %25
+		e32 g fis g a g fis g c g fis g a g fis g h a g fis g a h c d c h a g f e f
+		e g fis g a g fis g c g fis g a g fis g h a g fis g a h c d c h a g f e f
+		e4 r r2
+		g,32([ e) c'-! c]-! c( g) e'-! e-! e([ c) g'-! g]-! \once \slurDashed g( e) c'-\parenthesize-! c-\parenthesize-! h2\trill
+		c4 r r2 %30
+		d,4~ d16 \once \slurDashed e32( fis g a b! c) d16[ d32 c] b16 b32 a g16[ g32 f] e16 e32 d
+		c4~ c16 \once \slurDashed d32( e f g a b) c16[ c32 b] a16 a32 g f16[ f32 e] d16 d32 c
+		b8~ b32 c64( d e f g a) b16. b32 b16. b32 a8 r \afterGrace h4\trill { a16[ h] }
+		c4 r r2
+		d,4~ d16 e32 (fis g a b! c) d16[ d32 c] b16 b32 a g16[ g32 f] e16 e32 d %35
+		c4~ c16 d32( e f g a b) c16[ c32 b] a16 a32 g f16[ f32 e] d16 d32 c
+		h4 r r2
+		R1*3 %40
+		r4 r8 f' e32 g b a g f e d c b a g f e g e
+		f([ c) a'-! a-!] a( f) c'-! c-! c([ a) f'-! f-!] f( c) a'-! f-! e g b a g f e d c b a g f e g e
+		f4 r r2
+		R1
+		a32 c f a c b a g f8 r r32 b, d f b a g f e8 r %45
+		r32 a, c e a g f e d8 r r32 g, b d g f e d c8 r
+		R1
+		r32 b c d es f g a b d, es f g a b c d16. c32 b16.\trill a32 g16.\trill f32 e16.\trill d32
+		c16 d32 e f g a b c16 h b a g2\trill
+		f4 r r2 %50
+		r4 c32( d c h c d e f e f e d e f g a c b a g a g f e)
+		f4 r r2
+		r4 c32( d c h c d e f e f e d e f g a c b a g a g f e)
+		f1~\trill
+		f2~\cresc f8 d' c e\! %55
+		e2( f4) r\fermata \bar "|." %56 finis
+	}
+}
+
+VomSchlafViolinoI = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 4/4 \tempoVomSchlaf
+		a8(\pp c f c) b( d f d)
+		a( c f c) a( c f c)
+		b( c e c) b( c e c)
+		a( c f c) \slurDashed a( c f c)
+		b( d f d) b( d g d) %5
+		a( c f c) g( b e b) \slurSolid
+		a4 r r2
+		e'1\fp
+		f4 r r2
+		e1\fp %10
+		f8 f'4 e16( f) g8( f e d)
+		d4( c) r8 c4 f8
+		f4( e8) d-! d4( c8) b-!
+		b4( a) r r8 c
+		d d,4 d'8( e) e,4 e'8 %15
+		f4 a, r8 f' c a
+		a4( g) r2
+		e8( g) r g e( g) r g
+		f( g) r g h,( g') r g
+		g,( g') r g e( g) r g %20
+		f( g) r g \once \slurDashed f( g) r g
+		c(-. c-.) d(-. d-.) e(-. e-.) f(-. f-.)
+		g8.( e16) d8.( f16) c4 h
+		c r r h
+		c8(-. c-.) d(-. d-.) e(-. e-.) f(-. f-.) %25
+		g g, g g g g g g
+		g g g g g g g g
+		g c-! c-! c-! a-! a-! a-! a-!
+		e e e e d d d d
+		c16\pp c8 c c c16 c c8 c c c16 %30
+		d d8 d d d16 d d8 d d d16
+		c c8 c c c16 c c8 c c c16
+		b8~\mf b32 c64( d e f g a) b16. b32 b16. b32 a8~\f a64 \once \slurDashed b64( c d e f g a) \afterGrace h4\trill { a16[ h] }
+		\kneeBeam c c,,8\pp c c c16 c c8 c c c16
+		d d8 d d d16 d d8 d d d16 %35
+		c c8 c c c16 c c8 c c c16
+		f1
+		e8 c([ d e] f g a b!)
+		a2 b
+		a b %40
+		a b
+		a b
+		a16-! c( b a gis a g f e f e d c d c b)
+		a8 c' r b r a4 g8
+		f a r f r d r e %45
+		r c r d' r b r c
+		a c4 c c f,8
+		r d' d d d r r4
+		c16\pocoF f f f f f f f e e e e e e e e
+		f4 r r2 %50
+		e,1\fp
+		f4 r r2
+		e1\fp
+		f8 f'([ e d] c d c b)
+		a b( a g f d c b) %55
+		b2( a4) r\fermata \bar "|." %56 finis
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

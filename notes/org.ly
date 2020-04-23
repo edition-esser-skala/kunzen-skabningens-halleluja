@@ -258,6 +258,128 @@ DieOedeBassFigures = \figuremode {
 	r %33 finis
 }
 
+VomSchlafOrgano = {
+	\relative c {
+		\clef bass
+		\key f \major \time 4/4 \tempoVomSchlaf
+		\mvTrh f4\ppE-\soloE r f r
+		f r f r
+		g r g r
+		a r a, r
+		b r b' r %5
+		c r c, r
+		f r r2
+		c1\fp
+		f,4 r r2
+		c'1\fp %10
+		f,4 r f' r
+		f r f r
+		c r c r
+		d r a r
+		b r b' r %15
+		a f r f,
+		c' c' c, r
+		c r c r
+		g r g' r
+		e r c r %20
+		g r g' r
+		c, r r2
+		c'4 f, g g,
+		c r r2
+		R1 %25
+		c8 r e r d r g, r
+		c r e r d r g, r
+		c4 r r2
+		g'8 r g r g, r g r
+		c\pp c c c c c c c %30
+		c c c c c c c c
+		c c c c c c c c
+		c\mf c c c c\f c c c
+		c\ppE c c c c c c c
+		c c c c c c c c %35
+		c c c c c c c c
+		d1
+		c4 r r2
+		f,4 a g c,
+		f a g c, %40
+		f a g c,
+		f a g c,
+		f r r2
+		f'8 r b, r c r c, r
+		f r a'4( b8) r \once \slurDashed g4( %45
+		a8) r f4( g8) r \once \slurDashed e4(
+		f8) r f r f r a, r
+		b4 b' b b
+		c\pocoF c c, c
+		f r r2 %50
+		c1\fp
+		f4 r r2
+		c1\fp
+		f4 r r2
+		f,4 r r2 %55
+		f2. r4\fermata \bar "|." %56 FINIS
+	}
+}
+
+VomSchlafBassFigures = \figuremode {
+	<5 3>2 <6 4>
+	<5 3>1
+	<6>2 <\t>
+	<6> <6 5->
+	<5> <6> %5
+	<6 4> <7 4>4 <\t 3>
+	r1
+	<7>
+	r
+	<7> %10
+	<5 3>2 <6 4>
+	<6 3>4 <5 \t>2.
+	<7 4>4 <\t 3> <9> <8>
+	<6 4 2> <5 3> <6>2
+	r <2> %15
+	<6>1
+	<6 4>4 <5 3>2.
+	r1
+	<7 4>4 <\t _!> <\t \t>2
+	<6>1 %20
+	<7 4>4 <\t _!> <\t \t>2
+	r1
+	r4 <6> <6 4> <5 _!>
+	r1
+	r %25
+	r4 <6> <6!> <7 _!>
+	r <6> <6!> <7 _!>
+	r1
+	<6 4>4 <\t \t> <5 _!> <\t \t>
+	r1 %30
+	<6 4+ 2>2 <7- 5 2>
+	<7 5> <6 4>
+	<7 6 2>4 <\t 5 3> <6 4> <7! 4 2>
+	<8 3>1
+	<6 4+ 2>2 <7- 5 2> %35
+	<7 5> <6 4>
+	<6!>1
+	r1
+	r4 <6> q <7>
+	r <6> q <7> %40
+	r <6> q <7>
+	r <6> q <7>
+	r1
+	r4 <6> <6 4> <\t \t>8 <5 3>
+	r4 <6> <5> <6> %45
+	<5> <6> <5> <6>
+	r2. <6>4
+	r2. <2>4
+	<6 4>2 <5 3>
+	r1 %50
+	<7>
+	r
+	<7>
+	r
+	r %55
+	<7 4 2>2 <8 3> %56 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

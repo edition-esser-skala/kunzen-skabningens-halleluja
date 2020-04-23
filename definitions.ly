@@ -255,6 +255,7 @@ tempoBrichNatur = \tempoMarkup "Moderato"
 tempoDieOede = \tempoMarkup "Recitativo"
 	tempoDieOedeB = \tempoMarkup "Andante maestoso"
 	tempoDieOedeC = \tempoMarkup "a tempo"
+tempoVomSchlaf= \tempoMarkup "Larghetto"
 
 
 

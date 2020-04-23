@@ -106,3 +106,48 @@ DieOedeFagottoII = {
 		b4 r r2\fermata \bar "|."
 	}
 }
+
+VomSchlafFagottoII = {
+	\relative c {
+		\clef bass
+		\key f \major \time 4/4 \tempoVomSchlaf
+		a'2\pp b
+		a f
+		g1
+		a2 a,
+		b4 r r2 %5
+		c'2 c,
+		f4 r r2
+		c4\f r r2
+		f4\p r r2
+		c4\f r r2 %10
+		R1*3
+		r8 e(\pE f g a b h c)
+		d4 r r2 %15
+		R1
+		r4 c, c r
+		R1*6 %23
+		c'4\mf f, g g,
+		c r r2
+		R1*6 %31
+		r2 r4 c~\ppE
+		c1\mf
+		c4 r r2
+		R1*3 %37
+		r8 c'(\p h b a g f e)
+		f( c) f( c) g'( c,) g'( c,)
+		f( c) \slurDashed f( c) g'( c,) g'( c,) %40
+		f( c) f( c) g'( c,) g'( c,)
+		f( c) f( c) g'( c,) g'( c,)
+		f4 r r2
+		R1*5 %48
+		c1\pocoFE
+		f4 r r2 %50
+		c1\fp
+		f4 r r2
+		c1\fp
+		f4 r r2
+		R1 %55
+		f2. r4\fermata \bar "|."
+	}
+}

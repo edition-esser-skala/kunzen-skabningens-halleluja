@@ -88,3 +88,48 @@ DieOedeFlautoI = {
 		R1\fermataMarkup \bar "|." %33 finis
 	}
 }
+
+VomSchlafFlautoI = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 4/4 \tempoVomSchlaf
+		f'1~\pp
+		f
+		e
+		f~
+		f4 r r2 %5
+		a2 g
+		\pao f4 r r2
+		e4\f r r2
+		f4\p r r2
+		e4\f r r2 %10
+		R1*3
+		r8 e(\pE f g a b h c)
+		d4 r r2 %15
+		R1
+		r4 g, g r
+		R1*6 %23
+		g8.(\f e16) d8.( f16) c4 h
+		c r r2 %25
+		R1*7 %32
+		b4\mf b' a8 r h4\trill
+		c4 r r2
+		R1*3 %37
+		r8 c,(\p d e f g a b!)
+		a2 b
+		a2 b %40
+		a2 b
+		a2 b
+		a16 c([\mf b a] gis a g\p f e f e d c d c b)
+		a8 r r4 r2
+		R1*4 %48
+		a2\pocoF g
+		\pao f4 r r2 %50
+		e'1\fp
+		f4 r r2
+		e1\fp
+		f8 r r4 r2
+		r r8 d'( c b) %55
+		b2( a4) r\fermata \bar "|." %56 finis
+	}
+}

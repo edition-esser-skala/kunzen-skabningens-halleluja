@@ -77,3 +77,37 @@ DieOedeCornoI = {
 		R1\fermataMarkup \bar "|." %33 finis
 	}
 }
+
+VomSchlafCornoI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoVomSchlaf
+		R1*6 %6
+		r4 g''8\pE e e[ c] c g
+		g4\f r r2
+		r4 g'8\pE e e[ c] c g
+		g4\f r r2 %10
+		R1*6 %16
+		r4 g\pE g r
+		R1*6 %23
+		d'4\mf e \pa d d \pd
+		d4 r r2
+		R1*6 %31
+		g,1~\ppE
+		g2\mfE r
+		R1*5 %38
+		g1~\pp
+		g~ %40
+		g~
+		g
+		c4 r r2
+		R1*6 %49
+		r4 g'8\pE e e[ c] c g %50
+		g1\fp
+		c8 r g' e e[ c] c g
+		g1\fp
+		c4 r r2
+		r2 r4 g %55
+		c2. r4\fermata \bar "|." %56 finis
+	}
+}
