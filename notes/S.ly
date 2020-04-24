@@ -479,6 +479,465 @@ DuRollestSopranoLyricsDansk = \lyricmode {
 	Gud! __ %64 finis
 }
 
+IchHoerteSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key g \major \time 6/8 \autoBeamOff \tempoIchHoerte
+		R2.*19 %19
+		r4 r8 r4 d'8^\solo %20
+		d([ g)] h, d([ c)] a
+		g4 r8 r4 d8
+		g4 a8 h4 cis8
+		d4 d8 d4 d8
+		d4. \appoggiatura fis8 e4~ e16.[ d32] %25
+		d4 r8 r4 a8
+		d4 h8 e4 d8
+		c4 r8 r4 a8
+		h([ g)] h c([ a)] cis
+		d([ g)] dis fis16([ e d c)] h([ a)] %30
+		g4. \appoggiatura h8 a4~ a16.[ g32]
+		g4 r8 r4 r8
+		R2.*15 %47
+		r4 r8 r4 d'8
+		d4.~ d4 c16([ b)]
+		\appoggiatura b a8 a r r a a %50
+		h4 cis8 d4 dis8
+		e4 fis8 g([ h,)] e
+		\afterGrace d!4._( { e16[ d] } cis4) a8
+		a([ fis')] e \appoggiatura e16 d8([ cis)] h
+		a([ fis)] g a([ h)] cis %55
+		cis4( d8) r4 c8
+		h4 dis8 e4 fis8
+		g([ h,)] e d4 cis8
+		cis4( d8) r4 c8
+		h4 dis8 e4 fis8 %60
+		g4.~ g8[ h,] e \noBreak
+		d!4. cis
+		\time 4/4 \tempoIchHoerteB d4 r r2 \noBreak
+		R1*21 %84
+		r2 r4 r8 g, %85
+		d'2~ d8[ f16 es] d8 c
+		b4 b r \parenthesize g
+		g'4. f16([ es)] es8([ d)] d([ cis)]
+		\appoggiatura cis d4 d r r8 d,
+		g4 r r c8([ h!)] %90
+		h([ d)] d([ c)] c([ e)] e([ d)]
+		d4. g8 g8.([ a32 g] fis8) e
+		e([ d)] d4 r d
+		g2. e4
+		cis2 r %95
+		r4 d, fis a
+		c!4 r r c
+		c h r2
+		e4.( fis16[ e] d4) fis
+		\appoggiatura fis g2 r %100
+		e4.( fis16[ e] d4) fis,
+		g2 r
+		R1
+		r2 r4 fis
+		g4.( h8) h4.( d8) %105
+		d4. g8 fis([ e)] d([ c)]
+		h4 r r2
+		R1
+		r2 r8 d, d e
+		fis([ g)] a([ h)] c([ h)] a([ g)] %110
+		fis4 r r d8([ e)]
+		fis([ g)] a([ h)] c([ h)] a([ g)]
+		fis([ g)] a([ h)] c([ h)] c([ d)]
+		e2 r4 e
+		fis2. fis4 %115
+		g4. d8 d4 r
+		r2 r4 r8 d,
+		g4. g8 h4. d8
+		g8([\trill fis)] e([\trill d)] c([\trill h)] a([\trill g)]
+		fis4 fis r2 %120
+		r r4 d
+		g4. g8 h4. d8
+		g8([\trill fis)] e([\trill d)] c([\trill h)] a([\trill g)]
+		fis4 fis r2
+		R1 %125
+		r2 r4 g
+		e'4. e8 e4 e
+		e2 r4 c
+		fis4. fis8 fis4 fis
+		fis2 r4 d %130
+		d( g2) e8([ c)]
+		h4_( \grace d16 c2) a4
+		g r r2
+		R1*2 %135
+		r2 r8 d d e
+		fis([ g)] a([ h)] c([ h)] a([ g)]
+		fis4 r r d8([ e)]
+		fis([ g)] a([ h)] c([ h)] a([ g)]
+		fis([ g)] a([ h)] c([ h)] c([ d)] %140
+		e2 r4 e
+		fis2. fis4
+		g4. d8 d4 r
+		r2 r4 r8 d,
+		g4. g8 h4. d8 %145
+		g([\trill fis)] e([\trill d)] c([\trill h)] a([\trill g)]
+		fis4 fis r2
+		r r4 d
+		g4. g8 h4. d8
+		g([\trill fis)] e([\trill d)] c([\trill h)] a([\trill g)] %150
+		fis4 fis r2
+		R1
+		r2 r4 g
+		e'4. e8 e4 e
+		e2 r4 c %155
+		fis4. fis8 fis4 fis
+		fis2 r4 d
+		d( g2) e8([ c)]
+		h4_( \grace d16 c2) a4
+		g h c d %160
+		\tuplet 3/2 4 { e8[ fis e] d[ e d] e[ fis e] fis[ g fis] }
+		\tuplet 3/2 4 { g[ a g] fis[ g fis] g[ a g] a[ h a] }
+		h[ a] g[\trill fis] e[\trill d] c([\trill h)]
+		a4 r r g'8([ e)]
+		e([ d)] h([ d)] d([ c)] h([ a)] %165
+		g4 h c d
+		\tuplet 3/2 4 { e8[ fis e] d[ e d] e[ fis e] fis[ g fis] }
+		\tuplet 3/2 4 { g[ a g] fis[ g fis] g[ a g] a[ h a] }
+		h[ a] g[\trill fis] e[\trill d] c([\trillE h)]
+		a4 r r g'8([ e)] %170
+		e([ d)] h([ d)] d([ c)] h([ a)]
+		g4 r r2
+		r2 e'
+		fis g
+		g fis %175
+		g4 r d2
+		d c
+		c h
+		a2. a4 \noBreak
+		g2 r4\fermata \tempoIchHoerteC h %180
+		h4. h8 c4 c \noBreak
+		d h r g
+		e'4. e8 e4 e
+		d h r h
+		c4. a8 h4 h %185
+		c4. a8 h4 h
+		c2 r4 c
+		d d d g,
+		e'2 d4 c
+		h4. h8 a4. a8 %190
+		g4 r r \mvTrr h\mfE^\tutti
+		h4. h8 c4. c8
+		d4 h r g
+		e'4. e8 e4 e
+		d h r h %195
+		c4. a8 h4 h
+		c4. a8 h4 h
+		c2. c4
+		d d d d
+		e2 d4 c %200
+		h4. h8 a4. a8
+		g4 r r2
+		R1*3 %205
+		R1\fermataMarkup \bar "|." %206 finis
+	}
+}
+
+IchHoerteSopranoLyrics = \lyricmode {
+	Ich %19
+	sah der Ster -- ne %20
+	Heer im
+	fest -- li -- chen Tri --
+	umph den Tag be --
+	glei -- _
+	ten; ich %25
+	sah der Son -- ne
+	Sieg, mein
+	Geist ver -- lohr sich
+	in des Him -- mels
+	Wei -- _ %30
+	ten.
+
+	Doch %47
+	ein -- sam
+	war ich, mei -- ne
+	Brust fand Weh -- mut %50
+	nur in hal -- ber
+	Lust. Ich
+	rief den Bäu -- men,
+	sich mit mir zu
+	freun; doch %55
+	mich ver -- stand kein
+	Baum im gan -- zen
+	Hain, doch
+	mich ver -- stand kein
+	Baum im %60
+	gan -- zen
+	Hain.
+
+	Da %84
+	hör -- _ test %85
+	du __ _ der
+	Thrä -- ne lei -- ses
+	Fle -- hen; und
+	sieh! Mein
+	an -- der Ich trat %90
+	her von je -- nen
+	Hö -- hen_– O!
+	Gut ist
+	Gott!
+	rief er mir %95
+	zu, ich
+	ruf -- te:
+	Gott __ ist
+	gut!
+	Gott __ ist %100
+	gut!
+
+	Ich
+	sahs, __ er __
+	kam, des Ta -- ges %105
+	Held_–
+
+	Wie weicht der
+	Son -- ne Gluth zu --
+	rück? Was %110
+	bist du schö -- nes
+	Thal, du schö -- nes
+	Thal_– vorm
+	Feu -- er -- blick des
+	Manns? %115
+	O,
+	was ist al -- ler
+	Herr -- lich -- kei -- ten
+	Fül -- le,
+	o, %120
+	was ist al -- ler
+	Herr -- lich -- kei -- ten
+	Fül -- le
+
+	vor %125
+	dir, der Lie -- be
+	Gluth, vor
+	dir, der Lie -- be
+	Gluth? Vor
+	uns -- rer %130
+	Her -- zen
+	Lust?
+
+	Wie weicht der %135
+	Son -- ne Gluth zu --
+	rück? Was
+	bist du schö -- nes
+	Thal, du schö -- nes
+	Thal_– vorm %140
+	Feu -- er -- blick des
+	Manns?
+	O,
+	was ist al -- ler
+	Herr -- lich -- kei -- ten %145
+	Fül -- le,
+	o,
+	was ist al -- ler
+	Herr -- lich -- kei -- ten
+	Fül -- le %150
+
+	vor
+	dir, der Lie -- be
+	Gluth, vor
+	dir, der Lie -- be %155
+	Gluth? Vor
+	uns -- rer
+	Her -- zen
+	Lust, vor uns -- rer
+	Her -- _ _ _ %160
+	_ _ _ _
+	_ _ _ zen
+	Lust, vor
+	uns -- rer Her -- zen
+	Lust, vor uns -- rer %165
+	Her -- _ _ _
+	_ _ _ _
+	_ _ _ zen
+	Lust, vor
+	uns -- rer Her -- zen %170
+	Lust,
+	vor
+	uns -- rer
+	Her -- zen
+	Lust, vor %175
+	uns -- rer
+	Her -- _
+	_ zen
+	Lust? Preis,
+	Lie -- be, dir, wir %180
+	le -- ben! Preis,
+	Lie -- be, dir, wir
+	le -- ben! Preis,
+	Lie -- be, dir! Preis,
+	Lie -- be, dir! du %185
+	bist, du
+	warst und blei -- best
+	e -- wig, o
+	Lie -- be, uns -- re
+	Lust! Preis, %190
+	Lie -- be, dir, wir
+	le -- ben! Dir,
+	Lie -- be, Preis, wir
+	le -- ben! Dir,
+	Lie -- be, Preis! Dir, %195
+	Lie -- be, Preis! du
+	bist, du
+	warst und blei -- best
+	e -- wig, o
+	Lie -- be, uns -- re %200
+	Lust! %201 finis
+}
+
+IchHoerteSopranoLyricsDansk = \lyricmode {
+	Jeg %19
+	Ly -- sets Hæ -- re %20
+	saae med
+	Da -- gen i Tri --
+	umph til Jor -- den
+	stim -- _
+	le; jeg %25
+	So -- len sei -- re
+	saae, og
+	Tan -- ken tab -- te
+	sig i Him -- les
+	Him -- _ %30
+	le.
+
+	Men %47
+	ee -- ne
+	var jeg, og mit
+	Bryst fandt Vee -- mod %50
+	i sin hal -- ve
+	Lyst. Jeg
+	iil -- te læng -- sel --
+	fuld hvert Træ i --
+	mod; men %55
+	in -- tet Træ i
+	Lun -- den mig for --
+	stod, men
+	in -- tet Træ i
+	Lun -- den mig for -- %60
+	stod.
+
+	Da %84
+	saae __ _ du, %85
+	Fa -- der! " "
+	Taa -- ren i mit
+	Ø -- ye; og
+	see! Min
+	an -- den Jeg kom %90
+	frem bag Sko -- vens
+	Hø -- ye_— O!
+	Gud er
+	god!
+	saa brød han %95
+	ud, jeg
+	svar -- te:
+	God __
+	er Gud!
+	God __ %100
+	er Gud!
+
+	Jeg
+	sku -- ed __
+	Da -- gens Helt frem -- %105
+	gaae_—
+
+	Men hvad er
+	So -- lens Straa -- lers
+	Ild? Hvad %110
+	er du, skiøn -- ne
+	Jord, hvad er du,
+	Jord_— mod
+	Man -- dens
+	Tan -- ke -- blik? %115
+	O
+	hvad er al -- le
+	Her -- lig -- he -- ders
+	Vrim -- mel,
+	o %120
+	hvad er al -- le
+	Her -- lig -- he -- ders
+	Vrim -- mel
+
+	mod %125
+	Flam -- men i vort
+	Bryst, mod
+	Flam -- men i vort
+	Bryst? Mod
+	vo -- re %130
+	Hier -- ters
+	Lyst?
+
+	Men hvad er %135
+	So -- lens Straa -- lers
+	Ild? Hvad
+	er du, skiøn -- ne
+	Jord, hvad er du,
+	Jord_— mod %140
+	Man -- dens
+	Tan -- ke -- blik?
+	O
+	hvad er al -- le
+	Her -- lig -- he -- ders %145
+	Vrim -- mel,
+	o
+	hvad er al -- le
+	Her -- lig -- he -- ders
+	Vrim -- mel %150
+
+	mod
+	Flam -- men i vort
+	Bryst, mod
+	Flam -- men i vort %155
+	Bryst? Mod
+	vo -- re
+	Hier -- ters
+	Lyst, mod vo -- re
+	Hier -- _ _ _ %160
+	_ _ _ _
+	_ _ _ ters
+	Lyst, mod
+	vo -- re Hier -- ters
+	Lyst, mod vo -- re %165
+	Hier -- _ _ _
+	_ _ _ _
+	_ _ _ ters
+	Lyst, mod
+	vo -- re Hier -- ters %170
+	Lyst,
+	mod
+	vo -- re
+	Hier -- ters
+	Lyst, mod %175
+	vo -- re
+	Hier -- _
+	_ ters
+	Lyst? O
+	Kier -- lig -- hed! vi %180
+	e -- re! O
+	Kier -- lig -- hed! vi
+	e -- re! O
+	Kier -- lig -- hed! O
+	Kier -- lig -- hed! du %185
+	er, du
+	var, og du skal
+	væ -- re, o
+	Kier -- lig -- hed, vor
+	Lyst! O %190
+	Kier -- lig -- hed! vi
+	e -- re! O
+	Kier -- lig -- hed! vi
+	e -- re! O
+	Kier -- lig -- hed! O %195
+	Kier -- lig -- hed! du
+	er, du
+	var, og du skal
+	væ -- re, o
+	Kier -- lig -- hed, vor %200
+	Lyst! %201 finis
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

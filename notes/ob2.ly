@@ -158,3 +158,101 @@ DuRollestOboeII = {
 		R\fermataMarkup \bar "|." %66 finis
 	}
 }
+
+IchHoerteOboeII = {
+	\relative c' {
+		\clef treble
+		\key g \major \time 6/8 \tempoIchHoerte
+		R2.
+		r8 d'\p d d( c h)
+		c4 r8 r4 r8
+		r e e e( d c)
+		h r r r4 r8 %5
+		R2.
+		g\cresc
+		h8\! r r a r r
+		R2.*16 %24
+		fis4.\pp g
+		fis4 r8 r4 r8
+		R2.*10 %36
+		r8 d(\mf e fis g fis)
+		g4 r8 r4 r8
+		R2.*24 %62
+		\time 4/4 \tempoIchHoerteB d'1\f \noBreak
+		f
+		es %65
+		d4 r r2
+		R1*13 %79
+		r2 r4 r8 b %80
+		b2.\sf r4
+		R1*18 %99
+		r4 h2\< r4\! %100
+		R1*3
+		h2\f c
+		h4 r r2 %105
+		R1
+		r8 h'\f h( g) g( e) e( cis)
+		d4 r r2
+		R1*5 %113
+		c1\mfE
+		c %115
+		h4\p r r2
+		R1*9 %125
+		r2 r4 g
+		c1~\fp
+		c4 r r2
+		a1~\fp
+		a4 r r2 %130
+		R1*10 %140
+		c1\mf
+		c
+		h4\p r r2
+		R1*9 %152
+		r2 r4 g
+		c1~\fp
+		c4 r r2 %155
+		a1~\fp
+		a4 r r2
+		R1*6 %163
+		a8(\f gis a h c d e\p c)
+		c( h) g( h) h( a) g( fis) %165
+		g4 r r2
+		R1*3
+		a8(\f gis a h c d e\p c) %170
+		c( h) g( h) h( a) g( fis)
+		g4 r d'2~
+		d c~
+		c h
+		a1 %175
+		h4 r d2~
+		d \once \tieDashed c~
+		c h
+		a1
+		h4 r r\fermata \tempoIchHoerteC g\p %180
+		g1~
+		g2 r4 g
+		g1~
+		g2 r4 g
+		fis2( g4) g %185
+		fis2( g4) g
+		fis1
+		f2. f4
+		e c' h a
+		g2 fis! %190
+		g4 r r g\mf
+		g4. g8 a4. a8
+		h4 g r g
+		c4. c8 c4 c
+		h g r g %195
+		fis2( g4) g
+		fis2( g4) g
+		a2. a4
+		h h h h
+		c2 g4 a %200
+		g4. g8 fis4. fis8
+		g4 r r g
+		a4.\> a8 g4\! r
+		R1*2 %205
+		R1\fermataMarkup \bar "|." %206 finis
+	}
+}

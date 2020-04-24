@@ -522,6 +522,359 @@ DuRollestBassFigures = \figuremode {
 	r %66 finis
 }
 
+IchHoerteOrgano = {
+	\relative c {
+		\clef bass
+		\key g \major \time 6/8 \tempoIchHoerte
+		\mvTr g4\pE-\soloE r8 r4 r8
+		g4 r8 r4 r8
+		g4 r8 r4 r8
+		g4 r8 r4 r8
+		R2. %5
+		d'4.~\mfE d4 dis8
+		e r r r4 r8
+		R2.*3 %10
+		r4 d8\p g( fis e)
+		h2.
+		a
+		d4.~ d4 c!8
+		h4 r8 e4 r8 %15
+		a,4 r8 d4 r8
+		g,2.~
+		g4 r8 c4.
+		d4 r8 d,4 r8
+		g r r r4 r8 %20
+		R2.*3 %23
+		h8\p\cresc h h h h h
+		a4\pp r8 a4 r8 %25
+		d4 r8 r4 r8
+		R2.*6 %32
+		d4\p r8 d4 r8
+		d4 r8 d4 r8
+		g4 r8 fis4 r8 %35
+		g4 r8 a4 r8
+		d,4 r8 r4 r8
+		g,4 r8 r4 r8
+		g'4 r8 g4 r8
+		g4 r8 gis,4. %40
+		a d
+		g,!4 r8 r4 c8\mf
+		d4. d
+		g,4 r8 gis4.\p
+		a d %45
+		g,!4 r8 r4 c8\mf
+		d4. d
+		g,4 r8 r4 r8
+		d'4\p r8 d4 r8
+		d4 r8 d4 r8 %50
+		g,4 r8 r4 r8
+		R2.*2
+		d'4. r4 r8
+		R2.*4 %58
+		r4 r8 \once \slurDashed a'4.(\sf
+		g4.~) g4 fis8 %60
+		e\mfE e e e e e \noBreak
+		a a a a, a a
+		\time 4/4 \tempoIchHoerteB \newSpacingSection
+			d8\f d d d d d d d \noBreak
+		d d d d d d d d
+		c! c c c f f f f %65
+		b,4 r r2
+		R1*4 %70
+		r2 c4\pE r
+		f2\mfE r
+		b, r
+		R1*9 %82
+		r2 d4\mf r
+		es r f r
+		b, r r2 %85
+		fis'!4\p r fis r
+		g r g r
+		es1
+		d4. d8\mf d c h! a
+		g4 r r2 %90
+		g'8\p g g g g g g g
+		g g g g g g g g
+		g4 r r2
+		e1~\sf
+		e2 r %95
+		fis1~\sf
+		fis2 r
+		R1*2
+		r2 h,\mf %100
+		c d
+		g4(\p d) g( d)
+		g( d) a'( d,)
+		g h\f a d,
+		g(\p d) g( d) %105
+		g( d) a'( d,)
+		g8 h-![\f h( g]) g( e) e( cis)
+		d2 r
+		d\p r
+		d r %110
+		d r
+		d r
+		d r
+		c4\mf c c c
+		d d d d %115
+		e2\p h4 c
+		d r d, r
+		g r g' r
+		g r g r
+		a r a r %120
+		d, r d r
+		g r g r
+		g r g r
+		a r a r
+		d, r d r %125
+		g,8-! \noBeam \appoggiatura a'16 \mvTr g(\f-\unisonoE fis g8) g-! h-! d-! h-! g-!
+		c,4-! r r2
+		r8 \appoggiatura d16 c( h c8) c-! e-! g-! e-! c-!
+		c4 r r2
+		r8 \appoggiatura d16 c( h c8) c-! fis-! a-! fis-! c-! %130
+		h4 r c\p r
+		d r d r
+		\mvTr g8-!\f-\unisonoE ais( h) cis( d) ais( h) fis(
+		g) cis( d) ais( h) fis( g) cis,(
+		d2) r %135
+		d\p r
+		d r
+		d r
+		d r
+		d r %140
+		c4\mf c c c
+		d d d d
+		e2\p h4 c
+		d r d, r
+		g r g' r %145
+		g r g r
+		a r a r
+		d, r d r
+		g r g r
+		g r g r %150
+		a r a r
+		d, r d r
+		g,8-! \noBeam \appoggiatura a'16 \mvTr g(\f-\unisonoE fis g8) g-! h-! d-! h-! g-!
+		c,4 r r2
+		r8 \appoggiatura d16 c( h c8) c-! e-! g-! e-! c-! %155
+		c4 r r2
+		r8 \appoggiatura d16 c( h c8) c-! fis-! a-! fis-! c-!
+		h4 r c\p r
+		d r d, r
+		g8 g' g g g g g g %160
+		g g g g g g g g
+		g g g g g g g g
+		g4 r g, r
+		c\f r c r
+		d\p r d, r %165
+		g8 g' g g g g g g
+		g g g g g g g g
+		g g g g g g g g
+		g4 r g, r
+		c\fE r c r %170
+		d\pE r d, r
+		g2 h
+		c a
+		r8 cis(\rf d dis e d c h)
+		c( a h c d c h a) %175
+		g2 h
+		c a
+		r8 cis(\rfE d dis e d c h)
+		c2 d \noBreak
+		g, r4\fermata \tempoIchHoerteC r %180
+		R1 \noBreak
+		r4 r8. g16\f g4 r
+		R1
+		r4 r8. g16 g4 r
+		R1*6 %190
+		r2 r4 \mvTrr g'\mf-\tutti
+		g4. g8 g4. g8
+		g4 r8. g,16\f g4 g'\mfE
+		g4. g8 g4 g
+		g r8. g,16\f g4 g\mfE %195
+		g2. g4
+		g2. g'4
+		g2. g4
+		g g g g
+		c,2 h4 c %200
+		d4. d8 d,4. d8
+		g4 r r2
+		r r4 g'\pp
+		d2. d4
+		g, r g g %205
+		g2 r\fermata \bar "|." %206 finis
+	}
+}
+
+IchHoerteBassFigures = \figuremode {
+	r2.
+	r
+	<6 4>
+	<\t \t>
+	r %5
+	<6 4>4. <5 3>4 <7>8
+	r2.*4 %10
+	r4. r4 <6\\>8
+	<5>4. r4 <6\\>8
+	<6 4>4. <5 _+>
+	r4. r4 <2>8
+	<6>4. <_+> %15
+	r2.
+	<3 1>4. <4 2>4 <4+ 2+>8
+	<5 3>4 <5+ \t>8 <5>4 <6>8
+	<6 4>4. <5 3>
+	r2.*4 %23
+	<5>4. r4 <6\\>8
+	<6 4>4. <5 _+> %25
+	r2.*7 %32
+	<5 3>4. <6- 4>
+	<5 3>2.
+	<5 _!>4 <6 4+>8 <6>4 <6\\ 5!>8 %35
+	<6>4. <_+>
+	r2.
+	r
+	r4. <4 2>
+	<5 3> <7!> %40
+	<4>4 <_+>8 <7!>4.
+	<4>4 <3>8 r4.
+	<8 6>4 <7 5>8 <6 4>4 <5 3>8
+	<7 2>4 <8 3>8 <7!>4.
+	<4>4 <_+>8 <7!>4. %45
+	<4>4 <3>8 r4.
+	<8 6>4 <7 5>8 <6 4>4 <5 3>8
+	r2.
+	<5 3>4. <6- 4>
+	<5 3>2. %50
+	<_!>
+	r2.*7 %58
+	r4. <4+ _!>
+	<6> r4 <6\\>8 %60
+	r2.
+	<6 4>4. <5 _+>
+	r1
+	<_!>
+	<4! _->2 <7-> %65
+	<5!>1
+	r1*4 %70
+	r2 <_->
+	r1
+	<5!>
+	r1*9 %82
+	r2 <6- _!>
+	<5->1
+	<5!> %85
+	<6>
+	<_->
+	<8 5->2 \bassFigureExtendersOn <7 5->4 <6\\ 5-> \bassFigureExtendersOff
+	<_+>1
+	<_!> %90
+	r
+	r2 <8 6>4 <7 5>8 <6 4>
+	<\t \t> <5 3> r2.
+	<6\\>1
+	r %95
+	<6 5!>
+	r
+	r1*2
+	r2 <6> %100
+	r <6 4>4 <5 3>
+	<5 3>1 \bassFigureExtendersOn
+	q4 q \bassFigureExtendersOff <6> <\t>
+	r <6> q <7>
+	<5 3>1 \bassFigureExtendersOn %105
+	q4 q \bassFigureExtendersOff <6> <\t>
+	r8 <1> q q q q q q
+	<7!>1
+	r
+	r %110
+	r
+	r
+	r
+	r
+	<7> %115
+	r2 <6>
+	<6 4> <\t \t>4 <5 3>
+	r1
+	r
+	<6> %120
+	<7>
+	r
+	r
+	<6>
+	<7> %125
+	r
+	r
+	r
+	r
+	r %130
+	<6>
+	<6 4>2 <5 3>
+	r1
+	r
+	<7!> %135
+	r
+	r
+	r
+	r
+	r %140
+	r
+	<7>
+	r2 <6>
+	<6 4> <\t \t>4 <5 3>
+	r1 %145
+	r
+	<6>
+	<7>
+	r
+	r %150
+	<6>
+	<7>
+	r
+	r
+	r %155
+	r
+	r
+	<6>
+	<6 4>2 <5 3>
+	r2 <4 2>4 <5 3> %160
+	<6 4> <5 3> <6 4> <7 5>
+	<8 6> <7 5> <8 6> <9 7>
+	<10 8>1
+	<6>
+	<6 4>2 <5 3> %165
+	r2 <4 2>4 <5 3>
+	<6 4> <5 3> <6 4> <7 5>
+	<8 6> <7 5> <8 6> <9 7>
+	<10 8>1
+	<6> %170
+	<6 4>2 <5 3>
+	r <6>
+	<9> <5>
+	r1
+	<6 5> %175
+	r2 <6>
+	<9> <5>
+	r1
+	<6 5>
+	r1*11 %190
+	r1
+	r2 <4 2>
+	<5 3>1
+	<6 4>
+	<5 3> %195
+	<7 4 2>2 <8 3>
+	<7 4 2> <8 3>
+	<4 2>1
+	<5 3>
+	r2 <6>4 q %200
+	<6 4>2 <5 3>
+	r1
+	r
+	<7>
+	r %205
+	r %206 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

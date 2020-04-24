@@ -338,6 +338,61 @@ DuRollestBassoLyricsDansk = \lyricmode {
 	Gud! __ %64 finis
 }
 
+IchHoerteBassoNotes = {
+	\relative c {
+		\clef bass
+		\key g \major \time 6/8 \autoBeamOff \tempoIchHoerte
+		R2.*62 %62
+		\time 4/4 \tempoIchHoerteB R1*117 \noBreak %179
+		R1\fermataMarkup %180
+		R1*10 %190
+		r2 r4 \mvTrr g'\mfE^\tutti
+		g4. g8 g4. g8
+		g4 g, r g'
+		g4. g8 g4 g
+		g g, r2 %195
+		R1
+		r2 r4 g'
+		g2. g4
+		g g g g
+		c,2 h4 c %200
+		d4. d8 d4. d8
+		g4 r r2
+		R1*3 %205
+		R1\fermataMarkup \bar "|." %206 finis
+	}
+}
+
+IchHoerteBassoLyrics = \lyricmode {
+	Preis, %191
+	Lie -- be, dir, wir
+	le -- ben! Dir,
+	Lie -- be, Preis, wir
+	le -- ben! %195
+
+	du
+	bist, du
+	warst und blei -- best
+	e -- wig, o %200
+	Lie -- be, uns -- re
+	Lust! %202 finis
+}
+
+IchHoerteBassoLyricsDansk = \lyricmode {
+	O %191
+	Kier -- lig -- hed! vi
+	e -- re! O
+	Kier -- lig -- hed! vi
+	e -- re! %195
+
+	du
+	er, du
+	var, og du skal
+	væ -- re, o %200
+	Kier -- lig -- hed, vor
+	Lyst! %201 finis
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

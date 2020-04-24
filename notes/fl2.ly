@@ -154,3 +154,110 @@ DuRollestFlautoII = {
 		R\fermataMarkup \bar "|." %66 finis
 	}
 }
+
+IchHoerteFlautoII = {
+	\relative c' {
+		\clef treble
+		\key g \major \time 6/8 \tempoIchHoerte
+		g'2.~\p
+		g~
+		g~\cresc
+		g
+		r16 d'( c h a g) r e'( d c h a) %5
+		h8\mf r r r4 r8
+		R2.*13 %19
+		r16 h'-! a-! g-! fis-! e-! d-! c-! h-! a-! g-! fis-! %20
+		g8 r r r4 r8
+		R2.*2
+		d'2.\cresc
+		fis,4.\pp g %25
+		fis4 r8 r4 r8
+		R2.
+		r16 a'-!\f c-! h-! a-! g-! fis-! e-! d-! c-! h-! a-!
+		g4.(\p a4 ais8
+		h4. c4) a'8 %30
+		g8 r r r4 r8
+		R2.*16 %47
+		r8 d\mf a b fis g
+		a r r r4 r8
+		R2.*6 %55
+		r4 r8 dis4.(\sf
+		e4) r8 r4 r8
+		R2.
+		r4 r8 dis4.(\sf
+		e4) r8 r4 dis'8 %60
+		e4.~\mf e4 g,8 \noBreak
+		fis4. e
+		\time 4/4 \tempoIchHoerteB d4\f r r2 \noBreak
+		r1
+		a' %65
+		b4 r r2
+		R1*28 %94
+		r2 r4 e,\pE %95
+		a2.\sf fis4
+		c r r2
+		R1*2
+		r4 g'2\< r4\! %100
+		R1
+		\mvTr \slurDashed g,4.(\p-\dolce h8) h4.( d8) \slurSolid
+		d4.( g8 fis e d c)
+		h4 r r2
+		\once \slurDashed g4.( h8) h4.( d8) %105
+		d4.( g8 fis e d c)
+		h4 r r2
+		R1*6 %113
+		c'2.\mfE r4
+		a,1 %115
+		g4\pE r r2
+		R1*10 %126
+		c1~\fp
+		c4 r r2
+		fis1~\fp
+		fis4 r r2 %130
+		R1*10 %140
+		c'2.\mf r4
+		a,1
+		g4\pE r r2
+		R1*10 %153
+		c1~\fp
+		c4 r r2 %155
+		fis1~\fp
+		fis4 r r2
+		R1*6 %163
+		a8(\f gis a h c d e\p c)
+		c( h) g( h) h( a) g( fis) %165
+		g4 r r2
+		R1*3
+		a8(\f gis a h c d e\p c) %170
+		c( h) g( h) h( a) g( fis)
+		g4 r d2
+		e a
+		fis g~
+		g fis %175
+		g4 r d2
+		e a
+		fis g~
+		g fis
+		g4 r r\fermata \tempoIchHoerteC r %180
+		R1*3
+		r2 r4 g\p
+		fis2( g4) g %185
+		fis2( g4) r
+		R1*4 %190
+		r2 r4 g\mf
+		g4. g8 a4. a8
+		h4 g r g
+		c4. c8 c4 c
+		h g r g %195
+		fis2( g4) g
+		fis2( g4) g
+		a2. a4
+		h h h h
+		c2 g4 a %200
+		g4. g8 fis4. fis8
+		g4 r r g
+		fis4.\> fis8 g4\! r
+		R1*2 %205
+		R1\fermataMarkup \bar "|." %206 finis
+	}
+}

@@ -147,6 +147,7 @@ trillE = \tweak self-alignment-X #CENTER ^\markup { \hspace #1.5 [ \musicglyph #
 extraNat = \once \override Accidental.restore-first = ##t
 kneeBeam = \once \override Beam.auto-knee-gap = #0
 noKneeBeam = \once \override Beam.auto-knee-gap = #5.5
+scriptOut = \once \override Script.avoid-slur = #'outside
 
 bp = #(define-music-function
      (parser location beg end)
@@ -259,6 +260,9 @@ tempoVomSchlaf = \tempoMarkup "Larghetto"
 tempoDuRollest = \tempoMarkup "Allegro moderato"
 	tempoDuRollestB = \tempoMarkup "Recitativo"
 	tempoDuRollestC = \tempoMarkup "Moderato"
+tempoIchHoerte = \tempoMarkup "Andantino grazioso"
+	tempoIchHoerteB = \tempoMarkup "Allegro"
+	tempoIchHoerteC = \tempoMarkup "Moderato"
 
 
 
@@ -494,6 +498,7 @@ newlabel = #(define-music-function (parser location label number title titledans
 \include "notes/vl1.ly"
 \include "notes/vl2.ly"
 \include "notes/vla.ly"
+\include "notes/vlc.ly"
 \include "notes/S.ly"
 \include "notes/A.ly"
 \include "notes/T.ly"

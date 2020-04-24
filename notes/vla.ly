@@ -261,3 +261,200 @@ DuRollestViola = {
 		c2 r\fermata \bar "|." %66 finis
 	}
 }
+
+IchHoerteViola = {
+	\relative c' {
+		\clef alto
+		\key g \major \time 6/8 \tempoIchHoerte
+		g4\p r8 r4 r8
+		g4 r8 r4 r8
+		g4 r8 r4 r8
+		g4 r8 r4 r8
+		R2. %5
+		h4.\mf a4 c8
+		h h4\sf c8 cis4\sf
+		d4. d4 a8
+		g4.\p d'
+		e8( d c) h( c a) %10
+		g4 r8 r4 r8
+		R2.*11 %22
+		r4 d'8\pE g( fis) e-!
+		h\cresc h h h h h
+		a4\pp r8 a4 r8 %25
+		a r r d4\mf c!8
+		h4.\p gis
+		a4 r8 r4 r8
+		g!2.~
+		g4. c4 e8 %30
+		d4. c
+		h4 r8 r4 r8
+		r fis\p fis r g g
+		r fis fis r fis fis
+		r g( e) r fis( a) %35
+		g4. a4 g8
+		fis4 r8 r4 r8
+		g2.
+		g4 r8 g4 r8
+		g4 r8 r4 r8 %40
+		R2.*2
+		d'2.\mfE
+		d4. r4 r8
+		R2. %45
+		r4 r8 r4 c8\mf
+		d4. d4 c8
+		h4 r8 r4 r8
+		r d\p d r d d
+		r d d r d d %50
+		g,4 r8 g4 r8
+		g'4 fis8 e4 e8
+		a,4.~ a4 r8
+		d4 r8 r4 r8
+		r4 r8 r4 e8 %55
+		e4( d8) r4 fis8(
+		g4) r8 r4 fis8
+		e4 r8 r4 e8
+		e4( d8) r4 fis8(
+		g4) r8 r4 fis8 %60
+		e\mf e e e e e \noBreak
+		a a a a, a a
+		\time 4/4 \tempoIchHoerteB d\f d d d d d d d \noBreak
+		d d d d d d d d
+		c c4 c c c8 %65
+		d d[\p d d] d d d d
+		d d d d d d d d
+		<d f> q q q q q q q
+		es es es es es es es es
+		es es es es es es h! h %70
+		c4 g'2 g4
+		f\mf r r2
+		f,4 r r d'
+		es2\p d
+		a b %75
+		es d
+		a b
+		es e
+		f4 r r f
+		g2( f4) r %80
+		r2 d\mf
+		es\p f
+		g\mf f
+		es2. es4
+		d r r2 %85
+		r8 d\p d d r d d d
+		r d d d r d d d
+		es1
+		d4. d8\mf d c h! a
+		g4 r r2 %90
+		g'8\p g g g g g g g
+		g g g g g g g g
+		g4 g8( d) d( h) h( g)
+		e'1~\sf
+		e2 r %95
+		d1~\sf
+		d4 d( e fis)
+		d2 g
+		g2. a4
+		a( g2)\< d4\mf %100
+		c2( d4) a
+		g8(\p d) g( d) g( d) g( d)
+		g( d) g( d) a'( d,) fis( d)
+		g4 d'2\f d4
+		d g,8(\p d) g( d) g( d) %105
+		g( d) g( d) a'( d,) fis( d)
+		g h'[\f h( g)] g( e) e( cis)
+		d fis,[-!\p fis-! fis-!] fis-! fis-! fis( g)
+		a-! a-! a-! a-! a-! a-! a( g)
+		fis fis fis fis fis fis fis( g) %110
+		a a a a a a fis( g)
+		a( g) r4 r2
+		d'2 r
+		g8\mfE g4 g g c,8
+		d d4 d d d8 %115
+		e2\p h4 c
+		d2.~ d8 c
+		h h4 h8 r h4 h8
+		r h h h r h h h
+		r c c c r c c c %120
+		r c c c r a a a
+		r g g g r h h h
+		r h h h r h h h
+		r c c c r c c c
+		r a a a r a a a %125
+		g8 \noBeam \appoggiatura a'16 g(\f fis g8) g-! h-! d-! h-! g-!
+		c,4-! r r2
+		r8 \appoggiatura d16 c( h c8) c-! e-! g-! e-! c-!
+		c4 r r2
+		r8 \appoggiatura d16 c( h c8) c-! fis-! a-! fis-! c-! %130
+		h4 h\p r c
+		d2 r4 c
+		h8-!\f ais'( h) cis( d) ais( h) fis(
+		g) cis( d) ais( h) fis( g) cis,(
+		d) a[-!\p a-! a]-! a-! a-! a( g) %135
+		fis fis fis fis fis fis fis( g)
+		a a a a a a a( g)
+		fis fis fis fis fis fis fis( g)
+		a( g) r4 r2
+		d'2 r %140
+		g8\mf g4 g g c,8
+		d d4 d d d8
+		e2\p h4 c
+		d2.~ d8 c
+		h g4 g8 r g4 g8 %145
+		r g4 g8 r g4 g8
+		r fis4 fis8 r fis4 fis8
+		r fis4 fis8 r fis4 fis8
+		r g4 g8 r g4 g8
+		r g4 g8 r g4 g8 %150
+		r fis4 fis8 r fis4 fis8
+		r fis4 fis8 r fis4 fis8
+		g8 \noBeam \appoggiatura a'16 g(\f fis g8) g-! h-! d-! h-! g-!
+		c,4-! r r2
+		r8 \appoggiatura d16 c( h c8) c-! e-! g-! e-! c-! %155
+		c4 r r2
+		r8 \appoggiatura d16 c( h c8) c-! fis-! a-! fis-! c-!
+		h4 h\p r c
+		d2 r4 c
+		h8 g' g g g g g g %160
+		g g g g g g g g
+		g g g g g g g g
+		g4 r g, r
+		c\f r c r
+		d\p r d, r %165
+		g8 g' g g g g g g
+		g g g g g g g g
+		g g g g g g g g
+		g4 r g, r
+		c\f r a r %170
+		d\p r d r
+		g, r r2
+		R1
+		r8 cis(\rf d dis e d c h)
+		c( a h c d c h a) %175
+		g2 h
+		c a
+		r8 cis(\rfE d dis e d c h)
+		c2 d
+		g,4 r r\fermata \tempoIchHoerteC r %180
+		R1
+		r4 r8. g16\f g4 r
+		R1
+		r4 r8. g16 g4 r
+		R1*6 %190
+		r2 r4 g'\mf
+		g4. g8 g4. g8
+		g4 r8. g,16\f g4 g'\mfE
+		g4. g8 g4 g
+		g r8. g,16\f g4 g\mfE %195
+		a2( g4) g
+		a2( g4) g'
+		g2. g4
+		g g g g
+		g2 g4 e %200
+		d4. d8 c4. c8
+		h4 r r2
+		r r4 g\pp
+		a2. a4
+		g r g g %205
+		g2 r\fermata \bar "|." %206 finis
+	}
+}

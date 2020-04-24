@@ -349,6 +349,61 @@ DuRollestAltoLyricsDansk = \lyricmode {
 	Gud! __ %64 finis
 }
 
+IchHoerteAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key g \major \time 6/8 \autoBeamOff \tempoIchHoerte
+		R2.*62 %62
+		\time 4/4 \tempoIchHoerteB R1*117 \noBreak %179
+		R1\fermataMarkup %180
+		R1*10 %190
+		r2 r4 \mvTrr g'\mfE^\tutti
+		g4. g8 g4. g8
+		g4 g r g
+		g4. g8 g4 g
+		g g r g %195
+		fis4. fis8 g4 g
+		fis4. fis8 g4 g
+		g2. g4
+		g g g g
+		g2 g4 a %200
+		g4. g8 fis4. fis8
+		g4 r r2
+		R1*3 %205
+		R1\fermataMarkup \bar "|." %206 finis
+	}
+}
+
+IchHoerteAltoLyrics = \lyricmode {
+	Preis, %191
+	Lie -- be, dir, wir
+	le -- ben! Dir,
+	Lie -- be, Preis, wir
+	le -- ben! Dir, %195
+	Lie -- be, Preis! Dir,
+	Lie -- be, Preis! du
+	bist, du
+	warst und blei -- best
+	e -- wig, o %200
+	Lie -- be, uns -- re
+	Lust! %202 finis
+}
+
+IchHoerteAltoLyricsDansk = \lyricmode {
+	O %191
+	Kier -- lig -- hed! vi
+	e -- re! O
+	Kier -- lig -- hed! vi
+	e -- re! O %195
+	Kier -- lig -- hed! O
+	Kier -- lig -- hed! du
+	er, du
+	var, og du skal
+	væ -- re, o %200
+	Kier -- lig -- hed, vor
+	Lyst! %202 finis
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

@@ -172,3 +172,132 @@ DuRollestFlautoI = {
 		R\fermataMarkup \bar "|." %66
 	}
 }
+
+IchHoerteFlautoI = {
+	\relative c' {
+		\clef treble
+		\key g \major \time 6/8 \tempoIchHoerte
+		g''2.~\p
+		g~
+		g~\cresc
+		g
+		r16 d'( c h a g) e e'( d c h a) %5
+		g8\mf r r r4 r8
+		R2.*13 %19
+		r16 d'-!\f c-! h-! a-! g-! fis-! e-! d-!c-! h-! a-! %20
+		\pao g8 r r r4 r8
+		r4 r8 r4 fis'8\p
+		g4 a8 h4 cis8
+		d2.\cresc
+		d,4.\pp cis %25
+		d4 r8 r4 r8
+		R2.
+		r16 c'-!\f e-! d-! c-! h-! a-! g-! fis-! e-! d-! c-!
+		h4.(\p c4 cis8
+		d4 dis8 e4) c'!8 %30
+		h16[ d c h a g] fis e d c h a
+		g4 r8 r4 r8
+		R2.*15 %47
+		r8 d''\mf a b fis g
+		a r r r4 r8
+		R2.*6 %55
+		r4 r8 c!4.(\sf
+		h4) r8 r4 r8
+		R2.
+		r4 r8 c!4.(\sf
+		h4) \pa dis8 e4 \pd fis8 %60
+		g4.~\mf g4 e8 \noBreak
+		d!4. cis
+		\time 4/4 \tempoIchHoerteB d4\f r r2 \noBreak
+		R1
+		es1 %65
+		d4 r r2
+		R1*3
+		r8 g,(\mf as g fis! g f d) %70
+		c4 r r2
+		R1*3
+		r2 r4 d'\p %75
+		c( a2) b4
+		f( es) r2
+		R1*7 %84
+		r8 f'(\mf es d c b a g) %85
+		d'4 r r2
+		R1*8 %94
+		r2 r4 e\pE %95
+		a2.\sf fis4
+		c r r2
+		R1*2
+		r4 h2\< r4\! %100
+		R1
+		\mvTr \slurDashed g4.(\p^\dolce h8) h4.( d8) \slurSolid
+		d4.( g8 fis e d c)
+		h4 r r2
+		\once \slurDashed g4.( h8) h4.( d8) %105
+		\once \slurDashed d4.( g8 fis e d c)
+		h4 r r2
+		R1
+		r2 r4 d,8(\p e
+		fis g a h c h a g %110
+		fis4) r r d8( e
+		fis g a h c h a g)
+		fis(\cresc g a h c h c d)
+		e2.\mfE r4
+		fis,1 %115
+		g4\pE r r2
+		R1*10 %126
+		e1~\fp
+		e4 r r2
+		a1~\fp
+		a4 r r2 %130
+		R1*5 %135
+		r2 r4 d,8(\pE e
+		fis g a h c h a g
+		fis4) r r d8( e
+		fis g a h c h a g)
+		fis(\cresc g a h c h c d) %140
+		e2.\mf r4
+		fis,1
+		g4\pE r r2
+		R1*10 %153
+		e1~\fp
+		e4 r r2 %155
+		a1~\fp
+		a4 r r2
+		R1*6 %163
+		a8(\f h c d e fis g\p e)
+		e( d) h( d) d( c) h( a) %165
+		\pao g4 r r2
+		R1*3
+		a8(\f h c d e fis g\p e) %170
+		e( d) h( d) d( c) h( a)
+		\pao g4 r d'2~
+		d c~
+		c h
+		a1 %175
+		h4 r d2~
+		d c~
+		c h
+		a1
+		\pao g4 r r\fermata \tempoIchHoerteC r %180
+		R1*3
+		r2 r4 h\p
+		c4.( a8 h4) h %185
+		c4.( a8 h4) r
+		R1*4 %190
+		r2 r4 h\mf
+		h4. h8 c4. c8
+		d4 h r \pao g
+		e'4. e8 e4 e
+		d h r h %195
+		c4.( a8 h4) h
+		c4.( a8 h4) h
+		c2. c4
+		d d d d
+		e2 d4 c %200
+		h4. h8 a4. a8
+		\pao g4 r r h
+		c4.\> c8 h4\! r
+		R1*2 %205
+		R1\fermataMarkup \bar "|." %206 finis
+	}
+}

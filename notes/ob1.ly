@@ -158,3 +158,135 @@ DuRollestOboeI = {
 		R\fermataMarkup \bar "|." %66 finis
 	}
 }
+
+IchHoerteOboeI = {
+	\relative c' {
+		\clef treble
+		\key g \major \time 6/8 \tempoIchHoerte
+		R2.
+		r8 f'\p f f( e dis)
+		e4 r8 r4 r8
+		r g g g( fis! e)
+		d8 r r r4 r8 %5
+		R2.
+		g2.\cresc
+		g8\! r r fis r r
+		R2.*11 %19
+		r4 r8 r4 d8\p %20
+		d( g) h, d( c) a
+		g4 r8 r4 d8\p
+		g4 a8 h4 cis8
+		d2.\cresc
+		d4.\pp cis %25
+		d4 r8 r4 r8
+		R2.*10 %36
+		r8 d(\mf cis c h a)
+		h4 r8 r4 r8
+		R2.*9 %47
+		r8 d(\mf a b fis g)
+		fis4 r8 r4 r8
+		R2.*13 %62
+		\time 4/4 \tempoIchHoerteB d'1\f \noBreak
+		f
+		a %65
+		b4 r r2
+		R1*3
+		r8 g(\mf as g fis! g f d) %70
+		c4 r r2
+		R1*3
+		r2 r4 d\p %75
+		c( a2) b4
+		f'( es) r2
+		R1*2
+		r2 r4 r8 \pao b %80
+		g'2(\sf f4) r
+		R1*3
+		r8 d(\mf es d c b a g) %85
+		d'4 r r2
+		R1*13 %99
+		r4 g2\< r4\! %100
+		R1*3
+		d1\f
+		d4 r r2 %105
+		R1
+		r8 h'\f h( g) g( e) e( cis)
+		d4 r r2
+		R1*5 %113
+		e1\mfE
+		fis %115
+		g4\p r r2
+		r r4 r8 d,
+		g4. g8 h4. d8
+		g( \scriptOut fis)-! e( \scriptOut d)-! c( \scriptOut h)-! a( \scriptOut g)-!
+		fis4 r r2 %120
+		r r4 d
+		g4. g8 h4. d8
+		g( \scriptOut fis)-! e( \scriptOut d)-! c( \scriptOut h)-! a( \scriptOut g)-!
+		fis4 r r2
+		R1 %125
+		r2 r4 \pao g
+		e'1~\fp
+		e4 r r2
+		fis1~\fp
+		fis4 r r2 %130
+		R1*10 %140
+		e1\mf
+		fis
+		g4\p r r2
+		r r4 r8 d,
+		g4. g8 h4. d8 %145
+		g( \scriptOut fis)-! e( \scriptOut d)-! c( \scriptOut h)-! a( \scriptOut g)-!
+		fis4 r r2
+		r r4 d
+		g4. g8 h4. d8
+		g( \scriptOut fis)-! e( \scriptOut d)-! c( \scriptOut h)-! a( \scriptOut g)-! %150
+		fis4 r r2
+		R1
+		r2 r4 \pao g
+		e'1~\fp
+		e4 r r2 %155
+		fis1~\fp
+		fis4 r r2
+		R1*6 %163
+		a,8(\f h c d e fis g\p e)
+		e( d) h( d) d( c) h( a) %165
+		\pao g4 r r2
+		R1*3
+		a8(\f h c d e fis g\p e) %170
+		e( d) h( d) d( c) h( a)
+		\pao g4 r r2
+		e'1
+		fis2 g~
+		g fis %175
+		g4 r r2
+		e1
+		fis2 g~
+		g fis
+		g4 r r\fermata \tempoIchHoerteC h,\p %180
+		h2 c
+		d4 h r \pao g
+		e'1
+		d4 h r h
+		c4.( a8 h4) h %185
+		c4.( a8 h4) h
+		c1
+		d2. g,4
+		e'2 d4 c
+		h2 a %190
+		\pao g4 r r h\mf
+		h4. h8 c4. c8
+		d4 h r \pao g
+		e'4. e8 e4 e
+		d h r h %195
+		c4.( a8 h4) h
+		c4.( a8 h4) h
+		c2. c4
+		d d d d
+		e2 d4 c %200
+		h4. h8 a4. a8
+		g4 r r g
+		a4.\> a8 g4\! r
+		R1*2 %205
+		R1\fermataMarkup \bar "|." %206 finis
+	}
+}

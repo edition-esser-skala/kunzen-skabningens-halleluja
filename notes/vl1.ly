@@ -318,6 +318,207 @@ DuRollestViolinoI = {
 	}
 }
 
+IchHoerteViolinoI = {
+	\relative c' {
+		\clef treble
+		\key g \major \time 6/8 \tempoIchHoerte
+		h8(\p d) d-! h( d) d-!
+		h4 r8 r4 r8
+		e( g) g-! e( g) g-!
+		e4 r8 r4 r8
+		R2. %5
+		r16 d'(\mf c h a g) fis e'( d c h a)
+		g8 g'4\sf a8 ais4\sf
+		h16-! a-! g-! fis-! e-! d-! d( c32) r h16( a32) r g16( fis32) r
+		g4\p h8 d( c a)
+		g4.~ g4 fis8 %10
+		g4 r8 r4 r8
+		R2.*8 %19
+		r4 r8 r4 d'8\p %20
+		h4. fis
+		g8( fis e d e c)
+		h-! g'( a) h( g) cis-!
+		d16(\cresc h) h( d) d( fis) fis( h) h( d) d( gis,)
+		r8 a(\pp fis) r g( cis,) %25
+		d fis,([\mf g] a h c)
+		d4.\p h
+		c4 r8 r4 r8
+		h4.( c4 cis8
+		d4 dis8 e4) c8 %30
+		h4. a
+		g4 r8 r4 r8
+		r a,\p a r b b
+		r a a r a a
+		r h!( cis) r d( dis) %35
+		e( fis g) a,( h cis)
+		d!4 r8 r4 d'8
+		d( g fis e d c!)
+		h8.\trill a16 h8 c8.\trill h16 c8
+		d4 r8 r4 d8~ %40
+		d4( cis8) r4 c8~
+		c4( h8) r4 e8\mfE
+		d4 c8 h4 a8
+		a4( h8) r4 d8~\pE
+		d4( cis8) r4 c8~ %45
+		c4( h8) r4 e8\mf
+		d4 c8 h4 a8
+		g4 r8 r4 r8
+		r a\p a r b b
+		r a a r a a %50
+		r h!( cis) r d( dis)
+		r e( fis) g( h, e)
+		d!4.( cis4) a8
+		a( fis' e d cis h)
+		a( fis g a h cis) %55
+		cis4( d8) r4 c8(
+		h4) dis8 e4 fis8
+		g4 e8 d4 cis8
+		cis4( d8) r4 c8(
+		h4) dis8 e4 fis8 %60
+		g\mf g g g g e \noBreak
+		d! d d cis cis cis
+		\time 4/4 \tempoIchHoerteB d8\f d4 d d8 d8.(\trill cis32 d) \noBreak
+		f8 f4 f f8 f8.(\trill e32 f)
+		a16( b) c( b) a( b) g( a) f( g) es( f) d( es) c( d) %65
+		b8 b[\p b b] b b b b
+		b b b b b b b b
+		h h h h h h h h
+		c c c c c c c c
+		c c c c c c d d %70
+		r4 es2 es4
+		es8(\mf \scriptOut d)-! c( \scriptOut b)-! a( \scriptOut g)-! f( \scriptOut es)-!
+		d4 d8( f) f( b) b( d)
+		c4(\p a2) b4
+		f'( es) r d %75
+		c( a2) b4
+		f'( es2) d4
+		c( g'2) b,4
+		a8. f16[\pocoF f8. g16] a8.[ b16 c8. d16]\p
+		es2( d4) r %80
+		r2 b8.[\mf d16 f8. b16]
+		g8.[\p g16 es8. es16] c8.[ c16 a8. a16]
+		b8.[\mf b16 d8. d16] f8.[ f16 b8. b16]
+		g,8.[ g'16 f8. es16] d8.[ c16 b8. a16]
+		b4 r r2 %85
+		r8 d\p d d r c c c
+		r b b b r b b b
+		g'4. f16( es) es8( d) d( cis)
+		\appoggiatura cis d4 d r r8 d,\mf
+		g( h!) h( a) a( c) c(\p h) %90
+		h( d) d( c) c( e) e( d)
+		d4. g8 g4( fis8) e
+		e( d) d4 r2
+		cis1~\sf
+		cis2 r %95
+		c1~\sf
+		c4 e( d c)
+		c( h g' dis)
+		e4.( fis16 e d4) fis
+		fis( g2\<) g,4\mf %100
+		e'2( d4) fis,
+		g4.(\p h8) h4.( d8)
+		d4.( g8 fis e d c)
+		h16 g'[\f fis g] a g fis g fis g a h c h d c
+		h4 r8 h,\p h4.( d8) %105
+		d4.( g8 fis e d c
+		h) h'[\f h( g)] g( e) e( cis)
+		d d,[-!\p d-! d]-! d-! d-! d( e)
+		fis-! fis-! fis-! fis-! fis-! fis-! fis( e)
+		d d d d d d d( e) %110
+		fis fis fis fis fis fis d( e)
+		fis( g a h c h a g)
+		fis(\cresc g a h c h c d)
+		e\mfE e4 e e e8
+		fis( a) a( c) c( a) a( fis) %115
+		g4.\p d8 d4 e8( c)
+		h4. h8 d4( c8) a
+		g g4 g8 r g4 g8
+		r g g g r g g g
+		r fis fis fis r fis fis fis %120
+		r fis fis fis r d d d
+		r d d d r g g g
+		r g g g r g g g
+		r fis fis fis r fis fis fis
+		r d d d r d d d %125
+		d \noBeam \appoggiatura a'16 g(\f fis g8) g-! h-! d-! h-! g-!
+		<g c e>4 r r2
+		r8 \appoggiatura d16 c( h c8) c-! e-! g-! e-! c-!
+		<a' fis'>4 r r2
+		r8 \appoggiatura d,16 c( h c8) c-! fis-! a-! fis-! c-! %130
+		h4 g''\p r e8( c)
+		h4( c) r a
+		g'8-!\f ais( h) cis( d) ais( h) fis(
+		g) cis,( d) ais( h) fis( g) cis,(
+		d) fis-!\p fis-! fis-! fis-! fis-! fis( e) %135
+		d d d d d d d( e)
+		fis fis fis fis fis fis fis( e)
+		d d d d d d d( e)
+		fis( g a h c h a g)
+		fis(\cresc g a h c h c d) %140
+		e\mfE e4 e e e8
+		fis( a) a( c) c( a) a( fis)
+		g4.\p d8 d4 e8( c)
+		h4. h8 d4( c8) a
+		g d4 d8 r d4 d8 %145
+		r d4 d8 r d4 d8
+		r d4 d8 r d4 d8
+		r d4 d8 r d4 d8
+		r d4 d8 r d4 d8
+		r d4 d8 r d4 d8 %150
+		r d4 d8 r d4 d8
+		r d4 d8 r d4 d8
+		d \noBeam \appoggiatura a'16 g(\f fis g8) g-! h-! d-! h-! g-!
+		<g c e>4 r r2
+		r8 \appoggiatura d16 c( h c8) c-! e-! g-! e-! c-! %155
+		<a' fis'>4 r r2
+		r8 \appoggiatura d,16 c( h c8) c-! fis-! a-! fis-! c-!
+		h4 g''\p r e8( c)
+		h4( c) r a
+		g h-! c-! d-! %160
+		e-! d-! e-! fis-!
+		g-! fis-! g-! a-!
+		h8( \scriptOut a)-! g( \scriptOut fis)-! e( \scriptOut d)-! c( \scriptOut h)-!
+		a(\f h c d e fis g\p e)
+		e( d) h( d) d( c) h( a) %165
+		g4 h-! c-! d-!
+		e-! d-! e-! fis-!
+		g-! fis-! g-! a-!
+		h8( \scriptOut a)-! g( \scriptOut fis)-! e( \scriptOut d)-! c( \scriptOut h)-!
+		a(\f h c d e fis g\p e) %170
+		e( d) h( d) d( c) h( a)
+		g4 r r2
+		r8 e'(\rf fis g a g fis e)
+		fis2 \once \tieDashed g~
+		g fis %175
+		g4 r r2
+		r8 e(\rf fis g a g fis e)
+		fis2 g~
+		g fis
+		g4 r r\fermata \tempoIchHoerteC r %180
+		R1
+		r4 r8. g,,16\f g4 r
+		R1
+		r4 r8. g16 g4 r
+		R1*6 %190
+		r2 r4 h'\mf
+		h4. h8 c4. c8
+		d4 h r g
+		e'4. e8 e4 e
+		d h r h %195
+		c4.( a8 h4) h
+		c4.( a8 h4) h
+		c2. c4
+		d d d d
+		e2 d4 c %200
+		h4. h8 a4. a8
+		g d'([\rf e fis] g a h d,)
+		c4 r h h\pp
+		c2. c4
+		h r d, d %205
+		d2 r\fermata \bar "|." %206 finis
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble
