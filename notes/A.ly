@@ -404,6 +404,152 @@ IchHoerteAltoLyricsDansk = \lyricmode {
 	Lyst! %202 finis
 }
 
+WirPreisenAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key d \minor \time 4/4 \autoBeamOff \tempoWirPreisen
+		\partial 2 \mvTr d2\fE^\tutti d e
+		a gis
+		a4. a8 gis4. gis8
+		a2 r4 \mvTr a\pE^\solo
+		f'2. e8([ d)] %5
+		cis2 r
+		R1
+		r2 r4 \mvTr a\fE^\tutti
+		a4. a8 gis4. gis8
+		a2 r4 a %10
+		a4. a8 a4. a8
+		gis2 r
+		r4 gis\pE gis gis
+		a2. a4
+		a4. a8 gis4. gis8 %15
+		a2\fE r
+		r4 e e e
+		dis1\pE
+		r2 dis\fE
+		e2. e4 %20
+		e2. e4
+		e1
+		R1
+		\tempoWirPreisenB R1*8 %31
+		\tempoWirPreisenC R1*80 %111
+		r2 r4 \mvTr a\pE^\tutti
+		fis4. fis8 fis4 r8 fis
+		fis4. fis8 fis4 fis
+		g1\mfE %115
+		r2 r4 b\pE
+		b4. b8 b4 b
+		d4. b8 b4 b
+		\tempoWirPreisenD b2 b
+		g es %120
+		d1
+		e2 f
+		d2. d4
+		cis2 c
+		d1 %125
+		R
+		r2 d
+		e f
+		d2. d4
+		d4. d8 cis4. cis8 %130
+		d1
+		R1*7 %138
+		R1\fermataMarkup \bar "|." %139 finis
+	}
+}
+
+WirPreisenAltoLyrics = \lyricmode {
+	Wir prei -- sen
+	dich, wir
+	dan -- ken dir, o
+	Gott! Im
+	Glanz des %5
+	Lichts,
+
+	Doch
+	sehn wir dei -- nen
+	Wink und %10
+	hö -- ren dein Ge --
+	both
+	in schwar -- zer
+	Nacht, wo
+	Schre -- ckens -- ton uns %15
+	dräut,
+	in schwar -- zer
+	Nacht,
+	wo
+	Schre -- ckens -- %20
+	ton uns
+	dräut.
+
+	Ge -- %112
+	rech -- ter Gott, du
+	furcht -- bar mächt -- ger
+	Gott! %115
+	Ge --
+	rech -- ter Gott, du
+	furcht -- bar mächt -- ger
+	Gott! Wir
+	tief im %120
+	Stau --
+	_ be
+	hö -- ren
+	dein Ge --
+	both, %125
+
+	wir
+	tief im
+	Stau -- be
+	hö -- ren dein Ge -- %130
+	both. %131 finis
+}
+
+WirPreisenAltoLyricsDansk = \lyricmode {
+	Vi lo -- ve
+	dig, vi
+	tak -- ke dig, o
+	Gud! I
+	Ly -- sets %5
+	Glands,
+
+	Men
+	og vi see dit
+	Vink og %10
+	hø -- re di -- ne
+	Bud
+	i Nat -- tens
+	Mulm, og
+	Skræk -- kens dø -- ve %15
+	Lyd,
+	i Nat -- tens
+	Mulm,
+	og
+	Skræk -- kens %20
+	dø -- ve
+	Lyd.
+
+	Ret -- %112
+	fær -- di -- ge, for --
+	fær -- de -- li -- ge
+	Gud! %115
+	Ret --
+	fær -- di -- ge, for --
+	fær -- de -- li -- ge
+	Gud! Vi
+	dybt i %120
+	Stø --
+	_ vet
+	hø -- re
+	di -- ne
+	Bud, %125
+
+	vi
+	dybt i
+	Stø -- vet
+	hø -- re di -- ne %130
+	Bud. %131 finis
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

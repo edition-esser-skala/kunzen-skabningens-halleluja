@@ -414,95 +414,214 @@
 	% 		\midi { \tempo 4 = 120 }
 	% 	}
 	% }
+	% \bookpart {
+	% 	\header {
+	% 		number = "5"
+	% 		title = "Ich hörte Haingesang"
+	% 		dansktitle = "Jeg hørte Lærken slaae"
+	% 	}
+	% 	% \newlabel "ichhoerte" "5" "Ich hörte Haingesang" "Jeg hørte Lærken slaae"
+	% 	\score {
+	% 		<<
+	% 			\new StaffGroup <<
+	% 				\new Staff <<
+	% 					\set Staff.instrumentName = "Flauto I, II"
+	% 					\set Staff.soloText = \markup { \medium \remark "Fl I" }
+	% 					\partcombine \IchHoerteFlautoI \IchHoerteFlautoII
+	% 				>>
+	% 				\new Staff <<
+	% 					\set Staff.instrumentName = "Oboe I, II"
+	% 					\set Staff.soloText = \markup { \medium \remark "Ob I" }
+	% 					\set Staff.soloIIText = \markup { \medium \remark "Ob II" }
+	% 					\partcombine \IchHoerteOboeI \IchHoerteOboeII
+	% 				>>
+	% 				\new Staff <<
+	% 					\set Staff.instrumentName = "Fagotto I, II"
+	% 					\set Staff.soloText = \markup { \medium \remark "Fag I" }
+	% 					\partcombine \IchHoerteFagottoI \IchHoerteFagottoII
+	% 				>>
+	% 			>>
+	% 			\new StaffGroup <<
+	% 				\new GrandStaff <<
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "Violino I"
+	% 						\IchHoerteViolinoI
+	% 					}
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "Violino II"
+	% 						\IchHoerteViolinoII
+	% 					}
+	% 				>>
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "Viola"
+	% 					\IchHoerteViola
+	% 				}
+	% 				\new Staff <<
+	% 					\set Staff.instrumentName = "Violoncello I, II"
+	% 					\partcombine \IchHoerteCelloI \IchHoerteCelloII
+	% 				>>
+	% 			>>
+	% 			\new ChoirStaff <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "Soprano"
+	% 					\new Voice = "Soprano" { \dynamicUp \IchHoerteSopranoNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Soprano \IchHoerteSopranoLyrics
+	% 				\new Lyrics \with { \danskLyrics } \lyricsto Soprano \IchHoerteSopranoLyricsDansk
+	%
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "Alto"
+	% 					\new Voice = "Alto" { \dynamicUp \IchHoerteAltoNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Alto \IchHoerteAltoLyrics
+	% 				\new Lyrics \with { \danskLyrics } \lyricsto Alto \IchHoerteAltoLyricsDansk
+	%
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "Tenore"
+	% 					\new Voice = "Tenore" { \dynamicUp \IchHoerteTenoreNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Tenore \IchHoerteTenoreLyrics
+	% 				\new Lyrics \with { \danskLyrics } \lyricsto Tenore \IchHoerteTenoreLyricsDansk
+	%
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "Basso"
+	% 					\new Voice = "Basso" { \dynamicUp \IchHoerteBassoNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Basso \IchHoerteBassoLyrics
+	% 				\new Lyrics \with { \danskLyrics } \lyricsto Basso \IchHoerteBassoLyricsDansk
+	% 			>>
+	% 			\new StaffGroup <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "Basso"
+	% 					% \transpose c c,
+	% 					\IchHoerteOrgano
+	% 				}
+	% 			>>
+	% 			\new FiguredBass {
+	% 				\IchHoerteBassFigures
+	% 			}
+	% 		>>
+	% 		\layout { }
+	% 		\midi { \tempo 4. = 60 }
+	% 	}
+	% }
 	\bookpart {
 		\header {
-			number = "5"
-			title = "Ich hörte Haingesang"
-			dansktitle = "Jeg hørte Lærken slaae"
+			number = "6"
+			title = "Wir preisen dich, wir danken dir, o Gott!"
+			dansktitle = "Vi love dig, vi takke dig, o Gud!"
 		}
-		% \newlabel "ichhoerte" "5" "Ich hörte Haingesang" "Jeg hørte Lærken slaae"
+		% \newlabel "wirpreisen" "6" "Wir preisen dich, wir danken dir, o Gott!" "Vi love dig, vi takke dig, o Gud!"
 		\score {
 			<<
 				\new StaffGroup <<
 					\new Staff <<
 						\set Staff.instrumentName = "Flauto I, II"
 						\set Staff.soloText = \markup { \medium \remark "Fl I" }
-						\partcombine \IchHoerteFlautoI \IchHoerteFlautoII
+						\partcombine \WirPreisenFlautoI \WirPreisenFlautoII
 					>>
 					\new Staff <<
 						\set Staff.instrumentName = "Oboe I, II"
 						\set Staff.soloText = \markup { \medium \remark "Ob I" }
-						\set Staff.soloIIText = \markup { \medium \remark "Ob II" }
-						\partcombine \IchHoerteOboeI \IchHoerteOboeII
-					>>
-					\new Staff <<
-						\set Staff.instrumentName = "Fagotto I, II"
-						\set Staff.soloText = \markup { \medium \remark "Fag I" }
-						\partcombine \IchHoerteFagottoI \IchHoerteFagottoII
+						\partcombine \WirPreisenOboeI \WirPreisenOboeII
 					>>
 				>>
+				\new StaffGroup <<
+					\new Staff <<
+						\set Staff.instrumentName = \markup { \center-column { "Corno I, II" "in D" } }
+						% \transpose c d
+						\partcombine \WirPreisenCornoI \WirPreisenCornoII
+					>>
+					\new Staff <<
+						\set Staff.instrumentName = \markup { \center-column { "Tromba I, II" "in D" } }
+						% \transpose c d
+						\partcombine \WirPreisenTrombaI \WirPreisenTrombaII
+					>>
+					\new GrandStaff <<
+						\new Staff <<
+							\set Staff.instrumentName = "Trombone I, II"
+							\partcombine \WirPreisenTromboneI \WirPreisenTromboneII
+						>>
+						\new Staff {
+							\set Staff.instrumentName = "Trombone III"
+							\WirPreisenTromboneIII
+						}
+					>>
+				>>
+				\new Staff \with { \timpStaffDistance } {
+					\set Staff.instrumentName = \markup { \center-column { "Timpani" "in D–A" } }
+					% \transpose c d
+					\WirPreisenTimpani
+				}
 				\new StaffGroup <<
 					\new GrandStaff <<
 						\new Staff {
 							\set Staff.instrumentName = "Violino I"
-							\IchHoerteViolinoI
+							\WirPreisenViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Violino II"
-							\IchHoerteViolinoII
+							\WirPreisenViolinoII
 						}
 					>>
 					\new Staff {
 						\set Staff.instrumentName = "Viola"
-						\IchHoerteViola
+						\WirPreisenViola
 					}
-					\new Staff <<
-						\set Staff.instrumentName = "Violoncello I, II"
-						\partcombine \IchHoerteCelloI \IchHoerteCelloII
-					>>
 				>>
-				\new ChoirStaff <<
+				\new ChoirStaff \with {
+					\override StaffGrouper.staffgroup-staff-spacing =
+				    #'((basic-distance . 15)
+		           (minimum-distance . 15)
+		           (padding . -100)
+		           (stretchability . 0))
+				  \override StaffGrouper.staff-staff-spacing =
+					  #'((basic-distance . 14.9)
+			         (minimum-distance . 14.9)
+			         (padding . -100)
+			         (stretchability . 0))
+					} <<
 					\new Staff {
 						\set Staff.instrumentName = "Soprano"
-						\new Voice = "Soprano" { \dynamicUp \IchHoerteSopranoNotes }
+						\new Voice = "Soprano" { \dynamicUp \WirPreisenSopranoNotes }
 					}
-					\new Lyrics \lyricsto Soprano \IchHoerteSopranoLyrics
-					\new Lyrics \with { \danskLyrics } \lyricsto Soprano \IchHoerteSopranoLyricsDansk
+					\new Lyrics \lyricsto Soprano \WirPreisenSopranoLyrics
+					\new Lyrics \with { \danskLyrics } \lyricsto Soprano \WirPreisenSopranoLyricsDansk
 
 					\new Staff {
 						\set Staff.instrumentName = "Alto"
-						\new Voice = "Alto" { \dynamicUp \IchHoerteAltoNotes }
+						\new Voice = "Alto" { \dynamicUp \WirPreisenAltoNotes }
 					}
-					\new Lyrics \lyricsto Alto \IchHoerteAltoLyrics
-					\new Lyrics \with { \danskLyrics } \lyricsto Alto \IchHoerteAltoLyricsDansk
+					\new Lyrics \lyricsto Alto \WirPreisenAltoLyrics
+					\new Lyrics \with { \danskLyrics } \lyricsto Alto \WirPreisenAltoLyricsDansk
 
 					\new Staff {
 						\set Staff.instrumentName = "Tenore"
-						\new Voice = "Tenore" { \dynamicUp \IchHoerteTenoreNotes }
+						\new Voice = "Tenore" { \dynamicUp \WirPreisenTenoreNotes }
 					}
-					\new Lyrics \lyricsto Tenore \IchHoerteTenoreLyrics
-					\new Lyrics \with { \danskLyrics } \lyricsto Tenore \IchHoerteTenoreLyricsDansk
+					\new Lyrics \lyricsto Tenore \WirPreisenTenoreLyrics
+					\new Lyrics \with { \danskLyrics } \lyricsto Tenore \WirPreisenTenoreLyricsDansk
 
 					\new Staff {
 						\set Staff.instrumentName = "Basso"
-						\new Voice = "Basso" { \dynamicUp \IchHoerteBassoNotes }
+						\new Voice = "Basso" { \dynamicUp \WirPreisenBassoNotes }
 					}
-					\new Lyrics \lyricsto Basso \IchHoerteBassoLyrics
-					\new Lyrics \with { \danskLyrics } \lyricsto Basso \IchHoerteBassoLyricsDansk
+					\new Lyrics \lyricsto Basso \WirPreisenBassoLyrics
+					\new Lyrics \with { \danskLyrics } \lyricsto Basso \WirPreisenBassoLyricsDansk
 				>>
 				\new StaffGroup <<
 					\new Staff {
-						\set Staff.instrumentName = "Basso"
+						\set Staff.instrumentName = \markup { \center-column { "Violoncello" "e Basso" } }
 						% \transpose c c,
-						\IchHoerteOrgano
+						\WirPreisenOrgano
 					}
 				>>
 				\new FiguredBass {
-					\IchHoerteBassFigures
+					\WirPreisenBassFigures
 				}
 			>>
 			\layout { }
-			\midi { \tempo 4. = 60 }
+			% \midi { \tempo 4 = 120 }
 		}
 	}
 }

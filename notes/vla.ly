@@ -458,3 +458,149 @@ IchHoerteViola = {
 		g2 r\fermata \bar "|." %206 finis
 	}
 }
+
+WirPreisenViola = {
+	\relative c' {
+		\clef alto
+		\key d \minor \time 4/4 \tempoWirPreisen
+		\partial 2 f,2\f a c
+		c e
+		e d
+		cis r
+		a1~\p %5
+		a2 r
+		a4. a8 g4. f8
+		e2 cis'4\f cis
+		d4. d8 h4. h8
+		a4 r r a %10
+		a4. a8 h4. h8
+		h4. e,8\p e4. h'8
+		h4. d8 d4. h8
+		a4. e'8 f4. f8
+		f4. f8 e4. d8 %15
+		c4.\f c8 c4. f,8
+		e4. e'8 e4. e,8\p
+		dis4. dis8 dis4. dis8
+		dis4. dis8\f dis4. dis8
+		e4. e8 e4. e8 %20
+		e4. e8 e4. e8
+		e'2 r
+		R1
+		\tempoWirPreisenB R
+		gis,(\p %25
+		a4) r r2
+		cis1
+		d2 a
+		h cis
+		d a %30
+		g gis
+		\tempoWirPreisenC a16 a a a a a a a a a a a a a a a
+		b b b b h h h h c c c c cis cis cis cis
+		d d d d d d d d d d d d d d d d
+		cis cis cis cis a a a a a a a a h h h h %35
+		c c c c c c c c c c c c c c c c
+		h h h h g g g g g g g g a a a a
+		b2 a
+		d16 d d d e e e e d d d d cis cis cis cis
+		d d d d a' a a a f f f f d d d d %40
+		a'\f a a, a cis cis a a e' e cis cis a' a e e
+		cis' cis a a e' e cis cis a a e e cis cis a a
+		<a f' d'>4 r r2
+		R1
+		r8 a16 a cis cis a a e' e cis cis a' a e e %45
+		cis' cis a a e' e cis cis a a e e cis cis a a
+		<a f' d'>4 r r2
+		R1
+		r8 g16 g b! b g g cis cis b b e e cis cis
+		g' g e e b' b g g e' e b b g g e e %50
+		c!4 r <c, g' e'> r
+		<e g>8 q q q q q q q
+		q\p q q q q q q q
+		q q q q <c g'> q q q
+		<c' es>8\f q4 q q q8~ %55
+		q q4 q q <a c>8
+		b8( c16 d es f g a b a g f es d c b)
+		e2 r
+		a,8( h16 c d e f g a g f e d c h a)
+		d4 r d' d %60
+		g,,8( a16 b! c d e fis g a b a g f e d)
+		c4 r <c, g' e' c'> r
+		\once \slurDashed f8( g16 a b c d e f a g f e d c b)
+		f16\p f f f f f f f f f f f f f f f
+		f f f f f f f f f f f f f f f f %65
+		f f f f f f f f f f f f f f f f
+		f\cresc f f f f f f f f f f f f f f f
+		as\f as as as as as as as as as as as as as as as
+		a[ a] a\p a a a a a a a a a a a a a
+		g g g g g g g g g g g g g g g g %70
+		f f f f g g g g as\cresc as as as a a a a
+		b b b b a a a a b b b b h h h h
+		c\mf a! a a a a a a a a a a a a a a
+		g g g g g g g g g g g g g g g g
+		f8\f c' a' f c' a f' c %75
+		a e' f h, c gis a e
+		f c a' f c' a c d
+		es d c b a g fis es
+		d4 r8. d32( e fis8.) fis32( g a8.) a32( b)
+		c8. c32( d es4.) es16 d c b a g %80
+		fis4 r8. d32( e fis8.) fis32( g a8.) a32( b)
+		c8. c32( d es4) r8 a, fis d
+		g,4 r8. g32( a h8.) h32( c d8.) d32( e
+		f!8.) f32( g as4.) as16 g f es d c
+		h4 r8. g32( a h8.) h32( c d8.) d32( e %85
+		f8.) f32( g as4) r8 d, h g
+		c4 r8. c32( d e8.) e32( f g8.) g32( a
+		b!8.) b32( c des4.) des16 c b as g f
+		e4 r8. c32( d e8.) e32( f g8.) \once \slurDashed g32( as
+		b8.) \once \slurDashed b32( c des4) r8 g, e! cis %90
+		d!4 r r2
+		f,4~ f16 g32( a h cis d e) f4 r
+		g,~ g16 a32( b c d es f) g4 r
+		gis,8\f gis4 gis gis gis8
+		a4 r r8. e'16 e4 %95
+		r8. f16 f4 r8. fis16 fis4
+		r8. a16 a4 r8. a,16 a4
+		r8. a16 a4 r8. a16 a4
+		a r r2
+		a16\p a a a a a a a a a a a a a a a %100
+		b b b b b b b b b b b b b b b b
+		c c c c c c c c c c c c c c c c
+		b4 r r2
+		b16\p b b b b b b b b b b b b b b b
+		b b b b b b b b b b b b b b b b %105
+		b\cresc b b b b b b b b b b b b b b b
+		a8 a16[\f a] cis cis a a e' e cis cis a' a e e
+		cis' cis a a e' e cis cis a a e e cis' cis a a
+		d\mf d gis, gis a a e e f f cis' cis d d a a
+		b b gis gis a a e e f f cis cis d d gis, gis %110
+		a\f a a a cis cis a a e' e cis cis a' a e e
+		cis' cis a a e' e cis cis a a e e cis cis a a
+		a\p a a a c c a a fis' fis c c a' a fis fis
+		c' c a a es' es c c a a fis fis es es c c
+		b\mf b b b d d b b g' g d d b' b g g %115
+		d' d b b g' g d d b b g g d d b b
+		as4. f'8\p f4 f
+		f4. f8 f4 f
+		g2 r
+		r b, %120
+		h1
+		r2 h
+		a2. a4
+		a2 a
+		g d'(\mf %125
+		b g)
+		as1\p
+		g2(\mf gis)
+		a1~\p
+		a2 g! %130
+		f8 f4 f f f8
+		fis1
+		g8 g4 g g g8
+		g1
+		fis2( g) %135
+		fis( g)
+		fis r
+		fis r
+		fis1\fermata \bar "|." %139 finis
+	}
+}

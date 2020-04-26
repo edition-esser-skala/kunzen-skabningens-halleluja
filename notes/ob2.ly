@@ -256,3 +256,94 @@ IchHoerteOboeII = {
 		R1\fermataMarkup \bar "|." %206 finis
 	}
 }
+
+WirPreisenOboeII = {
+	\relative c' {
+		\clef treble
+		\key d \minor \time 4/4 \tempoWirPreisen
+		\partial 2 d2\f d e
+		a gis
+		a4. a8 gis4. gis8
+		a2 r4 a\p
+		f'2. e8( d) %5
+		cis2 r
+		R1
+		r2 r4 a\f
+		a4. a8 gis4. gis8
+		a2 r4 a %10
+		a4. a8 a4. a8
+		gis2 r
+		r4 gis\p gis gis
+		a2. a4
+		a4. a8 gis4. gis8 %15
+		a1\f
+		r2 c~\p
+		c1~
+		c
+		c\f %20
+		h
+		cis2 r
+		R1
+		\tempoWirPreisenB R1*8 %31
+		\tempoWirPreisenC R1*19 %50
+		c1\f
+		R1*5 %56
+		b1~\f
+		b
+		a~
+		a %60
+		g
+		b
+		a
+		R
+		f\f %65
+		R
+		f
+		R1*4 %71
+		f'1\mf
+		f4. c8 a4. f8
+		c2.( d8 e)
+		f4 r r2 %75
+		R1*3
+		a'2\f r
+		R1 %80
+		c,2 r
+		R1
+		f2 r
+		R1
+		d2 r %85
+		R1
+		b!2 r
+		R1
+		b2 r
+		R1 %90
+		a\f
+		R1*2
+		d1\f
+		cis2 r8. e,16 e4 %95
+		r8. f16 f4 r8. fis16 fis4
+		r8. a16 a4 r8. a16 a4
+		r8. a16 a4 r8. g16 g4
+		f r r2
+		d'1~\p %100
+		d
+		d
+		d\f
+		R1*2 %105
+		g,2\f gis
+		a1~
+		a4 cis cis cis
+		d2 r
+		R1 %110
+		cis1
+		R
+		c~\p
+		c
+		d~\mf %115
+		d
+		d4 r r2
+		R1
+		\tempoWirPreisenD R1*20 %138
+		R1\fermataMarkup \bar "|." %139
+	}
+}

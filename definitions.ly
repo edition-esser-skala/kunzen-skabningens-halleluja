@@ -263,6 +263,10 @@ tempoDuRollest = \tempoMarkup "Allegro moderato"
 tempoIchHoerte = \tempoMarkup "Andantino grazioso"
 	tempoIchHoerteB = \tempoMarkup "Allegro"
 	tempoIchHoerteC = \tempoMarkup "Moderato"
+tempoWirPreisen = \tempoMarkup "Allegro moderato"
+	tempoWirPreisenB = \tempoMarkup "Poco a poco stringendo [più agitato]"
+	tempoWirPreisenC = \tempoMarkup "Allegro"
+	tempoWirPreisenD = \tempoMarkup "Poco a poco rallentando"
 
 
 

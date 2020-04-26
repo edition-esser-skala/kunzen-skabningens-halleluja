@@ -89,3 +89,39 @@ DuRollestTrombaI = {
 		c2 r\fermata \bar "|." %66 finis
 	}
 }
+
+WirPreisenTrombaI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoWirPreisen
+		\partial 2 r2 R1*23 %23
+		\tempoWirPreisenB R1*8 %31
+		\tempoWirPreisenC R1*62 %93
+		c'1\f
+		\pao g4 g r g %95
+		r g r g
+		r g r g
+		r g r g
+		c1\>
+		R\! %100
+		c\>
+		R\!
+		c\>
+		R\!
+		c2 c %105
+		c c
+		g1~\f
+		g4 g g g
+		g2 r
+		R1 %110
+		g~
+		g
+		R1*2
+		c1~\mfE %115
+		c
+		\pao c4 r r2
+		R1
+		\tempoWirPreisenD R1*20 %138
+		R1\fermataMarkup \bar "|." %139
+	}
+}

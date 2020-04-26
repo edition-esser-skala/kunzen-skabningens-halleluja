@@ -166,3 +166,70 @@ DuRollestCornoI = {
 		c2 r\fermata \bar "|." %66 finis
 	}
 }
+
+WirPreisenCornoI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoWirPreisen
+		\partial 2 c'2\f c r
+		g d'
+		d d
+		g,4 g(-. g-. g-.)
+		R1 %5
+		r4 g\f g g
+		R1
+		r4 g\f g g
+		c2 \pao d
+		g r %10
+		g, g
+		d' r
+		R1*3 %15
+		g1\f
+		R1*3
+		d1\fE %20
+		d
+		d2 r
+		R1
+		\tempoWirPreisenB R1*8 %31
+		\tempoWirPreisenC R1*11 %42
+		g,1~\p
+		g
+		g4 r r2 %45
+		R1
+		g~
+		g
+		g8 r r4 r2
+		R1*29 %78
+		c2\f r
+		R1 %80
+		c2 r
+		R1*12 %93
+		c1\f
+		\pao g4 g r g %95
+		r g r g
+		r g r g
+		r g r g
+		c1\>
+		R\! %100
+		c\>
+		R\!
+		c\>
+		R\!
+		c2 c %105
+		c c
+		g1~\f
+		g4 g g g
+		g2 r
+		R1 %110
+		g~
+		g
+		g~\p
+		g
+		c~\mf %115
+		c
+		\pao c4 r r2
+		R1
+		\tempoWirPreisenD R1*20 %138
+		R1\fermataMarkup \bar "|." %139
+	}
+}

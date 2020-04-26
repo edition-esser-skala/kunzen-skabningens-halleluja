@@ -519,6 +519,152 @@ IchHoerteViolinoI = {
 	}
 }
 
+WirPreisenViolinoI = {
+	\relative c' {
+		\clef treble
+		\key d \minor \time 4/4 \tempoWirPreisen
+		\partial 2 d2\f f g
+		a h
+		c h
+		a r
+		a2.\p g8( f) %5
+		e2 r4 a,
+		f'4. f8 e4. d8
+		cis2 a'4\f a
+		f'4. f8 e4. d8
+		c4 c,2 a'8( h) %10
+		c4. c8 d4. d8
+		e4. gis,8\p gis4. e'8
+		e4. gis,8 gis4. e'8
+		a4. c,8 c4. c8
+		h4. h8 h4. h8 %15
+		a4.\f a'8 a4. f,8
+		e4. a'8 a4. e,8\p
+		dis4. dis8 dis4. dis8
+		dis4. a''8\f a4. dis,,8
+		e4. a'8 a4. a8 %20
+		e,4. gis'8 gis4. gis8
+		a2 r
+		d,,1(\p
+		\tempoWirPreisenB cis4) r r2
+		f1( %25
+		e4) r r2
+		b'1
+		a2 r4 a
+		a( gis) r g
+		g( fis) r f %30
+		f( e) r d(
+		\tempoWirPreisenC cis) a16 a a a a a a a a a a a
+		b b b b h h h h c c c c cis cis cis cis
+		d d d d d d d d d d d d d d d d
+		cis cis cis cis a a a a a a a a h h h h %35
+		c c c c c c c c c c c c c c c c
+		h h h h g g g g g g g g a a a a
+		b4 g''2\rf g4
+		f16 f f f e e e e d d d d cis cis cis cis
+		d d d d a a a a f f f f d d d d %40
+		a'\f a a, a cis cis a a e' e cis cis a' a e e
+		cis' cis a a e' e cis cis a a e e cis cis a a
+		<a f' d'>4 r r2
+		R1
+		r8 a16 a cis cis a a e' e cis cis a' a e e %45
+		cis' cis a a e' e cis cis a a e e cis cis a a
+		<a f' d'>4 r r2
+		R1
+		r8 g16 g b! b g g cis cis b b e e cis cis
+		g' g e e b' b g g e' e b b g' g e e %50
+		b'8 a16 g f e d c! b8 a16 g f e d c
+		b( c b c b c b c b c b c b c b c)
+		b(\p c b c b c b c b c b c b c b c)
+		b( c b c b c b c b c b c b e g b)
+		a(\f b c d es\rf d c b) a( b c d es\rf d c b) %55
+		a( b c d es\rf d c b) a( b c b a g f es)
+		d4 r <b f' d'> r
+		g'8( a16 b c d e! f g a b a g f e d)
+		c4 r <a e' c'> r
+		f8( g16 a b c d e f g a g f e d c) %60
+		b4 r <g, d' b' g'> r
+		b''8 a16 g f e d c b a g f e d c b
+		a2 r
+		f'16\p f f f f f f f f f f f f f f f
+		f f f f f f f f f f f f f f f f %65
+		f f f f f f f f f f f f f f f f
+		f\cresc f f f f f f f f f f f f f f f
+		f\f f f f f f f f f f f f f f f f
+		f[ f] f\p f f f f f f f f f f f f f
+		f f f f f f f f e e e e e e e e %70
+		f f f f f f f f f\cresc f f f f f f f
+		f f f f f f f f f f f f f f f f
+		f\mf f f f f f f f f f f f f f f f
+		f f f f f f f f e e e e e e e e
+		f\f f c c a' a f f c' c a a f' f c c %75
+		a' a e e f f h, h c c gis gis a a e e
+		f f c c a' a f f c' c a a c c d d
+		es es d d c c b b a a g g fis fis es es
+		d c' c c c c c c c c c c c c c c
+		c\mf c c c c c c c c c c c c c c c %80
+		c c c c c c c c c c c c c c c c
+		c c c c c c c c c c c c c c c c
+		h h h h h h h h h h h h h h h h
+		h h h h h h h h h h h h h h h h
+		f' f f f f f f f f f f f f f f f %85
+		f f f f f f f f f f f f f f f f
+		e! e e e e e e e e e e e e e e e
+		e e e e e e e e e e e e e e e e
+		g g g g g g g g g g g g g g g g
+		g, g g g g g g g g g g g g g g g %90
+		f\f f a a d d a a f' f d d a' a f f
+		d'8 f,4\mf f f f8
+		es es4 es es es8
+		d16\f d d' d h h gis gis d d h h gis gis d d
+		cis8 r16 cis'( a'4) r8. a,16( a,4) %95
+		r8. b'!16( a'4) r8. a,16( h,4)
+		r8. c'16( a'4) r8. a,16( cis,4)
+		r8. d'16( a'4) r8. e16( g,4)
+		f16 f d d f f a a d d f f a a d d
+		d,,\p d d d d d d d d d d d d d d d %100
+		es es es es es es es es es es es es es es es es
+		fis fis fis fis fis fis fis fis fis fis fis fis fis fis fis fis
+		g g g'[\f g] d' d b b g g d d b b g g
+		d\p d d d d d d d d d d d e! e e e
+		f f f f f f f f f f f f f f f f %105
+		g\cresc g g g g g g g gis gis gis gis gis gis gis gis
+		a8 a,16[\f a] cis cis a a e' e cis cis a' a e e
+		cis' cis a a e' e cis cis a' a e e cis' cis a a
+		d\mf d gis, gis a a e e f f cis cis d d a a
+		b b gis gis a a e e f f cis cis d d gis, gis %110
+		a\f a a a cis cis a a e' e cis cis a' a e e
+		cis' cis a a e' e cis cis a a e e cis cis a a
+		a\p a a a c c a a fis' fis c c a' a fis fis
+		c' c a a es' es c c a a fis fis es es c c
+		b\mf b b b d d b b g' g d d b' b g g %115
+		d' d b b g' g d d b b g g d d b b
+		as4. d'8\p d4 d
+		d4. d8 d4 d
+		\tempoWirPreisenD es2 r
+		R1 %120
+		r2 f(\mf
+		cis d)
+		f,2.\p f4
+		e2 fis
+		g1 %125
+		R
+		r2 f'(\mf
+		cis d)
+		f,1\p
+		e %130
+		d8 d4 d d d8
+		es1
+		d8 d4 d d d8
+		<cis e!>1
+		d1~ %135
+		d
+		d2 r
+		d r
+		d1\fermata \bar "|." %139 finis
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

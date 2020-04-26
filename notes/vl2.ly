@@ -462,3 +462,149 @@ IchHoerteViolinoII = {
 		h2 r\fermata \bar "|." %206 finis
 	}
 }
+
+WirPreisenViolinoII = {
+	\relative c' {
+		\clef treble
+		\key d \minor \time 4/4 \tempoWirPreisen
+		\partial 2 d2\f d e
+		a gis
+		a gis
+		a r
+		f2.\p e8( d) %5
+		cis2 r4 a
+		a1~
+		a2 a'4\f a
+		a4. a8 gis4. gis8
+		a4 a,2 a'4 %10
+		a4. a8 a4. a8
+		gis4. h,8\p h4. gis'8
+		gis4. h,8 h4. gis'8
+		a4. a8 a4. a8
+		a4. a8 gis4. gis8 %15
+		a4.\f a8 a4. f8
+		e4. c'8 c4. e,8\p
+		dis4. dis8 dis4. dis8
+		dis4. c'8\f c4. dis,8
+		e4. c'8 c4. c8 %20
+		e,4. h'8 h4. h8
+		cis2 r
+		b,!1(\p
+		\tempoWirPreisenB a4) r r2
+		d1( %25
+		cis4) r r2
+		g'!1
+		fis2 f
+		d e
+		a, a %30
+		b! h
+		\tempoWirPreisenC a16 a a a a a a a a a a a a a a a
+		b b b b h h h h c c c c cis cis cis cis
+		d d d d d d d d d d d d d d d d
+		cis cis cis cis a a a a a a a a h h h h %35
+		c c c c c c c c c c c c c c c c
+		h h h h g g g g g g g g a a a a
+		b4 d'(\rf cis) e
+		d16 d d d e e e e d d d d cis cis cis cis
+		d d d d a a a a f f f f d d d d %40
+		a'\f a a, a cis cis a a e' e cis cis a' a e e
+		cis' cis a a e' e cis cis a a e e cis cis a a
+		<a f' d'>4 r r2
+		R1
+		r8 a16 a cis cis a a e' e cis cis a' a e e %45
+		cis' cis a a e' e cis cis a a e e cis cis a a
+		<a f' d'>4 r r2
+		R1
+		r8 g16 g b! b g g cis cis b b e e cis cis
+		g' g e e b' b g g e' e b b g' g e e %50
+		b'8 a16 g f e d c! b8 a16 g f e d c
+		b( c b c b c b c b c b c b c b c)
+		b(\p c b c b c b c b c b c b c b c)
+		b( c b c b c b c b c b c b e g b)
+		a(\f b c d es\rf d c b) a( b c d es\rf d c b) %55
+		a( b c d es\rf d c b) a( b c b a g f es)
+		d4 r <b f' d'> r
+		g'8( a16 b c d e! f g a b a g f e d)
+		c4 r <a e' c'> r
+		f8( g16 a b c d e f g a g f e d c) %60
+		b4 r <g, d' b' g'> r
+		b''8 a16 g f e d c b a g f e d c b
+		a2 r
+		f'16\p f f f f f f f f f f f f f f f
+		g, g g g g g g g g g g g g g g g %65
+		a a a a a a a a a a a a a a a a
+		b\cresc b b b b b b b b b b b b b b b
+		h\f h h h h h h h h h h h h h h h
+		c[ c] c\p c c c c c c c c c c c c c
+		c c c c c c c c c c c c c c c c %70
+		as as as as g g g g as\cresc as as as a a a a
+		b b b b a a a a b b b b h h h h
+		c\mf c c c c c c c c c c c c c c c
+		c c c c c c c c c c c c c c c c
+		f\f f c c a' a f f c' c a a f' f c c %75
+		a' a e e f f h, h c c gis gis a a e e
+		f f c c a' a f f c' c a a c c d d
+		es es d d c c b b a a g g fis fis es es
+		d a' a a a a a a a a a a a a a a
+		a\mf a a a a a a a a a a a a a a a %80
+		a a a a a a a a a a a a a a a a
+		a a a a a a a a a a a a a a a a
+		f! f f f f f f f f f f f f f f f
+		f f f f f f f f f f f f f f f f
+		d' d d d d d d d d d d d d d d d %85
+		d d d d d d d d d d d d d d d d
+		g, g g g g g g g g g g g g g g g
+		g g g g g g g g g g g g g g g g
+		e' e e e e e e e e e e e e e e e
+		e, e e e e e e e e e e e e e e e %90
+		f\f f a a d d a a f' f d d a' a f f
+		f8 a,4\mf a a a8
+		g g4 g g g8
+		f\f f4 f f f8
+		e8 r16 cis'( a'4) r8. a,16( a,4) %95
+		r8. b'!16( a'4) r8. a,16( h,4)
+		r8. c'16( a'4) r8. a,16( cis,4)
+		r8. d'16( a'4) r8. e16( g,4)
+		f16 f d d f f a a d d f f a a d d
+		d,,\p d d d d d d d d d d d d d d d %100
+		d d d d d d d d d d d d d d d d
+		d d d d d d d d d d d d d d d d
+		d4 r r2
+		d16\p d d d d d d d d d d d d d d d
+		d d d d d d d d d d d d d d d d %105
+		d\cresc d d d d d d d d d d d d d d d
+		cis8 a16[\f a] cis cis a a e' e cis cis a' a e e
+		cis' cis a a e' e cis cis a' a e e cis' cis a a
+		d\mf d gis, gis a a e e f f cis cis d d a a
+		b b gis gis a a e e f f cis cis d d gis, gis %110
+		a\f a a a cis cis a a e' e cis cis a' a e e
+		cis' cis a a e' e cis cis a a e e cis cis a a
+		a\p a a a c c a a fis' fis c c a' a fis fis
+		c' c a a es' es c c a a fis fis es es c c
+		b\mf b b b d d b b g' g d d b' b g g %115
+		d' d b b g' g d d b b g g d d b b
+		as4. b'8\p b4 b
+		b4. b8 b4 b
+		\tempoWirPreisenD b2 b(\mf
+		g es) %120
+		d1\p
+		e2(\mf f)
+		d2.\p d4
+		cis2 c
+		d1 %125
+		R
+		r2 d(\mf
+		e f)
+		d1~\p
+		d2 cis %130
+		d8 d4 d d d8
+		c!1
+		b8 b4 b b b8
+		b1
+		a2( b) %135
+		a( b)
+		a r
+		a r
+		a1\fermata \bar "|." %139 finis
+	}
+}

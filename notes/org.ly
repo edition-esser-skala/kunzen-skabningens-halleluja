@@ -875,6 +875,294 @@ IchHoerteBassFigures = \figuremode {
 	r %206 finis
 }
 
+WirPreisenOrgano = {
+	\relative c {
+		\clef bass
+		\key d \minor \time 4/4 \tempoWirPreisen
+		\partial 2 \mvTr d2\f-\tuttiE d c
+		f e
+		c4 d e2
+		a, r
+		r4 \mvTr a'\p-\soloE a a %5
+		a,2 r
+		a a
+		a4 \mvTr a'\f-\tuttiE a a
+		d,4. d8 e4. e8
+		f2 f %10
+		f4. f8 f4. f8
+		e4. e8\p e4. e8
+		d4. d8 d4. d8
+		c4. c8 f4. f8
+		d4. d8 e4. e8 %15
+		f4.\f f8 f4. f8
+		e4. e8 e4. e8\p
+		dis4. dis8 dis4. dis8
+		dis4. dis8\f dis4. dis8
+		e4. e8 e4. e8 %20
+		e4. e8 e4. e8
+		\mvTr a,\p-\soloE a4 a a a8
+		a4 r r2
+		\tempoWirPreisenB a8 a4 a a a8
+		a4 r r2 %25
+		a8 a4 a a a8
+		a4 r r2
+		a8 a4 a a a8~
+		a8 a4 a a a8~
+		a8 a4 a a a8~ %30
+		a8 a4 a a a8
+		\tempoWirPreisenC a^\unisonoE a a a a a a a
+		b b h h c c cis cis
+		d d d d d d d d
+		cis cis a a a a h h %35
+		c c c c c c c c
+		h h g g g g a a
+		b2 a
+		d4 r r cis'
+		d( a) f d %40
+		a'8\f a, cis a e' cis a' e
+		cis' a e' cis a e cis a
+		a'4 r r2
+		R1
+		r8 a, cis a e' cis a' e8 %45
+		cis' a e' cis a e cis a
+		a'4 r r2
+		R1
+		r8 g, b! g cis b e cis
+		g' e b' g e' b  g e %50
+		c,!4 r c' r
+		c8 c c c c c c c
+		c\p c c c c c c c
+		c c c c c c c c
+		f4.(\f ges8)\sf f4.( ges8)\sf %55
+		f4 r f, r
+		b8( c16 d es f g a b a g f es d c b)
+		e2 r
+		a,8( h16 c d e f g a g f e d c h a)
+		d4 r d' d %60
+		g,,8( a16 b! c d e fis g a b a g f e d)
+		c4 r <c, g' e' c'> r
+		\once \slurDashed f8( g16 a b c d e f a g f e d c b)
+		a8\p a4 a a a8
+		b b4 b b b8 %65
+		c c4 c c c8
+		des\cresc des4 des des des8
+		des\f des4 des4 des4 des8
+		c c[\p c c] c c c c
+		c c c c c c c c %70
+		des des4 des\cresc des des8
+		des des4 des des des8
+		c\mf c c c c c c c
+		c c c c c c c c
+		f\f^\unisonoE c a' f c' a f' c %75
+		a e' f h, c gis a e
+		f c a' f c' a c d
+		es d c b a g fis es
+		d4 r8. d32( e fis8.) fis32( g a8.) a32( b)
+		c8. c32( d es4.) es16 d c b a g %80
+		fis4 r8. d32( e fis8.) fis32( g a8.) a32( b)
+		c8. c32( d es4) r8 a, fis d
+		g,4 r8. g32( a h8.) h32( c d8.) d32( e
+		f!8.) f32( g as4.) as16 g f es d c
+		h4 r8. g32( a h8.) h32( c d8.) d32( e %85
+		f8.) f32( g as4) r8 d, h g
+		c4 r8. c32( d e8.) e32( f g8.) g32( a
+		b!8.) b32( c des4.) des16 c b as g f
+		e4 r8. c32( d e8.) e32( f g8.) \once \slurDashed g32( as
+		b8.) \once \slurDashed b32( c des4) r8 g, e! cis %90
+		d!4 r r2
+		f,4~ f16 g32( a h cis d e) f4 r
+		g,~ g16 a32( b c d es f) g4 r
+		gis,1\f
+		a4 r r8. cis16-! cis4-! %95
+		r8. d16-! d4-! r8. dis16-! dis4-!
+		r8. e16 e4 r8. e16 e4
+		r8. f16 f4 r8. cis16 cis4
+		d r r2
+		f,4~\mf f16 \once \slurDashed g32( a h cis d e) f8.[ f16 f8. f16] %100
+		g,4~ g16 \once \slurDashed a32( b c d es f) g8.[ g16 g8. g16]
+		a,4~ a16 \once \slurDashed h32( c d e fis g) a8.[ a,16 a8. a16]
+		b8 b4\f b b b8
+		b\p b4 b b b8
+		b b4 b b b8 %105
+		b\cresc b4 b b b8
+		a a[\f cis a] e' cis a' e
+		cis' a e' cis a e' cis a
+		d\mf gis a e f cis d a
+		b gis a e f cis d gis, %110
+		a\f a cis a e' cis a' e
+		cis' a e' cis a e cis a
+		r a\p c a fis' c a' fis
+		c' a es' c a fis es c
+		b\mf b d b g' d b' g %115
+		d' b g' d b g d b
+		as4. as'8\p as4 as
+		as4. as8 as4 as
+		\tempoWirPreisenD g2 r
+		r g, %120
+		gis1~
+		gis2 gis
+		a2. a4
+		a'2 a
+		b1 %125
+		r2 b
+		b,1~
+		b2 b'
+		a1
+		a, %130
+		d4 d d d
+		d1
+		d4 d d d
+		d1
+		d2 r %135
+		d r
+		d r
+		d r
+		d1\fermata \bar "|." %139 finis
+	}
+}
+
+WirPreisenBassFigures = \figuremode {
+	r2 r1
+	r2 <5! _+>
+	<6>4 <\t> <7 5! _+>2
+	<_+>1
+	r4 <8 6>2 <7 5>8 <6 4> %5
+	<5 _+>1
+	<8 6>2 <7 5>4. <6 4>8
+	<5 _+>1
+	r2 <8 5! _+>4. <7 \t \t>8
+	<5! 3>1 %10
+	<\t \t>2 <6 4! 3>
+	<5! _+>1
+	<\t \t>
+	<6>
+	<6! 5>2 <7 5! _+> %15
+	<5>1
+	<6 4>
+	<7 _+>
+	<\t \t>
+	<6 4> %20
+	<5! _+>
+	<_+>
+	<4 2->
+	<_+ 1>
+	<7+ 6 4> %25
+	<8 5 _+>
+	<9 7! _+>
+	<6+ 4>2 <6! \t>
+	<8 4 2!>4 <7+ \t \t> <\t 5 _+> <7! \t \t>
+	<\t 4> <6+ \t> <\t \t> <6! \t> %30
+	<7 6 2-> <\t 5 \t> <7+ \t 2!> <\t 4 \t>
+	<_+>1
+	r
+	r
+	r %35
+	r
+	r
+	<6>2 <7 _+>
+	r2. <6>4
+	<5 3>2. \bassFigureExtendersOn q4 \bassFigureExtendersOff %40
+	<5 _+>1 \bassFigureExtendersOn
+	q2.. q8 \bassFigureExtendersOff
+	<6 4>1
+	r
+	<5 _+> \bassFigureExtendersOn %45
+	q2.. q8 \bassFigureExtendersOff
+	<6 4>1
+	r
+	<6 4+ _->1 \bassFigureExtendersOn
+	q2.. q8 \bassFigureExtendersOff %50
+	<7>1
+	<\t>
+	q
+	q
+	<7- 5 3>1 \bassFigureExtendersOn %55
+	q4 \bassFigureExtendersOff r <\t \t \t>2
+	<5 3>1
+	<7>
+	q
+	q %60
+	q
+	q
+	r
+	<6>
+	<6 5> %65
+	<6 4 _->
+	<6>
+	<6! 5->
+	<6! 4>
+	<5 4>2 <\t 3> %70
+	<5->4 <5!> <6> <5!>
+	<6> <5!> <6> <6! 5->
+	<6! 4>1
+	<5 4>2 <\t 3>
+	<5 3>1 %75
+	r
+	r
+	r
+	<7 _+>1 \bassFigureExtendersOn
+	q %80
+	q
+	q2.. q8 \bassFigureExtendersOff
+	<7! _!>1 \bassFigureExtendersOn
+	q
+	q %85
+	q2.. q8 \bassFigureExtendersOff
+	<7- _!>1 \bassFigureExtendersOn
+	q
+	q
+	q2. q8 \bassFigureExtendersOff <6 5>8 %90
+	<5 3>1
+	<6>2 \bassFigureExtendersOn q4 r
+	<6->2 q4 \bassFigureExtendersOff r
+	<7 _!>1
+	<_+>2 r8. <6>16 r4 %95
+	r8. <6 5>16 r4 r8. <6! 5 _+>16 r4
+	r8. <6 4>16 r4 r8. <6+ 4>16 r4
+	r8. <6>16 r4 r8. <6 5>16 r4
+	r1
+	<6>2... \bassFigureExtendersOn q16 %100
+	<6- 5>2... q16
+	<6+ 4 3>2... q16 \bassFigureExtendersOff
+	<6>1
+	<5 3>
+	<\t \t> %105
+	<6>2 <6\\>
+	<5 _+>1 \bassFigureExtendersOn
+	q2.. q8
+	<5\! 3>1
+	<5 3>2.. q8 %110
+	<5\! _+>1
+	<5 _+>2.. q8
+	<6\\ 5- _!>1
+	q2.. q8
+	<6>1 %115
+	q2.. q8
+	<2>1
+	q2. q4 \bassFigureExtendersOff
+	<6->1
+	r2 q %120
+	<7 _!>1
+	<6 4+>2 <7 5 _!>
+	<6 4>1
+	<5 _+>2 <6\\ _!>
+	<6>1 %125
+	r2 q
+	<7->1
+	<6 4 2+>2 <6\\ 5 3>
+	<6 4>1
+	<5 4>2 <7! _+> %130
+	r1
+	<9- 7! _+>
+	<8 6 4>
+	<9! 7+ 6 4>
+	<5 _+>2 <6 4> %135
+	<5 _+> <6 4>
+	<5 _+>1
+	<\t \t>
+	<\t \t> %139 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

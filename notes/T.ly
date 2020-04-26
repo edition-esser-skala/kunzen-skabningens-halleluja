@@ -993,6 +993,302 @@ IchHoerteTenoreLyricsDansk = \lyricmode {
 	Lyst! %201 finis
 }
 
+WirPreisenTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key d \minor \time 4/4 \autoBeamOff \tempoWirPreisen
+		\partial 2 \mvTr d,2\fE^\tutti a' c
+		c e
+		e4. e8 d4. d8
+		cis2 r
+		R1 %5
+		r2 r4 \mvTr a\pE^\solo
+		f'4. f8 e4. d8
+		cis2 r4 \mvTr cis\fE^\tutti
+		d4. d8 h4. h8
+		a2 r4 a %10
+		a4. a8 h4. h8
+		h2 r
+		r4 e\pE e e
+		e2 f
+		f4. f8 e4. d8 %15
+		c2\fE r
+		r4 e, e e
+		dis1\pE
+		r2 dis\fE
+		e2. e4 %20
+		e2. e4
+		cis'1
+		R1
+		\tempoWirPreisenB R1*8 %31
+		\tempoWirPreisenC R1
+		r2^\critnote r4 a^\solo
+		d2. d4
+		cis a r h %35
+		c2. c4
+		h g r2
+		d' e
+		f4( e) d cis
+		d( a) f( d) %40
+		a' a r2
+		r r4 a
+		d2. d4
+		d4. d8 f4. d8
+		cis4 cis r2 %45
+		r r4 a
+		d2. d4
+		d4. d8 f4. d8
+		cis4 cis r2
+		R1*2 %51
+		r2 r4 g
+		b e g e
+		b g c,4. b'8
+		a4 a r2 %55
+		R1
+		d2 r
+		g2. g,4
+		c c r2
+		f2. f,4 %60
+		b! b r2
+		g'4. g8 e4. b8
+		a2 r
+		f'2. f,4
+		g g r2 %65
+		f'4. c8 a4. f8
+		b2 r
+		f' f4. f8
+		f4. c8 a!4. f8
+		c2. d8([ e)] %70
+		f2 r
+		f' f4. f8
+		f4. c8 a!4. f8
+		c2. d8([ e)]
+		f2 r %75
+		R1*4
+		r4 a c fis %80
+		a2. c,4
+		c4. c8 c4. d8
+		h4 h r h
+		d4. d8 d4 d
+		f!2. f4 %85
+		as2. g8([ f)]
+		e!4 e r2
+		r4 g, b! e
+		g2. g,4
+		g4. g8 g4. a!8 %90
+		f4 f r d
+		f a d f
+		es2. es4
+		d2. d4
+		cis4 cis8 a a4.. a16 %95
+		b!4 r8. h16 h4.. h16
+		c4 r8. cis16 cis4.. cis16
+		d4 r8. d16 e4.. e16
+		f4 r r d
+		d4. d8 d4. d8 %100
+		d4 es, r2
+		d'2. fis,4
+		g2 r
+		r4 d' d e!
+		f2. d4 %105
+		d4. d8 f4. gis,8
+		a4 a r2
+		r r4 a
+		d4. d8 d4. a8
+		d4 a f d %110
+		a' a r2
+		r r4 \mvTr a\pE^\tutti
+		c!4. c8 c4 r8 c
+		c4. c8 c4 c
+		b1\mfE %115
+		r2 r4 f'\pE
+		f4. f8 f4 f
+		f4. f8 f4 f
+		es2 r
+		r b %120
+		h1
+		r2 h
+		a2. a4
+		a4. a8 a4. a8
+		g2 d' %125
+		b g
+		as f
+		g gis
+		a2. a4
+		a4. a8 g!4. g8 %130
+		f1
+		R1*7 %138
+		R1\fermataMarkup \bar "|." %139 finis
+	}
+}
+
+WirPreisenTenoreLyrics = \lyricmode {
+	Wir prei -- sen
+	dich, wir
+	dan -- ken dir, o
+	Gott!
+	%5
+	in
+	stil -- ler Freu -- de
+	Schooß. Doch
+	sehn wir dei -- nen
+	Wink und %10
+	hö -- ren dein Ge --
+	both
+	in schwar -- zer
+	Nacht, wo
+	Schre -- ckens -- ton uns %15
+	dräut,
+	in schwar -- zer
+	Nacht,
+	wo
+	Schre -- ckens -- %20
+	ton uns
+	dräut.
+	\repeat unfold 183 { \skip 1 }
+	Ge -- %112
+	rech -- ter Gott, du
+	furcht -- bar mächt -- ger
+	Gott! %115
+	Ge --
+	rech -- ter Gott, du
+	furcht -- bar mächt -- ger
+	Gott!
+	Wir %120
+	tief
+	im
+	Stau -- be
+	hö -- ren dein Ge --
+	both, wir %125
+	tief im
+	Stau -- be,
+	tief im
+	Stau -- be
+	hö -- ren dein Ge -- %130
+	both. %131 finis
+}
+
+WirPreisenTenoreLyricsDansk = \lyricmode {
+	Vi lo -- ve
+	dig, vi
+	tak -- ke dig, o
+	Gud!
+	%5
+	i
+	Li -- vets stil -- le
+	Fryd. Men
+	og vi see dit
+	Vink og %10
+	hø -- re di -- ne
+	Bud
+	i Nat -- tens
+	Mulm, og
+	Skræk -- kens dø -- ve %15
+	Lyd,
+	i Nat -- tens
+	Mulm,
+	og
+	Skræk -- kens %20
+	dø -- ve
+	Lyd.
+
+	Din %33
+	Thro -- ne
+	mørk -- nes, din %35
+	Thro -- ne
+	mørk -- nes,
+	So -- len
+	fly -- er bag
+	tyk -- ke %40
+	Sky -- er;
+	sig
+	Dy -- bets
+	sor -- te Kæm -- pe
+	hæ -- ver; %45
+	sig
+	Dy -- bets
+	sor -- te Kæm -- pe
+	hæ -- ver;
+
+	og %52
+	Jor -- dens ly -- nilds --
+	lag -- ne Grund -- vold
+	bæ -- ver. %55
+
+	See,
+	Da -- le
+	svul -- me!
+	Da -- le %60
+	svul -- me!
+	Hø -- ye syn -- ke
+	ned!
+	Da -- le
+	svul -- me! %65
+	Hø -- ye syn -- ke
+	ned!
+	Vildt flam -- mer
+	Il -- den hen i
+	Van -- dets %70
+	Fied!
+	Vildt flam -- mer
+	Il -- den hen i
+	Van -- dets
+	Fied! %75
+
+	I -- gien -- nem %80
+	vidt -- ad --
+	split -- te -- de Ru --
+	i -- ner i
+	høit op -- slag -- ne
+	Lu -- er %85
+	Stor -- men
+	hvi -- ner!
+	I -- gien -- nem
+	vidt -- ad --
+	split -- te -- de Ru -- %90
+	i -- ner i
+	høit op -- slag -- ne
+	Lu -- er
+	Stor -- men
+	hvi -- ner! Med Brag i %95
+	Brag, og Skrald i
+	Skrald, med Brag i
+	Brag, og Skrald i
+	Skrald, i
+	knus -- te Fiel -- des %100
+	Styr -- ten,
+	Klip -- pers
+	Fald,
+	med ban -- ge
+	Dun -- drens %105
+	hu -- le Ræd -- sel --
+	bul -- der
+	din
+	Dom -- mer -- vogn i --
+	gien -- nem Him -- len %110
+	rul -- der!
+	Ret --
+	fær -- di -- ge, for --
+	fær -- de -- li -- ge
+	Gud! %115
+	Ret --
+	fær -- di -- ge, for --
+	fær -- de -- li -- ge
+	Gud!
+	Vi %120
+	dybt
+	i
+	Stø -- vet
+	hø -- re di -- ne
+	Bud, 	vi %125
+	dybt i
+	Stø -- vet,
+	dybt i
+	Stø -- vet
+	hø -- re di -- ne %130
+	Bud. %131 finis
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

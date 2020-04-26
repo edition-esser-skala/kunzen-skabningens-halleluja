@@ -938,6 +938,152 @@ IchHoerteSopranoLyricsDansk = \lyricmode {
 	Lyst! %201 finis
 }
 
+WirPreisenSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key d \minor \time 4/4 \autoBeamOff \tempoWirPreisen
+		\partial 2 \mvTr d2\fE^\tutti f g
+		a h
+		c4. c8 h4. h8
+		a2 r4 \mvTr a\pE^\solo
+		a'2. g8([ f)] %5
+		e2 r
+		R1
+		r2 r4 \mvTr a,\fE^\tutti
+		f'4. f8 e4. d8
+		c!2 r4 a8([ h)] %10
+		c4. c8 d4. d8
+		e2 r
+		r4 h\pE h h
+		c2. c4
+		h4. h8 h4. h8 %15
+		a2\fE r
+		r4 e e e
+		dis1\pE
+		r2 dis\fE
+		e2. e4 %20
+		e2. e4
+		e1
+		R1
+		\tempoWirPreisenB R1*8 %31
+		\tempoWirPreisenC R1*80 %111
+		r2 r4 \mvTr a\pE^\tutti
+		es'4. es8 es4 r8 es
+		es4. es8 es4 es
+		d1\mfE %115
+		r2 r4 d\pE
+		d4. d8 d4 d
+		as'4. d,8 d4 d
+		\tempoWirPreisenD es2 r
+		R1 %120
+		r2 f
+		cis d
+		f,2. f4
+		e4. e8 fis4. fis8
+		g1 %125
+		R
+		r2 f'
+		cis d
+		f,2. f4
+		e4. e8 e4. e8 %130
+		d1
+		R1*7 %138
+		R1\fermataMarkup \bar "|." %139 finis
+	}
+}
+
+WirPreisenSopranoLyrics = \lyricmode {
+	Wir prei -- sen
+	dich, wir
+	dan -- ken dir, o
+	Gott! Im
+	Glanz des %5
+	Lichts,
+
+	Doch
+	sehn wir dei -- nen
+	Wink und %10
+	hö -- ren dein Ge --
+	both
+	in schwar -- zer
+	Nacht, wo
+	Schre -- ckens -- ton uns %15
+	dräut,
+	in schwar -- zer
+	Nacht,
+	wo
+	Schre -- ckens -- %20
+	ton uns
+	dräut.
+
+	Ge -- %112
+	rech -- ter Gott, du
+	furcht -- bar mächt -- ger
+	Gott! %115
+	Ge --
+	rech -- ter Gott, du
+	furcht -- bar mächt -- ger
+	Gott!
+	%120
+	Wir
+	tief im
+	Stau -- be
+	hö -- ren dein Ge --
+	both, %125
+
+	wir
+	tief im
+	Stau -- be
+	hö -- ren dein Ge -- %130
+	both. %131 finis
+}
+
+WirPreisenSopranoLyricsDansk = \lyricmode {
+	Vi lo -- ve
+	dig, vi
+	tak -- ke dig, o
+	Gud! I
+	Ly -- sets %5
+	Glands,
+
+	Men
+	og vi see dit
+	Vink og %10
+	hø -- re di -- ne
+	Bud
+	i Nat -- tens
+	Mulm, og
+	Skræk -- kens dø -- ve %15
+	Lyd,
+	i Nat -- tens
+	Mulm,
+	og
+	Skræk -- kens %20
+	dø -- ve
+	Lyd.
+
+	Ret -- %112
+	fær -- di -- ge, for --
+	fær -- de -- li -- ge
+	Gud! %115
+	Ret --
+	fær -- di -- ge, for --
+	fær -- de -- li -- ge
+	Gud!
+	%120
+	Vi
+	dybt i
+	Stø -- vet
+	hø -- re di -- ne
+	Bud, %125
+
+	vi
+	dybt i
+	Stø -- vet
+	hø -- re di -- ne %130
+	Bud. %131 finis
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

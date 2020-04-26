@@ -85,3 +85,46 @@ DuRollestTimpani = {
 		c2 r\fermata \bar "|." %66 finis
 	}
 }
+
+WirPreisenTimpani = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/4 \tempoWirPreisen
+		\partial 2 r2 R1*23 %23
+		\tempoWirPreisenB R1*8 %31
+		\tempoWirPreisenC R1*63 %94
+		g1~\p\trill %95
+		g~
+		g~\cresc
+		g
+		c~\f\trill
+		c\p %100
+		c~\f\trill
+		c\p
+		c\ff\trill
+		c~\mf\trill
+		c\cresc %105
+		c4\ff c c c
+		g1~\ff\trill
+		g~
+		g~\p
+		g~ %110
+		g~\cresc
+		g~
+		g~\p
+		g
+		c~\f\trill %115
+		c~
+		c4 r r2
+		R1
+		\tempoWirPreisenD R1*13 %131
+		c1~\pp\trill
+		c4 r r2
+		c1~\trill\decresc
+		c~ %135
+		\once \tieDashed c~
+		c4\! r r2
+		R1
+		R\fermataMarkup \bar "|." %139 finis
+	}
+}

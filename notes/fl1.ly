@@ -301,3 +301,87 @@ IchHoerteFlautoI = {
 		R1\fermataMarkup \bar "|." %206 finis
 	}
 }
+
+WirPreisenFlautoI = {
+	\relative c' {
+		\clef treble
+		\key d \minor \time 4/4 \tempoWirPreisen
+		\partial 2 r2 R1*23 %23
+		\tempoWirPreisenB R1*4 %27
+		r2 r4 a''\pE
+		a( gis) r g
+		g( fis) r f %30
+		f( e) r d
+		\tempoWirPreisenC cis r r2
+		R1*10 %42
+		d'1~\mf
+		d
+		cis4 r r2 %45
+		R1
+		d1~
+		d
+		cis4 r r2
+		R1 %50
+		e\f
+		R1*3
+		es1~\f %55
+		es2 r
+		d1
+		g
+		c,
+		f %60
+		b,~
+		b
+		a
+		R
+		f'\f %65
+		R
+		f
+		R1*4 %71
+		f1\mf
+		f4. c8 a4. f8
+		c2.( d8 e)
+		f4 r r2 %75
+		R1*3
+		fis'2\f r
+		R1 %80
+		c2 r
+		R1
+		h2 r
+		R1
+		f'2 r %85
+		R1
+		e2 r
+		R1
+		g2 r
+		R1*2 %91
+		f1\mf
+		es
+		d\f
+		cis2 \pao a %95
+		b! h
+		c! cis
+		d e
+		d4 r r2
+		d,1\p %100
+		es
+		fis
+		g\f
+		R1*2 %105
+		d'1\f
+		cis~
+		cis4 cis cis cis
+		d2 r
+		R1 %110
+		cis
+		R
+		es~\p
+		es
+		d~\mf %115
+		d
+		d4 r r2
+		R1
+		\tempoWirPreisenD R1*20 %138
+		R1\fermataMarkup \bar "|." %139
+	}
+}
