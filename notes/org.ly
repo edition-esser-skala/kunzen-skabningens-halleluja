@@ -1163,6 +1163,104 @@ WirPreisenBassFigures = \figuremode {
 	<\t \t> %139 finis
 }
 
+SelbstWennOrgano = {
+	\relative c {
+		\clef bass
+		\key g \minor \time 4/4 \tempoSelbstWenn
+		\mvTr g8\p-\soloE r g' r g r g r
+		fis, r fis' r fis r fis r
+		f, r f' r f r f r
+		es r es r d r cis r
+		d r d r d r d r %5
+		d r d r d r d r
+		d r d r d r r4
+		g,8 r g r g r g r
+		g r g r g\pococresc r g r
+		\tempoSelbstWennB fis4 r r2 %10
+		R1
+		f'!8\p r f r f\cresc r f,4
+		f1\>
+		es8\! r es' r d r d r
+		cis2 r %15
+		d8 r d r d r d r
+		d r d r d r d r
+		\tempoSelbstWennC d2 r
+		g,4 r d' r
+		es r h r %20
+		c r f, r
+		b! r a r
+		g r es' r
+		f r d r
+		es r c r %25
+		d r d, r
+		d' r d r
+		d r d r
+		es r h r
+		c r c r %30
+		c r c r
+		b! r es r
+		d r d r
+		es r es r
+		es r es r %35
+		b r c r
+		d r d, r
+		g r g'\mf r
+		fis r d r
+		es r b r %40
+		c2( d)
+		g, r
+		g\pE r
+		g2. \markAttacaE \bar "||" %44 finis
+	}
+}
+
+SelbstWennBassFigures = \figuremode {
+	r1
+	<6 5>
+	<6 4! _->
+	<6>2 <6 4>4 <7 _!>
+	<5 _+>2 <6 4> %5
+	<5 _+> <6 4>
+	<5 _+>1
+	r
+	<6 4 2>
+	<6 5> %10
+	r
+	<6 4! _->
+	<\t \t \t>
+	<6>2 <6 4>
+	<7 _!>1 %15
+	<5 _+>2 <6 4>
+	<5 _+> <6 4>
+	<5 _+>1
+	r2 <_+>
+	<2+>4 <3> <6 5>2 %20
+	r <7>
+	<4>4 <3> <6\\>2
+	r <6>
+	<4>4 <3> <5>2
+	r1 %25
+	<4>4 <_+> <\t> <6 4>
+	<4> <_+> <5 _+> <6 4>
+	<6 4> <5 _+> <\t \t> <6! 5- _!>
+	<6>2 <6 5>
+	<4>4 <3>2. %30
+	<6 4+ 3>1
+	<6>2 <6>4 <6\\>
+	<6 4>2 <\t \t>4 <5 _+>8 <6! _!>
+	<6>1
+	<6\\> %35
+	<6>
+	<6 4>2 <\t \t>4 <7 _+>
+	r1
+	<7>4 <6> <7 _+>2
+	<6>4 <5> <6>2 %40
+	r <7 _+>
+	r1
+	r
+	r2. %44 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

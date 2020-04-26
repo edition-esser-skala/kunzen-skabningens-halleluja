@@ -608,3 +608,54 @@ WirPreisenViolinoII = {
 		a1\fermata \bar "|." %139 finis
 	}
 }
+
+SelbstWennViolinoII = {
+	\relative c' {
+		\clef treble
+		\key g \minor \time 4/4 \tempoSelbstWenn
+		b8\p r b r b r b r
+		c r c r c r c r
+		h r h r h r h r
+		c r c r b r b r
+		a a a a b b b b %5
+		a a a a b b b b
+		a a a a a r r4
+		b8 r b r b r b r
+		c r c r c\pococresc r c r
+		\tempoSelbstWennB c4\! r r2 %10
+		R1
+		h8\p r h r h\cresc r as as16(-. as-.)
+		as1\>
+		g8\! r c r d r d r
+		e2 r %15
+		a,8 a a a b b b b
+		a a a a b b b b
+		\tempoSelbstWennC a4 c( b a)
+		b d-! r c-!
+		r b-! r d %20
+		r c r c
+		r b r c
+		r b r c
+		r a r a
+		r g r c %25
+		r a r b
+		a4. g8 a4 b
+		r a r as
+		r g r g
+		r g r g' %30
+		r fis r fis
+		r d r cis
+		r g'2\pocoFz fis8( f)
+		g4 g,2 g'4
+		g g,2 g'4 %35
+		g1
+		r4 g2( fis4)
+		g g, r b'\mf
+		r a r fis
+		r g r d %40
+		es2( c)
+		b4 c(\p b a
+		g) c( b a)
+		a2( g4) \markAttacaE \bar "|" %44 finis
+	}
+}

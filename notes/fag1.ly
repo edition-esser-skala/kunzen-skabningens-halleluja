@@ -390,3 +390,50 @@ IchHoerteFagottoI = {
 		R1\fermataMarkup \bar "|." %206 finis
 	}
 }
+
+SelbstWennFagottoI = {
+	\relative c {
+		\clef bass
+		\key g \minor \time 4/4 \tempoSelbstWenn
+		b'1\p
+		c
+		d
+		g
+		fis4 a, b2 %5
+		a b
+		a~ a8 r r4
+		b1
+		c~
+		\tempoSelbstWennB c4 r r2 %10
+		R1*5 %15
+		a2 b
+		a b
+		\tempoSelbstWennC a4 r r d,
+		d b'4. a8 g fis
+		\appoggiatura fis4 g2. f4 %20
+		es4. c8 c'4. es,8
+		\appoggiatura es4 d2 r4 d
+		d b'2 d8 c
+		\appoggiatura b4 a2. c8 b
+		g4. a16 b c8 d es g, %25
+		g4 fis r d8 g
+		g4 fis8 g \afterGrace a4 { g16 a } b4
+		b a2 h4
+		c2 d8 h g f
+		f4 es r es' %30
+		d c b a
+		d4. d8 c b a g
+		d4 b'2 a8 h
+		c2 r4 c
+		cis2. cis4 %35
+		d g, es c
+		d b'2 a4
+		g2 r8 g'(\mf f es)
+		es4( d4.) \appoggiatura f16 es8( d c)
+		c4( b4.) es16( d) c([ b)] a([ g)] %40
+		es'2( fis,)
+		g r4 fis'(
+		g2) r4 fis
+		fis2( g4) \markAttacaE \bar "||" %44 finis
+	}
+}

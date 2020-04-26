@@ -689,6 +689,118 @@ WirPreisenBassoLyricsDansk = \lyricmode {
 	Bud. %131 finis
 }
 
+SelbstWennBassoNotes = {
+	\relative c {
+		\clef bass
+		\key g \minor \time 4/4 \autoBeamOff \tempoSelbstWenn
+		R1*6 %6
+		r2 r8 d^\solo d d
+		g4. d8 b'8. d,16 d8. es16
+		\appoggiatura d c8 c r4 r2
+		\tempoSelbstWennB r4 r8 d fis fis fis g %10
+		a4 r8 a a8. c,16 c8 d
+		\appoggiatura c8 h h r4 r r8 f'
+		as4. f8 d d f h,
+		c4 r8 g' g8. g16 g8. a16
+		b2~ b8 g fis8. g16 %15
+		d4 r r2
+		R1
+		\tempoSelbstWennC r2 r4 d
+		d( b'4. a8) g([ fis)]
+		\appoggiatura fis4 g2. f4 %20
+		es4. c8 c'4. es,8
+		\appoggiatura es4 d2 r4 d
+		d( b'2) d8([ c)]
+		\appoggiatura b4 a2. c8([ b)]
+		g4. a16([ b)] c8([ d)] es([ g,)] %25
+		g4 fis r d8([ g)]
+		g4( fis8) g \afterGrace a4 { g16[ a] } b4
+		b( a2) h4
+		c2( d8[ h)] g([ f)]
+		f4 es r es' %30
+		d( c) b( a)
+		d4. d8 c([ b)] a([ g)]
+		d4( b'2) a8([ h)]
+		c2 r4 c
+		cis2. cis4 %35
+		d g, es c
+		d( b'2) a4
+		g2 r
+		R1*5 %43
+		r2 r4 \markAttacaE \bar "||" %44 finis
+	}
+}
+
+SelbstWennBassoLyrics = \lyricmode {
+	Selbst wenn des %7
+	Le -- bens En -- gel al -- le
+	flüch -- ten,
+	der Tod auf dei -- nen %10
+	Wink ent -- steigt des Ab -- grunds
+	Schlüch -- ten, beim
+	ern -- sten Gang zur Gra -- bes --
+	ruh bist noch des Her -- zens
+	letz -- ter Seuf -- zer %15
+	du.
+
+	Ja,
+	Va -- ter!
+	selbst %20
+	im Tod, im ban -- gen
+	Nu soll
+	aus dem
+	Staub zu
+	dir der Geist noch %25
+	fle -- hen, zu
+	dir hi -- nauf der
+	Wurm im
+	Mo -- der
+	se -- hen, denn %30
+	sein, wie dei -- nes
+	Se -- rafs,
+	den -- kest
+	du, denn
+	sein, wie %35
+	dei -- nes Se -- rafs,
+	den -- kest
+	du. %38 finis
+}
+
+SelbstWennBassoLyricsDansk = \lyricmode {
+	Self naar sig %7
+	al -- le Li -- vets Eng -- le
+	skiu -- le,
+	naar Dø -- den paa dit %10
+	Vink sig rei -- ser af sin
+	Hu -- le, i
+	Mor -- der -- sla -- gets ban -- ge
+	Nu vort knus -- te Hier -- tes
+	sids -- te Suk er %15
+	du.
+
+	Ja,
+	Fa -- der!
+	selv i %20
+	Dø -- dens ban -- ge
+	Nu skal
+	fra dit
+	Støv vort
+	In -- tet dig an -- %25
+	raa -- be, og
+	Or -- men i sit
+	Muld med
+	Til -- lid
+	haa -- be, du %30
+	kom -- mer
+	den, som Se -- raph
+	selv, i --
+	hu, du
+	kom -- mer %35
+	den, som Se -- raph
+	selv, i --
+	hu. %38 finis
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

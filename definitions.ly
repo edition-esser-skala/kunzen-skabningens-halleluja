@@ -189,6 +189,8 @@ cresc = #(make-music 'CrescendoEvent 'span-direction START 'span-type 'text 'spa
 crescE = #(make-music 'CrescendoEvent 'span-direction START 'span-type 'text 'span-text (markup (#:normal-text #:small #:italic "cresc.")))
 decresc = #(make-music 'DecrescendoEvent 'span-direction START 'span-type 'text 'span-text (markup (#:normal-text #:small "decresc.")))
 decrescE = #(make-music 'DecrescendoEvent 'span-direction START 'span-type 'text 'span-text (markup (#:normal-text #:small #:italic "decresc.")))
+pococresc = #(make-music 'CrescendoEvent 'span-direction START 'span-type 'text 'span-text (markup (#:normal-text #:small "poco cresc.")))
+pocoFz = #(make-dynamic-script (markup #:line (#:normal-text #:small "poco" #:normal-text #:large #:bold "fz")))
 
 violinGroupDistance = {
 	\override StaffGrouper.staffgroup-staff-spacing =
@@ -241,6 +243,14 @@ pao = \partcombineApartOnce
 pa = \partcombineApart
 pd = \partcombineAutomatic
 
+markAttaca = {
+	\once \override Score.RehearsalMark.self-alignment-X = #RIGHT
+	\mark \markup { \remark "attaca" }
+}
+markAttacaE = {
+	\once \override Score.RehearsalMark.self-alignment-X = #RIGHT
+	\mark \markup { \remarkE "attaca" }
+}
 
 tempoMarkup =
 	#(define-music-function
@@ -267,6 +277,9 @@ tempoWirPreisen = \tempoMarkup "Allegro moderato"
 	tempoWirPreisenB = \tempoMarkup "Poco a poco stringendo [più agitato]"
 	tempoWirPreisenC = \tempoMarkup "Allegro"
 	tempoWirPreisenD = \tempoMarkup "Poco a poco rallentando"
+tempoSelbstWenn = \tempoMarkup "Largo"
+	tempoSelbstWennB = \tempoMarkup "Recitativo"
+	tempoSelbstWennC = \tempoMarkup "Poco adagio"
 
 
 

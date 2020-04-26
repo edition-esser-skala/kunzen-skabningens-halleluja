@@ -665,6 +665,57 @@ WirPreisenViolinoI = {
 	}
 }
 
+SelbstWennViolinoI = {
+	\relative c' {
+		\clef treble
+		\key g \minor \time 4/4 \tempoSelbstWenn
+		r16 d(-.\p d-. d-.) es( d) d(-. d-.) g( d) d(-. d-.) b'( d,) d(-. d-.)
+		r d(-. d-. d-.) es( d) d(-. d-.) a'( d,) d(-. d-.) c'( d,) d(-. d-.)
+		r d(-. d-. d-.) es( d) d(-. d-.) f!( d) d(-. d-.) as'( h,) h(-. h-.)
+		c( g') g(-. g-.) a!( g) g(-. g-.) r g(-. g-. g-.) b( g) g(-. g-.)
+		fis( a) r d f( es!) r d \slurDashed c!( b) r a b( g) \slurSolid r cis, %5
+		d( fis) r d' f( es!) r d c!( b) r a b( g) r cis,
+		d( fis) r a cis( d) r a d,4 r
+		r16 d(-. d-. d-.) es( d) d(-. d-.) g( d) d(-. d-.) b'( d,) d(-. d-.)
+		r es(-. es-. es-.) f( es) es(-. es-.) a(\pococresc es) es(-. es-.) \slurDashed c'( es,) es(-. es-.) \slurSolid
+		\tempoSelbstWennB d4\! r r2 %10
+		R1
+		r16 d(-.\p d-. d-.) es( d) d(-. d-.) f!(\cresc d) d(-. d-.) as'( h,) h(-. h-.)
+		h1\>
+		c16\! g'([-. g-. g-.)] a!( g) g(-. g-.) r g(-. g-. g-.) b( g) g(-. g-.)
+		g2 r %15
+		fis16( a) r d-! f( es!) r d-! c!( b) r a-! b( g) r cis,-!
+		d( fis) r a-! d( es!) r d-! c!( b) r a-! b( g) r cis,-!
+		\tempoSelbstWennC d2 r
+		r4 b'-! r a-!
+		r g-! r f! %20
+		r es r es
+		r d r d
+		r d r es
+		r c r f
+		r b, r es %25
+		r d r d
+		c4. b8 a4 b
+		r a r h
+		r c r d
+		r c r c' %30
+		r a r a
+		r g r g
+		r b2\pocoFz a8( h)
+		c4 c,2 c'4
+		cis cis,2 cis'4 %35
+		d2 es
+		r4 b2( a4)
+		g r r8 g'(\mf f es)
+		es4( d4.) \appoggiatura f!16 es8( d c)
+		c4( b4.) es16( d) c([ b)] a( g) %40
+		es'2( fis,)
+		g4 es(\p d c
+		b) es( d c)
+		c2( b4) \markAttacaE \bar "||" %44 finis
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

@@ -604,3 +604,54 @@ WirPreisenViola = {
 		fis1\fermata \bar "|." %139 finis
 	}
 }
+
+SelbstWennViola = {
+	\relative c' {
+		\clef alto
+		\key g \minor \time 4/4 \tempoSelbstWenn
+		<d, g>8\p r q r q r q r
+		<d a'> r q r q r q r
+		as' r as r as r as r
+		g r g r g r g r
+		fis fis fis fis g g g g %5
+		fis fis fis fis g g g g
+		fis fis fis fis fis r r4
+		g8 r g r g r g r
+		a r a r a\pococresc r a r
+		\tempoSelbstWennB a4 r r2 %10
+		R1
+		as8\p r as r as\cresc r h16( d,) d(-. d-.)
+		d1\>
+		es8\! r es' r b r b r
+		b2 r %15
+		fis8 fis fis fis g g g g
+		fis fis fis fis g g g g
+		\tempoSelbstWennC fis4 a( g fis)
+		g g r d'
+		r g, r g %20
+		r g r a
+		r f r fis
+		r g r g
+		r f r f
+		r es r g %25
+		r fis r g
+		a4. g8 fis4 g
+		r fis r f
+		r es r f
+		r es r es' %30
+		r es r es
+		r g, r g
+		r d'2\pocoFz d4
+		es es,2 es'4
+		es es,2 es'4 %35
+		b2 c
+		r4 d2( c4)
+		b r r g'\mf
+		r fis r d
+		r es r b %40
+		c2( a)
+		g r
+		g\pE r
+		d2. \markAttacaE \bar "||" %44 finis
+	}
+}

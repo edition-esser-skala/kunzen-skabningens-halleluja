@@ -354,3 +354,26 @@ IchHoerteFagottoII = {
 		R1\fermataMarkup \bar "|." %206 finis
 	}
 }
+
+SelbstWennFagottoII = {
+	\relative c {
+		\clef bass
+		\key g \minor \time 4/4 \tempoSelbstWenn
+		g'1\p
+		a
+		h
+		c2 d4 e
+		a, fis g2 %5
+		fis g
+		fis~ fis8 r r4
+		g1
+		a~
+		\tempoSelbstWennB a4 r r2 %10
+		R1*5 %15
+		fis2 g
+		fis g
+		\tempoSelbstWennC fis4 r r2
+		R1*25 %43
+		r2. \markAttacaE \bar "||"
+	}
+}
