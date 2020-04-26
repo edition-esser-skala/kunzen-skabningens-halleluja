@@ -655,3 +655,66 @@ SelbstWennViola = {
 		d2. \markAttacaE \bar "||" %44 finis
 	}
 }
+
+GerechterRichterViola = {
+	\relative c' {
+		\clef alto
+		\key b \major \time 4/4 \tempoGerechterRichter
+		\partial 4 r4 f2\mf f
+		f4 r r2
+		f f
+		g8\f g g g f, f f f
+		es4 r des'8 des des des %5
+		d d4 d d f8
+		f4 f2 es4
+		d r f,\p r
+		f r r2
+		r4 f'2 f4 %10
+		f2 b,
+		es c
+		f d
+		g4 r es r
+		f2 r %15
+		f, r
+		f4 r c'2
+		d r4 c
+		d d2 d4
+		c r r b! %20
+		a b c c
+		c r a r
+		b r b r
+		c r r2
+		d4 d c b %25
+		a r r f'\mf
+		g f es! d
+		c b a r8 <f a>\p
+		<d b'>4 <f c'> <b d> <c es>
+		<d f>4.( <cis e>16 <d f> <es g>8 <d f> <c es> <b d>) %30
+		<a c>4 r r f'\mf
+		g f es! d
+		c b a r8 <f a>\p
+		<d b'>4 <f c'> <b d> <c es>
+		<d f>4.( <cis e>16 <d f> <es g>8 <d f> <c es> <b d>) %35
+		<b d>4( <a c>) r b
+		es r c r
+		f r d r
+		g r es r
+		f r f, r %40
+		r8 g' g g r a a a
+		b4 r es, r
+		f r f r
+		g1
+		a %45
+		b4 r es, r
+		f r g r
+		d r e r
+		f8\mf f4 f f f8
+		es! es4 es es es8 %50
+		d\fE d d d f, f f f
+		es4 r des'8 des des des
+		d d4 d d f8
+		f4 f2 es4
+		d f,2\p f4~ %55
+		f f2 f4 \bar "|" %56 finis
+	}
+}

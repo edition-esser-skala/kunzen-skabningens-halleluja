@@ -233,3 +233,46 @@ WirPreisenCornoI = {
 		R1\fermataMarkup \bar "|." %139
 	}
 }
+
+GerechterRichterCornoI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoGerechterRichter
+		\partial 4 r4 c'2\mf g
+		c4 e, g c
+		e r r2
+		c1~\f
+		c %5
+		\pao g
+		g'8( f e2) d4
+		c r r2
+		r4 e,\p g c
+		e r r2 %10
+		r4 c c r
+		R1*3
+		r4 \pao g d' d %15
+		d r r2
+		R1*8 %24
+		r4 c d d %25
+		d8 g,[\f g g] g g g g
+		g1~\mf
+		g~
+		g4 r r2
+		R1 %30
+		r8 g\f g g g g g g
+		g1~\mf
+		g~
+		g4 r r2
+		R1*10 %44
+		g1\pE %45
+		c4 r r2
+		R1*3
+		g1\mfE %50
+		c~\f
+		c
+		\pao g
+		g'8( f e2) d4
+		c r r2 %55
+		R1 \bar "|" %56 finis
+	}
+}

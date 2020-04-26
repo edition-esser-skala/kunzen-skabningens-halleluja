@@ -1084,6 +1084,156 @@ WirPreisenSopranoLyricsDansk = \lyricmode {
 	Bud. %131 finis
 }
 
+GerechterRichterSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 4/4 \autoBeamOff \tempoGerechterRichter
+		\partial 4 r4 R1*6 %6
+		r2 r4 f^\solo
+		f( d'2) c4
+		\appoggiatura c8 b4 b r2
+		d8 b f'2 es4 %10
+		\appoggiatura es d2 r4 d
+		c( b2) es4
+		d( c2) d4
+		b4. c16([ d)] es8([ f)] g([ es)]
+		d4 c r c %15
+		c4. f8 e4 d
+		d8([ c)] b([ a)] b4 b
+		b a r c8([ a)]
+		g4.( a8 g4) g
+		g4.( a8 b^[ c)] d([ e)] %20
+		f([ c)] d([ b)] a4 g
+		a r r2
+		r4 d8([ c)] b([ a)] g([ f)]
+		e8[( g g' f] e[ d)] c([ b)]
+		a([ f')] d([ b)] a4 g %25
+		f r r2
+		R1
+		r2 r4 f
+		b c d es
+		f4. e16([ f)] g8([ f)] es([ d)] %30
+		c2 r
+		R1
+		r2 r4 f,
+		b c d es
+		f4. e16([ f)] g8([ f)] es([ d)] %35
+		d4 c r d8([ b)]
+		\appoggiatura a4 g2. es'8([ c)]
+		\appoggiatura b4 a2. f'4
+		b,4. c16([ d)] es8([ f)] g([ es)]
+		d4 c r f %40
+		e2 es
+		d4 f a8([ g)] f([ es)]
+		d4( es2) f4
+		e2. e4
+		f2. f4 %45
+		g8([ f)] es!([ f)] a([ g)] f([ es)]
+		d4 es2 e4~
+		e f2 g4
+		d8 f4 b f8[ es d]
+		c2..\trill c8 %50
+		b2 r
+		R1*5 \bar "|" %56 finis
+	}
+}
+
+GerechterRichterSopranoLyrics = \lyricmode {
+	Ge -- %7
+	rech -- ter
+	Rich -- ter!
+	du bist e -- wig %10
+	gut! Du
+	gabst uns
+	Glau -- ben,
+	Lie -- be und Ver --
+	trau -- en, wir %15
+	dür -- fen fest auf
+	dei -- ne Hül -- fe
+	bau -- en, denn
+	schü -- tzend
+	wal -- tet %20
+	ob uns dei -- ne
+	Hut,
+	denn schü -- tzend
+	wal -- tet
+	ob uns dei -- ne %25
+	Hut.
+
+	Du
+	siehst he -- rab mit
+	Va -- ter -- freund -- lich -- %30
+	keit,
+
+	wenn
+	kind -- lich froh des
+	Le -- bens Bahn wir %35
+	wal -- len; in
+	Ein -- tracht
+	schenkst du
+	dei -- nen Kin -- dern
+	al -- len den %40
+	Vor -- schmack
+	von des Him -- mels
+	See -- lig --
+	keit, den
+	Vor -- schmack %45
+	von des Him -- mels
+	See -- _ _
+	_ _
+	_ _ _ _
+	_ lig -- %50
+	keit. %51 finis
+}
+
+GerechterRichterSopranoLyricsDansk = \lyricmode {
+	Thi, %7
+	sto -- re
+	Dom -- mer!
+	du er e -- vig %10
+	god! Du
+	gav vort
+	Hier -- te
+	Kiær -- lig -- he -- dens
+	Vin -- ge, vi %15
+	tryg -- ge dig vor
+	Til -- lids Of -- fer
+	brin -- ge, du
+	ta -- ger
+	det __ med %20
+	Vel -- be -- hag
+	i -- mod,
+	du ta -- ger
+	det __ med
+	Vel -- be -- hag %25
+	i -- mod.
+
+	Du
+	seer med mil -- de
+	Fa -- der -- blik -- ke %30
+	ned,
+
+	naar
+	barn -- lig fro vi
+	Li -- vets Ba -- ne %35
+	van -- dre; du
+	gav os
+	her i
+	Sam -- fund med hve --
+	ran -- dre en %40
+	For -- smag
+	af Se -- ra -- phers
+	Sa -- lig --
+	hed, en
+	For -- smag %45
+	af Se -- ra -- phers
+	Sa -- _ _
+	_ _
+	_ _ _ _
+	_ lig -- %50
+	hed. %51 finis
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

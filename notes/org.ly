@@ -1261,6 +1261,128 @@ SelbstWennBassFigures = \figuremode {
 	r2. %44 finis
 }
 
+GerechterRichterOrgano = {
+	\relative c {
+		\clef bass
+		\key b \major \time 4/4 \tempoGerechterRichter
+		\partial 4 r4 \mvTrr b'2\mf-\soloE f
+		b,4 r r2
+		b' f
+		g8\f g g g d d d d
+		es es es es e e e e %5
+		f f f f f f f f
+		f2 f,
+		b4 r f'\p r
+		b,2 r
+		b'4 r f r %10
+		b, r \clef "treble_8" b'2^\vlc
+		es c
+		f d
+		\clef bass g,4^\bassi r es r
+		f f' c a %15
+		f2 r
+		\clef "treble_8" f2^\vlc c'
+		d a
+		b h
+		c4 c2 b4 %20
+		a b c c,
+		f r \clef bass a,^\bassi r
+		b r g r
+		c2. c4
+		d b' c c, %25
+		f r r2
+		f,4 r r2
+		R1
+		f'4 r r2
+		f4 r r2 %30
+		f4 r r2
+		f,4 r r2
+		R1
+		f'4 r r2
+		f4 r r2 %35
+		f,4 r b r
+		es r c r
+		f r d r
+		g r es r
+		f r f, r %40
+		f' r f r
+		b r es, r
+		f r f r
+		g1
+		a %45
+		b4 r es, r
+		f r g r
+		d r e r
+		f\mf f f f
+		f, f f f %50
+		b8\f b b b d d d d
+		es es es es e e e e
+		f f f f f f f f
+		f2 f,
+		b b\p %55
+		b b \bar "|" %56 finis
+	}
+}
+
+GerechterRichterBassFigures = \figuremode {
+	r4 r2 <6 4>4 <5 3>
+	r1
+	r2 <6 4>4 <5 3>
+	r2 <6 5->
+	r <7-> %5
+	<6! 4>1
+	<\t \t>2 <\t \t>4 <5 3>
+	r2 <6 4>4 <5 3>
+	r1
+	r2 <6 4>4 <5 3> %10
+	r1
+	<6 4>4 <5 3>2.
+	<6 4>4 <5 3>2.
+	r2 <6>
+	<6 4>4 <5 3>2 \bassFigureExtendersOn q4 \bassFigureExtendersOff %15
+	r1
+	r2 <7 _!>
+	<6 4>4 <5 3> <6>2
+	<6 5>2 <\t \t>
+	<_!>2. <\t>4 %20
+	<6> q <6 4> <5 _!>
+	r2 <6>
+	r1
+	<_!>
+	<5>4 <6> <6 4> <5 _!> %25
+	r1
+	r
+	r
+	<6 4>
+	<\t \t> %30
+	<5 3>
+	r
+	r
+	<6 4>
+	<\t \t> %35
+	<6 4>4 <5 3>2.
+	<4>4 <3>2.
+	<4>4 <3>2.
+	r2 <6>
+	<6 4>4 <5 3>2. %40
+	<7! 4 2>2 <7- 5 3>
+	r <6>
+	<6 4>4 <7 5>2 <8 3>4
+	<6!>1
+	<6 5-> %45
+	r2 <6>
+	<6 4>4 <7 \t> <6> <6!>
+	<\t> <6> <\t> <6>
+	<6 4>1
+	<5 3> %50
+	r2 <6 5->
+	r <7->
+	<6! 4>1
+	<\t \t>2 <\t \t>4 <5 3>
+	r1 %55
+	r %56 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

@@ -716,6 +716,69 @@ SelbstWennViolinoI = {
 	}
 }
 
+GerechterRichterViolinoI = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 4/4 \tempoGerechterRichter
+		\partial 4 f4\mf f8([ d')] d2 c4
+		b r r b
+		d8([ b)] f'2 es4
+		d8\f b' b4\trill r as,,(
+		g8[) r16 b''] b4\trill r g %5
+		g16 f es d es f g a b c d c b8 d,
+		f8( es d2) c4
+		b d2\p c4
+		b r r2
+		d4 f2 es4 %10
+		es( d) r d
+		c( b2) es4
+		d( c2) f4
+		b, r es r
+		d( c) r c %15
+		c4. f8 e4 d
+		d8( c b a) b( c16 d) c8( b)
+		b4( a) r a
+		g g2 g4
+		g4. a8( b c d e) %20
+		f( c) d( b) a4 g
+		a r f r
+		f r g r
+		g r r2
+		a4 b a g %25
+		c r r r8 f\mf
+		f(-> \scriptOut es)-! r d-! d(-> \scriptOut c)-! r b-!
+		b( \scriptOut a)-! r g-! g( f) r f\p
+		b(-. b-.) c(-. c-.) d(-. d-.) es(-. es-.)
+		f4.( e16 f g8 f es d) %30
+		c4 r r r8 f\mf
+		f(-\parenthesize-> \scriptOut es)-! r d-! d(-\parenthesize-> \scriptOut c)-! r b-!
+		b( \scriptOut a)-! r g-! g( f) r f\p
+		b(-. b-.) c(-. c-.) d(-. d-.) es(-. es-.)
+		f4.( e16 f g8 f es d) %35
+		d4( c) r b
+		r g2 c4
+		r a2 d4
+		b r es r
+		r c2 f4 %40
+		r8 e e e r es es es
+		d4 f a8( g f es)
+		d4 es2 f4
+		e1
+		f %45
+		g8( f es! f) a( g f es)
+		d4 es r e
+		r f r g
+		d8\mf d4 d f8( es! d)
+		c c4 c c c8 %50
+		b8 \noBeam b'\f b4\trill r as,,(
+		g8)[ r16 b''] b4\trill r g
+		g16 f es d es f g a b c d c b8 d,
+		f( es d2) c4
+		d d,2\p d4~ %55
+		d d2 d4 \bar "|" %56 finis
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

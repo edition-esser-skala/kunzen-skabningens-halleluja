@@ -550,6 +550,156 @@ WirPreisenAltoLyricsDansk = \lyricmode {
 	Bud. %131 finis
 }
 
+GerechterRichterAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 4/4 \autoBeamOff \tempoGerechterRichter
+		\partial 4 r4 R1*6 %6
+		r2 r4 f^\solo
+		f2. es4
+		d d r2
+		b'8 d d2 c4 %10
+		\appoggiatura c b2 r4 b
+		a( g2) c4
+		b( a2) f4
+		g4. a16([ b)] c8([ d)] es([ c)]
+		b4 a r a %15
+		a4. d8 c4 b
+		b8([ a)] g([ f)] g4 g
+		g f r f
+		f2. f4
+		e4.( f8 g[ a)] b([ g)] %20
+		f4 b8([ g)] f4 e
+		f c'8[( b)] a([ g)] f([ e)]
+		d2. d4
+		c8(_[ e e' d] c[ b)] a([ g)]
+		f4 b8([ g)] f4 e %25
+		f r r2
+		R1
+		r2 r4 f
+		d f b c
+		d4. cis16([ d)] es!8([ d)] c([ b)] %30
+		a2 r
+		R1
+		r2 r4 f
+		d f b c
+		d4. cis16([ d)] es!8([ d)] c([ b)] %35
+		b4 a r d,
+		es2. es4
+		f2. f4
+		g4. a16([ b)] c8([ d)] es([ c)]
+		b4 a r f %40
+		g2 a
+		b4 d f8([ es)] d([ c)]
+		b4( c2) a4
+		b2. b4
+		c2 es! %45
+		es8([ d)] c([ d)] f([ es)] d([ c)]
+		b1~
+		b~
+		b4 d2 c8[ b]
+		a2..\trill a8 %50
+		b2 r
+		R1*5 \bar "|" %56 finis
+	}
+}
+
+GerechterRichterAltoLyrics = \lyricmode {
+	Ge -- %7
+	rech -- ter
+	Rich -- ter!
+	du bist e -- wig %10
+	gut! Du
+	gabst uns
+	Glau -- ben,
+	Lie -- be und Ver --
+	trau -- en, wir %15
+	dür -- fen fest auf
+	dei -- ne Hül -- fe
+	bau -- en, denn
+	schü -- tzend
+	wal -- tet %20
+	ob uns dei -- ne
+	Hut, denn schü -- tzend,
+	schü -- tzend
+	wal -- tet
+	ob uns dei -- ne %25
+	Hut.
+
+	Du
+	siehst he -- rab mit
+	Va -- ter -- freund -- lich -- %30
+	keit,
+
+	wenn
+	kind -- lich froh des
+	Le -- bens Bahn wir %35
+	wal -- len; in
+	Ein -- tracht
+	schenkst du
+	dei -- nen Kin -- dern
+	al -- len den %40
+	Vor -- schmack
+	von des Him -- mels
+	See -- lig --
+	keit, den
+	Vor -- schmack %45
+	von des Him -- mels
+	See --
+
+	_ _
+	_ lig -- %50
+	keit. %51 finis
+}
+
+GerechterRichterAltoLyricsDansk = \lyricmode {
+	Thi, %7
+	sto -- re
+	Dom -- mer!
+	du er e -- vig %10
+	god! Du
+	gav vort
+	Hier -- te
+	Kiær -- lig -- he -- dens
+	Vin -- ge, vi %15
+	tryg -- ge dig vor
+	Til -- lids Of -- fer
+	brin -- ge, du
+	ta -- ger
+	det __ med %20
+	Vel -- be -- hag
+	i -- mod, du ta -- ger
+	det med
+	Vel -- _
+	_ be -- hag %25
+	i -- mod.
+
+	Du
+	seer med mil -- de
+	Fa -- der -- blik -- ke %30
+	ned,
+
+	naar
+	barn -- lig fro vi
+	Li -- vets Ba -- ne %35
+	van -- dre; du
+	gav os
+	her i
+	Sam -- fund med hve --
+	ran -- dre en %40
+	For -- smag
+	af Se -- ra -- phers
+	Sa -- lig --
+	hed, en
+	For -- smag %45
+	af Se -- ra -- phers
+	Sa --
+
+	_ _
+	_ lig -- %50
+	hed. %51 finis
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

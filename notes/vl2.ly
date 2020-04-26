@@ -659,3 +659,66 @@ SelbstWennViolinoII = {
 		a2( g4) \markAttacaE \bar "|" %44 finis
 	}
 }
+
+GerechterRichterViolinoII = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 4/4 \tempoGerechterRichter
+		\partial 4 d4\mf d f2 es4
+		d r r2
+		b'4 d2 c4
+		b8\f b b4\trill r \once \slurDashed as,(
+		g8)[ r16 b'] b4\trill r b %5
+		b8 b4 b b b8
+		d( c b2) a4
+		b f2\p es4
+		d r r2
+		b'4 d2 c4 %10
+		c( b) r b
+		a( g2) c4
+		b( a2) d4
+		b r c r
+		b( a) r a %15
+		a4. d8 c4 b
+		b8( a g f) g4 g
+		g( f) r f
+		f f2 f4
+		e4. f8( g a b g) %20
+		f4 b8( g) f4 e
+		f r c r
+		d r d r
+		e r r2
+		f4 g f e %25
+		f r r a\mf
+		b a g f
+		es! d c r8 es\p
+		d(-. d-.) f(-. f-.) b(-. b-.) c(-. c-.)
+		d4.( cis16 d es!8 d c b) %30
+		a4 r r a\mf
+		b a g f
+		es! d c r8 es\p
+		d(-. d-.) f(-. f-.) b(-. b-.) c(-. c-.)
+		d4.( cis16 d es!8 d c b) %35
+		b4( a) r d,
+		r es2 es4
+		r f2 f4
+		g r c r
+		r a2 f4 %40
+		r8 b b b r c c c
+		b4 d f8( es d c)
+		b4 c2 a4
+		b1
+		c %45
+		r8 d( c d f es d c)
+		b2 r4 b
+		r b r b
+		b8\mf b4 b d8( c b)
+		a a4 a a a8 %50
+		b \noBeam b\f b4\trill r as,(
+		g8)[ r16 b'] b4\trill r b
+		b8 b4 b b b8
+		d8( c b2) a4
+		b b,2\p b4~ %55
+		b b2 b4 \bar "|" %56 finis
+	}
+}

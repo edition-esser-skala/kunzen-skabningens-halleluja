@@ -264,7 +264,7 @@
 	% 					}
 	% 				>>
 	% 			>>
-	% 			\new StaffGroup <<
+	% 			\new StaffGroup \with { \stringGroupDistance } <<
 	% 				\new Staff <<
 	% 					\set Staff.instrumentName = \markup { \center-column { "Corno I, II" "in F" } }
 	% 					% \transpose c f
@@ -354,7 +354,7 @@
 	% 				\set Staff.instrumentName = \markup { \center-column { "Timpani" "in C–G" } }
 	% 				\DuRollestTimpani
 	% 			}
-	% 			\new StaffGroup <<
+	% 			\new StaffGroup \with { \stringGroupDistance } <<
 	% 				\new GrandStaff <<
 	% 					\new Staff {
 	% 						\set Staff.instrumentName = "Violino I"
@@ -441,7 +441,7 @@
 	% 					\partcombine \IchHoerteFagottoI \IchHoerteFagottoII
 	% 				>>
 	% 			>>
-	% 			\new StaffGroup <<
+	% 			\new StaffGroup \with { \stringGroupDistance } <<
 	% 				\new GrandStaff <<
 	% 					\new Staff {
 	% 						\set Staff.instrumentName = "Violino I"
@@ -624,60 +624,152 @@
 	% 		% \midi { \tempo 4 = 120 }
 	% 	}
 	% }
+	% \bookpart {
+	% 	\header {
+	% 		number = "7"
+	% 		title = "Selbst wenn des Lebens Engel alle flüchten"
+	% 		dansktitle = "Selv naar sig alle Livets Engle skiule"
+	% 	}
+	% 	\paper { systems-per-page = #2 }
+	% 	% \newlabel "selbstwenn" "7" "Selbst wenn des Lebens Engel alle flüchten" "Selv naar sig alle Livets Engle skiule"
+	% 	\score {
+	% 		<<
+	% 			\new StaffGroup <<
+	% 				\new Staff <<
+	% 					\set Staff.instrumentName = "Fagotto I, II"
+	% 					\set Staff.soloText = \markup { \medium \remark "Fag I" }
+	% 					\partcombine \SelbstWennFagottoI \SelbstWennFagottoII
+	% 				>>
+	% 			>>
+	% 			\new StaffGroup \with { \stringGroupDistance } <<
+	% 				\new GrandStaff <<
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "Violino I"
+	% 						\SelbstWennViolinoI
+	% 					}
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "Violino II"
+	% 						\SelbstWennViolinoII
+	% 					}
+	% 				>>
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "Viola"
+	% 					\SelbstWennViola
+	% 				}
+	% 			>>
+	% 			\new ChoirStaff <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "Basso"
+	% 					\new Voice = "Basso" { \dynamicUp \SelbstWennBassoNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Basso \SelbstWennBassoLyrics
+	% 				\new Lyrics \with { \danskLyrics } \lyricsto Basso \SelbstWennBassoLyricsDansk
+	% 			>>
+	% 			\new StaffGroup <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = \markup { \center-column { "Violoncello" "e Basso" } }
+	% 					% \transpose c c,
+	% 					\SelbstWennOrgano
+	% 				}
+	% 			>>
+	% 			\new FiguredBass {
+	% 				\SelbstWennBassFigures
+	% 			}
+	% 		>>
+	% 		\layout { }
+	% 		\midi { \tempo 4 = 60 }
+	% 	}
+	% }
 	\bookpart {
 		\header {
-			number = "7"
-			title = "Selbst wenn des Lebens Engel alle flüchten"
-			dansktitle = "Selv naar sig alle Livets Engle skiule"
+			number = "8"
+			title = "Gerechter Richter!"
+			dansktitle = "Thi, store Dommer!"
 		}
-		\paper { systems-per-page = #2 }
-		% \newlabel "selbstwenn" "7" "Selbst wenn des Lebens Engel alle flüchten" "Selv naar sig alle Livets Engle skiule"
+		\paper {
+			markup-system-spacing.basic-distance = #25
+			markup-system-spacing.minimum-distance = #25
+			top-system-spacing.basic-distance = #25
+			top-system-spacing.minimum-distance = #25
+			page-count = #10
+		}
+		% \newlabel "gerechter" "8" "Gerechter Richter!" "Thi, store Dommer!"
 		\score {
 			<<
 				\new StaffGroup <<
-					\new Staff <<
-						\set Staff.instrumentName = "Fagotto I, II"
-						\set Staff.soloText = \markup { \medium \remark "Fag I" }
-						\partcombine \SelbstWennFagottoI \SelbstWennFagottoII
+					\new GrandStaff \with { \stringGroupDistance } <<
+						\set GrandStaff.instrumentName = "in B"
+						\new Staff {
+							\set Staff.instrumentName = "Clarinetto I"
+							% \transpose c b
+							\GerechterRichterClarinettoI
+						}
+						\new Staff {
+							\set Staff.instrumentName = "Clarinetto II"
+							% \transpose c b
+							\GerechterRichterClarinettoII
+						}
 					>>
 				>>
 				\new StaffGroup <<
+					\new GrandStaff \with { \stringGroupDistance } <<
+						\set GrandStaff.instrumentName = "in B"
+						\new Staff {
+							\set Staff.instrumentName = "Corno I"
+							% \transpose c b
+							\GerechterRichterCornoI
+						}
+						\new Staff {
+							\set Staff.instrumentName = "Corno II"
+							% \transpose c b
+							\GerechterRichterCornoII
+						}
+					>>
+				>>
+				\new StaffGroup \with { \stringGroupDistance } <<
 					\new GrandStaff <<
 						\new Staff {
 							\set Staff.instrumentName = "Violino I"
-							\SelbstWennViolinoI
+							\GerechterRichterViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Violino II"
-							\SelbstWennViolinoII
+							\GerechterRichterViolinoII
 						}
 					>>
 					\new Staff {
 						\set Staff.instrumentName = "Viola"
-						\SelbstWennViola
+						\GerechterRichterViola
 					}
 				>>
 				\new ChoirStaff <<
 					\new Staff {
-						\set Staff.instrumentName = "Basso"
-						\new Voice = "Basso" { \dynamicUp \SelbstWennBassoNotes }
+						\set Staff.instrumentName = "Soprano"
+						\new Voice = "Soprano" { \dynamicUp \GerechterRichterSopranoNotes }
 					}
-					\new Lyrics \lyricsto Basso \SelbstWennBassoLyrics
-					\new Lyrics \with { \danskLyrics } \lyricsto Basso \SelbstWennBassoLyricsDansk
+					\new Lyrics \lyricsto Soprano \GerechterRichterSopranoLyrics
+					\new Lyrics \with { \danskLyrics } \lyricsto Soprano \GerechterRichterSopranoLyricsDansk
+
+					\new Staff {
+						\set Staff.instrumentName = "Alto"
+						\new Voice = "Alto" { \dynamicUp \GerechterRichterAltoNotes }
+					}
+					\new Lyrics \lyricsto Alto \GerechterRichterAltoLyrics
+					\new Lyrics \with { \danskLyrics } \lyricsto Alto \GerechterRichterAltoLyricsDansk
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = \markup { \center-column { "Violoncello" "e Basso" } }
 						% \transpose c c,
-						\SelbstWennOrgano
+						\GerechterRichterOrgano
 					}
 				>>
 				\new FiguredBass {
-					\SelbstWennBassFigures
+					\GerechterRichterBassFigures
 				}
 			>>
 			\layout { }
-			\midi { \tempo 4 = 60 }
+			\midi { \tempo 4 = 120 }
 		}
 	}
 }

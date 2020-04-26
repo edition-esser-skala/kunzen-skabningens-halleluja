@@ -280,6 +280,7 @@ tempoWirPreisen = \tempoMarkup "Allegro moderato"
 tempoSelbstWenn = \tempoMarkup "Largo"
 	tempoSelbstWennB = \tempoMarkup "Recitativo"
 	tempoSelbstWennC = \tempoMarkup "Poco adagio"
+tempoGerechterRichter = \tempoMarkup "Allegro moderato"
 
 
 
