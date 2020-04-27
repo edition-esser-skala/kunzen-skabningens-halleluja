@@ -1427,6 +1427,120 @@ OGottBassFigures = \figuremode {
 	<6>1 %17 finis
 }
 
+UndLebenOrgano = {
+	\relative c {
+		\clef bass
+		\key b \major \time 4/4 \tempoUndLeben
+		r2 r4 \mvTr f\p-\soloE
+		b,2 r
+		b es
+		f4 r f, r
+		b r r2 %5
+		f'4-\tuttiE r f, r
+		b r b' r
+		f r f, r
+		b r b d
+		es-! g-! c,-! es-! %10
+		f-! a-! d,-! f-!
+		g-! f-! es-! c-!
+		f2. r8 es\f
+		d4 es f f,
+		g2 r4\fermata g'\p %15
+		f r f, r
+		b r b' r
+		f r f, r
+		b r b-! d-!
+		es-! g-! c,-! es-! %20
+		f-! a-! d,-! f-!
+		g-! f-! es-! c-!
+		f2. r8 es\f
+		d4 es f f,
+		b r r b' %25
+		f r f, r
+		b r r b
+		f' r f, r
+		b r r b8. b16
+		b4 r r b8. b16 %30
+		b2 r\fermata \bar "|." %31 finis
+	}
+}
+
+UndLebenBassFigures = \figuremode {
+	r2. <7>4
+	r1
+	r2 <6>
+	<6 4>4 <7 5> <\t \t>2
+	r1 %5
+	<7>
+	r
+	q
+	r2. <6>4
+	r q r q %10
+	r q r q
+	r <2> <6 5> <\t \t>
+	r2.. <2>8
+	<6>2 <6 4>4 <7 3>
+	<6!>2. <\t>4 %15
+	<7->1
+	r
+	<7>
+	r2. <6>4
+	r q r q %20
+	r q r q
+	r <2> <6 5> <\t \t>
+	r2.. <2>8
+	<6>2 <6 4>4 <7 3>
+	r1 %25
+	<7>
+	r
+	<7>
+	r
+	r %30
+	r %31 finis
+}
+
+HeiligOrgano = {
+	\relative c {
+		\clef bass
+		\key es \major \time 2/2 \tempoHeilig
+		R1*3
+		R1\fermataMarkup
+		R1*3 %7
+		R1\fermataMarkup
+		R1*3 %11
+		R1\fermataMarkup
+		R\fermataMarkup
+		R1*2 %15
+		\mvTr c1\f-\tuttiE
+		r2\fermata es'^\unisonoE
+		c g
+		es c
+		a1\fermata %20
+		r2\fermata es''
+		c a
+		es a,
+		<< {
+			\oneVoice
+			b1~\pE
+			b~ %25
+		 	b\fermata
+		} \\ {
+			s1
+			s
+			s2..\< s8\!
+		} >> \markAttacaE \bar "||" %26 finis
+	}
+}
+
+HeiligBassFigures = \figuremode {
+	r1*15 %15
+	<5 3>1
+	r1*7 %23
+	<5 3>2 <6 4>
+	<5 3> <6 4> %25
+	<5 3>1 %26 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

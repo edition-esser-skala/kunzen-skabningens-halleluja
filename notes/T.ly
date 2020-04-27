@@ -1289,6 +1289,182 @@ WirPreisenTenoreLyricsDansk = \lyricmode {
 	Bud. %131 finis
 }
 
+UndLebenTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key b \major \time 4/4 \autoBeamOff \tempoUndLeben
+		R1*4
+		r2 r4 \mvTrr b\pp^\tutti %5
+		c4. c8 c4 c
+		b2. b4
+		c4. c8 c4 c
+		b b r b
+		b2 r4 es %10
+		c2 r4 f
+		d2 es
+		c c4 r8 c\f
+		d4 b d c
+		b2.\fermata b4\pp %15
+		c4. c8 c4 c
+		b2 r4 b
+		c4. c8 c4 c
+		b b r b
+		b2 r4 es %20
+		c2 r4 f
+		d2 es
+		c c4 r8 c\f
+		d4 b d c
+		d r r b %25
+		c2. c4
+		b2 r4 b
+		c2. c4
+		b1~
+		b~ %30
+		b2 r\fermata \bar "|." %31 finis
+	}
+}
+
+UndLebenTenoreLyrics = \lyricmode {
+	O %5
+	Wonn in uns -- rer
+	Brust! Dir,
+	Lie -- be, Preis! wir
+	le -- ben! Du
+	bist, du %10
+	warst, und
+	blei -- best
+	e -- wig, o
+	Lie -- be, uns -- re
+	Lust! O %15
+	Wonn in uns -- rer
+	Brust! Dir,
+	Lie -- be, Preis! wir
+	le -- ben! Du
+	bist, du %20
+	warst, und
+	blei -- best
+	e -- wig, o
+	Lie -- be, uns -- re
+	Lust! Hal -- %25
+	le -- lu --
+	ja! Hal --
+	le -- lu --
+	ja! __ %29 finis
+}
+
+UndLebenTenoreLyricsDansk = \lyricmode {
+	O %5
+	Him -- mel i vort
+	Bryst! O
+	Kiær -- lig -- hed! vi
+	e -- re! Du
+	er, du %10
+	var, og
+	du skal
+	væ -- re vor
+	Lyst! Hal -- le -- lu --
+	ja! O %15
+	Him -- mel i vort
+	Bryst! O
+	Kiær -- lig -- hed! vi
+	e -- re! Du
+	er, du %20
+	var, og
+	du skal
+	væ -- re vor
+	Lyst! Hal -- le -- lu --
+	ja! Hal -- %25
+	le -- lu --
+	ja! Hal --
+	le -- lu --
+	ja! __ %29 finis
+}
+
+HeiligTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key es \major \time 2/2 \autoBeamOff \tempoHeilig
+		\mvTrr b1~\pp^\tuttiE
+		b
+		b~
+		b2 r\fermata
+		c1~\mf %5
+		c
+		c~
+		c2 r\fermata
+		es1~\f
+		es %10
+		es~
+		es\fermata
+		r2\fermata g
+		es b
+		g es %15
+		c1\fermata
+		R\fermataMarkup
+		r2 g''
+		es c
+		a\fermata a %20
+		R1\fermataMarkup
+		R
+		es'2 a,
+		b1~\p
+		b~ %25
+		<< \context Voice = "Tenore" { b\fermata } \\ { s2..\< s8\! } >> \markAttacaE \bar "||" %26 finis
+	}
+}
+
+HeiligTenoreLyrics = \lyricmode {
+	Hei --
+
+	lig! __
+
+	Hei -- %5
+
+	lig! __
+
+	Hei --
+	%10
+	lig! __
+
+	Sink,
+	Schöp -- fung,
+	in den %15
+	Staub!
+
+	Neig
+	dich, o
+	Him -- mel, %20
+
+	Er -- de %23
+	knie! __ %24 finis
+}
+
+HeiligTenoreLyricsDansk = \lyricmode {
+	Hel --
+
+	lig! __
+
+	Hel -- %5
+
+	lig! __
+
+	Hel --
+	%10
+	lig! __
+
+	Fald
+	he -- le
+	Skab -- ning %15
+	ned!
+
+	Ned --
+	bøi dig,
+	Him -- mel, %20
+
+	knæl, o %23
+	Jord! __ %24 finis
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

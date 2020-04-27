@@ -347,3 +347,29 @@ WirPreisenOboeII = {
 		R1\fermataMarkup \bar "|." %139
 	}
 }
+
+HeiligOboeII = {
+	\relative c' {
+		\clef treble
+		\key es \major \time 2/2 \tempoHeilig
+		R1*3
+		R1\fermataMarkup
+		R1*3 %7
+		R1\fermataMarkup
+		R1*3 %11
+		R1\fermataMarkup
+		R\fermataMarkup
+		R1*2 %15
+		es1\f\fermata
+		R\fermataMarkup
+		r2 g'
+		es c
+		a1\fermata %20
+		R\fermataMarkup
+		R
+		es'2 a,
+		b r
+		R1 %25
+		R\fermataMarkup \markAttacaE \bar "||" %26 finis
+	}
+}

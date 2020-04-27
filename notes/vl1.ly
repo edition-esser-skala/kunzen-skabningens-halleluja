@@ -803,6 +803,77 @@ OGottViolinoI = {
 	}
 }
 
+UndLebenViolinoI = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 4/4 \tempoUndLeben
+		r2 r4 es\p
+		es8( d) c( d) f( es) d( es)
+		g( f) es( f) as( g) f( es)
+		d4( es2) c4
+		b r r b' %5
+		r a r a
+		r b r b
+		r a r a
+		r b r b
+		g r r c %10
+		a r r d
+		b r b r
+		a8-! b-! c-! d-! es-! f-! g-! a-!\f
+		b4 g f a,
+		b2 r4\fermata b-!\p %15
+		a-! a r a
+		r b r b
+		r a r a
+		r b r b
+		g r r c %20
+		a r r d
+		b r b r
+		a8-! b-! c-! d-! es-! f-! g-! a-!\f
+		b4 g f a,
+		b r r2 %25
+		r4 <f c' a'> r q
+		<f d' b'> r r2
+		r4 <c es a> r q
+		<d b'> r r b8. b16
+		b4 r r b8. b16 %30
+		b2 r\fermata \bar "|." %31 finis
+	}
+}
+
+HeiligViolinoI = {
+	\relative c' {
+		\clef treble
+		\key es \major \time 2/2 \tempoHeilig
+		R1*3
+		R1\fermataMarkup
+		R1*3 %7
+		R1\fermataMarkup
+		R1*3 %11
+		R1\fermataMarkup
+		R\fermataMarkup
+		R1*2 %15
+		<g es'>1\f\fermata
+		r2\fermata es''2
+		c g
+		es c
+		a1\fermata %20
+		r2\fermata es''
+		c a
+		es a,
+		<< {
+			\oneVoice
+			b1~\p
+			b~ %25
+		 	b\fermata
+		} \\ {
+			s1
+			s
+			s2..\< s8\!
+		} >> \markAttacaE \bar "||" %26 finis
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

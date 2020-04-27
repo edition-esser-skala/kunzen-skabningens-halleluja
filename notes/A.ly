@@ -700,6 +700,284 @@ GerechterRichterAltoLyricsDansk = \lyricmode {
 	hed. %51 finis
 }
 
+UndLebenAltoSoloNotes = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 4/4 \autoBeamOff \tempoUndLeben
+		r2 r4 c'
+		c8([ b)] a([ b)] d([ c)] b([ c)]
+		es([ d)] c([ d)] f([ es)] d([ c)]
+		b4( c2) a4
+		b f d' b %5
+		a16[ b a b] c[ d c d] f[ es d c] d[ c b a]
+		b4 r r2
+		a16[ b a b] c[ d c d] f[ es d c] d[ c b a]
+		b4 r r2
+		g16[ b a g] a[ b c d] es[ f es d] c[ b a g] %10
+		a8 r r4 r2
+		b16[ d c b] c[ d es f] g[ a g f] es[ d c b]
+		a8 r a16[ c b d] c[ es d f] es[ g \once \tieDashed f8]~
+		f4 es d a
+		b2.\fermata b4 %15
+		a16[ b a b] c[ d c d] f[ es d c] d[ c b a]
+		b4 r r2
+		a16[ b a b] c[ d c d] f[ es d c] d[ c b a]
+		b4 r r2
+		g16[ b a g] a[ b c d] es[ f es d] c[ b a g] %20
+		a8 r r4 r2
+		b16[ d c b] c[ d es f] g[ a g f] es[ d c b]
+		a8 r a[ b] c[ d es c]
+		b4 es d a
+		b r r f %25
+		f2. f4
+		f2 r4 d
+		es2. es4
+		d1~
+		d~ %30
+		d2 r\fermata \bar "|." %31 finis
+	}
+}
+
+UndLebenAltoSoloLyrics = \lyricmode {
+	Und
+	Le -- ben, Licht und
+	Freud ist e -- wig,
+	so __ wie
+	du, ja Freud ist %5
+	e -- _ _ _
+	_
+	_ _ _ _
+	_
+	_ _ _ _ %10
+	_
+	_ _ _ _
+	_ _ _ _
+	wig, so wie
+	du! ist %15
+	e -- _ _ _
+	_
+	_ _ _ _
+	_
+	_ _ _ _ %20
+	_
+	_ _ _ _
+	_ _ _
+	_ wig, so wie
+	du! Hal -- %25
+	le -- lu --
+	ja! Hal --
+	le -- lu --
+	ja! __ %29 finis
+}
+
+UndLebenAltoSoloLyricsDansk = \lyricmode {
+	Og
+	Lys og Liv og
+	Lyst er e -- vig
+	hvor du
+	er, og Lyst er %5
+	e -- _ _ _
+	_
+	_ _ _ _
+	_
+	_ _ _ _ %10
+	_
+	_ _ _ _
+	_ _ _ _
+	vig hvor du
+	er! er %15
+	e -- _ _ _
+	_
+	_ _ _ _
+	_
+	_ _ _ _ %20
+	_
+	_ _ _ _
+	_ _ _
+	_ vig hvor du
+	er! Hal -- %25
+	le -- lu --
+	ja! Hal --
+	le -- lu --
+	ja! __ %29 finis
+}
+
+UndLebenAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 4/4 \autoBeamOff \tempoUndLeben
+		R1*4
+		r2 r4 \mvTrr b'\pp^\tutti %5
+		a4. a8 a4 a
+		b2. b4
+		a4. a8 a4 a
+		b b r f
+		es2 r4 g %10
+		f2 r4 a
+		g2 g
+		f f4 r8 f\f
+		f4 g f f
+		e2.\fermata e4\pp %15
+		es4. es8 es4 es
+		d2 r4 b'
+		a4. a8 a4 a
+		b b r f
+		es2 r4 g %20
+		f2 r4 a
+		g2 g
+		f f4 r8 f\f
+		f4 g f f
+		f r r b %25
+		a2. a4
+		b2 r4 d,
+		es2. es4
+		d1~
+		d~ %30
+		d2 r\fermata \bar "|." %31 finis
+	}
+}
+
+UndLebenAltoLyrics = \lyricmode {
+	O %5
+	Wonn in uns -- rer
+	Brust! Dir,
+	Lie -- be, Preis! wir
+	le -- ben! Du
+	bist, du %10
+	warst, und
+	blei -- best
+	e -- wig, o
+	Lie -- be, uns -- re
+	Lust! O %15
+	Wonn in uns -- rer
+	Brust! Dir,
+	Lie -- be, Preis! wir
+	le -- ben! Du
+	bist, du %20
+	warst, und
+	blei -- best
+	e -- wig, o
+	Lie -- be, uns -- re
+	Lust! Hal -- %25
+	le -- lu --
+	ja! Hal --
+	le -- lu --
+	ja! __ %29 finis
+}
+
+UndLebenAltoLyricsDansk = \lyricmode {
+	O %5
+	Him -- mel i vort
+	Bryst! O
+	Kiær -- lig -- hed! vi
+	e -- re! Du
+	er, du %10
+	var, og
+	du skal
+	væ -- re vor
+	Lyst! Hal -- le -- lu --
+	ja! O %15
+	Him -- mel i vort
+	Bryst! O
+	Kiær -- lig -- hed! vi
+	e -- re! Du
+	er, du %20
+	var, og
+	du skal
+	væ -- re vor
+	Lyst! Hal -- le -- lu --
+	ja! Hal -- %25
+	le -- lu --
+	ja! Hal --
+	le -- lu --
+	ja! __ %29 finis
+}
+
+HeiligAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key es \major \time 2/2 \autoBeamOff \tempoHeilig
+		\mvTrr es1~\pp^\tuttiE
+		es
+		d~
+		d2 r\fermata
+		f1~\mf %5
+		f
+		es~
+		es2 r\fermata
+		as1~\f
+		as %10
+		g~
+		g\fermata
+		r2\fermata g
+		es' b
+		g es %15
+		c1\fermata
+		R\fermataMarkup
+		r2 g'
+		es' c
+		a\fermata a %20
+		R1\fermataMarkup
+		R
+		es'2 a,
+		b1~\p
+		b~ %25
+		<< \context Voice = "Alto" { b\fermata } \\ { s2..\< s8\! } >> \markAttacaE \bar "||" %26 finis
+	}
+}
+
+HeiligAltoLyrics = \lyricmode {
+	Hei --
+
+	lig! __
+
+	Hei -- %5
+
+	lig! __
+
+	Hei --
+	%10
+	lig! __
+
+	Sink,
+	Schöp -- fung,
+	in den %15
+	Staub!
+
+	Neig
+	dich, o
+	Him -- mel, %20
+
+	Er -- de %23
+	knie! __ %24 finis
+}
+
+HeiligAltoLyricsDansk = \lyricmode {
+	Hel --
+
+	lig! __
+
+	Hel -- %5
+
+	lig! __
+
+	Hel --
+	%10
+	lig! __
+
+	Fald
+	he -- le
+	Skab -- ning %15
+	ned!
+
+	Ned --
+	bøi dig,
+	Him -- mel, %20
+
+	knæl, o %23
+	Jord! __ %24 finis
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

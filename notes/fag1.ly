@@ -437,3 +437,25 @@ SelbstWennFagottoI = {
 		fis2( g4) \markAttacaE \bar "||" %44 finis
 	}
 }
+
+HeiligFagottoI = {
+	\relative c {
+		\clef bass
+		\key es \major \time 2/2 \tempoHeilig
+		R1*3
+		R1\fermataMarkup
+		R1*3 %7
+		R1\fermataMarkup
+		R1*3 %11
+		R1\fermataMarkup
+		R\fermataMarkup
+		R1*2 %15
+		c'1\f\fermata
+		R\fermataMarkup
+		R1*2
+		R1\fermataMarkup %20
+		R\fermataMarkup
+		R1*4 %25
+		R1\fermataMarkup \markAttacaE \bar "||" %26 finis
+	}
+}

@@ -1234,6 +1234,330 @@ GerechterRichterSopranoLyricsDansk = \lyricmode {
 	hed. %51 finis
 }
 
+UndLebenSopranoSoloNotes = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 4/4 \autoBeamOff \tempoUndLeben
+		r2 r4 es'
+		es8([ d)] c([ d)] f([ es)] d([ es)]
+		g([ f)] es([ f)] as([ g)] f([ es)]
+		d4( es2) c4
+		b r r2 %5
+		r r4 r8 es
+		d16[ f es d] es[ f g a] b[ a g f] es[ d c b]
+		es4 r r2
+		d16[ f es d] es[ f g a] b[ a g f] g[ f es d]
+		R1 %10
+		a16[ c b a] b[ c d es] f[ g f es] d[ c b a]
+		b8 r r4 r2
+		a16[ c b d] c[ es d f] es[ g f a] g[ b a c]
+		b4 g f f
+		e2.\fermata r4 %15
+		r2 r4 r8 es
+		d16[ f es d] es[ f g a] b[ a g f] g[ f es d]
+		es8 r r4 r2
+		d16[ f es d] es[ f g a] b[ a g f] es[ d c b]
+		R1 %20
+		a16[ c b a] b[ c d es] f[ g f es] d[ c b a]
+		b8 r r4 r2
+		a16[ c b d] c[ es d f] es[ g f a] g[ b a c]
+		b4 g f f
+		d r r f %25
+		f2. f4
+		f2 r4 b,
+		a2. a4
+		b1~
+		b~ %30
+		b2 r\fermata \bar "|." %31 finis
+	}
+}
+
+UndLebenSopranoSoloLyrics = \lyricmode {
+	Und
+	Le -- ben, Licht und
+	Freud ist e -- wig,
+	so __ wie
+	du, %5
+	ist
+	e -- _ _ _
+	_
+	_ _ _ _
+	%10
+	_ _ _ _
+	_
+	_ _ _ _
+	_ wig, so wie
+	du! %15
+	ist
+	e -- _ _ _
+	_
+	_ _ _ _
+	%20
+	_ _ _ _
+	_
+	_ _ _ _
+	_ wig, so wie
+	du! Hal -- %25
+	le -- lu --
+	ja! Hal --
+	le -- lu --
+	ja! __ %29 finis
+}
+
+UndLebenSopranoSoloLyricsDansk = \lyricmode {
+	Og
+	Lys og Liv og
+	Lyst er e -- vig
+	hvor du
+	er, %5
+	er
+	e -- _ _ _
+	_
+	_ _ _ _
+	%10
+	_ _ _ _
+	_
+	_ _ _ _
+	_ vig hvor du
+	er! %15
+	er
+	e -- _ _ _
+	_
+	_ _ _ _
+	%20
+	_ _ _ _
+	_
+	_ _ _ _
+	_ vig hvor du
+	er! Hal -- %25
+	le -- lu --
+	ja! Hal --
+	le -- lu --
+	ja! __ %29 finis
+}
+
+UndLebenSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 4/4 \autoBeamOff \tempoUndLeben
+		R1*4
+		r2 r4 \mvTrr d'\pp^\tutti %5
+		es4. es8 es4 es
+		d2. d4
+		es4. es8 es4 es
+		d d r b
+		g2 r4 c %10
+		a2 r4 d
+		b2 b
+		a a4 r8 a\f
+		b4 b b a
+		b2.\fermata b4\pp %15
+		a4. a8 a4 a
+		b2 r4 d
+		es4. es8 es4 es
+		d d r b
+		g2 r4 c %20
+		a2 r4 d
+		b2 b
+		a a4 r8 a\f
+		b4 b b a
+		b r r d %25
+		es2. es4
+		d2 r4 b
+		a2. a4
+		b1~
+		b~ %30
+		b2 r\fermata \bar "|." %31 finis
+	}
+}
+
+UndLebenSopranoLyrics = \lyricmode {
+	O %5
+	Wonn in uns -- rer
+	Brust! Dir,
+	Lie -- be, Preis! wir
+	le -- ben! Du
+	bist, du %10
+	warst, und
+	blei -- best
+	e -- wig, o
+	Lie -- be, uns -- re
+	Lust! O %15
+	Wonn in uns -- rer
+	Brust! Dir,
+	Lie -- be, Preis! wir
+	le -- ben! Du
+	bist, du %20
+	warst, und
+	blei -- best
+	e -- wig, o
+	Lie -- be, uns -- re
+	Lust! Hal -- %25
+	le -- lu --
+	ja! Hal --
+	le -- lu --
+	ja! __ %29 finis
+}
+
+UndLebenSopranoLyricsDansk = \lyricmode {
+	O %5
+	Him -- mel i vort
+	Bryst! O
+	Kiær -- lig -- hed! vi
+	e -- re! Du
+	er, du %10
+	var, og
+	du skal
+	væ -- re vor
+	Lyst! Hal -- le -- lu --
+	ja! O %15
+	Him -- mel i vort
+	Bryst! O
+	Kiær -- lig -- hed! vi
+	e -- re! Du
+	er, du %20
+	var, og
+	du skal
+	væ -- re vor
+	Lyst! Hal -- le -- lu --
+	ja! Hal -- %25
+	le -- lu --
+	ja! Hal --
+	le -- lu --
+	ja! __ %29 finis
+}
+
+HeiligSoliNotes = {
+	\relative c' {
+		\clef treble
+		\key es \major \time 2/2 \autoBeamOff \tempoHeilig
+		R1*3
+		R1\fermataMarkup
+		R1*3 %7
+		R1\fermataMarkup
+		R1*3 %11
+		R1\fermataMarkup
+		R\fermataMarkup
+		R1*2 %15
+		R1\fermataMarkup
+		R\fermataMarkup
+		R1*2
+		R1\fermataMarkup %20
+		R\fermataMarkup
+		R1*2
+		r2 << \context Voice = "Soli" {
+			\voiceOne g''2\p
+			f g
+			f1\fermata
+		} \\ {
+			\voiceTwo es2
+			d es
+			d1
+		} \\ {
+			s2
+			s1
+			s2..\< s8\!
+		} >> \markAttacaE \bar "||" %26 finis
+	}
+}
+
+HeiligSoliLyrics = \lyricmode {
+	Bet %24
+	an, bet
+	an! %26 finis
+}
+
+HeiligSoliLyricsDansk = \lyricmode {
+	Til -- %24
+	bed, til --
+	bed! %26 finis
+}
+
+HeiligSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key es \major \time 2/2 \autoBeamOff \tempoHeilig
+		\mvTrr g'1~\pp^\tuttiE
+		g
+		f~
+		f2 r\fermata
+		as1~\mf %5
+		as
+		g~
+		g2 r\fermata
+		c1~\f
+		c %10
+		b~
+		b\fermata
+		r2\fermata g'
+		es b
+		g es %15
+		c1\fermata
+		R\fermataMarkup
+		r2 g''
+		es c
+		a\fermata a %20
+		R1\fermataMarkup
+		R
+		es'2 a,
+		b1~\p
+		b~ %25
+		<< \context Voice = "Soprano" { b\fermata } \\ { s2..\< s8\! } >> \markAttacaE \bar "||" %26 finis
+	}
+}
+
+HeiligSopranoLyrics = \lyricmode {
+	Hei --
+
+	lig! __
+
+	Hei -- %5
+
+	lig! __
+
+	Hei --
+	%10
+	lig! __
+
+	Sink,
+	Schöp -- fung,
+	in den %15
+	Staub!
+
+	Neig
+	dich, o
+	Him -- mel, %20
+
+	Er -- de %23
+	knie! __ %24 finis
+}
+
+HeiligSopranoLyricsDansk = \lyricmode {
+	Hel --
+
+	lig! __
+
+	Hel -- %5
+
+	lig! __
+
+	Hel --
+	%10
+	lig! __
+
+	Fald
+	he -- le
+	Skab -- ning %15
+	ned!
+
+	Ned --
+	bøi dig,
+	Him -- mel, %20
+
+	knæl, o %23
+	Jord! __ %24 finis
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

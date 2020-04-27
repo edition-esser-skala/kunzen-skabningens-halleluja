@@ -72,3 +72,64 @@ GerechterRichterClarinettoII = {
 		R1 \bar "|" %56 finis
 	}
 }
+
+UndLebenClarinettoII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoUndLeben
+		R1*4
+		r4 g'\p e e %5
+		f1
+		e
+		f
+		e2. g4
+		f2. a4 %10
+		g2. h4
+		a1
+		g8 r r4 r r8 h\f
+		c4 c c h
+		c2 r4\fermata r %15
+		f,!1\pp
+		e
+		f
+		e2. g4
+		f2. a4 %20
+		g2. h4
+		a1
+		g8 r r4 r r8 h\f
+		c2. h4
+		c e, g c %25
+		h1
+		c4 e c e,
+		f1
+		e4 r r2
+		R1 %30
+		R\fermataMarkup \bar "|." %31 finis
+	}
+}
+
+HeiligClarinettoII = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 2/2 \tempoHeilig
+		R1*3
+		R1\fermataMarkup
+		R1*3 %7
+		R1\fermataMarkup
+		R1*3 %11
+		R1\fermataMarkup
+		R\fermataMarkup
+		R1*2 %15
+		f1\f\fermata
+		R\fermataMarkup
+		r2 a'
+		f d
+		h1\fermata %20
+		R\fermataMarkup
+		R
+		f'2 h,
+		c\p f
+		e f %25
+		<< { e1\fermata } \\ { s2..\< s8\! } >> \markAttacaE \bar "||" %26 finis
+	}
+}

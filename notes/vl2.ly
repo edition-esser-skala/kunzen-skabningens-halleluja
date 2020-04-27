@@ -746,3 +746,74 @@ OGottViolinoII = {
 		b2\! r \bar "|" %17 finis
 	}
 }
+
+UndLebenViolinoII = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 4/4 \tempoUndLeben
+		r2 r4 c\p
+		c8( b) a( b) d( c) b( c)
+		es( d) c( d) f( es) d( c)
+		b4( c2) a4
+		b r r d %5
+		r es r es
+		r d r d
+		r es r es
+		r d r f
+		es r r g %10
+		f r r a
+		g r g r
+		f8-! g-! a-! b-! c-! d-! es-! c-!\f
+		b4 es d f,
+		e2 r4\fermata e-!\p %15
+		es-! es r es
+		r d r d
+		r es r es
+		r d r f
+		es r r g %20
+		f r r a
+		g r g r
+		f8-! g-! a-! b-! c-! d-! es-! c-!\f
+		b4 es d es,
+		d r r2 %25
+		r4 <f c' a'> r q
+		<f d' b'> r r2
+		r4 <c es a> r q
+		<d b'> r r b8. b16
+		b4 r r b8. b16 %30
+		b2 r\fermata \bar "|." %31 finis
+	}
+}
+
+HeiligViolinoII = {
+	\relative c' {
+		\clef treble
+		\key es \major \time 2/2 \tempoHeilig
+		R1*3
+		R1\fermataMarkup
+		R1*3 %7
+		R1\fermataMarkup
+		R1*3 %11
+		R1\fermataMarkup
+		R\fermataMarkup
+		R1*2 %15
+		<g es'>1\f\fermata
+		r2\fermata es''2
+		c g
+		es c
+		a1\fermata %20
+		r2\fermata es''
+		c a
+		es a,
+		<< {
+			\oneVoice
+			b1~\p
+			b~ %25
+		 	b\fermata
+		} \\ {
+			s1
+			s
+			s2..\< s8\!
+		} >> \markAttacaE \bar "||" %26 finis
+	}
+}

@@ -276,3 +276,60 @@ GerechterRichterCornoI = {
 		R1 \bar "|" %56 finis
 	}
 }
+
+UndLebenCornoI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoUndLeben
+		R1*4
+		r4 g''\p e c %5
+		g1
+		c
+		g
+		c2. c4
+		c r r d %10
+		d r r e
+		e r \pao d r
+		d r r r8 d\f
+		\pa c4 c \pd e d
+		\pao c2 r4\fermata r %15
+		g1\pp
+		c
+		g
+		c2 r4 c
+		c r r d %20
+		d r r e
+		e r \pao d r
+		d r r r8 d\f
+		\pa c4 c \pd e d
+		c g c e %25
+		d1
+		\pao c4 g' e c
+		g1
+		c4 r r c8. c16
+		c4 r r c8. c16 %30
+		c2 r\fermata \bar "|." %31 finis
+	}
+}
+
+HeiligCornoI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 2/2 \tempoHeilig
+		R1*3
+		R1\fermataMarkup
+		R1*3 %7
+		R1\fermataMarkup
+		R1*3 %11
+		R1\fermataMarkup
+		R\fermataMarkup
+		R1*2 %15
+		e'1\f\fermata
+		R\fermataMarkup
+		R1*2
+		R1\fermataMarkup %20
+		R\fermataMarkup
+		R1*4 %25
+		R1\fermataMarkup \markAttacaE \bar "||" %26 finis
+	}
+}

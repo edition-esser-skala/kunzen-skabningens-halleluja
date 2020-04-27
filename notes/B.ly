@@ -865,6 +865,183 @@ OGottBassoLyricsDansk = \lyricmode {
 	fiern og nær, du %17 finis
 }
 
+UndLebenBassoNotes = {
+	\relative c {
+		\clef bass
+		\key b \major \time 4/4 \autoBeamOff \tempoUndLeben
+		R1*4
+		r2 r4 \mvTrr b'\pp^\tutti %5
+		f4. f8 f4 f
+		b,2. b4
+		f'4. f8 f4 f
+		b, b r d
+		es2 r4 c %10
+		f2 r4 d
+		g2 es
+		f f4 r8 es\f
+		d4 es f f
+		g2.\fermata g4\pp %15
+		f4. f8 f4 f
+		b,2 r4 b'
+		f4. f8 f4 f
+		b b, r d
+		es2 r4 c %20
+		f2 r4 d
+		g2 es
+		f f4 r8 es\f
+		d4 es f f
+		b, r r b' %25
+		f2. f4
+		b2 r4 b,
+		f'2. f4
+		b,1~
+		b~ %30
+		b2 r\fermata \bar "|." %31 finis
+	}
+}
+
+UndLebenBassoLyrics = \lyricmode {
+	O %5
+	Wonn in uns -- rer
+	Brust! Dir,
+	Lie -- be, Preis! wir
+	le -- ben! Du
+	bist, du %10
+	warst, und
+	blei -- best
+	e -- wig, o
+	Lie -- be, uns -- re
+	Lust! O %15
+	Wonn in uns -- rer
+	Brust! Dir,
+	Lie -- be, Preis! wir
+	le -- ben! Du
+	bist, du %20
+	warst, und
+	blei -- best
+	e -- wig, o
+	Lie -- be, uns -- re
+	Lust! Hal -- %25
+	le -- lu --
+	ja! Hal --
+	le -- lu --
+	ja! __ %29 finis
+}
+
+UndLebenBassoLyricsDansk = \lyricmode {
+	O %5
+	Him -- mel i vort
+	Bryst! O
+	Kiær -- lig -- hed! vi
+	e -- re! Du
+	er, du %10
+	var, og
+	du skal
+	væ -- re vor
+	Lyst! Hal -- le -- lu --
+	ja! O %15
+	Him -- mel i vort
+	Bryst! O
+	Kiær -- lig -- hed! vi
+	e -- re! Du
+	er, du %20
+	var, og
+	du skal
+	væ -- re vor
+	Lyst! Hal -- le -- lu --
+	ja! Hal -- %25
+	le -- lu --
+	ja! Hal --
+	le -- lu --
+	ja! __ %29 finis
+}
+
+
+HeiligBassoNotes = {
+	\relative c {
+		\clef bass
+		\key es \major \time 2/2 \autoBeamOff \tempoHeilig
+		\mvTr es1~\pp^\tuttiE
+		es
+		b~
+		b2 r\fermata
+		f'1~\mf %5
+		f
+		c~
+		c2 r\fermata
+		as'1~\f
+		as %10
+		es~
+		es\fermata
+		r2\fermata g
+		es' b
+		g es %15
+		c1\fermata
+		R\fermataMarkup
+		r2 g'
+		es' c
+		a\fermata a %20
+		R1\fermataMarkup
+		R
+		es'2 a,
+		b1~
+		b~ %25
+		<< \context Voice = "Basso" { b\fermata } \\ { s2..\< s8\! } >> \markAttacaE \bar "||" %26 finis
+	}
+}
+
+HeiligBassoLyrics = \lyricmode {
+	Hei --
+
+	lig! __
+
+	Hei -- %5
+
+	lig! __
+
+	Hei --
+	%10
+	lig! __
+
+	Sink,
+	Schöp -- fung,
+	in den %15
+	Staub!
+
+	Neig
+	dich, o
+	Him -- mel, %20
+
+	Er -- de %23
+	knie! __ %24 finis
+}
+
+HeiligBassoLyricsDansk = \lyricmode {
+	Hel --
+
+	lig! __
+
+	Hel -- %5
+
+	lig! __
+
+	Hel --
+	%10
+	lig! __
+
+	Fald
+	he -- le
+	Skab -- ning %15
+	ned!
+
+	Ned --
+	bøi dig,
+	Him -- mel, %20
+
+	knæl, o %23
+	Jord! __ %24 finis
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

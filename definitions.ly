@@ -283,6 +283,8 @@ tempoSelbstWenn = \tempoMarkup "Largo"
 tempoGerechterRichter = \tempoMarkup "Allegro moderato"
 tempoOGott = \tempoMarkup "Recitativo"
 	tempoOGottB = \tempoMarkup "Lento / a tempo"
+tempoUndLeben = \tempoMarkup "Tempo primo Allegro moderato"
+tempoHeilig = \tempoMarkup "Largo"
 
 
 

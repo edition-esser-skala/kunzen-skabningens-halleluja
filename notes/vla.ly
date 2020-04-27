@@ -742,3 +742,72 @@ OGottViola = {
 		ges2\! r \bar "|" %17 finis
 	}
 }
+
+UndLebenViola = {
+	\relative c' {
+		\clef alto
+		\key b \major \time 4/4 \tempoUndLeben
+		R1*3
+		f,2.\pE es4
+		d r r b' %5
+		r c r c
+		r b r b
+		r c r c
+		r b r b
+		b r r es %10
+		c r r f
+		d r <c es> r
+		f r r r8 f\f
+		f4 b b c,
+		b2 r4\fermata b-!\p %15
+		c-! c r c
+		r b r b
+		r c r c
+		r b r b
+		b r r es %20
+		c r r f
+		d r <c es> r
+		f r r r8 f\f
+		f4 b b c,
+		b r r2 %25
+		r4 <f f'> r q
+		<b f'> r r2
+		f4 r f r
+		b r r b8. b16
+		b4 r r b8. b16 %30
+		b2 r\fermata \bar "|." %31 finis
+	}
+}
+
+HeiligViola = {
+	\relative c' {
+		\clef alto
+		\key es \major \time 2/2 \tempoHeilig
+		R1*3
+		R1\fermataMarkup
+		R1*3 %7
+		R1\fermataMarkup
+		R1*3 %11
+		R1\fermataMarkup
+		R\fermataMarkup
+		R1*2 %15
+		<c, c'>1\f\fermata
+		r2\fermata es''2
+		c g
+		es c
+		a1\fermata %20
+		r2\fermata es''
+		c a
+		es a,
+		<< {
+			\oneVoice
+			b1~\p
+			b~ %25
+		 	b\fermata
+		} \\ {
+			s1
+			s
+			s2..\< s8\!
+		} >> \markAttacaE \bar "||" %26 finis
+	}
+}
