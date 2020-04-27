@@ -779,6 +779,30 @@ GerechterRichterViolinoI = {
 	}
 }
 
+OGottViolinoI = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 4/4 \tempoOGott
+		d1~\pE
+		d~
+		d~
+		d
+		es4 e2.~ %5
+		e1
+		f4 fis2.~
+		fis1
+		r8 g g r r4 a
+		r8 h\cresc r c d4\fz r %10
+		es, r r2
+		es4 r r2
+		\tempoOGottB d4\mf b d f
+		b b(-. b-. b-.)
+		b2 r %15
+		r4 d,(-. d-.\< d-.)
+		es2\! r \bar "|" %17 finis
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

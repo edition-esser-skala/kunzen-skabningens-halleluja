@@ -722,3 +722,27 @@ GerechterRichterViolinoII = {
 		b b2 b4 \bar "|" %56 finis
 	}
 }
+
+OGottViolinoII = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 4/4 \tempoOGott
+		b1~\pE
+		b~
+		b~
+		b
+		b4 \once \tieDashed c2.~ %5
+		c1
+		c4 d2.~
+		d1
+		r8 d d r r4 es
+		r8 f\cresc r g f4\fz r %10
+		c r r2
+		c4 r r2
+		\tempoOGottB d4\mf b d f
+		b f(-. f-. f-.)
+		es2 r %15
+		r4 b(-. b-.\< b-.)
+		b2\! r \bar "|" %17 finis
+	}
+}

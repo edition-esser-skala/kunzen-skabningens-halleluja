@@ -1383,6 +1383,50 @@ GerechterRichterBassFigures = \figuremode {
 	r %56 finis
 }
 
+OGottOrgano = {
+	\relative c {
+		\clef bass
+		\key b \major \time 4/4 \tempoOGott
+		as1~\pE
+		as~
+		as~
+		as
+		g4 b2.~ %5
+		b1
+		a!4 c2.~
+		c1
+		r8 b b r r4 c
+		r8 d\cresc r es h4\fz r %10
+		c r r2
+		f,4 r r2
+		\tempoOGottB b2\mf r
+		r4 d(-. d-. d-.)
+		es2 r %15
+		r4 f(-. f-.\< f-.)
+		ges2\! r \bar "|"
+	}
+}
+
+OGottBassFigures = \figuremode {
+	<2>1
+	r
+	r
+	r
+	<6>4 <4! 2>2. %5
+	r1
+	<6>4 <4+ 2>2.
+	r1
+	r8 <6>4. r4 <6>
+	r8 <6!> r <6> <6 5>2 %10
+	r1
+	<7 4>8 <\t 3>2..
+	r1
+	r4 <6 5->2.
+	<_->1 %15
+	r4 <6 4 _->2.
+	<6>1 %17 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

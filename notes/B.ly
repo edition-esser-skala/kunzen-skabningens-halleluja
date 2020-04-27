@@ -801,6 +801,70 @@ SelbstWennBassoLyricsDansk = \lyricmode {
 	hu. %38 finis
 }
 
+OGottBassoNotes = {
+	\relative c {
+		\clef bass
+		\key b \major \time 4/4 \autoBeamOff \tempoOGott
+		r2 r4 f^\solo
+		\appoggiatura es d2 r4 d
+		d d d4. es8
+		f4 f as4 . g8
+		\appoggiatura f es4 r r8 c' c g %5
+		e e r4 b'8. b16 b8 a!
+		\appoggiatura g f4 r r8 d fis a
+		d4 a c8 c c b
+		\appoggiatura a g4 r8 g a a r4
+		h8. h16 c8 c d4. f,8 %10
+		es4 es' c8. c16 c8 b
+		b a c2 es,4
+		\tempoOGottB d4 r r f
+		b2 r
+		r4 b ges es %15
+		d d r2
+		b'4. b8 a4 b \bar "|" %17 finis
+	}
+}
+
+OGottBassoLyrics = \lyricmode {
+	O
+	Gott! Laß
+	schwin -- den, was du
+	schufst auf dein Ge --
+	bot! Laß Ster -- ne %5
+	fal -- len, Son -- nen un -- ter --
+	gehn! Des Cha -- os
+	Schlün -- de of -- fen wi -- der --
+	stehn! Ob Him -- mel,
+	Erd und Mee -- re stürz -- ten %10
+	ein, Un -- end -- li -- cher, du
+	warst und du wirst
+	seyn! All --
+	stets,
+	im Cha -- os, %15
+	Dun -- kel,
+	fern und nah, bist %17 finis
+}
+
+OGottBassoLyricsDansk = \lyricmode {
+	O
+	Gud! Lad
+	di -- ne Hæn -- ders
+	Gier -- ning slet -- tes
+	ud! Lad Stjer -- ner %5
+	fal -- de, So -- le svin -- de
+	hen! Og Mør -- kets
+	Af -- grund aab -- ne sig i --
+	gien! Om Him -- mel,
+	Jord, og Hav, og alt for -- %10
+	gaaer, du, E -- vi -- ge den
+	sam -- me, du be --
+	staaer! I
+	Alt,
+	i Nat -- tens %15
+	Ø -- de,
+	fiern og nær, du %17 finis
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

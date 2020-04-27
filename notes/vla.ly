@@ -718,3 +718,27 @@ GerechterRichterViola = {
 		f f2 f4 \bar "|" %56 finis
 	}
 }
+
+OGottViola = {
+	\relative c' {
+		\clef alto
+		\key b \major \time 4/4 \tempoOGott
+		f,1~\pE
+		f~
+		f~
+		f
+		g4 \once \tieDashed g2.~ %5
+		g1
+		a4 a2.~
+		a1
+		r8 b b r r4 c
+		r8 d\cresc r es h4\fz r %10
+		g r r2
+		a4 r r2
+		\tempoOGottB b2\mf r
+		r4 as(-. as-. as-.)
+		ges2 r %15
+		r4 as(-. as-.\< as-.)
+		ges2\! r \bar "|" %17 finis
+	}
+}

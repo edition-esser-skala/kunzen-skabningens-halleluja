@@ -680,96 +680,149 @@
 	% 		\midi { \tempo 4 = 60 }
 	% 	}
 	% }
+	% \bookpart {
+	% 	\header {
+	% 		number = "8"
+	% 		title = "Gerechter Richter!"
+	% 		dansktitle = "Thi, store Dommer!"
+	% 	}
+	% 	\paper {
+	% 		markup-system-spacing.basic-distance = #25
+	% 		markup-system-spacing.minimum-distance = #25
+	% 		top-system-spacing.basic-distance = #25
+	% 		top-system-spacing.minimum-distance = #25
+	% 		page-count = #10
+	% 	}
+	% 	% \newlabel "gerechter" "8" "Gerechter Richter!" "Thi, store Dommer!"
+	% 	\score {
+	% 		<<
+	% 			\new StaffGroup <<
+	% 				\new GrandStaff \with { \stringGroupDistance } <<
+	% 					\set GrandStaff.instrumentName = "in B"
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "Clarinetto I"
+	% 						% \transpose c b
+	% 						\GerechterRichterClarinettoI
+	% 					}
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "Clarinetto II"
+	% 						% \transpose c b
+	% 						\GerechterRichterClarinettoII
+	% 					}
+	% 				>>
+	% 			>>
+	% 			\new StaffGroup <<
+	% 				\new GrandStaff \with { \stringGroupDistance } <<
+	% 					\set GrandStaff.instrumentName = "in B"
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "Corno I"
+	% 						% \transpose c b
+	% 						\GerechterRichterCornoI
+	% 					}
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "Corno II"
+	% 						% \transpose c b
+	% 						\GerechterRichterCornoII
+	% 					}
+	% 				>>
+	% 			>>
+	% 			\new StaffGroup \with { \stringGroupDistance } <<
+	% 				\new GrandStaff <<
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "Violino I"
+	% 						\GerechterRichterViolinoI
+	% 					}
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "Violino II"
+	% 						\GerechterRichterViolinoII
+	% 					}
+	% 				>>
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "Viola"
+	% 					\GerechterRichterViola
+	% 				}
+	% 			>>
+	% 			\new ChoirStaff <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "Soprano"
+	% 					\new Voice = "Soprano" { \dynamicUp \GerechterRichterSopranoNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Soprano \GerechterRichterSopranoLyrics
+	% 				\new Lyrics \with { \danskLyrics } \lyricsto Soprano \GerechterRichterSopranoLyricsDansk
+	%
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "Alto"
+	% 					\new Voice = "Alto" { \dynamicUp \GerechterRichterAltoNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Alto \GerechterRichterAltoLyrics
+	% 				\new Lyrics \with { \danskLyrics } \lyricsto Alto \GerechterRichterAltoLyricsDansk
+	% 			>>
+	% 			\new StaffGroup <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = \markup { \center-column { "Violoncello" "e Basso" } }
+	% 					% \transpose c c,
+	% 					\GerechterRichterOrgano
+	% 				}
+	% 			>>
+	% 			\new FiguredBass {
+	% 				\GerechterRichterBassFigures
+	% 			}
+	% 		>>
+	% 		\layout { }
+	% 		\midi { \tempo 4 = 120 }
+	% 	}
+	% }
 	\bookpart {
 		\header {
-			number = "8"
-			title = "Gerechter Richter!"
-			dansktitle = "Thi, store Dommer!"
+			number = "9"
+			title = "O Gott!"
+			dansktitle = "O Gud!"
 		}
 		\paper {
-			markup-system-spacing.basic-distance = #25
-			markup-system-spacing.minimum-distance = #25
-			top-system-spacing.basic-distance = #25
-			top-system-spacing.minimum-distance = #25
-			page-count = #10
+			system-system-spacing.basic-distance = #30
+			system-system-spacing.minimum-distance = #30
+			systems-per-page = #2
 		}
-		% \newlabel "gerechter" "8" "Gerechter Richter!" "Thi, store Dommer!"
+		% \newlabel "ogott" "9" "O Gott!" "O Gud!"
 		\score {
 			<<
-				\new StaffGroup <<
-					\new GrandStaff \with { \stringGroupDistance } <<
-						\set GrandStaff.instrumentName = "in B"
-						\new Staff {
-							\set Staff.instrumentName = "Clarinetto I"
-							% \transpose c b
-							\GerechterRichterClarinettoI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "Clarinetto II"
-							% \transpose c b
-							\GerechterRichterClarinettoII
-						}
-					>>
-				>>
-				\new StaffGroup <<
-					\new GrandStaff \with { \stringGroupDistance } <<
-						\set GrandStaff.instrumentName = "in B"
-						\new Staff {
-							\set Staff.instrumentName = "Corno I"
-							% \transpose c b
-							\GerechterRichterCornoI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "Corno II"
-							% \transpose c b
-							\GerechterRichterCornoII
-						}
-					>>
-				>>
 				\new StaffGroup \with { \stringGroupDistance } <<
 					\new GrandStaff <<
 						\new Staff {
 							\set Staff.instrumentName = "Violino I"
-							\GerechterRichterViolinoI
+							\OGottViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Violino II"
-							\GerechterRichterViolinoII
+							\OGottViolinoII
 						}
 					>>
 					\new Staff {
 						\set Staff.instrumentName = "Viola"
-						\GerechterRichterViola
+						\OGottViola
 					}
 				>>
 				\new ChoirStaff <<
 					\new Staff {
-						\set Staff.instrumentName = "Soprano"
-						\new Voice = "Soprano" { \dynamicUp \GerechterRichterSopranoNotes }
+						\set Staff.instrumentName = "Basso"
+						\new Voice = "Basso" { \dynamicUp \OGottBassoNotes }
 					}
-					\new Lyrics \lyricsto Soprano \GerechterRichterSopranoLyrics
-					\new Lyrics \with { \danskLyrics } \lyricsto Soprano \GerechterRichterSopranoLyricsDansk
-
-					\new Staff {
-						\set Staff.instrumentName = "Alto"
-						\new Voice = "Alto" { \dynamicUp \GerechterRichterAltoNotes }
-					}
-					\new Lyrics \lyricsto Alto \GerechterRichterAltoLyrics
-					\new Lyrics \with { \danskLyrics } \lyricsto Alto \GerechterRichterAltoLyricsDansk
+					\new Lyrics \lyricsto Basso \OGottBassoLyrics
+					\new Lyrics \with { \danskLyrics } \lyricsto Basso \OGottBassoLyricsDansk
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = \markup { \center-column { "Violoncello" "e Basso" } }
 						% \transpose c c,
-						\GerechterRichterOrgano
+						\OGottOrgano
 					}
 				>>
 				\new FiguredBass {
-					\GerechterRichterBassFigures
+					\OGottBassFigures
 				}
 			>>
 			\layout { }
-			\midi { \tempo 4 = 120 }
+			\midi { \tempo 4 = 70 }
 		}
 	}
 }
