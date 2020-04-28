@@ -128,3 +128,102 @@ WirPreisenTimpani = {
 		R\fermataMarkup \bar "|." %139 finis
 	}
 }
+
+LobUndEhreTimpani = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/4 \tempoLobUndEhre
+		c4\f r g r
+		c c r g
+		c c r g
+		c c r g
+		c r r2 %5
+		R1
+		g4 g8 g c4 c
+		g g r2
+		r c4 c
+		g g r2 %10
+		c4 r g r
+		c c r g
+		c c r g
+		c c r g
+		c r r2 %15
+		R1
+		g4 g8 g c4 c
+		g g r2
+		r c4 c
+		g g r2 %20
+		R1*23 %43
+		r4 g\ffE g g
+		g g g c %45
+		R1
+		g4 r r2
+		R1*19 %66
+		g1~\p\crescpap\startTrillSpan
+		g~
+		g
+		c4\stopTrillSpan\ffE r r2 %70
+		R1*3
+		c4 c8. c16 c4 c
+		c c8. c16 c4 c %75
+		g r r c
+		g r r c
+		g r r c
+		g r r2
+		c4\fE c8. c16 g4 g %80
+		c c r g
+		c c r g
+		c c r g
+		c r r2
+		R1 %85
+		g4 g8. g16 c4 c
+		g g r2
+		r c4 c
+		g g r2
+		c4 c8. c16 g4 g %90
+		c c r g
+		c c r g
+		c c r g
+		c r r2
+		R1 %95
+		g4 g8. g16 c4 c
+		g g r2
+		r c4 c
+		g g r2
+		g2 r %100
+		r r4 g
+		c4. g8 c4 r
+		R1*2
+		r2 r4 c\mfE %105
+		g g c c
+		g g r2
+		c4\fE c8. c16 g4 g
+		c c r g
+		c c r g %110
+		c c r g
+		c r r2
+		R1
+		r2 g4 r
+		c r r c %115
+		c r r c
+		c r r c
+		c r r2
+		R1*3 %121
+		r2 r4 c
+		c r r c
+		c r r c
+		c r r2 %125
+		R1*4
+		c4 r r2 %130
+		R1
+		g4\ffE g8. g16 g4 g
+		g g8. g16 g4 g
+		c r r c
+		c1~\startTrillSpan %135
+		c~
+		c~
+		c4\stopTrillSpan r r2
+		c4 r r2
+		c4 r r2\fermata \bar "|." %140 finis
+	}
+}

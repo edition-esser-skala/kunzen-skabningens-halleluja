@@ -125,3 +125,114 @@ WirPreisenTrombaI = {
 		R1\fermataMarkup \bar "|." %139
 	}
 }
+
+LobUndEhreTrombaI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoLobUndEhre
+		c'4\f r g r
+		c c r g
+		c c r g
+		c c r g
+		c r r2 %5
+		R1
+		d4 d8 d e4 e
+		e d r2
+		r c4 c
+		g g r2 %10
+		c4 r g r
+		c c r g
+		c c r g
+		c c r g
+		c r r2 %15
+		R1
+		d4 d8 d e4 e
+		e d r2
+		r c4 c
+		g g r2 %20
+		R1*8 %28
+		g1~\mfE
+		g4 r r2 %30
+		R1*6 %36
+		g1~
+		g4 r r2
+		R1*2 %40
+		g1~\fE
+		g2 r
+		d'1
+		g,~\ffE
+		g2. c4 %45
+		d r d r
+		g, r r2
+		R1*12 %59
+		g2.\fE r4 %60
+		R1*6 %66
+		g1~\p\crescpap
+		g~
+		g
+		c2\ffE r %70
+		R1*3
+		c4 c8. c16 c4 c
+		c c8. c16 c4 c %75
+		g r r c
+		g r r c
+		g r r c
+		g r r2
+		c4\fE r g r %80
+		c c r g
+		c c r g
+		c c r g
+		c r r2
+		R1 %85
+		d4 d e e
+		e d r2
+		r c4 c
+		g g r2
+		c4 r g r %90
+		c c r g
+		c c r g
+		c c r g
+		c r r2
+		R1 %95
+		d4 d e e
+		e d r2
+		r c4 c
+		g g r2
+		g r %100
+		r r4 d'
+		e4. d8 c4 r
+		R1*2
+		r2 r4 c\mfE %105
+		g g c c
+		g g r2
+		c4\fE r g r
+		c c r g
+		c c r g %110
+		c c r g
+		c r r2
+		R1
+		r2 \pao g
+		c4 r r e, %115
+		e r r g
+		g r r c
+		c r r2
+		R1*3 %121
+		r2 r4 e,
+		e r r g
+		g r r c
+		c r r2 %125
+		R1*3
+		r4 c g e
+		c r r2 %130
+		R1
+		e'\ffE
+		d
+		c4 r r c
+		c2 r4 e %135
+		e2 r4 c
+		c2 r4 c
+		c2 r
+		c r
+		c r\fermata \bar "|." %140 finis
+	}
+}

@@ -811,3 +811,150 @@ HeiligViola = {
 		} >> \markAttacaE \bar "||" %26 finis
 	}
 }
+
+LobUndEhreViola = {
+	\relative c' {
+		\clef alto
+		\key es \major \time 4/4 \tempoLobUndEhre
+		es4.\fE es8 b'4. b8
+		es4 es, r b'
+		es es, r b'
+		es es, r b'
+		es d c b %5
+		as g f es
+		d b8 b g'4 es
+		b' b, r2
+		r b'4 b
+		b b8. b16 b8 as g f %10
+		es4. es8 b'4. b8
+		es4 es, r b'
+		es es, r b'
+		es es, r b'
+		es d c b %15
+		as g f es
+		d b8 b g'4 es
+		b' b, r2
+		r b'4 b
+		b b, r2 %20
+		f'2.\mf f4
+		f r r2
+		f2. f4
+		f r r2
+		r r4 <f, c'>\p %25
+		<b d>( <d f>) q r
+		r2 r4 <f, c'>
+		<b d>( <d f>) q r
+		r d(\fz es f)
+		g2 r4 g\p %30
+		f2. f4
+		f r r2
+		r r4 <f, c'>
+		<b d>( <d f>) q r
+		r2 r4 <f, c'> %35
+		<b d>( <d f>) q r
+		r d(\fz es f)
+		g2 r4 g\p
+		f2. f4
+		f2 r %40
+		r4 d(\f es e
+		f fis g) g
+		f f2 c4
+		b\ffE d-! es-! e-!
+		f-! fis-! g-! es-! %45
+		f r f, r
+		b r r2
+		b\mf r
+		b4 b es es,
+		b'2 r %50
+		R1
+		r4 g'-!\f es-! c-!
+		g2 r
+		r4 g\mf h g
+		c c, r2 %55
+		R1
+		r4 g''8\f f es d c b!
+		a g f g a b c d
+		es d c b a g f es
+		d2. es4 %60
+		f2. es4
+		d2. es4
+		f2. f4
+		b8 b4\p b b b8
+		b b4 b b\crescpap b8 %65
+		a a4 a a a8
+		as as4 as as as8
+		ges ges4 ges ges ges8
+		f4 f b b
+		ges'16\ff ges ges ges ges ges ges ges es es es es es es es es %70
+		b b b b b b b b ges ges ges ges ges ges ges ges
+		es' es es es es es es es b b b b b b b b
+		ges ges ges ges ges ges ges ges es es es es es es es es
+		es'4 es8. es16 es4 es
+		es4 es8. es16 es4 es %75
+		f r r es
+		b r r es
+		b r r es
+		b b'8.\fE b16 b8 as g f
+		es4. es8 b'4. b8 %80
+		es4 es, r b'
+		es es, r b'
+		es es, r b'
+		es d c b
+		as g f es %85
+		d b8 b g'4 es
+		b' b, r2
+		r b'4 b
+		b b8. b16 b8 as g f
+		es4. es8 b'4. b8 %90
+		es4 es, r b'
+		es es, r b'
+		es es, r b'
+		es d c b
+		as g f es %95
+		d b g' es
+		b' b, r2
+		r b'4 b
+		b b, b b
+		b2. r4 %100
+		r2 r4 b
+		b2. r4
+		r2 r4 es\p
+		b b es r
+		r2 r4 es\mf %105
+		b b' b b
+		b b,8.\f b16 b'8 as g f
+		es4. es8 b'4. b8
+		es4 es, r b'
+		es es, r b' %110
+		es es, r b'
+		es d c b
+		as g f g
+		c,2 b
+		b r4 b %115
+		b2.-> b4
+		b2.-> b4
+		b2.-> r4
+		r b c d
+		es2 c %120
+		b b'
+		b2. b,4
+		b2.-> b4
+		b2.-> b4
+		b2.-> r4 %125
+		r b c d
+		es2 c
+		b b'
+		b r
+		r4 b, c d %130
+		es2 c
+		b4\ff b'2 b4
+		b, <b f'>2 q4
+		es2 r4 b
+		b2.-> b4 %135
+		b2.-> b'4
+		b2.-> b4
+		b2 r
+		b, r
+		b r\fermata \bar "|." %140 finis
+	}
+}

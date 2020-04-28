@@ -399,3 +399,147 @@ HeiligFagottoII = {
 		R1\fermataMarkup \markAttacaE \bar "||" %26 finis
 	}
 }
+
+LobUndEhreFagottoII = {
+	\relative c {
+		\clef bass
+		\key es \major \time 4/4 \tempoLobUndEhre
+		es4.\fE es8 b'4. b8
+		es4 es, r b'
+		es es, r b'
+		es es, r b'
+		es d c b %5
+		as g f es
+		d b8 b g'4 es
+		b' b, g'^\dolce es
+		b' b, g'\f es
+		b' b,8. b16 b'8 as g f %10
+		es4. es8 b'4. b8
+		es4 es, r b'
+		es es, r b'
+		es es, r b'
+		es d c b %15
+		as g f es
+		d b8 b g'4 es
+		b' b, g'^\dolce es
+		b' b, g'\f es
+		b' b, r b'\mf %20
+		f1
+		b,4 r r es
+		f1
+		b,4 r r2
+		f'2.\p f4 %25
+		b( d) d r
+		f,2. f4
+		b( d) d r
+		r \once \slurDashed b(\< c d)
+		es2\! r4 es,\p %30
+		f1
+		b4 r r2
+		r2 r4 f
+		b( d) d r
+		r2 r4 f, %35
+		b( d) d r
+		r b(\< c d)
+		es2\! r4 es,\p
+		f1
+		b,4 r r2 %40
+		r4 b'(\f c cis
+		d2 es4) es,
+		f2 f
+		b4\ff d, es e
+		f fis g es %45
+		f r f, r
+		b r r2
+		R1*3 %50
+		b2\mf r
+		es4 g-!\f es-! c-!
+		g r r2
+		R1*2 %55
+		c2\mf g'
+		c,4 g''8\f f es d c b!
+		a g f g a b c d
+		es d c b a g f es
+		d2. es4 %60
+		f2. es4
+		d2. es4
+		f2. f4
+		b,4 r r2
+		b'1\pE %65
+		a\crescpap
+		as
+		ges
+		f2 b,
+		ges'\ffE es %70
+		b' ges
+		es' b
+		ges es
+		ces1
+		ces' %75
+		b4 b,8. b16 b4 es
+		b b8. b16 b4 es
+		b b8. b16 b4 es
+		b b'8.\fE b16 b8 as g f
+		es4. es8 b'4. b8 %80
+		es4 es, r b'
+		es es, r b'
+		es es, r b'
+		es d c b
+		as g f es %85
+		d b8 b g'4 es
+		b' b, g'^\dolce es
+		b' b, g'\f es
+		b' b,8. b16 b'8 as g f
+		es4. es8 b'4. b8 %90
+		es4 es, r b'
+		es es, r b'
+		es es, r b'
+		es d c b
+		as g f es %95
+		d b g' es
+		b' b, g'^\dolce es
+		b' b, g'\f es
+		b' b, r2
+		r r4 b %100
+		b2. r4
+		r2 r4 b
+		b2. r4
+		r2 r4 es\p
+		b2 es4 es\mf %105
+		b2 es4 es
+		b b8.\f b'16 b8 as g f
+		es4. es8 b'4. b8
+		es4 es, r b'
+		es es, r b' %110
+		es es, r b'
+		es d c b
+		as g f g
+		as2 b
+		es, r4 es %115
+		es2.-> es4
+		es2.-> es4
+		es2.-> r4
+		r g as b
+		c2 as %120
+		b b,
+		es2. es4
+		es2.-> es4
+		es2.-> es4
+		es2.-> r4 %125
+		r g as b
+		c2 as
+		b b,
+		es4 es' b g
+		es g as b %130
+		c2 as
+		b1\ff
+		b,
+		es2 r4 es
+		es2.-\parenthesize-> es4 %135
+		es2.-\parenthesize-> es4
+		es2.-\parenthesize-> es4
+		es2 r
+		es r
+		es r\fermata \bar "|." %140 finis
+	}
+}

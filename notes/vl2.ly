@@ -817,3 +817,150 @@ HeiligViolinoII = {
 		} >> \markAttacaE \bar "||" %26 finis
 	}
 }
+
+LobUndEhreViolinoII = {
+	\relative c' {
+		\clef treble
+		\key es \major \time 4/4 \tempoLobUndEhre
+		g'4.\f g8 b4 b8 b
+		es4. f8 g4 d8 d
+		es4. f8 g4 d8 d
+		es4. f8 g4 d
+		es b as b %5
+		f g as g
+		f b8 b b4 es
+		es d r2
+		r es4 es
+		es d r2 %10
+		g,4. g8 b4 b8 b
+		es4. f8 g4 d8 d
+		es4. f8 g4 d8 d
+		es4. f8 g4 d
+		es b as b %15
+		f g as g
+		f b8 b b4 es
+		es d r2
+		r es4 es
+		es d2 f4\mf %20
+		d2. c4
+		b r r es
+		d2. c4
+		b( f d) b\p
+		c4.( b8) a4 r %25
+		r2 r4 b
+		c4.( b8) a4 r
+		r2 r4 d'\mf
+		b b2\fz b4~
+		b2 f'8(\p es d c) %30
+		b2. a4
+		b( f d) b
+		c4.( b8) a4 r
+		r2 r4 b
+		c4.( b8) a4 r %35
+		r2 r4 d'
+		b b2\fz b4~
+		b2 f'8(\p es d c)
+		b2. a4
+		a( b) r d %40
+		b\f b2 b4~
+		b b f'8( es) d( c)
+		d4 d2 es,4
+		d8\ff b''4 b b b8~
+		b b4 b b8 es,4~ %45
+		es d2 c4
+		d r r b\mf
+		b4. c8 d4 es
+		f d es es
+		es d r2 %50
+		R1
+		r2 r4 g,
+		g4. fis8 g( a) h( c)
+		d4 d2 d4
+		d c r2 %55
+		R1
+		r4 g'8\f f es d c b!
+		a g f g a b c d
+		es d c b a g f es
+		d( f b d) f( b,) g( es') %60
+		d4. c8 b4 a
+		b2. g'8( es)
+		d4. c8 b4 a
+		b8 d,4\p d d d8
+		d d4 d d\crescpap d8 %65
+		es es4 es es es8
+		f f4 f f f8
+		ges ges4 ges ges ges8
+		d d4 b' b b8
+		ges'16\ff ges ges ges ges ges ges ges es es es es es es es es %70
+		b b b b b b b b ges ges ges ges ges ges ges ges
+		es' es es es es es es es b b b b b b b b
+		ges ges ges ges ges ges ges ges es es es es es es es es
+		es'4 es8. es16 es4 es
+		es es8. es16 es4 es %75
+		d r r <g! b, es,>
+		<f b, d,> r r <g b, es,>
+		<f b, d,> r r <g b, es,>
+		<f b, d,> r r2
+		g,4.\fE g8 b4 b8 b %80
+		es4. f8 g4 d8^\critnote d
+		es4. f8 g4 d8 d
+		es4. f8 g4 d
+		es b as b
+		f g as g %85
+		f b8 b b4 es
+		es d r2
+		r es4 es
+		es d r2
+		g,4. g8 b4 b8 b %90
+		es4. f8 g4 d8 d
+		es4. f8 g4 d8 d
+		es4. f8 g4 d
+		es b as b
+		f g as g %95
+		f b8 b b4 es
+		es d r2
+		r es4 es
+		es d r d
+		d4. c8 b4 r %100
+		r2 r4 d
+		es4. d8 es4 r
+		r2 r4 es\p
+		f( d) es r
+		r2 r4 es\mf %105
+		f( d) es es
+		es d r2
+		g,4.\f g8 b4 b8 b
+		es4. f8 g4 d8 d
+		es4. f8 g4 d8 d %110
+		es4. f8 g4 d
+		es b as b
+		f g as g
+		f2 f
+		g r4 es %115
+		es2-> g,4 g'
+		g2-> es4 g
+		g2-> g4 g
+		g1~
+		g2 c4_( b8 as) %120
+		g2 d'
+		d( es4) es,
+		es2-> g,4 g'
+		g2-> es4 g
+		g2.-> g4 %125
+		g1~
+		g2 c4_( b8 as)
+		g2 d'
+		es r4 g,
+		g1~ %130
+		g2 c4_( b8 as)
+		g4\ff g'2 g4
+		b, f'2 f4
+		g2 r4 g,
+		g2.-> es'4 %135
+		es2.-> g4
+		g2.-> g4
+		g2 r
+		<es, g,> r
+		q r\fermata \bar "|." %140 finis
+	}
+}

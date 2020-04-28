@@ -333,3 +333,129 @@ HeiligCornoII = {
 		R1\fermataMarkup \markAttacaE \bar "||" %26 finis
 	}
 }
+
+LobUndEhreCornoII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoLobUndEhre
+		c4.\f e8 g4 g
+		c4. g8 e4 g
+		c4. g8 e4 g
+		c4. g8 e4 g
+		c r r2 %5
+		r4 e d c
+		g g c c
+		c g c-\dolce c
+		c g c\f c
+		c g r2 %10
+		e4. e8 g4 g
+		c4. g8 e4 g
+		c4. g8 e4 g
+		c4. g8 e4 r
+		R1 %15
+		r4 e' d c
+		g g c c
+		c g c-\dolce c
+		c g c\f c
+		c g r2 %20
+		d'1\mf
+		g,4 r r2
+		d'1
+		g,2 r
+		d'\p r %25
+		g, r
+		d' r
+		g, r
+		R1*2 %30
+		d'1\p
+		g,4 r r2
+		d'2. r4
+		g,2 r
+		d' r %35
+		g, r
+		R1*7 %43
+		g1~\ffE
+		g2. c4 %45
+		d r d r
+		g, r r2
+		R1*2
+		r2 r4 g\mf %50
+		e'4. d8 c4 g
+		c r r2
+		R1*7 %59
+		g2.\fE c4 %60
+		d2. d4
+		d2 r4 c
+		d2. d4
+		g, r r2
+		R1*2 %66
+		g,1~\pE\crescpapE
+		g~
+		g
+		c2\ffE r %70
+		R1*3
+		c1~
+		c %75
+		g'4 g8. g16 g4 c
+		g g8. g16 g4 c
+		g g8. g16 g4 c
+		g r r2
+		c,4.\fE e8 g4. g8 %80
+		c4. g8 e4 g
+		c4. g8 e4 g
+		c4. g8 e4 g
+		c r r2
+		r4 e d c %85
+		g g c c
+		c g c-\dolce c
+		c g c\f c
+		c g r2
+		e4. e8 g4 g %90
+		c4. g8 e4 g
+		c4. g8 e4 g
+		c4. g8 e4 r
+		R1
+		r4 e' d c %95
+		g g c c
+		c g c-\dolce c
+		c g c\f c
+		c g r2
+		r r4 g %100
+		\once \slurDashed d'2( g,4) r
+		r2 r4 c
+		e2( c4) r
+		r2 r4 c\p
+		d( g,) c c\mf %105
+		d( g,) c c
+		g g, r2
+		e'4.\f e8 g4 g
+		c4. d8 e4 g,
+		c4. d8 e4 g, %110
+		c4. d8 e4 r
+		R1*2
+		r2 g,
+		c, r4 c %115
+		c2 r4 c
+		c2 r4 c
+		c2 r
+		R1*2 %120
+		r2 g'
+		c, r4 c
+		c2 r4 c
+		c2 r4 c
+		c2 r %125
+		R1*3
+		r4 c' g e
+		c r r2 %130
+		R1
+		c'\ff
+		g
+		c,4 r r c
+		c2 r %135
+		c r
+		c r
+		c r
+		c r
+		c r\fermata \bar "|." %140 finis
+	}
+}

@@ -1558,6 +1558,415 @@ HeiligSopranoLyricsDansk = \lyricmode {
 	Jord! __ %24 finis
 }
 
+LobUndEhreSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key es \major \time 4/4 \autoBeamOff \tempoLobUndEhre
+		\mvTr es'4.\fE^\tuttiE es8 f4 f8 f
+		g4. f8 es4 f8 f
+		g4. f8 es4 f8 f
+		g4.( f8) es4 r
+		g f as g8 g %5
+		f4 es8 es d4 es
+		f b,8 b es4 g
+		g f r2
+		r g4 g
+		g f r2 %10
+		es4. es8 f4 f8 f
+		g4. f8 es4 f8 f
+		g4. f8 es4 f8 f
+		g4.( f8) es4 r
+		g f as g8 g %15
+		f4 es8 es d4 es
+		f b,8 b es4 g
+		g f r2
+		r g4 g
+		g f r f\mfE %20
+		f2. es4
+		d r r g
+		f2. es4
+		d r r d\pE
+		es4.( d8) c4 r %25
+		r2 r4 d
+		es4.( d8) c4 r
+		r2 r4 f
+		b1~
+		b2 a8([ g)] f([ es)] %30
+		d2. c4
+		d r r d
+		es4.( d8) c4 r
+		r2 r4 d
+		es4.( d8) c4 r %35
+		r2 r4 f
+		b1~
+		b2 a8([ g)] f([ es)]
+		d2. c4
+		\appoggiatura c d2 r4 f %40
+		b1~\fE
+		b2 a8([ g)] f([ es)]
+		d2. c4
+		b2 r
+		R1*2 %46
+		r2 r4 b\mfE
+		d4. es8 f4 g
+		as! f g g
+		g f r2 %50
+		R1
+		r2 r4 g,
+		g4. a8 h([ c)] d([ es)]
+		f4 f f f
+		f es r2 %55
+		R1
+		r2 r4 c8([\fE b!)]
+		a([ g)] f([ g)] a([ b)] c([ d)]
+		es([ d)] c([ b)] a([ g)] f([ es)]
+		d4 d r g' %60
+		f4. es8 d4 c
+		f2. g4
+		f4. es8 d4 c
+		b2 r4 b\pE
+		b2. b4\crescpapE %65
+		c2 c
+		d2. d4
+		es2. es4
+		f2 b,4 b
+		ges'2\ffE es %70
+		b ges
+		es'( b)
+		ges es
+		es'1~
+		es2 es %75
+		b'1~
+		b~
+		b2 r
+		R1
+		es,4.\fE es8 f4 f8 f %80
+		g4. f8 es4 f8 f
+		g4. f8 es4 f8 f
+		g4.( f8) es4 r
+		g f as g8 g
+		f4 es8 es d4 es %85
+		f b,8 b es4 g
+		g f r2
+		r g4 g
+		g f r2
+		es4. es8 f4 f8 f %90
+		g4. f8 es4 f8 f
+		g4. f8 es4 f8 f
+		g4.( f8) es4 r
+		g f as g8 g
+		f4 es8 es d4 es %95
+		f b,8 b es4 g
+		g f r2
+		r g4 g
+		g f r f
+		f4. es8 d4 r %100
+		r2 r4 f
+		g4. f8 es4 r
+		r2 r4 g\pE
+		as( f) g r
+		r2 r4 g\mfE %105
+		as( f) g g
+		g f r2
+		es4.\fE es8 f4 f8 f
+		g4. f8 es4 f8 f
+		g4. f8 es4 f8 f %110
+		g4.( f8) es4 r
+		g f as g8 g
+		f4 es d es
+		f2 d
+		es r4 g, %115
+		g2 es4 b'
+		b2 g4 es'
+		es2 b4 g'
+		g1~
+		g2 b8[ as] g f %120
+		es2 d
+		d( es4) g,
+		g2 es4 b'
+		b2 g4 es'
+		es2 b4 g' %125
+		g1~
+		g2 b8[ as] g f
+		es2 d
+		es r4 g
+		g1~ %130
+		g2 b8[ as] g f
+		es1\ffE
+		d
+		es2 r
+		R1*5 %139
+		R1\fermataMarkup \bar "|." %140 finis
+	}
+}
+
+LobUndEhreSopranoLyrics = \lyricmode {
+	Lob und Eh -- re dem
+	E -- wi -- gen! dem All --
+	mäch -- ti -- gen! dem All --
+	wei -- sen!
+	Preis und Eh -- re dem %5
+	Hei -- li -- gen! dem Recht --
+	fer -- ti -- gen! dem All --
+	gu -- ten!
+	dem All --
+	gu -- ten! %10
+	Lob und Eh -- re dem
+	E -- wi -- gen! dem All --
+	mäch -- ti -- gen! dem All --
+	wei -- sen!
+	Preis und Eh -- re dem %15
+	Hei -- li -- gen! dem Recht --
+	fer -- ti -- gen! dem All --
+	gu -- ten!
+	dem All --
+	gu -- ten! Hal -- %20
+	le -- lu --
+	ja! Hal --
+	le -- lu --
+	ja! dem
+	Schöp -- fer! %25
+	dem
+	Rich -- ter!
+	dem
+	Va --
+	ter! Hal -- %30
+	le -- lu --
+	ja! dem
+	Schöp -- fer!
+	dem
+	Rich -- ter! %35
+	dem
+	Va --
+	ter! Hal --
+	le -- lu --
+	ja! dem %40
+	Va --
+	ter! Hal --
+	le -- lu --
+	ja!
+
+	So %47
+	lal -- len der
+	Er -- schaff -- nen Me -- lo --
+	di -- en, %50
+
+	so
+	lal -- len der
+	Er -- schaff -- nen Me -- lo --
+	di -- en, %55
+
+	so
+	tö -- nen al -- ler
+	Him -- mel Har -- mo --
+	ni -- en: Hal -- %60
+	le -- lu -- ja! du
+	bist! Hal --
+	le -- lu -- ja! du
+	bist! Und
+	Don -- ner -- %65
+	hall und
+	Blitz und
+	Sturm und
+	Mee -- re ver --
+	kün -- den %70
+	je -- der
+	Sphä --
+	re dich,
+	Gott! __
+	dich %75
+	Gott! __
+
+	Lob und Eh -- re dem %80
+	E -- wi -- gen! dem All --
+	mäch -- ti -- gen! dem All --
+	wei -- sen!
+	Preis und Eh -- re dem
+	Hei -- li -- gen! dem Recht -- %85
+	fer -- ti -- gen! dem All --
+	gu -- ten!
+	dem All --
+	gu -- ten!
+	Lob und Eh -- re dem %90
+	E -- wi -- gen! dem All --
+	mäch -- ti -- gen! dem All --
+	wei -- sen!
+	Preis und Eh -- re dem
+	Hei -- li -- gen! dem Recht -- %95
+	fer -- ti -- gen! dem All --
+	gu -- ten!
+	dem All --
+	gu -- ten! Hal --
+	le -- lu -- ja! %100
+	Hal --
+	le -- lu -- ja!
+	dem
+	Schöp -- fer!
+	dem %105
+	Rich -- ter! dem
+	Va -- ter!
+	Lob und Eh -- re dem
+	E -- wi -- gen! dem All --
+	mäch -- ti -- gen! dem All -- %110
+	wei -- sen!
+	Preis und Eh -- re dem
+	Hei -- li -- gen! Hal --
+	le -- lu --
+	ja! dem %115
+	Schöp -- fer! dem
+	Rich -- ter! dem
+	Va -- ter! dem
+	Va --
+	_ ter! Hal -- %120
+	le -- lu --
+	ja! __ dem
+	Schöp -- fer! dem
+	Rich -- ter! dem
+	Va -- ter! dem %125
+	Va --
+	_ ter! Hal --
+	le -- lu --
+	ja! dem
+	Va -- %130
+	_ ter! Hal --
+	le --
+	lu --
+	ja! %134 finis
+}
+
+LobUndEhreSopranoLyricsDansk = \lyricmode {
+	Lo -- vet væ -- re den
+	E -- vi -- ge! den Al --
+	mæg -- ti -- ge! den Al --
+	vi -- se!
+	Lo -- vet væ -- re den %5
+	Hel -- li -- ge! den Ret --
+	fær -- di -- ge! den Al --
+	go -- de!
+	den Al --
+	go -- de! %10
+	Lo -- vet væ -- re den
+	E -- vi -- ge! den Al --
+	mæg -- ti -- ge! den Al --
+	vi -- se!
+	Lo -- vet væ -- re den %15
+	Hel -- li -- ge! den Ret --
+	fær -- di -- ge! den Al --
+	go -- de!
+	den Al --
+	go -- de! Hal -- %20
+	le -- lu --
+	ja! Hal --
+	le -- lu --
+	ja! vor
+	Ska -- ber! %25
+	vor
+	Dom -- mer!
+	vor
+	Fa --
+	der! Hal -- %30
+	le -- lu --
+	ja! vor
+	Ska -- ber!
+	vor
+	Dom -- mer! %35
+	vor
+	Fa --
+	der! Hal --
+	le -- lu --
+	ja! vor %40
+	Fa --
+	der! Hal --
+	le -- lu --
+	ja!
+
+	Saa %47
+	nyn -- ner al -- le
+	Stø -- vets Me -- lo --
+	di -- er, %50
+
+	saa %53
+	nyn -- ner al -- le
+	Stø -- vets Me -- lo -- %55
+	di -- er,
+	saa
+	to -- ner al -- le
+	Him -- les Har -- mo --
+	ni -- er: Hal -- %60
+	le -- lu -- ja! du
+	er! Hal --
+	le -- lu -- ja! du
+	er! Og
+	Ha -- vets %65
+	Bru -- sen,
+	Lyn, og
+	Storm, og
+	Tor -- den ba --
+	su -- ner %70
+	o -- ver
+	Jor --
+	den: Du
+	er! __
+	Du %75
+	er! __
+
+	Lo -- vet væ -- re den %80
+	E -- vi -- ge! den Al --
+	mæg -- ti -- ge! den Al --
+	vi -- se!
+	Lo -- vet væ -- re den
+	Hel -- li -- ge! den Ret -- %85
+	fær -- di -- ge! den Al --
+	go -- de!
+	den Al --
+	go -- de!
+	Lo -- vet væ -- re den %90
+	E -- vi -- ge! den Al --
+	mæg -- ti -- ge! den Al --
+	vi -- se!
+	Lo -- vet væ -- re den
+	Hel -- li -- ge! den Ret -- %95
+	fær -- di -- ge! den Al --
+	go -- de!
+	den Al --
+	go -- de! Hal --
+	le -- lu -- ja! %100
+	Hal --
+	le -- lu -- ja!
+	vor
+	Ska -- ber!
+	vor %105
+	Dom -- mer! vor
+	Fa -- der!
+	Lo -- vet væ -- re den
+	E -- vi -- ge! den Al --
+	mæg -- ti -- ge! den Al -- %110
+	vi -- se!
+	Lo -- vet væ -- re den
+	Hel -- li -- ge! Hal --
+	le -- lu --
+	ja! vor %115
+	Ska -- ber! vor
+	Dom -- mer! vor
+	Fa -- der! vor
+	Fa --
+	_ der! Hal -- %120
+	le -- lu --
+	ja! __ vor
+	Ska -- ber! vor
+	Dom -- mer! vor
+	Fa -- der! vor %125
+	Fa --
+	_ der! Hal --
+	le -- lu --
+	ja! vor
+	Fa -- %130
+	_ der! Hal --
+	le --
+	lu --
+	ja! %134 finis
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

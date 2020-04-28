@@ -415,3 +415,131 @@ HeiligOboeI = {
 		R\fermataMarkup \markAttacaE \bar "||" %26 finis
 	}
 }
+
+LobUndEhreOboeI = {
+	\relative c' {
+		\clef treble
+		\key es \major \time 4/4 \tempoLobUndEhre
+		es'4.\f es8 f4 f8 f
+		g4. as8 b4 f8 f
+		g4. as8 b4 f8 f
+		g4. as8 b4 f
+		g f as g %5
+		f es d es
+		f \pa b,8 b \pd es4 g
+		g f r2
+		r g4 g
+		g f r2 %10
+		es4. es8 f4 f8 f
+		g4. as8 b4 f8 f
+		g4. as8 b4 f8 f
+		g4. as8 b4 f
+		g f as g %15
+		f es d es
+		f \pa b,8 b \pd es4 g
+		g f r2
+		r g4 g
+		g f r2 %20
+		r4 f2\mf es4
+		d b( a g)
+		f f'2 es4
+		d( b' f d)
+		R1*4 %28
+		\once \tieDashed b'1~\<
+		b4\! r r2 %30
+		r4 d,2\p c4
+		d( b' f d)
+		R1*4 %36
+		b'1~\<
+		b4\! r r2
+		R1
+		r4 b,(\pE d f) %40
+		b1~\f
+		b4 r r2
+		R1
+		b1~\ff
+		b2. c4~ %45
+		c b2 a4
+		b r r2
+		R1*9 %56
+		r4 g8\f f es d c b!
+		a g f g a b c d
+		es d c b a g f es
+		d4 b' r g' %60
+		f4. es8 d4 c
+		f2. g4
+		f4. es8 d4 c
+		\pao b4 r r2
+		b1\pE %65
+		c\crescpap
+		d
+		es
+		f2 b,
+		ges'\ff es %70
+		b ges
+		es' b
+		ges es
+		es'1
+		a %75
+		b4 f8. f16 f4 g!
+		f f8. f16 f4 g
+		f f8. f16 f4 g
+		f r r2
+		es4.\fE es8 f4 f8 f %80
+		g4. as8 b4 f8 f
+		g4. as8 b4 f8 f
+		g4. as8 b4 f
+		g f as g
+		f es d es %85
+		f \pa b,8 b \pd es4 g
+		g f r2
+		r g4 g
+		g f r2
+		es4. es8 f4 f8 f %90
+		g4. as8 b4 f8 f
+		g4. as8 b4 f8 f
+		g4. as8 b4 f
+		g f as g
+		f es d es %95
+		f \pa b,8 b \pd es4 g
+		g f r2
+		r g4 g
+		g f r f
+		f4. es8 d4 r %100
+		r2 r4 f
+		g4. f8 \pao es4 r
+		r2 r4 g\p
+		as( f) g r
+		r2 r4 g\mf %105
+		as( f) g g
+		g f r2
+		es4.\f es8 f4 f8 f
+		g4. as8 b4 f8 f
+		g4. as8 b4 f8 f %110
+		g4. as8 b4 f
+		g f as g
+		f es d es
+		f2 d
+		es r %115
+		g, r
+		b r
+		es r
+		R1*4 %122
+		g,2 r
+		b r
+		es r %125
+		R1*3
+		r2 r4 g
+		g1~ %130
+		g2 b8[ as g f]
+		es1\ff
+		d
+		es2 r
+		es r %135
+		es r
+		es r
+		es r
+		\pao es, r
+		\pao es r\fermata \bar "|." %140 finis
+	}
+}

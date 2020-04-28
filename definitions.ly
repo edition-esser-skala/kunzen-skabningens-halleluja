@@ -191,6 +191,8 @@ decresc = #(make-music 'DecrescendoEvent 'span-direction START 'span-type 'text 
 decrescE = #(make-music 'DecrescendoEvent 'span-direction START 'span-type 'text 'span-text (markup (#:normal-text #:small #:italic "decresc.")))
 pococresc = #(make-music 'CrescendoEvent 'span-direction START 'span-type 'text 'span-text (markup (#:normal-text #:small "poco cresc.")))
 pocoFz = #(make-dynamic-script (markup #:line (#:normal-text #:small "poco" #:normal-text #:large #:bold "fz")))
+crescpap = #(make-music 'CrescendoEvent 'span-direction START 'span-type 'text 'span-text (markup (#:normal-text #:small "cresc. poco a poco")))
+crescpapE = #(make-music 'CrescendoEvent 'span-direction START 'span-type 'text 'span-text (markup (#:normal-text #:small #:italic "cresc. poco a poco")))
 
 violinGroupDistance = {
 	\override StaffGrouper.staffgroup-staff-spacing =
@@ -285,6 +287,7 @@ tempoOGott = \tempoMarkup "Recitativo"
 	tempoOGottB = \tempoMarkup "Lento / a tempo"
 tempoUndLeben = \tempoMarkup "Tempo primo Allegro moderato"
 tempoHeilig = \tempoMarkup "Largo"
+tempoLobUndEhre = \tempoMarkup "Allegro vivace"
 
 
 

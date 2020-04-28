@@ -133,3 +133,140 @@ HeiligClarinettoII = {
 		<< { e1\fermata } \\ { s2..\< s8\! } >> \markAttacaE \bar "||" %26 finis
 	}
 }
+
+LobUndEhreClarinettoII = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 4/4 \tempoLobUndEhre
+		a'4.\f a8 c4 c8 c
+		f4. g8 a4 e8 e
+		f4. g8 a4 e8 e
+		f4. g8 a4 e
+		f c b c %5
+		g a b a
+		g c8 c c4 f
+		f e f-\dolce f
+		f e r2
+		R1 %10
+		a,4.\fE a8 c4 c8 c
+		f4. g8 a4 e8 e
+		f4. g8 a4 e8 e
+		f4. g8 a4 e
+		f c b c %15
+		g a b a
+		g c8 c c4 f
+		f e f-\dolce f
+		f e f\f f
+		f e r2 %20
+		r4 e2\mf d4
+		c a'( g f)
+		e2. d4
+		c4 r r c\p
+		d4.( c8) h4 r %25
+		r2 r4 c
+		d4.( c8) h4 r
+		r2 r4 e\mf
+		c1~\<
+		c2\! g'8(\p f e d) %30
+		c2. h4
+		c r r c
+		d4.( c8) h4 r
+		r2 r4 c
+		d4.( c8) h4 r %35
+		r2 r4 e\mfE
+		c1~\<
+		c4\! r r2
+		R1
+		r4 c(\pE e g) %40
+		c,1~\f
+		c2 g'8( f) e( d)
+		c2. h4
+		c1~\ff
+		c2. \once \tieDashed d4~ %45
+		d c2 h4
+		c r r2
+		R1*2
+		r2 r4 c\mf %50
+		a'4. g8 f4 e
+		f r r2
+		R1*2
+		r2 r4 f\mf %55
+		f4. d8 e4. cis8
+		d4 a'8\f g f e d c!
+		h a g a h c d e
+		f e d c h a g f
+		e4 c' r f %60
+		e4. d8 c4 h
+		c2. f4
+		e4. d8 c4 h
+		c r r2
+		R1*9 %73
+		f4\ffE f8. f16 f4 f
+		f f8. f16 f4 f %75
+		e c8. c16 c4 f
+		c c8. c16 c4 f
+		c c8. c16 c4 f
+		c r r2
+		a4.\fE a8 c4 c8 c %80
+		f4. g8 a4 e8 e
+		f4. g8 a4 e8 e
+		f4. g8 a4 e
+		f c b c
+		g a b a %85
+		g c8 c c4 f
+		f e f-\dolce f
+		f e r2
+		R1
+		a,4.\fE a8 c4 c8 c %90
+		f4. g8 a4 e8 e
+		f4. g8 a4 e8 e
+		f4. g8 a4 e
+		f c b c
+		g a b a %95
+		g c8 c c4 f
+		f e f-\dolce f
+		f e f\f f
+		f e r2
+		r r4 e %100
+		\once \slurDashed g2( e4) r
+		r2 r4 f
+		a2( f4) r
+		r2 r4 f\p
+		g( e) f f\mf %105
+		g( e) f f
+		f e r2
+		a,4.\f a8 c4 c8 c
+		f4. g8 a4 e8 e
+		f4. g8 a4 e8 e %110
+		f4. g8 a4 e
+		f c b c
+		g a b a
+		g2 g
+		a r4 a %115
+		a2-> f4 c'
+		c2-> a4 f'
+		f2-> c4 a
+		a1~
+		a2 d4( c8 b) %120
+		a2 e'
+		e( f4) a,
+		a2-> f4 c'
+		c2-> a4 f'
+		f2-> c4 a %125
+		a1~
+		a2 d4( c8 b)
+		a2 e'
+		f r4 a,
+		a1~ %130
+		a2 d4( c8 b)
+		a1\ff
+		g
+		a2 r
+		a, r %135
+		f' r
+		a r
+		a r
+		f r
+		f r\fermata \bar "|." %140 finis
+	}
+}

@@ -1042,6 +1042,404 @@ HeiligBassoLyricsDansk = \lyricmode {
 	Jord! __ %24 finis
 }
 
+LobUndEhreBassoNotes = {
+	\relative c {
+		\clef bass
+		\key es \major \time 4/4 \autoBeamOff \tempoLobUndEhre
+		\mvTr es4.\fE^\tuttiE es8 b'4 b8 b
+		es4. b8 g4 b8 b
+		es4. b8 g4 b8 b
+		es4.( b8) g4 r
+		es' d c b8 b %5
+		as4 g8 g f4 es
+		d b8 b g'4 es
+		b' b, r2
+		r es4 es
+		b' b, r2 %10
+		es4. es8 b'4 b8 b
+		es4. b8 g4 b8 b
+		es4. b8 g4 b8 b
+		es4.( b8) g4 r
+		es' d c b8 b %15
+		as4 g8 g f4 es
+		d b8 b g'4 es
+		b' b, r2
+		r es4 es
+		b' b, r b'\mfE %20
+		f2. f4
+		b, r r es
+		f2. f4
+		b, r r2
+		r r4 f'\pE %25
+		b( d) d r
+		r2 r4 f,
+		b( d) d r
+		r b c d
+		es2 r4 es, %30
+		f2. f4
+		b, r r2
+		r r4 f'
+		b( d) d r
+		r2 r4 f, %35
+		b( d) d r
+		r b c d
+		es2 r4 es,
+		f2. f4
+		b,2 r %40
+		r4 b'\fE c( cis)
+		d2 es4 es,
+		f2. f4
+		b,2 r
+		R1*5 %49
+		r2 r4 b'\mfE %50
+		b4. as8 g4 f
+		g2 r
+		R1*2
+		r2 r4 es' %55
+		es4. c8 d4 h
+		c r r c8([\fE b!)]
+		a([ g)] f([ g)] a([ b)] c([ d)]
+		es([ d)] c([ b)] a([ g)] f([ es)]
+		d4 d r es %60
+		f4. f8 f4 es
+		d2. es4
+		f4. f8 f4 f
+		b,2 r4 b'\pE
+		b2. b4\crescpapE %65
+		a2 a
+		as2. as4
+		ges2. ges4
+		f2 b,4 b
+		ges'2\ffE es %70
+		b' ges
+		es'( b)
+		ges es
+		ces1~
+		ces2 ces' %75
+		b1~
+		b~
+		b2 r
+		R1
+		es,4.\fE es8 b'4 b8 b %80
+		es4. b8 g4 b8 b
+		es4. b8 g4 b8 b
+		es4.( b8) g4 r
+		es' d c b8 b
+		as4 g8 g f4 es %85
+		d b8 b g'4 es
+		b' b, r2
+		r es4 es
+		b' b, r2
+		es4. es8 b'4 b8 b %90
+		es4. b8 g4 b8 b
+		es4. b8 g4 b8 b
+		es4.( b8) g4 r
+		es' d c b8 b
+		as4 g8 g f4 es %95
+		d b8 b g'4 es
+		b' b, r2
+		r es4 es
+		b' b, r b'
+		b4. b,8 b4 r %100
+		r2 r4 b'
+		es4. b8 g4 r
+		R1
+		r2 r4 \mvDll es'\pE
+		f( d) es es,\mfE %105
+		b2 es4 es
+		b' b, r2
+		es4.\fE es8 b'4 b8 b
+		es4. b8 g4 b8 b
+		es4. b8 g4 b8 b %110
+		es4.( b8) g4 r
+		es' d c b8 b
+		as4 g f g
+		as2 b
+		es, r4 es %115
+		es2 es4 es
+		es2 es4 es
+		es2 es4 r
+		r g as b
+		c2 as %120
+		b b,
+		es2. es4
+		es2 es4 es
+		es2 es4 es
+		es2 es4 r %125
+		r g as b
+		c2 as
+		b b,
+		es r
+		r4 g as b %130
+		c2 as
+		b1\ffE
+		b,
+		es2 r
+		R1*5 %139
+		R1\fermataMarkup \bar "|." %140 finis
+	}
+}
+
+LobUndEhreBassoLyrics = \lyricmode {
+	Lob und Eh -- re dem
+	E -- wi -- gen! dem All --
+	mäch -- ti -- gen! dem All --
+	wei -- sen!
+	Preis und Eh -- re dem %5
+	Hei -- li -- gen! dem Recht --
+	fer -- ti -- gen! dem All --
+	gu -- ten!
+	dem All --
+	gu -- ten! %10
+	Lob und Eh -- re dem
+	E -- wi -- gen! dem All --
+	mäch -- ti -- gen! dem All --
+	wei -- sen!
+	Preis und Eh -- re dem %15
+	Hei -- li -- gen! dem Recht --
+	fer -- ti -- gen! dem All --
+	gu -- ten!
+	dem All --
+	gu -- ten! Hal -- %20
+	le -- lu --
+	ja! Hal --
+	le -- lu --
+	ja!
+	dem %25
+	Rich -- ter!
+	dem
+	Va -- ter!
+	Hal -- le -- lu --
+	ja! Hal -- %30
+	le -- lu --
+	ja!
+	dem
+	Rich -- ter!
+	dem %35
+	Va -- ter!
+	Hal -- le -- lu --
+	ja! Hal --
+	le -- lu --
+	ja! %40
+	Hal -- le --
+	lu -- ja! Hal --
+	le -- lu --
+	ja!
+
+	So %50
+	singt, was e -- wig
+	ist,
+
+	so %55
+	singt, was e -- wig
+	ist, so
+	tö -- nen al -- ler
+	Him -- mel Har -- mo --
+	ni -- en: Hal -- %60
+	le -- lu -- ja! du
+	bist! Hal --
+	le -- lu -- ja! du
+	bist! Und
+	Don -- ner -- %65
+	hall und
+	Blitz und
+	Sturm und
+	Mee -- re ver --
+	kün -- den %70
+	je -- der
+	Sphä --
+	re dich,
+	Gott! __
+	dich %75
+	Gott! __
+
+	Lob und Eh -- re dem %80
+	E -- wi -- gen! dem All --
+	mäch -- ti -- gen! dem All --
+	wei -- sen!
+	Preis und Eh -- re dem
+	Hei -- li -- gen! dem Recht -- %85
+	fer -- ti -- gen! dem All --
+	gu -- ten!
+	dem All --
+	gu -- ten!
+	Lob und Eh -- re dem %90
+	E -- wi -- gen! dem All --
+	mäch -- ti -- gen! dem All --
+	wei -- sen!
+	Preis und Eh -- re dem
+	Hei -- li -- gen! dem Recht -- %95
+	fer -- ti -- gen! dem All --
+	gu -- ten!
+	dem All --
+	gu -- ten! Hal --
+	le -- lu -- ja! %100
+	Hal --
+	le -- lu -- ja!
+
+	dem
+	Rich -- ter! dem %105
+	Rich -- ter! dem
+	Va -- ter!
+	Lob und Eh -- re dem
+	E -- wi -- gen! dem All --
+	mäch -- ti -- gen! dem All -- %110
+	wei -- sen!
+	Preis und Eh -- re dem
+	Hei -- li -- gen! Hal --
+	le -- lu --
+	ja! dem %115
+	Schöp -- fer! dem
+	Rich -- ter! dem
+	Va -- ter!
+	Hal -- le -- lu --
+	ja! Hal -- %120
+	le -- lu --
+	ja! dem
+	Schöp -- fer! dem
+	Rich -- ter! dem
+	Va -- ter! %125
+	Hal -- le -- lu --
+	ja! Hal --
+	le -- lu --
+	ja!
+	Hal -- le -- lu -- %130
+	ja! Hal --
+	le --
+	lu --
+	ja! %134 finis
+}
+
+LobUndEhreBassoLyricsDansk = \lyricmode {
+	Lo -- vet væ -- re den
+	E -- vi -- ge! den Al --
+	mæg -- ti -- ge! den Al --
+	vi -- se!
+	Lo -- vet væ -- re den %5
+	Hel -- li -- ge! den Ret --
+	fær -- di -- ge! den Al --
+	go -- de!
+	den Al --
+	go -- de! %10
+	Lo -- vet væ -- re den
+	E -- vi -- ge! den Al --
+	mæg -- ti -- ge! den Al --
+	vi -- se!
+	Lo -- vet væ -- re den %15
+	Hel -- li -- ge! den Ret --
+	fær -- di -- ge! den Al --
+	go -- de!
+	den Al --
+	go -- de! Hal -- %20
+	le -- lu --
+	ja! Hal --
+	le -- lu --
+	ja!
+	vor %25
+	Dom -- mer!
+	vor
+	Fa -- der!
+	Hal -- le -- lu --
+	ja! Hal -- %30
+	le -- lu --
+	ja!
+	vor
+	Dom -- mer!
+	vor %35
+	Fa -- der!
+	Hal -- le -- lu --
+	ja! Hal --
+	le -- lu --
+	ja! %40
+	Hal -- le --
+	lu -- ja! Hal --
+	le -- lu --
+	ja!
+
+	Saa %50
+	syn -- ger Ly -- sets
+	Hær,
+
+	saa %55
+	syn -- ger Ly -- sets
+	Hær, saa
+	to -- ner al -- le
+	Him -- les Har -- mo --
+	ni -- er: Hal -- %60
+	le -- lu -- ja! du
+	er! Hal --
+	le -- lu -- ja! du
+	er! Og
+	Ha -- vets %65
+	Bru -- sen,
+	Lyn, og
+	Storm, og
+	Tor -- den ba --
+	su -- ner %70
+	o -- ver
+	Jor --
+	den: Du
+	er! __
+	Du %75
+	er! __
+
+	Lo -- vet væ -- re den %80
+	E -- vi -- ge! den Al --
+	mæg -- ti -- ge! den Al --
+	vi -- se!
+	Lo -- vet væ -- re den
+	Hel -- li -- ge! den Ret -- %85
+	fær -- di -- ge! den Al --
+	go -- de!
+	den Al --
+	go -- de!
+	Lo -- vet væ -- re den %90
+	E -- vi -- ge! den Al --
+	mæg -- ti -- ge! den Al --
+	vi -- se!
+	Lo -- vet væ -- re den
+	Hel -- li -- ge! den Ret -- %95
+	fær -- di -- ge! den Al --
+	go -- de!
+	den Al --
+	go -- de! Hal --
+	le -- lu -- ja! %100
+	Hal --
+	le -- lu -- ja!
+
+	vor
+	Dom -- mer! vor %105
+	Dom -- mer! vor
+	Fa -- der!
+	Lo -- vet væ -- re den
+	E -- vi -- ge! den Al --
+	mæg -- ti -- ge! den Al -- %110
+	vi -- se!
+	Lo -- vet væ -- re den
+	Hel -- li -- ge! Hal --
+	le -- lu --
+	ja! vor %115
+	Ska -- ber! vor
+	Dom -- mer! vor
+	Fa -- der!
+	Hal -- le -- lu --
+	ja! Hal -- %120
+	le -- lu --
+	ja! vor
+	Ska -- ber! vor
+	Dom -- mer! vor
+	Fa -- der! %125
+	Hal -- le -- lu --
+	ja! Hal --
+	le -- lu --
+	ja!
+	Hal -- le -- lu -- %130
+	ja! Hal --
+	le --
+	lu --
+	ja! %134 finis
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

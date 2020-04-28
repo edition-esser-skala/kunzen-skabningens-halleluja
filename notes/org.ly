@@ -1541,6 +1541,296 @@ HeiligBassFigures = \figuremode {
 	<5 3>1 %26 finis
 }
 
+LobUndEhreOrgano = {
+	\relative c {
+		\clef bass
+		\key es \major \time 4/4 \tempoLobUndEhre
+		\mvTr es4.\fE-\tuttiE es8 b'4. b8
+		es4 es, r b'
+		es es, r b'
+		es es, r b'
+		es d c b %5
+		as g f es
+		d b8 b g'4 es
+		b' b, r2
+		r g'4 es
+		b' b,8. b16 b'8 as g f %10
+		es4. es8 b'4. b8
+		es4 es, r b'
+		es es, r b'
+		es es, r b'
+		es d c b %15
+		as g f es
+		d b8 b g'4 es
+		b' b, r2
+		r g'4 es
+		b' b, r b\mf %20
+		f'1
+		b,4 r r es
+		f1
+		b,2 r
+		f'2.\pE r4 %25
+		b,2. r4
+		f'2. r4
+		b,2. r4
+		r b'(\< c d)
+		es\! r es,\p r %30
+		f r f, r
+		b r r2
+		f'2. r4
+		b,2. r4
+		f'2. r4 %35
+		b,2. r4
+		r b'(\< c d)
+		es\! r es,\p r
+		f r f, r
+		b2 r %40
+		r4 b'(\fE c cis)
+		d2 es4 es,
+		f r f, r
+		b\ffE d-! es-! e-!
+		f-! fis-! g-! es-! %45
+		f r f, r
+		b r r2
+		\clef "treble_8" b'2\mf^\vlc r
+		b4 b es es,
+		b'2 r %50
+		\clef bass b,^\bassi r
+		es4 g-!\f es-! c-!
+		g2 r
+		\clef "treble_8" r4 g'\mf^\vlc h g
+		c c, r2 %55
+		\clef bass c2^\bassi g
+		c4 g''8\f^\unisonoE f es d c b!
+		a g f g a b c d
+		es d c b a g f es
+		d2. es4 %60
+		f2. es4
+		d2. es4
+		f2. f4
+		b,2 r4 b'\p
+		b b b\crescpap b %65
+		a a a a
+		as as as as
+		ges ges ges ges
+		f f b, b
+		es8\ffE es es es es' es es es %70
+		b b b b ges ges ges ges
+		es' es es es b b b b
+		ges ges ges ges es es es es
+		ces4 ces8. ces16 ces4 ces
+		ces ces'8. ces16 ces4 ces %75
+		b r r es,
+		b r r es
+		b r r es
+		b b'8.\fE b16 b8 as g f
+		es4. es8 b'4. b8 %80
+		es4 es, r b'
+		es es, r b'
+		es es, r b'
+		es d c b
+		as g f es %85
+		d b8 b g'4 es
+		b' b, r2
+		r g'4 es
+		b' b,8. b16 b'8 as g f
+		es4. es8 b'4. b8 %90
+		es4 es, r b'
+		es es, r b'
+		es es, r b'
+		es d c b
+		as g f es %95
+		d b g' es
+		b' b, r2
+		r g'4 es
+		b' b, b b
+		b2. r4 %100
+		r2 r4 << { b' es4. b8 g4 } \\
+		{ b,4 b2. } >> r4
+		r2 r4 \clef "treble_8" es'\p^\vlc
+		b2 es4 \clef bass es,^\bassi
+		b2 es4 es\mf %105
+		b' b, es es
+		b' b,8.\f b16 b'8 as g f
+		es4. es8 b'4. b8
+		es4 es, r b'
+		es es, r b' %110
+		es es, r b'
+		es d c b
+		as g f g
+		as2 b
+		es, r4 es %115
+		es2.-> es4
+		es2.-> es4
+		es2.-> r4
+		r g as b
+		c2 as %120
+		b b,
+		es2. es4
+		es2.-> es4
+		es2.-> es4
+		es2.-> r4 %125
+		r g as b
+		c2 as
+		b b,
+		es4 es' b g
+		es g as b %130
+		c2 as
+		b4\ff b b b
+		b, b b b
+		es2 r4 es
+		es2.-\parenthesize-> es4 %135
+		es2.-\parenthesize-> es4
+		es2.-\parenthesize-> es4
+		es2 r
+		es r
+		es r\fermata \bar "|." %140 finis
+	}
+}
+
+LobUndEhreBassFigures = \figuremode {
+	r1
+	r
+	r
+	r
+	r4 <6> q q %5
+	q q q2
+	q q
+	<6 4>4 <5 3>2.
+	r2 <6>
+	<6 4>4 <5 3>2. %10
+	r1
+	r
+	r
+	r
+	r4 <6> q q %15
+	q q q2
+	q q
+	<6 4>4 <5 3>2.
+	r2 <6>
+	<6 4>4 <5 3>2. %20
+	<8 6 _!> <7 5 \t>4
+	r1
+	<8 6 _!>2. <7 5 \t>4
+	r1
+	<7 5 _!>4. <6 4>8 <5 _!>2 %25
+	r1
+	<7 5 _!>4. <6 4>8 <5 _!>2
+	r1
+	r4 <3> q q
+	q1 %30
+	<6 4>2 <\t \t>4 <5 _!>
+	r1
+	<7 5 _!>4. <6 4>8 <5 _!>2
+	r1
+	<7 5 _!>4. <6 4>8 <5 _!>2 %35
+	r1
+	r4 <3> q q
+	q1
+	<6 4>2 <\t \t>4 <5 _!>
+	<\t \t>4 <5 3>2. %40
+	r4 <3> q <_!>
+	<3> <_+>2.
+	<6 4>2 <\t \t>4 <5 _!>
+	<8 3>1 \bassFigureExtendersOn
+	q2 q4 \bassFigureExtendersOff <6> %45
+	<7 5 _!> <6 4> <\t \t> <5 _!>
+	r1
+	r
+	<7->
+	<6 4>4 <5 3>2. %50
+	<6 4>2. <5 3>4
+	r1
+	<_!>
+	r4 <_!> <6> <_!>
+	<9 4> <8 3>2. %55
+	r2 <7 _!>
+	r1
+	r
+	r
+	<6> %60
+	<6 4>2. <4! 2>4
+	<6>1
+	<6 4>2. <5 _!>4
+	r1
+	r %65
+	<6 5>
+	<2>
+	<6>
+	<6 _->2 <7->
+	<5 _->1 \bassFigureExtendersOn %70
+	q
+	q
+	q2.. q8
+	<6! 5->1
+	q2. q4 \bassFigureExtendersOff %75
+	r2. <_!>4
+	r1
+	r
+	r
+	r %80
+	r
+	r
+	r
+	r4 <6> q q
+	q q q2 %85
+	q q
+	<6 4>4 <5 3>2.
+	r2 <6>
+	<6 4>4 <5 3>2.
+	r1 %90
+	r
+	r
+	r
+	r4 <6> q q
+	q q q2 %95
+	q q
+	<6 4>4 <5 3>2.
+	r2 <6>
+	<6 4>4 <5 3>2.
+	r1 %100
+	r
+	<6 4>
+	r
+	<7>
+	q %105
+	<7>
+	<6 4>4 <5 3>2.
+	r1
+	r
+	r %110
+	r
+	r4 <6> q q
+	q q q q
+	q1
+	r %115
+	r
+	r
+	r
+	r4 <3> q q
+	q2 <6> %120
+	<6 4> <5 3>
+	<\t \t> <5 3>
+	r1
+	r
+	r %125
+	r4 <3> q q
+	q2 <6>
+	<6 4> <5 3>
+	r1
+	r4 <3> q q %130
+	q2 <6>
+	<6 4>1
+	<5 3>
+	r
+	r %135
+	r
+	r
+	r
+	r
+	r %140 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

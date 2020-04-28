@@ -931,103 +931,204 @@
 	% 		\midi { \tempo 4 = 120 }
 	% 	}
 	% }
+	% \bookpart {
+	% 	\header {
+	% 		number = "11"
+	% 		title = "Heilig! Heilig! Heilig!"
+	% 		dansktitle = "Hellig! Hellig! Hellig!"
+	% 	}
+	% 	\paper { page-count = #3 }
+	% 	% \newlabel "heilig" "11" "Heilig! Heilig! Heilig!" "Hellig! Hellig! Hellig!"
+	% 	\score {
+	% 		<<
+	% 			\new StaffGroup <<
+	% 				\new Staff <<
+	% 					\set Staff.instrumentName = "Oboe I, II"
+	% 					\partcombine \HeiligOboeI \HeiligOboeII
+	% 				>>
+	% 				\new Staff <<
+	% 					\set Staff.instrumentName = \markup { \center-column { "Clarinetto I, II" "in B" } }
+	% 					% \transpose c b
+	% 					\partcombine \HeiligClarinettoI \HeiligClarinettoII
+	% 				>>
+	% 				\new Staff <<
+	% 					\set Staff.instrumentName = "Fagotto I, II"
+	% 					\partcombine \HeiligFagottoI \HeiligFagottoII
+	% 				>>
+	% 			>>
+	% 			\new StaffGroup <<
+	% 				\new Staff <<
+	% 					\set Staff.instrumentName = \markup { \center-column { "Corno I, II" "in Es" } }
+	% 					% \transpose c es
+	% 					\partcombine \HeiligCornoI \HeiligCornoII
+	% 				>>
+	% 			>>
+	% 			\new StaffGroup \with { \stringGroupDistance } <<
+	% 				\new GrandStaff <<
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "Violino I"
+	% 						\HeiligViolinoI
+	% 					}
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "Violino II"
+	% 						\HeiligViolinoII
+	% 					}
+	% 				>>
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "Viola"
+	% 					\HeiligViola
+	% 				}
+	% 			>>
+	% 			\new ChoirStaff <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = \markup { \center-column { "Soprano solo" "Alto solo" } }
+	% 					\new Voice = "Soli" { \dynamicUp \HeiligSoliNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Soli \HeiligSoliLyrics
+	% 				\new Lyrics \with { \danskLyrics } \lyricsto Soli \HeiligSoliLyricsDansk
+	%
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "Soprano"
+	% 					\new Voice = "Soprano" { \dynamicUp \HeiligSopranoNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Soprano \HeiligSopranoLyrics
+	% 				\new Lyrics \with { \danskLyrics } \lyricsto Soprano \HeiligSopranoLyricsDansk
+	%
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "Alto"
+	% 					\new Voice = "Alto" { \dynamicUp \HeiligAltoNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Alto \HeiligAltoLyrics
+	% 				\new Lyrics \with { \danskLyrics } \lyricsto Alto \HeiligAltoLyricsDansk
+	%
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "Tenore"
+	% 					\new Voice = "Tenore" { \dynamicUp \HeiligTenoreNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Tenore \HeiligTenoreLyrics
+	% 				\new Lyrics \with { \danskLyrics } \lyricsto Tenore \HeiligTenoreLyricsDansk
+	%
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "Basso"
+	% 					\new Voice = "Basso" { \dynamicUp \HeiligBassoNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Basso \HeiligBassoLyrics
+	% 				\new Lyrics \with { \danskLyrics } \lyricsto Basso \HeiligBassoLyricsDansk
+	% 			>>
+	% 			\new StaffGroup <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = \markup { \center-column { "Violoncello" "e Basso" } }
+	% 					% \transpose c c,
+	% 					\HeiligOrgano
+	% 				}
+	% 			>>
+	% 			\new FiguredBass {
+	% 				\HeiligBassFigures
+	% 			}
+	% 		>>
+	% 		\layout { }
+	% 		\midi { \tempo 2 = 60 }
+	% 	}
+	% }
 	\bookpart {
 		\header {
-			number = "11"
-			title = "Heilig! Heilig! Heilig!"
-			dansktitle = "Hellig! Hellig! Hellig!"
+			number = "12"
+			title = "Lob und Ehre dem Ewigen!"
+			dansktitle = "Lovet være den Evige!"
 		}
-		\paper { page-count = #3 }
-		% \newlabel "heilig" "11" "Heilig! Heilig! Heilig!" "Hellig! Hellig! Hellig!"
+		% \newlabel "lobundehre" "12" "Lob und Ehre dem Ewigen!" "Lovet være den Evige!"
 		\score {
 			<<
 				\new StaffGroup <<
 					\new Staff <<
 						\set Staff.instrumentName = "Oboe I, II"
-						\partcombine \HeiligOboeI \HeiligOboeII
+						\partcombine \LobUndEhreOboeI \LobUndEhreOboeII
 					>>
 					\new Staff <<
 						\set Staff.instrumentName = \markup { \center-column { "Clarinetto I, II" "in B" } }
 						% \transpose c b
-						\partcombine \HeiligClarinettoI \HeiligClarinettoII
+						\partcombine \LobUndEhreClarinettoI \LobUndEhreClarinettoII
 					>>
 					\new Staff <<
 						\set Staff.instrumentName = "Fagotto I, II"
-						\partcombine \HeiligFagottoI \HeiligFagottoII
+						\partcombine \LobUndEhreFagottoI \LobUndEhreFagottoII
 					>>
 				>>
 				\new StaffGroup <<
 					\new Staff <<
 						\set Staff.instrumentName = \markup { \center-column { "Corno I, II" "in Es" } }
 						% \transpose c es
-						\partcombine \HeiligCornoI \HeiligCornoII
+						\partcombine \LobUndEhreCornoI \LobUndEhreCornoII
+					>>
+          \new Staff <<
+						\set Staff.instrumentName = \markup { \center-column { "Tromba I, II" "in Es" } }
+						% \transpose c es
+						\partcombine \LobUndEhreTrombaI \LobUndEhreTrombaII
 					>>
 				>>
+        \new Staff \with { \timpStaffDistance } {
+          \set Staff.instrumentName = \markup { \center-column { "Timpani" "in Es–B" } }
+          % \transpose c es
+          \LobUndEhreTimpani
+        }
 				\new StaffGroup \with { \stringGroupDistance } <<
 					\new GrandStaff <<
 						\new Staff {
 							\set Staff.instrumentName = "Violino I"
-							\HeiligViolinoI
+							\LobUndEhreViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Violino II"
-							\HeiligViolinoII
+							\LobUndEhreViolinoII
 						}
 					>>
 					\new Staff {
 						\set Staff.instrumentName = "Viola"
-						\HeiligViola
+						\LobUndEhreViola
 					}
 				>>
 				\new ChoirStaff <<
 					\new Staff {
-						\set Staff.instrumentName = \markup { \center-column { "Soprano solo" "Alto solo" } }
-						\new Voice = "Soli" { \dynamicUp \HeiligSoliNotes }
-					}
-					\new Lyrics \lyricsto Soli \HeiligSoliLyrics
-					\new Lyrics \with { \danskLyrics } \lyricsto Soli \HeiligSoliLyricsDansk
-
-					\new Staff {
 						\set Staff.instrumentName = "Soprano"
-						\new Voice = "Soprano" { \dynamicUp \HeiligSopranoNotes }
+						\new Voice = "Soprano" { \dynamicUp \LobUndEhreSopranoNotes }
 					}
-					\new Lyrics \lyricsto Soprano \HeiligSopranoLyrics
-					\new Lyrics \with { \danskLyrics } \lyricsto Soprano \HeiligSopranoLyricsDansk
+					\new Lyrics \lyricsto Soprano \LobUndEhreSopranoLyrics
+					\new Lyrics \with { \danskLyrics } \lyricsto Soprano \LobUndEhreSopranoLyricsDansk
 
 					\new Staff {
 						\set Staff.instrumentName = "Alto"
-						\new Voice = "Alto" { \dynamicUp \HeiligAltoNotes }
+						\new Voice = "Alto" { \dynamicUp \LobUndEhreAltoNotes }
 					}
-					\new Lyrics \lyricsto Alto \HeiligAltoLyrics
-					\new Lyrics \with { \danskLyrics } \lyricsto Alto \HeiligAltoLyricsDansk
+					\new Lyrics \lyricsto Alto \LobUndEhreAltoLyrics
+					\new Lyrics \with { \danskLyrics } \lyricsto Alto \LobUndEhreAltoLyricsDansk
 
 					\new Staff {
 						\set Staff.instrumentName = "Tenore"
-						\new Voice = "Tenore" { \dynamicUp \HeiligTenoreNotes }
+						\new Voice = "Tenore" { \dynamicUp \LobUndEhreTenoreNotes }
 					}
-					\new Lyrics \lyricsto Tenore \HeiligTenoreLyrics
-					\new Lyrics \with { \danskLyrics } \lyricsto Tenore \HeiligTenoreLyricsDansk
+					\new Lyrics \lyricsto Tenore \LobUndEhreTenoreLyrics
+					\new Lyrics \with { \danskLyrics } \lyricsto Tenore \LobUndEhreTenoreLyricsDansk
 
 					\new Staff {
 						\set Staff.instrumentName = "Basso"
-						\new Voice = "Basso" { \dynamicUp \HeiligBassoNotes }
+						\new Voice = "Basso" { \dynamicUp \LobUndEhreBassoNotes }
 					}
-					\new Lyrics \lyricsto Basso \HeiligBassoLyrics
-					\new Lyrics \with { \danskLyrics } \lyricsto Basso \HeiligBassoLyricsDansk
+					\new Lyrics \lyricsto Basso \LobUndEhreBassoLyrics
+					\new Lyrics \with { \danskLyrics } \lyricsto Basso \LobUndEhreBassoLyricsDansk
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = \markup { \center-column { "Violoncello" "e Basso" } }
 						% \transpose c c,
-						\HeiligOrgano
+						\LobUndEhreOrgano
 					}
 				>>
 				\new FiguredBass {
-					\HeiligBassFigures
+					\LobUndEhreBassFigures
 				}
 			>>
 			\layout { }
-			% \midi { \tempo 2 = 60 }
+			\midi { \tempo 2 = 100 }
 		}
 	}
 }
