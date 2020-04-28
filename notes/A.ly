@@ -1387,6 +1387,114 @@ LobUndEhreAltoLyricsDansk = \lyricmode {
 	ja! %134 finis
 }
 
+DirJubelnAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key as\major \time 3/4 \autoBeamOff \tempoDirJubeln
+			\override Staff.TimeSignature.style = #'single-digit
+		\partial 4 as'4 as2 b4
+		c4.( des16[ c] b[ as)] g([ as)]
+		as4. des8 des des
+		des4 c r8 c
+		c([ b as)] g f es %5
+		f4 r r8 g
+		c([ b as)] g f b
+		as4( g) r8 g
+		g8.([ as16)] as4 r8 b
+		b4 b es8 es %10
+		es2.(
+		d2) es8 es
+		c([ b16 as] g4) f
+		g r es'
+		des!2 des4 %15
+		c2 c4
+		c4. b16[( as)] b8 b
+		b4 as r8 a
+		b( f'4) f,8 f b
+		as4( g) r8 g %20
+		as4 g g8 g
+		as4 g g8 g
+		as b c4. g8
+		g4( as) r8 g
+		as4 g g8 g %25
+		as4 g g8 g
+		c8.([ es16] des[ c)] b([ as)] b([ as)] b([ c)]
+		des8. b16 as4 g
+		as8 r16 es' des[ c b as] b[ as b c]
+		des8. b16 as4 g %30
+		as r r
+		r r\fermata \bar "|." %32 finis
+	}
+}
+
+DirJubelnAltoLyrics = \lyricmode {
+	Dir ju -- beln
+	al -- ler
+	Wel -- ten My -- ri --
+	a -- den in
+	ho -- her Har -- mo -- %5
+	nie, in
+	ho -- her Har -- mo --
+	nie! __ Dich,
+	Schöp -- fer, dich,
+	Rich -- ter, dich, o %10
+	Va --
+	ter! Dich
+	prei -- sen
+	sie. Dir
+	ju -- beln %15
+	al -- ler
+	Wel -- ten My -- ri --
+	a -- den in
+	ho -- her Har -- mo --
+	nie! __ Dich, %20
+	Schöp -- fer, dich, o
+	Rich -- ter, dich, o
+	Va -- ter, prei -- sen
+	sie, __ dich,
+	Schöp -- fer, dich, o %25
+	Rich -- ter, dich, o
+	Va -- ter, dich, o
+	Va -- ter prei -- sen
+	sie, dich, Va -- _
+	_ ter prei -- sen %30
+	sie. %31 finis
+}
+
+DirJubelnAltoLyricsDansk = \lyricmode {
+	Dig jub -- ler
+	al -- le
+	Klo -- ders My -- ri --
+	a -- der i
+	Sphæ -- rers Har -- mo -- %5
+	nie, i
+	Sphæ -- rers Har -- mo --
+	nie! __ Dig,
+	Ska -- ber, dig
+	Dom -- mer, dig, vor %10
+	Fa --
+	der! Dig
+	pri -- se
+	vi. Dig
+	jub -- ler %15
+	al -- le
+	Klo -- ders My -- ri --
+	a -- der i
+	Sphæ -- rers Har -- mo --
+	nie! __ Dig, %20
+	Ska -- ber, dig o
+	Dom -- mer, dig, vor
+	Fa -- der, pri -- se
+	vi, __ dig,
+	Ska -- ber, dig o %25
+	Dom -- mer, dig, vor
+	Fa -- der, dig, vor
+	Fa -- der pri -- se
+	vi, dig, Fa -- _
+	_ der pri -- se %30
+	vi. %31 finis
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

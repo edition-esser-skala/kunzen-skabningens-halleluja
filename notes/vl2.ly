@@ -964,3 +964,43 @@ LobUndEhreViolinoII = {
 		q r\fermata \bar "|." %140 finis
 	}
 }
+
+DirJubelnViolinoII = {
+	\relative c' {
+		\clef treble
+		\key as\major \time 3/4 \tempoDirJubeln
+			\override Staff.TimeSignature.style = #'single-digit
+		\partial 4 r4 r8 as'\p as as as as
+		as4 as, r
+		r8 des4 des des8
+		des4 c r
+		r r r8 as' %5
+		b( as g f es g)
+		c( b as g f b)
+		as4( g8) g([-. g-. g-.)]
+		r4 r8 as(-. as-. as-.)
+		r4 r8 es'4 es8 %10
+		es es4 es es8
+		d2 es4
+		as,8 r g r f r
+		g4 r r
+		r8 es es es es es %15
+		r as as as as as
+		r c4( b16 as) b8 b
+		b4 as r
+		r r r8 b
+		as4( g8) g([ as b)] %20
+		as es4 es es8~
+		es es4 es g8
+		as[-! b]-! as c,4 g'8
+		g4( as) r8 es~
+		es es4 es es8~ %25
+		es es4 es g8
+		as f16( es des c b as b as b c)
+		des8. b'16 as8 as g g
+		as f16( es des c b as b as b c)
+		des8. b'16 as8 as g g %30
+		as c,4 c b8
+		b4( as)\fermata \bar "|."
+	}
+}

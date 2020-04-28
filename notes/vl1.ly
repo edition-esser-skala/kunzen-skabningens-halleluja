@@ -1021,6 +1021,46 @@ LobUndEhreViolinoI = {
 	}
 }
 
+DirJubelnViolinoI = {
+	\relative c' {
+		\clef treble
+		\key as\major \time 3/4 \tempoDirJubeln
+			\override Staff.TimeSignature.style = #'single-digit
+		\partial 4 r4 r8 as'\p as as as as
+		as4 as, r
+		r8 f'4 f f8
+		f4 es r
+		r r r8 c' %5
+		des( c b as g b)
+		c4 des8( es f des)
+		c4( b8) b([-. b-. b-.)]
+		r4 r8 b(-. b-. b-.)
+		r4 r8 g'4 g8 %10
+		f f4 f f8
+		f4 as g
+		f8 r es r d r
+		es4 r r
+		r8 b b b b b %15
+		r c c c c c
+		r es4( des16 c) des8 des
+		des4 c r
+		r r r8 des
+		c4( b8) es([ d des)] %20
+		c16( as c es des c b as g b c des)
+		c( as c es des c b as g as b g)
+		es'8[-! des]-! c as4 b8
+		b4( c) r16 es,( g b)
+		c( as c es des c b as g b c des) %25
+		c( as c es des c b as g b c des)
+		c8 as16( g f es des c des c des es)
+		f8. des'16 c8 c b b
+		c as16( g f es des c des c des es)
+		f8. des'16 c8 c b b %30
+		as16.( c32) es,4 es des8
+		des4( c)\fermata \bar "|." %32 finis
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

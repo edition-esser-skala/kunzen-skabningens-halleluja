@@ -1831,6 +1831,78 @@ LobUndEhreBassFigures = \figuremode {
 	r %140 finis
 }
 
+DirJubelnOrgano = {
+	\relative c {
+		\clef bass
+		\key as\major \time 3/4 \tempoDirJubeln
+			\override Staff.TimeSignature.style = #'single-digit
+		\partial 4 r4 R2.*2
+		r4 r r8 \mvTr des\p-\soloE
+		as'4 as, r
+		R2. %5
+		b2 es4
+		as8( g f es des b)
+		es4. \clef "treble_8" es'8^\vlc(-. es-. es-.)
+		r4 r8 f(-. f-. f-.)
+		\clef bass r4 es, es %10
+		as8( b c b a c)
+		b4 h c8 b
+		as r b r b, r
+		es es' b es g, b
+		es,4 r r %15
+		es4 r r
+		r es4. e8
+		f2 r4
+		r r r8 b,
+		es2 r4 %20
+		as b es,
+		as b es,8 des
+		c des es4 es,
+		as2 es'4
+		as b es, %25
+		as b es,
+		as r as,
+		des es es
+		as r as,
+		des es es, %30
+		as c es
+		as,2\fermata \bar "|." %32 finis
+	}
+}
+
+DirJubelnBassFigures = \figuremode {
+	r4 r2.*3 %3
+	<6 4>4 <5 3>2
+	r2. %5
+	r
+	r4 <6>2
+	<6 4>4 <5 3>2
+	r4. <6!>
+	r2. %10
+	<6 5>2 \bassFigureExtendersOn q8 q \bassFigureExtendersOff
+	<7 _!>4 <\t \t> <5 3>8 <\t \t>
+	<6>4 <6 4> <5 _!>
+	r2.
+	<7-> %15
+	<6 4>
+	r4 <6 4> <7 5>8 <\t \t>
+	<6 4>4 <5 3>2
+	r2.
+	<6 4>4 <5 3>2 %20
+	r4 <6>2
+	r4 <6> r8 <2>
+	<6> q <6 4>4 <5 3>
+	<\t \t> <5 3>2
+	r4 <6>2 %25
+	r4 <6>2
+	r2.
+	<6>4 <6 4> <5 3>
+	r2.
+	<6>4 <6 4> <5 3> %30
+	r <6> <7>
+	<7 4 2> <8 3> %32 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

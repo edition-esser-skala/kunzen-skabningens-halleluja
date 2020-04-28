@@ -270,3 +270,43 @@ LobUndEhreClarinettoII = {
 		f r\fermata \bar "|." %140 finis
 	}
 }
+
+DirJubelnClarinettoII = {
+	\transpose as b \relative c' {
+		\clef treble
+		\key as \major \time 3/4 \tempoDirJubeln
+			\override Staff.TimeSignature.style = #'single-digit
+			\partial 4 as'4\p as2 b4
+			c4. des16 c b as g as
+			as4. des8 des des
+			des4 c r8 c
+			c b as g f es %5
+			f4 r r8 g
+			c b as g f b
+			as4 g r8 g
+			g8. as16 as4 r8 b
+			b4 b es8 es %10
+			es2.
+			d2 es8 es
+			c b16 as g4 f
+			g r es'
+			des!2 des4 %15
+			c2 c4
+			c4. b16 as b8 b
+			b4 as r8 a
+			b f4 f b8
+			as4 g r8 g %20
+			as4 g g8 g
+			as4 g g8 g
+			as b c4. g8
+			g4 as r8 g
+			as4 g g8 g %25
+			as4 g g8 g
+			c8. \once \slurDashed es16( des c b as b as b c)
+			des8. b16 as4 g
+			as8 r16 \once \slurDashed es'( des c b as b as b c)
+			des8. b16 as4 g %30
+			as r r
+			r r\fermata \bar "|." %32 finis
+	}
+}

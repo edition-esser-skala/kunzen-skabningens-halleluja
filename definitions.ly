@@ -288,6 +288,7 @@ tempoOGott = \tempoMarkup "Recitativo"
 tempoUndLeben = \tempoMarkup "Tempo primo Allegro moderato"
 tempoHeilig = \tempoMarkup "Largo"
 tempoLobUndEhre = \tempoMarkup "Allegro vivace"
+tempoDirJubeln = \tempoMarkup "Andantino"
 
 
 

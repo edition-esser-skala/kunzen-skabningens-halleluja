@@ -543,3 +543,43 @@ LobUndEhreFagottoII = {
 		es r\fermata \bar "|." %140 finis
 	}
 }
+
+DirJubelnFagottoII = {
+	\relative c {
+		\clef bass
+		\key as\major \time 3/4 \tempoDirJubeln
+			\override Staff.TimeSignature.style = #'single-digit
+			\partial 4 r4 R2.
+			r4 r r8 as'\p
+			des( as des) as-! f-! des-!
+			as'4 as, r8 as'
+			as( g f) es-! des-! c-! %5
+			b4 r r8 es
+			as( g f es des b)
+			es2 r8 es
+			es8. f16 f4 r8 d'
+			d8. es16 es4 r8 es, %10
+			as b c b a c
+			b4 h c8 b
+			as g16 f b4 b,
+			es8 es' b es g, b
+			es,4 r r %15
+			r8 es as es c' as
+			es'4. es,8 es e
+			f4 f' es!
+			des8( a b) c des b
+			es4 es, r8 es %20
+			as4 b es,8 es
+			as4 b es,8 des
+			c des es4 es
+			as,2 es'4
+			as b es,8 es %25
+			as4 b es,8 es
+			as2 as,4
+			des es es
+			as r as,
+			des es es %30
+			as, r r
+			r r\fermata \bar "|." %32 finis
+	}
+}

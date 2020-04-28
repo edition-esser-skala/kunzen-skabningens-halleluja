@@ -958,3 +958,42 @@ LobUndEhreViola = {
 		b r\fermata \bar "|." %140 finis
 	}
 }
+
+DirJubelnViola = {
+	\relative c' {
+		\clef alto
+		\key as\major \time 3/4 \tempoDirJubeln
+			\override Staff.TimeSignature.style = #'single-digit
+		\partial 4 r4 R2.*2
+		r8 as4\pE as as8
+		as4 as r
+		R2. %5
+		b2 es4
+		as8( g f es des b)
+		es4. es8([-. es-. es-.)]
+		r4 r8 f(-. f-. f-.)
+		r4 es es %10
+		as,8( b c b a c)
+		b4 h c
+		c8 r b r b r
+		b4 r r
+		r8 es es es es es %15
+		r es es es es es
+		r4 es4. e8
+		f2 r4
+		r r r8 f
+		es4. es8( f g) %20
+		as as, b4 b
+		as b b8 es
+		es[-! f-!] es4 es
+		es2 r4
+		as, b b %25
+		as b b
+		as r r
+		f'8. f16 es8 es es es
+		es8 r r4 r
+		f8 f es es des des %30
+		c es,4 es es8
+		es2\fermata \bar "|." %32 finis
+	}
+}
