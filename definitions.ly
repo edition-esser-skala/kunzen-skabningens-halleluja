@@ -77,10 +77,10 @@
 	bookTitleMarkup = \markup {
 		\fill-line {
 			\line {
-				\fontsize #3 {
-	 				\with-color #(rgb-color .8313 0 0) { \fromproperty #'header:number }
+				\fontsize #2 {
+	 				\fromproperty #'header:title
 	 			 	\hspace #3
-	 			 	\fromproperty #'header:title
+	 			 	\with-color #(rgb-color .8313 0 0) { \fromproperty #'header:number }
 					\hspace #3
 					\italic \fromproperty #'header:dansktitle
 				}
@@ -379,7 +379,7 @@ tempoHochInsChor = \tempoMarkup "Allegro"
 		\compressFullBarRests
 		midiMinimumVolume = #.9
     midiMaximumVolume = #1
-		\override BarNumber.break-visibility = #'#(#f #t #t) % uncomment to show each bar number
+		% \override BarNumber.break-visibility = #'#(#f #t #t) % uncomment to show each bar number
 	}
 	\context {
 		\StaffGroup
@@ -460,28 +460,6 @@ tempoHochInsChor = \tempoMarkup "Allegro"
 		\override TupletBracket.stencil = ##f
 	}
 }
-
-#(define (ly:create-toc-file layout pages)
-  (let* ((label-table (ly:output-def-lookup layout 'label-page-table)))
-    (if (not (null? label-table))
-      (let* ((format-line (lambda (toc-item)
-             (let* ((label (car toc-item))
-                    (text  (caddr toc-item))
-                    (label-page (and (list? label-table)
-                                     (assoc label label-table)))
-                    (page (and label-page (cdr label-page))))
-               (format #f "~a{~a}" text page))))
-             (formatted-toc-items (map format-line (toc-items)))
-             (whole-string (string-join formatted-toc-items "\n"))
-						 (outfilename "lilypond.toc")
-             (outfile (open-output-file outfilename)))
-        (if (output-port? outfile)
-            (display whole-string outfile)
-            (ly:warning (_ "Unable to open output file ~a for the TOC information") outfilename))
-        (close-output-port outfile)))))
-
-tocSection = #(define-music-function (parser location number text) (markup? markup?)
-   (add-toc-item! 'tocItemMarkup (format #f "\\contentsline {section}{\\numberline {~a}~a}" number text )))
 
 #(define (ly:create-ref-file layout pages)
  (let* ((label-table (ly:output-def-lookup layout 'label-page-table)))

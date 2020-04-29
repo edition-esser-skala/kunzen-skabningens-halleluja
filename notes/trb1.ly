@@ -20,8 +20,7 @@ WirPreisenTromboneI = {
 		e r r2
 		R1*3 %15
 		a,2\f r
-		R1*7 %23
-		\tempoWirPreisenB R1*8 %31
+		R1*15 %31
 		\tempoWirPreisenC R1*67 %98
 		d1\fE\>
 		R\! %100
@@ -35,8 +34,7 @@ WirPreisenTromboneI = {
 		d r r2
 		R1 %110
 		cis
-		R1*7 %118
-		\tempoWirPreisenD R1*20 %138
+		R1*27 %138
 		R1\fermataMarkup \bar "|." %139
 	}
 }

@@ -94,8 +94,7 @@ WirPreisenTrombaI = {
 	\relative c' {
 		\clef treble
 		\key c \major \time 4/4 \tempoWirPreisen
-		\partial 2 r2 R1*23 %23
-		\tempoWirPreisenB R1*8 %31
+		\partial 2 r2 R1*31 %31
 		\tempoWirPreisenC R1*62 %93
 		c'1\f
 		\pao g4 g r g %95

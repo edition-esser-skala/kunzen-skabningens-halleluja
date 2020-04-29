@@ -67,9 +67,7 @@ DieOedeCornoII = {
 	\relative c' {
 		\clef treble
 		\key c \major \time 4/4 \tempoDieOede
-		R1*12 %12
-		\tempoDieOedeB R1*4 %16
-		\tempoDieOedeC R1*4 %20
+		R1*20 %20
 		r4 r8. g16\ff g4 r
 		R1
 		r4 r8. g16 g4 r
@@ -189,8 +187,7 @@ WirPreisenCornoII = {
 		d'1\fE %20
 		d
 		g,2 r
-		R1
-		\tempoWirPreisenB R1*8 %31
+		R1*9 %31
 		\tempoWirPreisenC R1*11 %42
 		g,1~\p
 		g

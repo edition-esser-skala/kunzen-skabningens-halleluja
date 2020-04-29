@@ -67,9 +67,7 @@ DieOedeCornoI = {
 	\relative c' {
 		\clef treble
 		\key c \major \time 4/4 \tempoDieOede
-		R1*12 %12
-		\tempoDieOedeB R1*4 %16
-		\tempoDieOedeC R1*4 %20
+		R1*20 %20
 		r4 r8. g'16\ff g4 r
 		R1
 		r4 r8. g16 g4 r
@@ -189,8 +187,7 @@ WirPreisenCornoI = {
 		d1\fE %20
 		d
 		d2 r
-		R1
-		\tempoWirPreisenB R1*8 %31
+		R1*9 %31
 		\tempoWirPreisenC R1*11 %42
 		g,1~\p
 		g
@@ -389,7 +386,7 @@ LobUndEhreCornoI = {
 		\pa d2. d4 \pd
 		d r r2
 		R1*2 %66
-		g,1~\pE\crescpapE
+		\noBreak g,1~\pE\crescpapE
 		g~
 		g
 		c2\ffE r %70

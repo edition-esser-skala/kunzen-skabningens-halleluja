@@ -85,10 +85,8 @@ DieOedeFagottoI = {
 	\relative c {
 		\clef bass
 		\key c \minor \time 4/4 \tempoDieOede
-		R1*12 %12
-		\tempoDieOedeB R1*4 %16
-		\tempoDieOedeC R1
-		\key b \major R
+		R1*17 %17
+		\key b \major R1
 		r4 a'(\mf b c)
 		b4.\p b8 c4. c8 %20
 		d4 b r b

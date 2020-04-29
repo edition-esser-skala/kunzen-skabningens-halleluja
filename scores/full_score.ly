@@ -341,7 +341,7 @@
 				>>
 				\new StaffGroup <<
 					\new Staff <<
-						\set Staff.instrumentName = \markup { \center-column { "Corno I, II" "in F" } }
+						\set Staff.instrumentName = \markup { \center-column { "Corno I, II" "in F/C" } }
 						% \transpose c f
 						\partcombine \DuRollestCornoI \DuRollestCornoII
 					>>
@@ -637,7 +637,7 @@
 			dansktitle = "Selv naar sig alle Livets Engle"
 		}
 		\paper { systems-per-page = #2 }
-		\newlabel "selbstwenn" "7" "Selbst wenn des Lebens Engel alle flüchten" "Selv naar sig alle Livets Engle skiule"
+		\newlabel "selbstwenn" "7" "Selbst wenn des Lebens Engel" "Selv naar sig alle Livets Engle"
 		\score {
 			<<
 				\new StaffGroup <<

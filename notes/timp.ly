@@ -90,8 +90,7 @@ WirPreisenTimpani = {
 	\relative c {
 		\clef bass
 		\key c \major \time 4/4 \tempoWirPreisen
-		\partial 2 r2 R1*23 %23
-		\tempoWirPreisenB R1*8 %31
+		\partial 2 r2 R1*31 %31
 		\tempoWirPreisenC R1*63 %94
 		g1~\p\trill %95
 		g~

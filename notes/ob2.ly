@@ -83,9 +83,7 @@ DieOedeOboeII = {
 	\relative c' {
 		\clef treble
 		\key c \minor \time 4/4 \tempoDieOede
-		R1*12 %12
-		\tempoDieOedeB R1*4 %16
-		\tempoDieOedeC R1
+		R1*17 %17
 		\key b \major R1*3 %20
 		r4 r8. b'16\ffE b4 r
 		R1
@@ -283,8 +281,7 @@ WirPreisenOboeII = {
 		c\f %20
 		h
 		cis2 r
-		R1
-		\tempoWirPreisenB R1*8 %31
+		R1*9 %31
 		\tempoWirPreisenC R1*19 %50
 		c1\f
 		R1*5 %56
@@ -342,8 +339,7 @@ WirPreisenOboeII = {
 		d~\mf %115
 		d
 		d4 r r2
-		R1
-		\tempoWirPreisenD R1*20 %138
+		R1*21 %138
 		R1\fermataMarkup \bar "|." %139
 	}
 }

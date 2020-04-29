@@ -17,7 +17,7 @@ BrichNaturOrgano = {
 		r as, a r
 		r b b' g8.\f g16
 		as4. f8 g4 as
-		b2 << { <b f>4\fermata } \\ { b, } >> \tempoBrichNaturB b'8. b16 %10
+		b2 << { <b f>4\fermata } \\ { b, } >> \tempoBrichNaturB b'8. b16 \noBreak %10
 		es4. es8 b4. b8
 		es,4 b' r b8. b16
 		es4. es8 b4. b8

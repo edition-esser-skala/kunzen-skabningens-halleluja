@@ -8,9 +8,7 @@ DieOedeClarinettoI = {
 	\relative c' {
 		\clef treble
 		\key c \major \time 4/4 \tempoDieOede
-		R1*12 %12
-		\tempoDieOedeB R1*4 %16
-		\tempoDieOedeC R1*2
+		R1*18 %18
     r4 g''(\mf fis f)
     e4.\p e8 f4 f %20
     g e r \pao c

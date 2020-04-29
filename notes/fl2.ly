@@ -78,9 +78,7 @@ DieOedeFlautoII = {
 		r4 f!(\pE e g
 		f e d cis) %10
 		d2\f r
-		R1
-		\tempoDieOedeB R1*4 %16
-		\tempoDieOedeC R1
+		R1*6 %17
 		\key b \major R1*15 %32
 		R1\fermataMarkup \bar "|." %33 finis
 	}
@@ -135,8 +133,7 @@ DuRollestFlautoII = {
 	\relative c' {
 		\clef treble
 		\key c \major \time 4/4 \tempoDuRollest
-		R1*8 %8
-		\tempoDuRollestB R1*35 %43
+		R1*43 %43
 		\tempoDuRollestC R1*9 %52
 		e'1~\f
 		e~
@@ -266,8 +263,7 @@ WirPreisenFlautoII = {
 	\relative c' {
 		\clef treble
 		\key d \minor \time 4/4 \tempoWirPreisen
-		\partial 2 r2 R1*23 %23
-		\tempoWirPreisenB R1*8 %31
+		\partial 2 r2 R1*31 %31
 		\tempoWirPreisenC R1*11 %42
 		f'1~\mf
 		f
@@ -335,8 +331,7 @@ WirPreisenFlautoII = {
 		g~\mf %115
 		g
 		f!4 r r2
-		R1
-		\tempoWirPreisenD R1*20 %138
+		R1*21 %138
 		R1\fermataMarkup \bar "|." %139
 	}
 }
