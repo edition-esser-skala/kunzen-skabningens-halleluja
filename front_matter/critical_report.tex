@@ -109,6 +109,10 @@
 \newif\ifprintreport\printreportfalse
 \directlua{
 scores = {
+  fl1 = "Flauto I",
+  fl2 = "Flauto II",
+  ob1 = "Oboe I",
+  ob2 = "Oboe II",
   cl1 = "Clarinetto I",
   cl2 = "Clarinetto II",
   fag1 = "Fagotto I",
@@ -118,9 +122,10 @@ scores = {
   vl1 = "Violino I",
   vl2 = "Violino II",
   vla = "Viola",
-  coro = "Coro",
-  org = "Organo",
-  b = "Bassi",
+  coro_DE = "Coro (German)",
+  coro_DK = "Coro (Danish)",
+  org = "Basso continuo",
+  b = "Violoncello I, II\string\\newline Basso",
   full_score = "Full Score"
 }
 
@@ -165,7 +170,7 @@ end
 
 \makeatother
 
-\input{../lilypond.ref}
+\input{../out/lilypond.ref}
 
 
 
