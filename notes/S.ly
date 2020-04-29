@@ -2075,18 +2075,473 @@ DirJubelnSopranoLyricsDansk = \lyricmode {
 	vi. %31 finis
 }
 
-% SopranoNotes = {
-% 	\relative c' {
-% 		\clef treble
-%
-%
-% 	}
-% }
-%
-% SopranoLyrics = \lyricmode {
-%
-% }
-%
-% SopranoLyricsDansk = \lyricmode {
-%
-% }
+HochInsChorSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key es \major \time 2/2 \autoBeamOff \tempoHochInsChor
+		\mvTr es2\fE^\tuttiE g
+		b2. b4
+		es2 f
+		g es4 r
+		g2 f %5
+		es2. es4
+		as2 g
+		f r
+		es, g
+		b2. b4 %10
+		es2 f
+		g es4 r
+		g2 f
+		es2. es4
+		d2 es %15
+		f r
+		f2. f4
+		f2. d8([ es)]
+		f2. f4
+		f2 d4 r %20
+		g2 f
+		es d
+		g a,
+		b r
+		g'2. g4 %25
+		g2. es8([ f)]
+		g2. g4
+		g2 es
+		as f
+		d b %30
+		g' es
+		c as
+		f' d
+		b g
+		es'1~ %35
+		es2 es
+		d r
+		R1*7 %44
+		r4 es2\pE\crescE d4 %45
+		c b as g
+		f2 as
+		d es
+		f1
+		f2 g %50
+		as1~\fE
+		as~
+		as~
+		as~
+		as2.\fermata b,4\fE %55
+		es4. es8 es4 es
+		d2 b4 b8([ c)]
+		des4. des8 des4 des
+		c2 r4 as8([ b)]
+		c([ b)] as([ g)] as([ b)] c([ d!)] %60
+		es[ f g f] es[ d c b]
+		as[ g as f] b[ as b g]
+		c[ b] c([ as]) d[( c]) d[( b])
+		es([ b)] c[ d] es[ f g es]
+		d[ es f es] d[ c] d([ b)] %65
+		c4( f2) c4
+		r c8([ b] c[ es)] d([ f)]
+		es4( g) b, r
+		r g es' c
+		d f d b %70
+		g c a d
+		b es c f
+		d8[ es d es] f[ g f g]
+		as![ g] f([ es]) d[( c)] b([ as])
+		g2 g' %75
+		f1
+		f
+		es2 r
+		R1*5 %83
+		d2. d4
+		c2 f %85
+		f2. f4
+		b,2 es
+		R1
+		r2 r4 b~
+		b c2 d4~ %90
+		d es2 f4
+		d8[ es d es] f[ g f g]
+		as![ g f es] d[ b] c([ d)]
+		es4. es8 es4 es
+		d2 b4 b8([ c)] %95
+		des4. des8 des4 des
+		c2 r4 as8([ b)]
+		c([ b)] as([ g)] as([ b)] c([ d!)]
+		es([ f g f] es[ d)] c([ b)]
+		b2 as %100
+		g1
+		a
+		b4( d8[ c] b[ c)] d([ e)]
+		f2. c4
+		c4. b8 as![ b c d] %105
+		es4. es8 es4 es
+		d b r b8([ c)]
+		des4. des8 des4 des
+		c8[ des c b] c[ des es c]
+		f1 %110
+		d!8[ es d c] d[ es f d]
+		g1~
+		g2 as!~
+		as g
+		d e %115
+		f4. f8 f4 f
+		e c r c8([ d)]
+		es4. es8 es4 es
+		d8[ c b c] d[ c d b]
+		es[ d c d] es[ d es c] %120
+		f[ es d es] f[ es] f([ d)]
+		es4 r es2
+		d4 b des2
+		c4 as f'2
+		e4 c es2 %125
+		d4 b g'2
+		fis4 d f2
+		es as!~
+		as g~
+		g f~ %130
+		f es
+		d r
+		R1*2
+		r2 r4 b %135
+		es4. es8 es4 es
+		d2 b4 b8([ c)]
+		des4. des8 des4 des
+		c2. d!8([ c)]
+		b2. c8([ b)] %140
+		as2. b8([ as)]
+		g2. as8([ g)]
+		f1
+		f
+		es2 r4 b' %145
+		es4. es8 es4 es
+		d2 b4 b8([ c)]
+		des4. des8 des4 des
+		c2 r4 as8([ b)]
+		c([ b)] as([ g)] as([ b)] c([ d!)] %150
+		es[ f g f] es[ d c b]
+		as[ g as f] b[ as b g]
+		c[ b c as] d[ c d b]
+		es4 es es d
+		es2 r %155
+		as2. as4
+		g2 r
+		d2. d4
+		es2 es
+		es es %160
+		es g
+		g g
+		g1~
+		g~
+		g~ %165
+		g~
+		g2 r
+		R1
+		R\fermataMarkup \bar "|." %169 FINIS
+	}
+}
+
+HochInsChorSopranoLyrics = \lyricmode {
+	Hoch, ins
+	Chor der
+	Him -- mels
+	Söh -- ne,
+	tö -- ne %5
+	un -- ser
+	Har -- fen
+	Klang!
+	Tönt, des
+	Le -- bens %10
+	hell -- ste
+	Tö -- ne!
+	Wer -- de,
+	Schöp -- fung,
+	ein Ge -- %15
+	sang!
+	Meer und
+	Gluth und
+	Don -- ner
+	lo -- be: %20
+	Son -- nen,
+	Ster -- ne,
+	lo -- bet
+	Gott!
+	Meer und %25
+	Gluth und
+	Don -- ner
+	lo -- be,
+	Meer und
+	Gluth und %30
+	Don -- ner
+	lo -- be:
+	Son -- nen,
+	Ster -- ne,
+	lo -- %35
+	bet
+	Gott!
+
+	Al -- les, %45
+	was auf Er -- den
+	ath -- met,
+	lo -- be
+	Gott!
+	lo -- be %50
+	Gott! __
+
+	Hal -- %55
+	le -- lu -- ja! wir
+	le -- ben! Hal --
+	le -- lu -- ja! du
+	bist, du
+	warst, und blei -- best %60
+	e -- _
+	_ _
+	_ wig un -- ser
+	Gott! Hal -- _
+	_ _ le -- %65
+	lu -- ja!
+	Hal -- le --
+	lu -- ja!
+	du bist, du
+	warst, und blei -- best %70
+	e -- _ _ _
+	_ _ _ _
+	_ _
+	_ wig un -- ser
+	Gott! Hal -- %75
+	le --
+	lu --
+	ja!
+
+	Hal -- le -- %84
+	lu -- ja! %85
+	Hal -- le --
+	lu -- ja!
+
+	Hal --
+	_ _ %90
+	le -- lu --
+	ja! __ _
+	_ _ Hal --
+	le -- lu -- ja! wir
+	le -- ben! Hal -- %95
+	le -- lu -- ja! du
+	bist, du
+	warst, und blei -- best
+	e -- wig
+	un -- ser %100
+	Gott!
+	Hal --
+	le -- lu --
+	ja! Hal --
+	le -- _ _ %105
+	_ lu -- ja! wir
+	le -- ben! Hal --
+	le -- lu -- ja! Hal --
+	le -- _
+	_ %110
+	_ _
+	_
+	_
+	lu --
+	ja! Hal -- %115
+	le -- lu -- ja! wir
+	le -- ben! Hal --
+	le -- lu -- ja! Hal --
+	le -- _
+	_ _ %120
+	_ _ lu --
+	ja! Hal --
+	le -- _ _
+	_ _ _
+	_ _ _ %125
+	_ _ _
+	_ _ _
+	_ _
+	_
+	_ %130
+	lu --
+	ja!
+
+	Hal -- %135
+	le -- lu -- ja! wir
+	le -- ben! Hal --
+	le -- lu -- ja! du
+	bist, du
+	warst, und %140
+	blei -- best
+	e -- wig
+	un --
+	ser
+	Gott! Hal -- %145
+	le -- lu -- ja! wir
+	le -- ben! Hal --
+	le -- lu -- ja! du
+	bist, du
+	warst, und blei -- best %150
+	e -- _
+	_ _
+	_ _
+	_ wig un -- ser
+	Gott! %155
+	un -- ser
+	Gott!
+	un -- ser
+	Gott! Hal --
+	le -- lu -- %160
+	ja! Hal --
+	le -- lu --
+	ja! __ %163 FINIS
+}
+
+HochInsChorSopranoLyricsDansk = \lyricmode {
+	Høit, i
+	Chor af
+	Mil -- li --
+	o -- ner,
+	ly -- de %5
+	vo -- re
+	Har -- pers
+	Klang!
+	To -- ner
+	al -- le %10
+	Li -- vets
+	To -- ner!
+	Al Na --
+	tu -- ren
+	væ -- re %15
+	Sang!
+	Hav og
+	Ild og
+	Storm og
+	Tor -- den: %20
+	So -- le,
+	Stjer -- ner,
+	bry -- der
+	ud!
+	Hav og %25
+	Ild og
+	Storm og
+	Tor -- den,
+	Hav og
+	Ild og %30
+	Storm og
+	Tor -- den:
+	So -- le,
+	Stjer -- ner,
+	bry -- %35
+	der
+	ud!
+
+	Alt hvad %45
+	Aan -- de har paa
+	Jor -- den,
+	lo -- ve
+	Gud!
+	lo -- ve %50
+	Gud! __
+
+	Hal -- %55
+	le -- lu -- ja! vi
+	e -- re! Hal --
+	le -- lu -- ja! du
+	er, du
+	var, og du skal %60
+	væ -- _
+	_ _
+	_ _ re vor
+	Gud! Hal -- _
+	_ _ le -- %65
+	lu -- ja!
+	Hal -- le --
+	lu -- ja!
+	du er, du
+	var, og du skal %70
+	væ -- _ _ _
+	_ _ _ _
+	_ _
+	_ _ re vor
+	Gud! Hal -- %75
+	le --
+	lu --
+	ja!
+
+	Hal -- le -- %84
+	lu -- ja! %85
+	Hal -- le --
+	lu -- ja!
+
+	Hal --
+	_ _ %90
+	le -- lu --
+	ja! __ _
+	_ _ Hal --
+	le -- lu -- ja! vi
+	e -- re! Hal -- %95
+	le -- lu -- ja! du
+	er, du
+	var, og du skal
+	væ -- re
+	vor __ _ %100
+	Gud!
+	Hal --
+	le -- lu --
+	ja! Hal --
+	le -- _ _ %105
+	_ lu -- ja! vi
+	e -- re! Hal --
+	le -- lu -- ja! Hal --
+	le -- _
+	_ %110
+	_ _
+	_
+	_
+	lu --
+	ja! Hal -- %115
+	le -- lu -- ja! vi
+	e -- re! Hal --
+	le -- lu -- ja! Hal --
+	le -- _
+	_ _ %120
+	_ _ lu --
+	ja! Hal --
+	le -- _ _
+	_ _ _
+	_ _ _ %125
+	_ _ _
+	_ _ _
+	_ _
+	_
+	_ %130
+	lu --
+	ja!
+
+	Hal -- %135
+	le -- lu -- ja! vi
+	e -- re! Hal --
+	le -- lu -- ja! du
+	er, du
+	var, og %140
+	du skal
+	væ -- re
+	vor __
+	_
+	Gud! Hal -- %145
+	le -- lu -- ja! vi
+	e -- re! Hal --
+	le -- lu -- ja! du
+	er, du
+	var, og du skal %150
+	væ -- _
+	_ _
+	_ _
+	_ _ re vor
+	Gud! %155
+	vor __ _
+	Gud!
+	vor __ _
+	Gud! Hal --
+	le -- lu -- %160
+	ja! Hal --
+	le -- lu --
+	ja! __ _ %163 FINIS
+}

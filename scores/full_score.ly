@@ -1131,92 +1131,190 @@
 	% 		\midi { \tempo 2 = 100 }
 	% 	}
 	% }
+  % \bookpart {
+	% 	\header {
+	% 		number = "13"
+	% 		title = "Dir jubeln aller Welten Myriaden"
+	% 		dansktitle = "Dig jubler alle Kloders Myriader"
+	% 	}
+  %   	\paper {
+  % 			markup-system-spacing.basic-distance = #25
+  % 			markup-system-spacing.minimum-distance = #25
+  % 			top-system-spacing.basic-distance = #25
+  % 			top-system-spacing.minimum-distance = #25
+  % 		}
+	% 	% \newlabel "dirjubeln" "13" "Dir jubeln aller Welten Myriaden" "Dig jubler alle Kloders Myriader"
+	% 	\score {
+	% 		<<
+	% 			\new StaffGroup <<
+	% 				\new GrandStaff <<
+	% 					\set GrandStaff.instrumentName = "in B"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "Clarinetto I"
+  %             % \transpose c b
+  %             \DirJubelnClarinettoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "Clarinetto II"
+  %             % \transpose c b
+  %             \DirJubelnClarinettoII
+  %           }
+	% 				>>
+	% 				\new Staff <<
+	% 					\set Staff.instrumentName = "Fagotto I, II"
+	% 					\partcombine \DirJubelnFagottoI \DirJubelnFagottoII
+	% 				>>
+	% 			>>
+  %
+	% 			\new StaffGroup \with { \stringGroupDistance } <<
+	% 				\new GrandStaff <<
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "Violino I"
+	% 						\DirJubelnViolinoI
+	% 					}
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "Violino II"
+	% 						\DirJubelnViolinoII
+	% 					}
+	% 				>>
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "Viola"
+	% 					\DirJubelnViola
+	% 				}
+	% 			>>
+	% 			\new ChoirStaff <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = \markup { \center-column { "Soprano" "solo" } }
+	% 					\new Voice = "Soprano" { \dynamicUp \DirJubelnSopranoNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Soprano \DirJubelnSopranoLyrics
+	% 				\new Lyrics \with { \danskLyrics } \lyricsto Soprano \DirJubelnSopranoLyricsDansk
+  %
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = \markup { \center-column { "Alto" "solo" } }
+	% 					\new Voice = "Alto" { \dynamicUp \DirJubelnAltoNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Alto \DirJubelnAltoLyrics
+	% 				\new Lyrics \with { \danskLyrics } \lyricsto Alto \DirJubelnAltoLyricsDansk
+  %
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = \markup { \center-column { "Basso" "solo" } }
+	% 					\new Voice = "Basso" { \dynamicUp \DirJubelnBassoNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Basso \DirJubelnBassoLyrics
+	% 				\new Lyrics \with { \danskLyrics } \lyricsto Basso \DirJubelnBassoLyricsDansk
+	% 			>>
+	% 			\new StaffGroup <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = \markup { \center-column { "Violoncello" "e Basso" } }
+	% 					% \transpose c c,
+	% 					\DirJubelnOrgano
+	% 				}
+	% 			>>
+	% 			\new FiguredBass {
+	% 				\DirJubelnBassFigures
+	% 			}
+	% 		>>
+	% 		\layout { }
+	% 		\midi { \tempo 4 = 80 }
+	% 	}
+	% }
   \bookpart {
 		\header {
-			number = "13"
-			title = "Dir jubeln aller Welten Myriaden"
-			dansktitle = "Dig jubler alle Kloders Myriader"
+			number = "14"
+			title = "Hoch, ins Chor der Himmels Söhne"
+			dansktitle = "Høit, i Chor af Millioner"
 		}
-    	\paper {
-  			markup-system-spacing.basic-distance = #25
-  			markup-system-spacing.minimum-distance = #25
-  			top-system-spacing.basic-distance = #25
-  			top-system-spacing.minimum-distance = #25
-  		}
-		% \newlabel "dirjubeln" "13" "Dir jubeln aller Welten Myriaden" "Dig jubler alle Kloders Myriader"
+		% \newlabel "hochins" "14" "Hoch, ins Chor der Himmels Söhne" "Høit, i Chor af Millioner"
 		\score {
 			<<
 				\new StaffGroup <<
-					\new GrandStaff <<
-						\set GrandStaff.instrumentName = "in B"
+  				\new GrandStaff <<
             \new Staff {
-              \set Staff.instrumentName = "Clarinetto I"
-              % \transpose c b
-              \DirJubelnClarinettoI
+              \set Staff.instrumentName = "Oboe I"
+              \HochInsChorOboeI
             }
             \new Staff {
-              \set Staff.instrumentName = "Clarinetto II"
-              % \transpose c b
-              \DirJubelnClarinettoII
+              \set Staff.instrumentName = "Oboe II"
+              \HochInsChorOboeII
             }
-					>>
+  				>>
+				>>
+				\new StaffGroup <<
 					\new Staff <<
-						\set Staff.instrumentName = "Fagotto I, II"
-						\partcombine \DirJubelnFagottoI \DirJubelnFagottoII
+						\set Staff.instrumentName = \markup { \center-column { "Corno I, II" "in Es" } }
+						% \transpose c es
+						\partcombine \HochInsChorCornoI \HochInsChorCornoII
+					>>
+          \new Staff <<
+						\set Staff.instrumentName = \markup { \center-column { "Tromba I, II" "in Es" } }
+						% \transpose c es
+						\partcombine \HochInsChorTrombaI \HochInsChorTrombaII
 					>>
 				>>
-
+        \new Staff \with { \timpStaffDistance } {
+          \set Staff.instrumentName = \markup { \center-column { "Timpani" "in Es–B" } }
+          % \transpose c es
+          \HochInsChorTimpani
+        }
 				\new StaffGroup \with { \stringGroupDistance } <<
 					\new GrandStaff <<
 						\new Staff {
 							\set Staff.instrumentName = "Violino I"
-							\DirJubelnViolinoI
+							\HochInsChorViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Violino II"
-							\DirJubelnViolinoII
+							\HochInsChorViolinoII
 						}
 					>>
 					\new Staff {
 						\set Staff.instrumentName = "Viola"
-						\DirJubelnViola
+						\HochInsChorViola
 					}
 				>>
 				\new ChoirStaff <<
 					\new Staff {
-						\set Staff.instrumentName = \markup { \center-column { "Soprano" "solo" } }
-						\new Voice = "Soprano" { \dynamicUp \DirJubelnSopranoNotes }
+						\set Staff.instrumentName = "Soprano"
+						\new Voice = "Soprano" { \dynamicUp \HochInsChorSopranoNotes }
 					}
-					\new Lyrics \lyricsto Soprano \DirJubelnSopranoLyrics
-					\new Lyrics \with { \danskLyrics } \lyricsto Soprano \DirJubelnSopranoLyricsDansk
+					\new Lyrics \lyricsto Soprano \HochInsChorSopranoLyrics
+					\new Lyrics \with { \danskLyrics } \lyricsto Soprano \HochInsChorSopranoLyricsDansk
 
 					\new Staff {
-						\set Staff.instrumentName = \markup { \center-column { "Alto" "solo" } }
-						\new Voice = "Alto" { \dynamicUp \DirJubelnAltoNotes }
+						\set Staff.instrumentName = "Alto"
+						\new Voice = "Alto" { \dynamicUp \HochInsChorAltoNotes }
 					}
-					\new Lyrics \lyricsto Alto \DirJubelnAltoLyrics
-					\new Lyrics \with { \danskLyrics } \lyricsto Alto \DirJubelnAltoLyricsDansk
+					\new Lyrics \lyricsto Alto \HochInsChorAltoLyrics
+					\new Lyrics \with { \danskLyrics } \lyricsto Alto \HochInsChorAltoLyricsDansk
 
 					\new Staff {
-						\set Staff.instrumentName = \markup { \center-column { "Basso" "solo" } }
-						\new Voice = "Basso" { \dynamicUp \DirJubelnBassoNotes }
+						\set Staff.instrumentName = "Tenore"
+						\new Voice = "Tenore" { \dynamicUp \HochInsChorTenoreNotes }
 					}
-					\new Lyrics \lyricsto Basso \DirJubelnBassoLyrics
-					\new Lyrics \with { \danskLyrics } \lyricsto Basso \DirJubelnBassoLyricsDansk
+					\new Lyrics \lyricsto Tenore \HochInsChorTenoreLyrics
+					\new Lyrics \with { \danskLyrics } \lyricsto Tenore \HochInsChorTenoreLyricsDansk
+
+					\new Staff {
+						\set Staff.instrumentName = "Basso"
+						\new Voice = "Basso" { \dynamicUp \HochInsChorBassoNotes }
+					}
+					\new Lyrics \lyricsto Basso \HochInsChorBassoLyrics
+					\new Lyrics \with { \danskLyrics } \lyricsto Basso \HochInsChorBassoLyricsDansk
 				>>
 				\new StaffGroup <<
 					\new Staff {
-						\set Staff.instrumentName = \markup { \center-column { "Violoncello" "e Basso" } }
+						\set Staff.instrumentName = \markup { \center-column { "Fagotti," "Violoncello" "e Basso" } }
 						% \transpose c c,
-						\DirJubelnOrgano
+						\HochInsChorOrgano
 					}
 				>>
 				\new FiguredBass {
-					\DirJubelnBassFigures
+					\HochInsChorBassFigures
 				}
 			>>
 			\layout { }
-			\midi { \tempo 4 = 80 }
+			% \midi { \tempo 2 = 100 }
 		}
 	}
 }

@@ -543,3 +543,153 @@ LobUndEhreOboeI = {
 		\pao es r\fermata \bar "|." %140 finis
 	}
 }
+
+HochInsChorOboeI = {
+	\relative c' {
+		\clef treble
+		\key es \major \time 2/2 \tempoHochInsChor
+		es2\f g
+		b2. b4
+		es2 f
+		g es4 r
+		g2 f %5
+		es2. es4
+		as2 g
+		f r
+		es, g
+		b2. b4 %10
+		es2 f
+		g es4 r
+		g2 f
+		es2. es4
+		d2 es %15
+		d r
+		d es
+		d r
+		d es
+		d r %20
+		g f
+		es d
+		g a,
+		b4 r r2
+		es2 f %25
+		es r
+		es f
+		es r
+		as f
+		d b %30
+		g' es
+		c as
+		f' d
+		b g
+		es'1~ %35
+		es
+		d4 r r2
+		R1*12 %49
+		f2\f g %50
+		as1~
+		as~
+		as~\ffE
+		as~
+		as2.\fermata b,4\fE %55
+		es4. es8 es4 es
+		d2 b4 b8 c
+		des4. des8 des4 des
+		c2 r4 as8 b
+		c b as g as b c d! %60
+		es f g f es d c b
+		as g as f b as b g
+		c b c as d c d b
+		es b c d es f g es
+		d es f es d c d b %65
+		c4 f2 c4
+		r c8 b c es d f
+		es4 g b, r
+		r g es' c
+		d f d b %70
+		g c a d
+		b es c f
+		d8 es d es f g f g
+		as! g f es d c b as
+		g2 g' %75
+		f1
+		f
+		es2 r
+		R1*5 %83
+		d2. d4
+		c2 f %85
+		f2. f4
+		b,2 es
+		R1
+		r2 r4 b~
+		b c2 d4~ %90
+		d es2 f4
+		d8 es d es f g f g
+		as! g f es d b c d
+		es4. es8 es4 es
+		d2 b4 b8 c %95
+		des4. des8 des4 des
+		c2 r4 as8 b
+		c b as g as b c d!
+		es f g f es d c b
+		b2 as %100
+		g1
+		a
+		b4 d8 c b c d e
+		f2. c4
+		c4. b8 as! b c d %105
+		es4. es8 es4 es
+		d b r b8 c
+		des4. des8 des4 des
+		c8 des c b c des es c
+		f1 %110
+		d!8 es d c d es f d
+		g1~
+		g2 as!~
+		as g
+		d e %115
+		f4. f8 f4 f
+		e c r c8 d
+		es4. es8 es4 es
+		d8 c b c d c d b
+		es d c d es d es c %120
+		f es d es f es f d
+		es4 r r2
+		R1*12 %134
+		r2 r4 b %135
+		es4. es8 es4 es
+		d2 b4 b8 c
+		des4. des8 des4 des
+		c2. d!8 c
+		b2. c8 b %140
+		as2. b8 as
+		g2. as8 g
+		f1
+		f
+		es2 r4 b' %145
+		es4. es8 es4 es
+		d2 b4 b8 c
+		des4. des8 des4 des
+		c2 r4 as8 b
+		c b as g as b c d! %150
+		es f g f es d c b
+		as2 b
+		c d
+		es2. d4
+		es2 r %155
+		as1
+		g2 r
+		d1
+		es~
+		es~ %160
+		es2 g~
+		g1~
+		g~
+		g~
+		g~ %165
+		g4 r r2
+		g4 r r2
+		g4 r r2
+		g4 r r2\fermata \bar "|." %169 FINIS
+	}
+}

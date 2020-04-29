@@ -501,3 +501,142 @@ LobUndEhreOboeII = {
 		es r\fermata \bar "|." %140 finis
 	}
 }
+
+HochInsChorOboeII = {
+	\relative c' {
+		\clef treble
+		\key es \major \time 2/2 \tempoHochInsChor
+		es2\f g
+		b2. b4
+		b2 d
+		es es4 r
+		b1 %5
+		g2. es'4
+		f2 es
+		d r
+		es, g
+		b2. b4 %10
+		b2 d
+		es g,4 r
+		g'2 b,
+		c2. b4
+		as2 g %15
+		f r
+		b c
+		b r
+		b c
+		b r %20
+		b1
+		a2 b
+		g es
+		d4 r r2
+		c'2 d %25
+		c r
+		c d
+		c r
+		as1
+		f %30
+		b
+		es,
+		as
+		g
+		g %35
+		c
+		b4 r r2
+		R1*12 %49
+		d2\f es %50
+		f1~
+		f~
+		f~\ffE
+		f~
+		f2.\fermata r4 %55
+		R1*8 %63
+		r2 r4 es,\fE
+		b'4. b8 b4 b %65
+		a2 f4 f8 g
+		as4. as8 as4 as
+		g2 r4 es8 f
+		g f es d es f g a!
+		b c d c b a g f %70
+		es d es c f es f d
+		g f g es a g a f
+		b c b c d es d es
+		f es d c b as! g f
+		es4 g2 a4 %75
+		b c d r
+		r f,2 g4
+		as! b c r
+		r c, as' f
+		g b g es %80
+		c f d g
+		es as f b
+		g es8 f g f g a
+		b2. g4
+		a f r2 %85
+		c' c
+		b b
+		R1*4 %91
+		r2 r4 b
+		b4. b8 b4 b
+		b4. b8 b4 b
+		b2 f4 b8 as %95
+		g4. g8 g4 g
+		as8 es f g as g f g
+		as4 c2 as4
+		b1
+		f %100
+		g2 r
+		R1*3
+		r2 r4 f %105
+		es1
+		f
+		g2.~ g8 b
+		as4. as8 as4 as
+		a8 b a g a b c a %110
+		b4. b8 b4 b
+		h8 c h a h c d c
+		c2 es
+		d1
+		r2 g, %115
+		f1
+		g
+		a2. c4
+		b r r2
+		R1*15 %134
+		r2 r4 b %135
+		a2 f4 f8 g
+		as4. as8 as4 as
+		g1
+		as~
+		as4 g8 f g2~ %140
+		g4 f8 es f2~
+		f4 es8 d es4 es
+		es2 d4 c
+		d2. d4
+		es2 r4 b' %145
+		es4. es8 es4 es
+		d2 b4 b8 c
+		des4. des8 des4 des
+		c2 r4 as8 b
+		c b as g as b c d! %150
+		es f g f es d c b
+		as2 b
+		c d
+		es2. d4
+		es2 r %155
+		d1
+		es2 r
+		as,1
+		g1~
+		g~ %160
+		g2 es'~
+		es1~
+		es~
+		es~
+		es~ %165
+		es4 r r2
+		es4 r r2
+		es4 r r2
+		es4 r r2\fermata \bar "|." %169 FINIS
+	}
+}

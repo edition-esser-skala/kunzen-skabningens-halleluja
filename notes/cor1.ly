@@ -459,3 +459,104 @@ LobUndEhreCornoI = {
 		c r\fermata \bar "|." %140 finis
 	}
 }
+
+HochInsChorCornoI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 2/2 \tempoHochInsChor
+		c'2\f e
+		g2. \pao g,4
+		c2 d
+		e c4 r
+		e2 d %5
+		\pa c2. c4 \pd
+		d2 c
+		d r
+		c e
+		\pa g,2. g4 \pd %10
+		c2 d
+		e c4 r
+		e2 d
+		\pa c2. c4
+		d2 \pd e %15
+		d r
+		d4 r d r
+		d r r2
+		d4 r d r
+		d r r2 %20
+		c4 r d r
+		d r d r
+		c r d r
+		d r r2
+		e4 r e r %25
+		e r r2
+		e4 r e r
+		e r r2
+		d4 r r2
+		g,4 r r2 %30
+		c4 r r2
+		R1*5 %36
+		g1~
+		g~
+		g4 r r2
+		R1*11 %50
+		g1~\fE
+		g~
+		g~\ffE
+		g~
+		g2.\fermata r4 %55
+		R1*38 %93
+		r2 r4 c\f
+		g'4. g8 g4 g %95
+		c,4. c8 c4 c
+		\pao c r r2
+		R1*4 %101
+		r2 r4 d
+		g,4. g8 g4 g
+		d'2 r
+		R1*5 %109
+		d4. d8 d4 d %110
+		g,4 r r2
+		e'4. e8 e4 e
+		e r r2
+		R1*4 %117
+		r2 r4 d
+		g,4. g8 g4 g
+		d'2 r %120
+		d r
+		g, r
+		R1*9 %131
+		g1~
+		g~
+		g~
+		g %135
+		R
+		g~
+		g~
+		g~
+		g~ %140
+		g~
+		g
+		R1*2
+		r4 c, e g %145
+		c4. c8 c4 c
+		g2 r
+		b4. b8 b4 b
+		R1*6 %154
+		c4 c e c %155
+		g1
+		c4 c e c
+		g1
+		c~
+		c~ %160
+		c~
+		c~
+		c~
+		c~
+		c4 r r2 %165
+		c4 r r2
+		c4 r r2
+		c4 r r2
+		c4 r r2\fermata \bar "|." %169 FINIS
+	}
+}

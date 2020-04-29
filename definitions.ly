@@ -289,7 +289,7 @@ tempoUndLeben = \tempoMarkup "Tempo primo Allegro moderato"
 tempoHeilig = \tempoMarkup "Largo"
 tempoLobUndEhre = \tempoMarkup "Allegro vivace"
 tempoDirJubeln = \tempoMarkup "Andantino"
-
+tempoHochInsChor = \tempoMarkup "Allegro"
 
 
 % modify the Scheme function 'format-bass-figure'

@@ -1903,13 +1903,359 @@ DirJubelnBassFigures = \figuremode {
 	<7 4 2> <8 3> %32 finis
 }
 
-% Organo = {
-% 	\relative c {
-% 		\clef bass
-%
-% 	}
-% }
-%
-% BassFigures = \figuremode {
-%
-% }
+HochInsChorOrgano = {
+	\relative c {
+		\clef bass
+		\key es \major \time 2/2 \tempoHochInsChor
+		\mvTr es2\f-\tuttiE g
+		b2. b4
+		g2 b
+		es es,4 r
+		es' r d r %5
+		c2. g4
+		d2 es
+		b8 b b' b b as g f
+		es2 g
+		b2. b4 %10
+		g r b r
+		es2 es,4 r
+		es' r d r
+		c2. g4
+		f r es r %15
+		b'2 r
+		b4 r a r
+		b2. b4
+		b r a r
+		b2. r4 %20
+		es r d r
+		c r b r
+		es,8 d es c f e f f,
+		b4 r r2
+		c'4 r h r %25
+		c r r c
+		c r h r
+		c r c, r
+		f8 e f g as f g as
+		b a b c d b c d %30
+		es, d es f g es f g
+		as! g as b c as b c
+		d, c d es f d es f
+		g fis g a b g a b
+		c, h c d es c d es %35
+		f e f g a f g a
+		b2 r
+		R1
+		b,2\p b
+		b b %40
+		b b
+		b b
+		b b
+		b b\cresc
+		b b %45
+		b b
+		b1
+		b'2 b
+		b,1
+		b'2 b %50
+		b4\fE b, d f
+		b d f d
+		b\ffE b, d f
+		b d f d
+		b2.\fermata \clef treble b'4\fE^\critnote %55
+		es4. es8 es4 es
+		d2 b4 b8 c
+		des4. des8 des4 des
+		c2 r4 as8 b
+		c b as g as b c d! %60
+		es f g f es d c b
+		as g as f b as b g
+		c b c as d c d b
+		es b c d << {
+			es f g es
+			d es f es d c d b %65
+			c4 f2 c4
+			r c8 b c es d f
+			es4 g b, r
+			r g es' c
+			d f d b %70
+			g c a d
+			b es c f
+			d8 es d es f g f g
+			as! g f es d[ c]
+		} \\ {
+			r4 es,4
+			b'4. b8 b4 b %65
+			a2 f4 f8 g
+			as4. as8 as4 as
+			g2 r4 es8 f
+			g f es d es f g a!
+			b c d c b a g f %70
+			es d es c f es f d
+			g f g es a g a f
+			b c b c d es d es
+			f es d c b[ as!]
+	  } >> \clef "treble_8" b,4^\vlc
+		es4. es8 es4 es %75
+		d2 b4 b8 c
+		des4. des8 des4 des
+		c2 r4 as8 b
+		c b as g as b c d!
+		es f g f es d c b %80
+		as g as f b as b g
+		c b c as d c d b
+		es4 r r \clef bass es,^\bassi
+		b'4. b8 b4 b
+		a2 f4 f8 g %85
+		as4. as8 as4 as
+		g2 r4 es8 f
+		g f es d es f g a
+		b c d c b a g f
+		es d es c f es f d %90
+		g f g es a g a f
+		b1
+		b,
+		es2 r4 es
+		b'4. b8 b4 b %95
+		es,4. es8 es4 es
+		as es c es
+		as2. as4
+		g1
+		f %100
+		c'
+		f,2. f4
+		b4. b8 b4 b
+		a2 f4 f8 g
+		as4. as8 as4 as %105
+		g8 f es f g f g es
+		as g f g as g as f
+		b as g as b as b g
+		as4 r r as
+		f4. f8 f4 f %110
+		b4 r r b
+		g4. g8 g4 << {
+			g^\vlc
+			c4. c8 c4 c
+		} \\ {
+			g4_\bassi
+			es c r2
+		} >>
+		\clef "treble_8" h'4 g r g8 a
+		b4. b8 b4 b %115
+		a8 g f g a g a f
+		b a g a b a b g
+		\clef bass << { c b a b c b c a } \\ { r2 r4 f_\bassi } >>
+		b4. b8 b4 b
+		a2 f4 f8 g %120
+		as4. as8 as4 as
+		g es r \clef "treble_8" es^\vlc
+		f2 g4 es
+		as2 a4 f
+		g2 a4 f %125
+		b2 h4 g
+		a2 h4 g
+		c2 \clef bass c^\bassi
+		h b
+		a as %130
+		<< {
+			g ges
+			f b
+			a1
+			as
+			g2 r %135
+		} \\ {
+			g4 es c a
+			b1~
+			b~
+			b~
+			b~ %135
+			\oneVoice b~
+			b~
+			b~
+			b~
+			b~ %140
+			b~
+			b~
+			b~
+			b
+		} >>
+		es2 r4 b'^\unisonoE %145
+		es4. es8 es4 es
+		d2 b4 b8 c
+		des4. des8 des4 des
+		c2 r4 as8 b
+		c b as g as b c d! %150
+		es f g f es d c b
+		as g as f b as b g
+		c b c as d c d b
+		es4 c as b
+		es,2 r %155
+		b1
+		es2 r
+		b'1
+		es,4 r es r
+		es r es r %160
+		es r es r
+		es r es r
+		es r es r
+		es r es r
+		es r r2 %165
+		es4 r r2
+		es4 r r2
+		es4 r r2
+		es4 r r2\fermata \bar "|." %169 FINIS
+	}
+}
+
+HochInsChorBassFigures = \figuremode {
+	r2 <6>
+	r1
+	q
+	r
+	r2 q %5
+	r2. q4
+	<6 5>1
+	r
+	r2 <6>
+	r1 %10
+	q
+	r
+	r2 q
+	r2. q4
+	q1 %15
+	r
+	r2 <6 5>
+	r1
+	r2 q
+	r1 %20
+	r2 <6>
+	<6 _!>1
+	r2 <7 _!>
+	r1
+	r2 <6 5> %25
+	r1
+	r2 q
+	r1
+	r
+	<7> %30
+	q
+	q
+	q
+	q
+	q %35
+	<7 _!>
+	r
+	r
+	<8 3>
+	<\t \t> %40
+	<7! 4 2>
+	<\t \t \t>
+	<7- 5 3>
+	<\t \t \t>
+	<6 4> %45
+	<\t \t>
+	<5 3>
+	<7 5>2 <6 4>
+	<5 3>1
+	<7 5>2 <6 4> %50
+	<7>1 \bassFigureExtendersOn
+	q
+	q
+	q
+	q2. \bassFigureExtendersOff r4 %55
+	r1*19 %74
+	<5 3>1 %75
+	<6>
+	<6 3>2. <\t 4>4
+	<6->1
+	<6>
+	r %80
+	<5>4 <6> <5> <6>
+	<5> <6> <5> <6>
+	r2. <6>4
+	<5 3>2. <6>4
+	q2 <_!> %85
+	<6>1
+	q
+	q
+	r
+	<5>4 <6> <5 _!> <6 \t> %90
+	<5> <6> <5> <6>
+	r1
+	<7->
+	r
+	r %95
+	<7->
+	<5 3>1 \bassFigureExtendersOn
+	q2. \bassFigureExtendersOff <4! 2>4
+	<6>1
+	<4>2 <3> %100
+	<_!>1
+	<7- _!>
+	r2. <4! 2>4
+	<6>2 <_!>
+	<6 3>2. <\t 4>4 %105
+	<6>2.. \bassFigureExtendersOn q8
+	<2>2.. q8
+	<4 _->2.. q8 \bassFigureExtendersOff
+	r1
+	<_!> %110
+	q
+	q
+	<6>2 <6>
+	<7>4 <\t>2 <_!>4
+	<6 3>2 <\t 4!> %115
+	<6>2.. \bassFigureExtendersOn q8
+	<4! 2>2.. q8
+	<6! 4 _->2.. q8 \bassFigureExtendersOff
+	r1
+	<6 5>2 <7 _!> %120
+	<2>1
+	<6>
+	<6 _->2 <6 5->4 <\t \t>
+	r2 <6>4 <_!>
+	<6!>2 <6 5->4 <\t \t> %125
+	r2 <6>4 <_!>
+	<6\\>2 <6 5!>4 <\t \t>
+	r2 <6->
+	<7> <6>
+	<7> <6> %130
+	<7>4 <\t> <6! 5- 3> <\t \t \t>
+	<8 3>1
+	<7! 2>
+	<7- 3>
+	<6 4>2. <5 3>4 %135
+	<7! 4 2>1
+	<7- 5 3>
+	<6 4! _->
+	<7 5 2>2 <\t 4- \t>
+	<8 7 3> <\t 6 4> %140
+	<7 6 2> <\t 5 3>
+	<6 5> <\t 4>
+	<5 4> \bassFigureExtendersOn <5 3>4 <5 2>
+	<5 3>2. q4 \bassFigureExtendersOff
+	r1 %145
+	r
+	r
+	r
+	r
+	r %150
+	r
+	r
+	r
+	r4 <5> <6 5>2
+	r1 %155
+	<7>
+	r
+	<7>
+	r
+	r %160
+	r
+	r
+	r
+	r
+	r %165
+	r
+	r
+	r
+	r %169 FINIS
+}

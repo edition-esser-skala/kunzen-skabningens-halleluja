@@ -1061,9 +1061,173 @@ DirJubelnViolinoI = {
 	}
 }
 
-% ViolinoI = {
-% 	\relative c' {
-% 		\clef treble
-%
-% 	}
-% }
+HochInsChorViolinoI = {
+	\relative c' {
+		\clef treble
+		\key es \major \time 2/2 \tempoHochInsChor
+		es8\f b g b es b g' es
+		b' f d f b f d' b
+		es b g b f' d b d
+		g es b g es g b es
+		g es b g' b f b, b' %5
+		es2~ es8 es, \afterGrace es4\trill { d32 es }
+		as8 f b, f' g es b g
+		f d b' b b as g f
+		es b g b es b g' es
+		b' f d f b f d' b %10
+		es b g b f' d b d
+		g es b g es g b es
+		g es b g' b f b, b'
+		es2~ es8 es, \afterGrace es4\trill { d32 es }
+		d8 f as f g es b g' %15
+		f d, f d b' f d' b
+		f' d b d f es c es
+		d f d' a b f d es
+		f d b d f es c es
+		d f b f d b d f %20
+		g es b g' f d b f'
+		es c a es' d b' f d
+		g2 a,
+		b8( a b c d es f fis)
+		g es c es g f d f %25
+		es c g c es c es f
+		g es c es g f d f
+		es c g c es c es g
+		as4. as16( g f4.) f16( es
+		d4.) d16( c b8) d f as %30
+		g4. g16( f es4.) es16( d
+		c4.) c16( b as8) c es g
+		f4. f16( es d4.) d16( c
+		b4.) \once \slurDashed b16( a g8) b d f
+		es4 es2 es4 %35
+		es' es2 es4
+		d d16 d d d b b b b f[ f f f]
+		d d d d b[ b b b] f f f f d[ d d d]
+		b4\p b2 b4~
+		b b2 b4 %40
+		c c2 c4~
+		c c2 c4
+		d d2 d4~
+		d d2\cresc d4
+		es es2 es4~ %45
+		es es2 es4
+		f8 f f f as as as as
+		d d d d es es es es
+		f f f f d d d d
+		f f f f g g g g %50
+		as4\f as2 as4~
+		as as2 as4~
+		as d2\ff d4~
+		d d2 d4
+		f2.\fermata b,,4\fE %55
+		es4. es8 es4 es
+		d2 b4 b8 c
+		des4. des8 des4 des
+		c2 r4 as8 b
+		c b as g as b c d! %60
+		es f g f es d c b
+		as g as f b as b g
+		c b c as d c d b
+		es b c d es f g es
+		d es f es d c d b %65
+		c4 f2 c4
+		r c8 b c es d f
+		es4 g b, r
+		r g es' c
+		d f d b %70
+		g c a d
+		b es c f
+		d8 es d es f g f g
+		as! g f es d c b as
+		g2 g' %75
+		f1
+		f
+		es2 r
+		R1*5 %83
+		d2. d4
+		c2 f %85
+		f2. f4
+		b,2 es
+		R1
+		r2 r4 b~
+		b c2 d4~ %90
+		d es2 f4
+		d8 es d es f g f g
+		as! g f es d b c d
+		es4. es8 es4 es
+		d2 b4 b8 c %95
+		des4. des8 des4 des
+		c2 r4 as8 b
+		c b as g as b c d!
+		es f g f es d c b
+		b2 as %100
+		g1
+		a
+		b4 d8 c b c d e
+		f2. c4
+		c4. b8 as! b c d %105
+		es4. es8 es4 es
+		d b r b8 c
+		des4. des8 des4 des
+		c8 des c b c des es c
+		f1 %110
+		d!8 es d c d es f d
+		g1~
+		g2 as!~
+		as g
+		d e %115
+		f4. f8 f4 f
+		e c r c8 d
+		es4. es8 es4 es
+		d8 c b c d c d b
+		es d c d es d es c %120
+		f es d es f es f d
+		es4 r es2
+		d4 b des2
+		c4 as f'2
+		e4 c es2 %125
+		d4 b g'2
+		fis4 d f2
+		es as!~
+		as g~
+		g f~ %130
+		f es
+		d r
+		R1*2
+		r2 r4 b %135
+		es4. es8 es4 es
+		d2 b4 b8 c
+		des4. des8 des4 des
+		c2. d!8 c
+		b2. c8 b %140
+		as2. b8 as
+		g2. as8 g
+		f1
+		f
+		es2 r4 b' %145
+		es4. es8 es4 es
+		d2 b4 b8 c
+		des4. des8 des4 des
+		c2 r4 as8 b
+		c b as g as b c d! %150
+		es f g f es d c b
+		as g as f b as b g
+		c b c as d c d b
+		es4-! g-! f-! f-!
+		es2 r %155
+		as1
+		g2 r
+		d1
+		es4 g,8. g16 g4 b8. b16
+		b4 es8. es16 es4 g8. g16 %160
+		g4 b,8. b16 b4 es8. es16
+		es4 g8. g16 g4 b8. b16
+		b4 es,8. es16 es4 g8. g16
+		g4 b8. b16 b4 es8. es16
+		es4 r r2 %165
+		<g, b, es,>4 r r2
+		q4 r r2
+		q4 r r2
+		q4 r r2\fermata \bar "|." %169 FINIS
+	}
+}

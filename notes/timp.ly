@@ -227,3 +227,61 @@ LobUndEhreTimpani = {
 		c4 r r2\fermata \bar "|." %140 finis
 	}
 }
+
+HochInsChorTimpani = {
+	\relative c {
+		\clef bass
+		\key c \major \time 2/2 \tempoHochInsChor
+		c4\f r c r
+		g g8. g16 g4 g
+		c r g r
+		c r c r
+		c r g r %5
+		c r r c
+		g r c r
+		g r r2
+		c4 r c r
+		g g8. g16 g4 g %10
+		c r g r
+		c r c r
+		c r g r
+		c r r2
+		R1 %15
+		g\trill
+		R
+		g\trill
+		R
+		g\trill %20
+		R1*30 %50
+		g1~\fE\trill
+		g~\cresc
+		g~\ffE
+		g~
+		g2.\fermata r4 %55
+		R1*38 %93
+		r2 r4 c\fE
+		g4. g8 g4 g %95
+		c4. c8 c4 c
+		c r r2
+		R1*47 %144
+		r2 r4 g %145
+		c4. c8 c4 c
+		g4 r r2
+		R1*7 %164
+		c4 c8. c16 c4 c %165
+		g g8. g16 g4 g
+		c4 c8. c16 c4 c
+		g g8. g16 g4 g
+		c1~\startTrillSpan
+		c~ %170
+		c~
+		c~
+		c~
+		c~
+		c4\stopTrillSpan r r2 %175
+		c4 r r2
+		c4 r r2
+		c4 r r2
+		c4 r r2\fermata \bar "|." %179 FINIS
+	}
+}

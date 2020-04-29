@@ -1546,17 +1546,368 @@ DirJubelnBassoLyricsDansk = \lyricmode {
 	vi. %31 finis
 }
 
-% BassoNotes = {
-% 	\relative c {
-% 		\clef bass
-%
-% 	}
-% }
-%
-% BassoLyrics = \lyricmode {
-%
-% }
-%
-% BassoLyricsDansk = \lyricmode {
-%
-% }
+HochInsChorBassoNotes = {
+	\relative c {
+		\clef bass
+		\key es \major \time 2/2 \autoBeamOff \tempoHochInsChor
+		\mvTr es2\fE^\tuttiE g
+		b2. b4
+		g2 b
+		es es,4 r
+		es'2 d %5
+		c2. g4
+		d2 es
+		b' r
+		es, g
+		b2. b4 %10
+		g2 b
+		es es,4 r
+		es'2 d
+		c2. g4
+		f2 es %15
+		b' r
+		b a
+		b2. b4
+		b2 a
+		b b4 r %20
+		es2 d
+		c b
+		es, f
+		b, r
+		c' h %25
+		c2. c4
+		c2 h
+		c c,
+		f as
+		b d %30
+		es, g
+		as c
+		d, f
+		g b
+		c,1( %35
+		f2) a
+		b r
+		R1
+		b2.\p a4
+		g f es d %40
+		c c r2
+		R1*6 %47
+		b'2\crescE b
+		b1
+		b2 b %50
+		b1~\fE
+		b~
+		b~
+		b~
+		b2.\fermata r4 %55
+		R1*27 %82
+		r2 r4 es,\fE
+		b'4. b8 b4 b
+		a2 f4 f8([ g)] %85
+		as4. as8 as4 as
+		g2 r4 es8([ f)]
+		g([ f)] es([ d)] es([ f)] g([ a)]
+		b[ c d c] b[ a g f]
+		es[ d es c] f[ es f d] %90
+		g[ f] g([ es)] a([ g)] a([ f)]
+		b1
+		b,2. b4
+		es2 r4 es
+		b'4. b8 b4 b %95
+		es,4. es8 es4 es
+		as es c es
+		as2. as4
+		g1
+		f %100
+		c'2. c4
+		f,2. f4
+		b4. b8 b4 b
+		a2 f4 f8([ g)]
+		as4. as8 as4 as %105
+		g8[ f es f] g[ f g es]
+		as[ g f g] as[ g as f]
+		b[ as g as] b[ as] b([ g)]
+		as4 r r as
+		f4. f8 f4 f %110
+		b4 r r b
+		g4. g8 g4 g
+		es c r2
+		R1*4 %117
+		r2 r4 f
+		b4. b8 b4 b
+		a2 f4 f8([ g)] %120
+		as4. as8 as4 as
+		g es r2
+		R1*5 %127
+		r2 c'
+		h b
+		a as %130
+		g4 es c a
+		b1~
+		b~
+		b~
+		b~ %135
+		b~
+		b~
+		b~
+		b~
+		b~ %140
+		b~
+		b~
+		b
+		b
+		es2 r4 b' %145
+		es4. es8 es4 es
+		d2 b4 b8([ c)]
+		des4. des8 des4 des
+		c2 r4 as8([ b)]
+		c([ b)] as([ g)] as([ b)] c([ d!)] %150
+		es[ f g f] es[ d c b]
+		as[ g as f] b[ as b g]
+		c[ b c as] d[ c d b]
+		es4 c as b
+		es,2 r %155
+		b2. b4
+		es2 r
+		b'2. b4
+		es,2 es
+		es es %160
+		es es
+		es es
+		es1~
+		es~
+		es~ %165
+		es~
+		es2 r
+		R1
+		R\fermataMarkup \bar "|." %169 FINIS
+	}
+}
+
+HochInsChorBassoLyrics = \lyricmode {
+	Hoch, ins
+	Chor der
+	Him -- mels
+	Söh -- ne,
+	tö -- ne %5
+	un -- ser
+	Har -- fen
+	Klang!
+	Tönt, des
+	Le -- bens %10
+	hell -- ste
+	Tö -- ne!
+	Wer -- de,
+	Schöp -- fung,
+	ein Ge -- %15
+	sang!
+	Meer und
+	Gluth und
+	Don -- ner
+	lo -- be: %20
+	Son -- nen,
+	Ster -- ne,
+	lo -- bet
+	Gott!
+	Meer und %25
+	Gluth und
+	Don -- ner
+	lo -- be,
+	Meer und
+	Gluth und %30
+	Don -- ner
+	lo -- be:
+	Son -- nen,
+	Ster -- ne,
+	lo -- %35
+	bet
+	Gott!
+
+	Al -- les, %39
+	was auf Er -- den %40
+	ath -- met,
+
+	lo -- be %48
+	Gott!
+	lo -- be %50
+	Gott! __
+
+	Hal -- %83
+	le -- lu -- ja! wir
+	le -- ben! Hal -- %85
+	le -- lu -- ja! du
+	bist, du
+	warst, und blei -- best
+	e -- _
+	_ _ %90
+	_ wig un -- ser
+	Gott!
+	un -- ser
+	Gott! Hal --
+	le -- lu -- ja! Hal -- %95
+	le -- lu -- ja! du
+	bist, du warst, und
+	blei -- best
+	e --
+	wig %100
+	un -- ser
+	Gott! Hal --
+	le -- lu -- ja! wir
+	le -- ben! Hal --
+	le -- lu -- ja! Hal -- %105
+	le -- _
+	_ _
+	_ _ lu --
+	ja! Hal --
+	le -- lu -- ja! du %110
+	bist! Hal --
+	le -- lu -- ja! wir
+	le -- ben!
+
+	Hal -- %118
+	le -- lu -- ja! wir
+	le -- ben! Hal -- %120
+	le -- lu -- ja! wir
+	le -- ben!
+
+	Hal -- %128
+	le -- lu --
+	ja! Hal -- %130
+	le -- lu -- ja! Hal --
+	le --
+
+	lu -- %144
+	ja! Hal -- %145
+	le -- lu -- ja! wir
+	le -- ben! Hal --
+	le -- lu -- ja! du
+	bist, du
+	warst, und blei -- best %150
+	e -- _
+	_ _
+	_ _
+	_ wig un -- ser
+	Gott! %155
+	un -- ser
+	Gott!
+	un -- ser
+	Gott! Hal --
+	le -- lu -- %160
+	ja! Hal --
+	le -- lu --
+	ja! __ %163 FINIS
+}
+
+HochInsChorBassoLyricsDansk = \lyricmode {
+	Høit, i
+	Chor af
+	Mil -- li --
+	o -- ner,
+	ly -- de %5
+	vo -- re
+	Har -- pers
+	Klang!
+	To -- ner
+	al -- le %10
+	Li -- vets
+	To -- ner!
+	Al Na --
+	tu -- ren
+	væ -- re %15
+	Sang!
+	Hav og
+	Ild og
+	Storm og
+	Tor -- den: %20
+	So -- le,
+	Stjer -- ner,
+	bry -- der
+	ud!
+	Hav og %25
+	Ild og
+	Storm og
+	Tor -- den,
+	Hav og
+	Ild og %30
+	Storm og
+	Tor -- den:
+	So -- le,
+	Stjer -- ner,
+	bry -- %35
+	der
+	ud!
+
+	Alt hvad %39
+	Aan -- de har paa %40
+	Jor -- den,
+
+	lo -- ve %48
+	Gud!
+	lo -- ve %50
+	Gud! __
+
+	Hal -- %83
+	le -- lu -- ja! vi
+	e -- re! Hal -- %85
+	le -- lu -- ja! du
+	er, du
+	var, og du skal
+	væ -- _
+	_ _ %90
+	_ _ re vor
+	Gud!
+	vor __ _
+	Gud! Hal --
+	le -- lu -- ja! Hal -- %95
+	le -- lu -- ja! du
+	er, du var, og
+	du skal
+	væ --
+	re %100
+	vor __ _
+	Gud! Hal --
+	le -- lu -- ja! vi
+	e -- re! Hal --
+	le -- lu -- ja! Hal -- %105
+	le -- _
+	_ _
+	_ _ lu --
+	ja! Hal --
+	le -- lu -- ja! du %110
+	er! Hal --
+	le -- lu -- ja! vi
+	e -- re!
+
+	Hal -- %118
+	le -- lu -- ja! vi
+	e -- re! Hal -- %120
+	le -- lu -- ja! vi
+	e -- re!
+
+	Hal -- %128
+	le -- lu --
+	ja! Hal -- %130
+	le -- lu -- ja! Hal --
+	le --
+
+	lu -- %144
+	ja! Hal -- %145
+	le -- lu -- ja! vi
+	e -- re! Hal --
+	le -- lu -- ja! du
+	er, du
+	var, og du skal %150
+	væ -- _
+	_ _
+	_ _
+	_ _ re vor
+	Gud! %155
+	vor __ _
+	Gud!
+	vor __ _
+	Gud! Hal --
+	le -- lu -- %160
+	ja! Hal --
+	le -- lu --
+	ja! __ _ %163 FINIS
+}

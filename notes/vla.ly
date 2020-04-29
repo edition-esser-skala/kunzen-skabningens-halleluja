@@ -997,3 +997,155 @@ DirJubelnViola = {
 		es2\fermata \bar "|." %32 finis
 	}
 }
+
+HochInsChorViola = {
+	\relative c' {
+		\clef alto
+		\key es \major \time 2/2 \tempoHochInsChor
+		es2\f g
+		b2. b4
+		g2 b
+		es es,4 r
+		es' r d r %5
+		c2. g4
+		d2 es
+		b8 b b' b b as g f
+		es2 g
+		b2. b4 %10
+		g r b r
+		es2 es,4 r
+		es' r d r
+		c2. g4
+		f r es r %15
+		b'2 r
+		b4 r a r
+		b2. b4
+		b r a r
+		b2. r4 %20
+		es r d r
+		c r b r
+		es,2 c
+		b4 r r2
+		c h %25
+		c r
+		c h
+		c r
+		f8 e f g as f g as
+		b a b c d b c d %30
+		es, d es f g es f g
+		as! g as b c as b c
+		d, c d es f d es f
+		g fis g a b g a b
+		c, h c d es c d es %35
+		f e f g a f g a
+		b4 r r2
+		R1
+		d,,4\p d2 d4~
+		d d2 d4 %40
+		es es2 es4~
+		es es2 es4
+		f f2 f4~
+		f f2\cresc f4
+		b b2 b4~ %45
+		b b2 b4
+		b b2 b4~
+		b b2 b4~
+		b b2 b4~
+		b b2 b4 %50
+		b\fE b d f b d f d
+		b\ffE b, d f
+		b d f d
+		b2.\fermata r4
+		R1*18 %73
+		r2 r4 b,\fE
+		es4. es8 es4 es %75
+		d2 b4 b8 c
+		des4. des8 des4 des
+		c2 r4 as8 b
+		c b as g as b c d!
+		es f g f es d c b %80
+		as g as f b as b g
+		c b c as d c d b
+		es4 es es c
+		b4 b8 c d c d e
+		f2 f,4 r %85
+		r as!8 b c as c d!
+		es2 es,4 r
+		r g es' c
+		d f d b
+		g2 a %90
+		b c
+		b8 c b c d es d es
+		f es d c b d es f
+		g4. g8 g4 g
+		f2 d4 b %95
+		b4. b8 b4 b
+		as r r2
+		R1
+		r2 r4 c
+		f4. f8 f4 f %100
+		e2 c4 c8 d
+		es4. es8 es4 es
+		d2. g4
+		c, a c e
+		f4. f8 f4 f %105
+		b,2 r
+		R1*5 %111
+		r2 r4 g
+		c4. c8 c4 c
+		h g r g8 a
+		b4. b8 b4 b %115
+		a8 g f g a g a f
+		b a g a b a b g
+		c b a b c b c a
+		b1
+		c %120
+		d2. b4
+		es r r es,
+		f2 g4 es
+		as2 a4 f
+		g2 a4 f %125
+		b2 h4 g
+		a2 h4 g
+		c2 r
+		R1*3 %131
+		<b d>1
+		<c es>
+		<d f>
+		<es g>2 r4 d %135
+		c1
+		b
+		e
+		f2 es
+		d es %140
+		c d
+		b b
+		b2. b4
+		b2 as
+		g r4 b %145
+		es4. es8 es4 es
+		d2 b4 b8 c
+		des4. des8 des4 des
+		c2 r4 as8 b
+		c b as g as b c d! %150
+		es f g f es d c b
+		as g as f b as b g
+		c b c as d c d b
+		es4 c c b
+		es2 r %155
+		f1
+		es2 r
+		f1
+		es4 b8. b16 b4 es8. es16
+		es4 g8. g16 g4 b8. b16 %160
+		b4 es,8. es16 es4 g8. g16
+		g4 b8. b16 b4 es8. es16
+		es4 g,8. g16 g4 b8. b16
+		b4 es8. es16 es4 b8. b16
+		b4 r r2 %165
+		<es, g,>4 r r2
+		q4 r r2
+		q4 r r2
+		q4 r r2\fermata \bar "|." %169 FINIS
+	}
+}

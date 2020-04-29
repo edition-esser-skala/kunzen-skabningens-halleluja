@@ -236,3 +236,70 @@ LobUndEhreTrombaII = {
 		c r\fermata \bar "|." %140 finis
 	}
 }
+
+HochInsChorTrombaII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 2/2 \tempoHochInsChor
+		c2\f e
+		g2. g4
+		e2 g
+		c c,4 r
+		c'2 g %5
+		c2. c4
+		g2 c,
+		g' r
+		c, e
+		g2. g4 %10
+		e2 g
+		c c,4 r
+		c'2 g
+		c r
+		R1 %15
+		g2 r
+		d'4 r d r
+		d r r2
+		d4 r d r
+		d r r2 %20
+		R1*4
+		e,4 r e r %25
+		e r r2
+		e4 r e r
+		e r r2
+		d'4 r r2
+		g,4 r r2 %30
+		c4 r r2
+		R1*19 %50
+		g,1~\fE
+		g~\cresc
+		g~\ffE
+		g~
+		g2.\fermata r4 %55
+		R1*37 %92
+		r2 r4 g\f
+		c4. c8 c4 c
+		g'4. g8 g4 g %95
+		c,4. c8 c4 c
+		c' r r2
+		R1*47 %144
+		r4 c, e g %145
+		c4. c8 c4 c
+		g2 r
+		R1*7 %164
+		r4 c, e c %165
+		g1
+		c4 c e c
+		g1
+		c2. c8. c16
+		c2. c8. c16 %170
+		c2. c8. c16
+		c2. c8. c16
+		c2. c8. c16
+		c2. c8. c16
+		c4 r r2 %175
+		e4 r r2
+		e4 r r2
+		e4 r r2
+		e4 r r2\fermata \bar "|." %179 FINIS
+	}
+}

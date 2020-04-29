@@ -1004,3 +1004,166 @@ DirJubelnViolinoII = {
 		b4( as)\fermata \bar "|."
 	}
 }
+
+HochInsChorViolinoII = {
+	\relative c' {
+		\clef treble
+		\key es \major \time 2/2 \tempoHochInsChor
+		es8\f b g b es b g' es
+		b' f d f b f d' b
+		es b g b f' d b d
+		g es b g es g b es
+		g es b g' b f b, b' %5
+		es, c g' es c g es b'
+		as' f b, f' g es b g
+		f d b' b b as g f
+		es b g b es b g' es
+		b' f d f b f d' b %10
+		es b g b f' d b d
+		g es b g es g b es
+		g es b g' b f b, b'
+		es, c g' es c g es es'
+		d f as f g es b g' %15
+		f d, f d b' f d' b
+		f' d b d f es c es
+		d f d a b d b c
+		d f b, d f es c es
+		d f b f d b d f %20
+		g es b g' f d b f'
+		es c a es' d b' f d
+		g,2 es
+		d8( a b c d es f fis)
+		g es c es g f d f %25
+		es c g c es c es f
+		g es c es g f d f
+		es c g c es c es g
+		as4 as2 as4~
+		as as2 f4 %30
+		g g2 g4~
+		g g2 es4
+		f f2 f4~
+		f f2 d4
+		es c'2 c4 %35
+		c' c2 c4
+		b d16 d d d b b b b f[ f f f]
+		d d d d b[ b b b] f f f f d[ d d d]
+		b4\p b2 b4~
+		b b2 b4 %40
+		a a2 a4~
+		a a2 a4
+		as as2 as4~
+		as as2\cresc as4
+		g g2 g4~ %45
+		g g2 g4
+		d'8 d d d f f f f
+		f f f f g g g g
+		d' d d d b b b b
+		d d d d es es es es %50
+		f4\f f2 f4~
+		f f2 f4~
+		f f2\ff f4~
+		f f2 f4
+		as2.\fermata r4 %55
+		R1*8 %63
+		r2 r4 es,\fE
+		b'4. b8 b4 b %65
+		a2 f4 f8 g
+		as4. as8 as4 as
+		g2 r4 es8 f
+		g f es d es f g a!
+		b c d c b a g f %70
+		es d es c f es f d
+		g f g es a g a f
+		b c b c d es d es
+		f es d c b as! g f
+		es4 g2 a4 %75
+		b c d r
+		r f,2 g4
+		as! b c r
+		r c, as' f
+		g b g es %80
+		c f d g
+		es as f b
+		g es8 f g f g a
+		b2. g4
+		a f r2 %85
+		c' c
+		b b
+		R1*4 %91
+		r2 r4 b
+		b4. b8 b4 b
+		b4. b8 b4 b
+		b2 f4 b8 as %95
+		g4. g8 g4 g
+		as8 es f g as g f g
+		as4 c,2 as'4
+		b2 b,
+		c2. c4 %100
+		c2 r
+		R1*3
+		r2 r4 f %105
+		es8 f g f es f es g
+		f g as g f g f as
+		g as b as g as g b
+		as4. as8 as4 as
+		a8 b a g a b c a %110
+		b4. b8 b4 b
+		h8 c h a h c d c
+		c2 es
+		d1
+		r2 g, %115
+		f1
+		g
+		a2. c4
+		b r r2
+		R1*2 %121
+		r2 r4 g
+		as!2 b4 g
+		c2. c4
+		b2 c4 a %125
+		d2. d4
+		c2 d4 h
+		c2 es
+		d2. d4
+		c2. c4 %130
+		b2 c
+		b r
+		R1
+		r2 r4 f
+		b4. b8 b4 b %135
+		a2 f4 f8 g
+		as4. as8 as4 as
+		g1
+		as~
+		as4 g8 f g2~ %140
+		g4 f8 es f2~
+		f4 es8 d es4 es
+		es2 d4 c
+		d2. d4
+		es2 r4 b' %145
+		es4. es8 es4 es
+		d2 b4 b8 c
+		des4. des8 des4 des
+		c2 r4 as8 b
+		c b as g as b c d! %150
+		es f g f es d c b
+		as g as f b as b g
+		c b c as d c d b
+		es4-! es-! es-! d-!
+		es2 r %155
+		d1
+		es2 r
+		as,1
+		g4 es8. es16 es4 g8. g16
+		g4 b8. b16 b4 es8. es16 %160
+		es4 g,8. g16 g4 b8. b16
+		b4 es8. es16 es4 g8. g16
+		g4 b,8. b16 b4 es8. es16
+		es4 g8. g16 g4 g8. g16
+		g4 r r2 %165
+		<es es, g,>4 r r2
+		q4 r r2
+		q4 r r2
+		q4 r r2\fermata \bar "|." %169 FINIS
+	}
+}
