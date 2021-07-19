@@ -1,0 +1,24 @@
+composer: Kunzen, Friedrich Ludwig Æmilius
+title: Skabningens Halleluja (Das Halleluja der Schöpfung)
+id: (DK-Kk mu 6506.1133)
+genre: oratorio
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 fl, 2 ob, 2 cl (B), 2 fag, 2 cor (C/D/Es/F/B/B basso), 2 clno (D/Es), 3 trb, timp (D–A/Es–B), vl solo, 2 vl, vla, 2 vlc, b
+sources:
+  1:
+    siglum: DK-Kk
+    shelfmark: mu 6506.1133
+    type: autograph manuscript
+    date: 1797
+    rism: 150203209
+    url: http://img.kb.dk/ma/kunzen/SkaHal_m.pdf
+  1:
+    siglum: CH-Zz
+    shelfmark: AMG XIV 316
+    type: print (Hans Georg Nägeli, Zürich) 
+    date: 1802
+    rism: 990035804
+    url: https://doi.org/10.3931/e-rara-24804
+github: kunzen-skabningens-halleluja
+imslp: Das_Halleluja_der_Schöpfung_(Kunzen%2C_Friedrich_Ludwig_Aemilius)
+notes:
+
