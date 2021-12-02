@@ -1,7 +1,7 @@
 \version "2.22.0"
 
 \include "../definitions.ly"
-#(define option-instrument-name "vl 1")
+#(define option-instrument-name "bc")
 \include "score_settings/one-staff.ly"
 
 \book {
@@ -12,9 +12,10 @@
     \score {
       <<
         \new Staff {
-          \set Staff.instrumentName = "Violino I"
-          \BrichNaturViolinoI
+          \set Staff.instrumentName = \markup \center-column { "Basso" "continuo" }
+          \BrichNaturOrgano
         }
+        \new FiguredBass { \BrichNaturBassFigures }
       >>
     }
   }
@@ -24,20 +25,8 @@
     \paper { systems-per-page = #6 }
     \score {
       <<
-        \new Staff { \DieOedeViolinoI }
-      >>
-    }
-  }
-  \bookpart {
-    \section "3" "Vom Schlaf im Schattenwald erwacht" "Fra Skovens skyggefulde Lye"
-    \addTocEntry
-    \paper { page-count = #2 }
-    \score {
-      <<
-        \new Staff {
-          \set Staff.instrumentName = \markup \center-column { "vl" "solo" }
-          \VomSchlafViolinoSolo
-        }
+        \new Staff { \DieOedeOrgano }
+        \new FiguredBass { \DieOedeBassFigures }
       >>
     }
   }
@@ -46,7 +35,8 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \VomSchlafViolinoI }
+        \new Staff { \VomSchlafOrgano }
+        \new FiguredBass {   \VomSchlafBassFigures }
       >>
     }
   }
@@ -55,7 +45,8 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \DuRollestViolinoI }
+        \new Staff { \DuRollestOrgano }
+        \new FiguredBass { \DuRollestBassFigures }
       >>
     }
   }
@@ -64,17 +55,18 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \IchHoerteViolinoI }
+        \new Staff { \IchHoerteOrgano }
+        \new FiguredBass { \IchHoerteBassFigures }
       >>
     }
   }
   \bookpart {
     \section "6" "Wir preisen dich" "Vi love dig"
     \addTocEntry
-    \paper { page-count = #5 }
     \score {
       <<
-        \new Staff { \WirPreisenViolinoI }
+        \new Staff { \WirPreisenOrgano }
+        \new FiguredBass { \WirPreisenBassFigures }
       >>
     }
   }
@@ -83,7 +75,8 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \SelbstWennViolinoI }
+        \new Staff { \SelbstWennOrgano }
+        \new FiguredBass { \SelbstWennBassFigures }
       >>
     }
   }
@@ -92,7 +85,8 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \GerechterRichterViolinoI }
+        \new Staff { \GerechterRichterOrgano }
+        \new FiguredBass { \GerechterRichterBassFigures }
       >>
     }
   }
@@ -102,18 +96,19 @@
     \paper { systems-per-page = #3 }
     \score {
       <<
-        \new Staff { \OGottViolinoI }
+        \new Staff { \OGottOrgano }
+        \new FiguredBass { \OGottBassFigures }
       >>
     }
   }
   \bookpart {
     \section "10" "Und Leben, Licht und Freud ist ewig" "Og Lys og Liv og Lyst er evig"
     \addTocEntry
-
     \paper { systems-per-page = #6 }
     \score {
       <<
-        \new Staff { \UndLebenViolinoI }
+        \new Staff { \UndLebenOrgano }
+        \new FiguredBass { \UndLebenBassFigures }
       >>
     }
   }
@@ -123,7 +118,8 @@
     \paper { systems-per-page = #3 }
     \score {
       <<
-        \new Staff { \HeiligViolinoI }
+        \new Staff { \HeiligOrgano }
+        \new FiguredBass { \HeiligBassFigures }
       >>
     }
   }
@@ -132,7 +128,8 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \LobUndEhreViolinoI }
+        \new Staff { \LobUndEhreOrgano }
+        \new FiguredBass { \LobUndEhreBassFigures }
       >>
     }
   }
@@ -142,7 +139,8 @@
     \paper { systems-per-page = #6 }
     \score {
       <<
-        \new Staff { \DirJubelnViolinoI }
+        \new Staff { \DirJubelnOrgano }
+        \new FiguredBass { \DirJubelnBassFigures }
       >>
     }
   }
@@ -151,7 +149,8 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \HochInsChorViolinoI }
+        \new Staff { \HochInsChorOrgano }
+        \new FiguredBass { \HochInsChorBassFigures }
       >>
     }
   }

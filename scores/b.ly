@@ -1,242 +1,158 @@
-% (c) 2020 by Wolfgang Esser-Skala.
-% This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
-% To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/.
-
-\version "2.18.0"
+\version "2.22.0"
 
 \include "../definitions.ly"
-
-\paper {
-	indent = 2\cm
-	top-margin = 1.5\cm
-	system-separator-markup = ##f
-	system-system-spacing =
-    #'((basic-distance . 18)
-       (minimum-distance . 18)
-       (padding . -100)
-       (stretchability . 0))
-
-	top-system-spacing =
-    #'((basic-distance . 12)
-       (minimum-distance . 12)
-       (padding . -100)
-       (stretchability . 0))
-
-	top-markup-spacing =
-    #'((basic-distance . 0)
-       (minimum-distance . 0)
-       (padding . -100)
-       (stretchability . 0))
-
-	markup-system-spacing =
-    #'((basic-distance . 12)
-       (minimum-distance . 12)
-       (padding . -100)
-       (stretchability . 0))
-
-	systems-per-page = #9
-}
-
-#(set-global-staff-size 17.82)
-
-\layout {
-	\context {
-		\Staff
-		instrumentName = \markup { \center-column { "Violoncello" "e Basso" } }
-	}
-}
+#(define option-instrument-name (markup #:center-column ("vlc" "b")))
+\include "score_settings/one-staff.ly"
 
 \book {
-	\bookpart {
-		\header {
-			number = "1"
-			title = "Brich, Natur, in Loblied aus!"
-			dansktitle = "Bryd, o Støv, i Lovsang ud!"
-		}
-		\score {
-			<<
-				\new Staff { \BrichNaturOrgano }
-			>>
-		}
-	}
-	\bookpart {
-		\header {
-			number = "2"
-			title = "Die Öde starrt"
-			dansktitle = "Alt hylled laae"
-		}
-		\paper { systems-per-page = #6 }
-		\score {
-			<<
-				\new Staff { \DieOedeOrgano }
-			>>
-		}
-	}
-	\bookpart {
-		\header {
-			number = "3"
-			title = "Vom Schlaf im Schattenwald erwacht"
-			dansktitle = "Fra Skovens skyggefulde Lye"
-		}
-		\score {
-			<<
-				\new Staff { \VomSchlafOrgano }
-			>>
-		}
-	}
-	\bookpart {
-		\header {
-			number = "4"
-			title = "Du rollest auf der Dämmrung Flor"
-			dansktitle = "Du ruller bort Naturens Slør"
-		}
-		\score {
-			<<
-				\new Staff { \DuRollestOrgano }
-			>>
-		}
-	}
-	\bookpart {
-		\header {
-			number = "5"
-			title = "Ich hörte Haingesang"
-			dansktitle = "Jeg hørte Lærken slaae"
-		}
-		\paper { indent = 3\cm }
-		\score {
-			<<
-				\new Staff <<
-					\set Staff.instrumentName = "Violoncello I, II"
-					\partcombine \IchHoerteCelloI \IchHoerteCelloII
-				>>
-			>>
-		}
-	}
-	\bookpart {
-		\header {
-			number = "5"
-			title = "Ich hörte Haingesang"
-			dansktitle = "Jeg hørte Lærken slaae"
-		}
-		\score {
-			<<
-				\new Staff {
-					\set Staff.instrumentName = "Basso"
-					\IchHoerteOrgano
-				}
-			>>
-		}
-	}
-	\bookpart {
-		\header {
-			number = "6"
-			title = "Wir preisen dich"
-			dansktitle = "Vi love dig"
-		}
-		\score {
-			<<
-				\new Staff { \WirPreisenOrgano }
-			>>
-		}
-	}
-	\bookpart {
-		\header {
-			number = "7"
-			title = "Selbst wenn des Lebens Engel"
-			dansktitle = "Selv naar sig alle Livets Engle"
-		}
-		\score {
-			<<
-				\new Staff { \SelbstWennOrgano }
-			>>
-		}
-	}
-	\bookpart {
-		\header {
-			number = "8"
-			title = "Gerechter Richter!"
-			dansktitle = "Thi, store Dommer!"
-		}
-		\score {
-			<<
-				\new Staff { \GerechterRichterOrgano }
-			>>
-		}
-	}
-	\bookpart {
-		\header {
-			number = "9"
-			title = "O Gott!"
-			dansktitle = "O Gud!"
-		}
-		\paper { systems-per-page = #3 }
-		\score {
-			<<
-				\new Staff { \OGottOrgano }
-			>>
-		}
-	}
-	\bookpart {
-		\header {
-			number = "10"
-			title = "Und Leben, Licht und Freud ist ewig"
-			dansktitle = "Og Lys og Liv og Lyst er evig"
-		}
-		\paper { systems-per-page = #6 }
-		\score {
-			<<
-				\new Staff { \UndLebenOrgano }
-			>>
-		}
-	}
-	\bookpart {
-		\header {
-			number = "11"
-			title = "Heilig! Heilig! Heilig!"
-			dansktitle = "Hellig! Hellig! Hellig!"
-		}
-		\paper { systems-per-page = #3 }
-		\score {
-			<<
-				\new Staff { \HeiligOrgano }
-			>>
-		}
-	}
-	\bookpart {
-		\header {
-			number = "12"
-			title = "Lob und Ehre dem Ewigen!"
-			dansktitle = "Lovet være den Evige!"
-		}
-		\score {
-			<<
-				\new Staff { \LobUndEhreOrgano }
-			>>
-		}
-	}
   \bookpart {
-		\header {
-			number = "13"
-			title = "Dir jubeln aller Welten Myriaden"
-			dansktitle = "Dig jubler alle Kloders Myriader"
-		}
-		\paper { systems-per-page = #6 }
-		\score {
-			<<
-				\new Staff { \DirJubelnOrgano }
-			>>
-		}
-	}
+    \section "1" "Brich, Natur, in Loblied aus!" "Bryd, o Støv, i Lovsang ud!"
+    \addTocEntry
+    \paper { indent = 2\cm }
+    \score {
+      <<
+        \new Staff {
+          \set Staff.instrumentName = \markup \center-column { "Violoncello" "e Basso" }
+          \BrichNaturOrgano
+        }
+      >>
+    }
+  }
   \bookpart {
-		\header {
-			number = "14"
-			title = "Hoch, ins Chor der Himmels Söhne"
-			dansktitle = "Høit, i Chor af Millioner"
-		}
-		\score {
-			<<
-				\new Staff { \HochInsChorOrgano }
-			>>
-		}
-	}
+    \section "2" "Die Öde starrt" "Alt hylled laae"
+    \addTocEntry
+    \paper { systems-per-page = #6 }
+    \score {
+      <<
+        \new Staff { \DieOedeOrgano }
+      >>
+    }
+  }
+  \bookpart {
+    \section "3" "Vom Schlaf im Schattenwald erwacht" "Fra Skovens skyggefulde Lye"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \VomSchlafOrgano }
+      >>
+    }
+  }
+  \bookpart {
+    \section "4" "Du rollest auf der Dämmrung Flor" "Du ruller bort Naturens Slør"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \DuRollestOrgano }
+      >>
+    }
+  }
+  \bookpart {
+    \section "5" "Ich hörte Haingesang" "Jeg hørte Lærken slaae"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff <<
+          \set Staff.instrumentName = \markup \center-column { "vlc" "1, 2" }
+          \partCombine \IchHoerteCelloI \IchHoerteCelloII
+        >>
+      >>
+    }
+  }
+  \bookpart {
+    \section "5" "Ich hörte Haingesang" "Jeg hørte Lærken slaae"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff {
+          \set Staff.instrumentName = "b"
+          \IchHoerteOrgano
+        }
+      >>
+    }
+  }
+  \bookpart {
+    \section "6" "Wir preisen dich" "Vi love dig"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \WirPreisenOrgano }
+      >>
+    }
+  }
+  \bookpart {
+    \section "7" "Selbst wenn des Lebens Engel" "Selv naar sig alle Livets Engle"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \SelbstWennOrgano }
+      >>
+    }
+  }
+  \bookpart {
+    \section "8" "Gerechter Richter!" "Thi, store Dommer!"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \GerechterRichterOrgano }
+      >>
+    }
+  }
+  \bookpart {
+    \section "9" "O Gott!" "O Gud!"
+    \addTocEntry
+    \paper { systems-per-page = #3 }
+    \score {
+      <<
+        \new Staff { \OGottOrgano }
+      >>
+    }
+  }
+  \bookpart {
+    \section "10" "Und Leben, Licht und Freud ist ewig" "Og Lys og Liv og Lyst er evig"
+    \addTocEntry
+    \paper { systems-per-page = #6 }
+    \score {
+      <<
+        \new Staff { \UndLebenOrgano }
+      >>
+    }
+  }
+  \bookpart {
+    \section "11" "Heilig! Heilig! Heilig!" "Hellig! Hellig! Hellig!"
+    \addTocEntry
+    \paper { systems-per-page = #3 }
+    \score {
+      <<
+        \new Staff { \HeiligOrgano }
+      >>
+    }
+  }
+  \bookpart {
+    \section "12" "Lob und Ehre dem Ewigen!" "Lovet være den Evige!"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \LobUndEhreOrgano }
+      >>
+    }
+  }
+  \bookpart {
+    \section "13" "Dir jubeln aller Welten Myriaden" "Dig jubler alle Kloders Myriader"
+    \addTocEntry
+    \paper { systems-per-page = #6 }
+    \score {
+      <<
+        \new Staff { \DirJubelnOrgano }
+      >>
+    }
+  }
+  \bookpart {
+    \section "14" "Hoch, ins Chor der Himmels Söhne" "Høit, i Chor af Millioner"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \HochInsChorOrgano }
+      >>
+    }
+  }
 }

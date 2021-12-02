@@ -1,257 +1,75 @@
-\documentclass[parskip=full]{scrreprt}
-
-\RedeclareSectionCommand[pagestyle=plain,afterskip=10pt plus 1pt]{chapter}
-\setkomafont{chapter}{\mdseries\headingfont\fontsize{40}{40}\selectfont\color{black!80}}
-\setkomafont{pageheadfoot}{\normalsize}
-
-\def\pnumbox#1{#1\hspace*{9cm}}
-\DeclareTOCStyleEntry[
-  indent=0pt,
-  entrynumberformat=\textcolor{oldred},
-  numwidth=2em,
-  linefill=\hfill,
-  pagenumberbox=\pnumbox,
-  pagenumberformat=\itshape
-]{tocline}{section}
-
-\usepackage[english]{babel}
-
-\usepackage{fontspec}
-
-\setmainfont{Source Sans Pro}[
-  ItalicFont = Source Sans Pro Italic,
-  BoldFont = Source Sans Pro Bold,
-  BoldItalicFont = Source Sans Pro Bold Italic,
-  FontFace = {lt}{n}{Source Sans Pro Light},
-  FontFace = {lt}{it}{Source Sans Pro Light Italic},
-  FontFace = {sb}{n}{Source Sans Pro Semibold},
-  FontFace = {sb}{it}{Source Sans Pro Semibold Italic},
-  Numbers = Proportional,
-  Ligatures = Common
-]
-\DeclareRobustCommand{\ltseries}{\fontseries{lt}\selectfont}
-\DeclareRobustCommand{\sbseries}{\fontseries{sb}\selectfont}
-\DeclareTextFontCommand{\textlt}{\ltseries}
-\DeclareTextFontCommand{\textsb}{\sbseries}
-
-\newfontfamily\headingfont{Fredericka the Great}
-
-\usepackage[pass]{geometry}
-\newgeometry{twoside,inner=20mm,outer=40mm,top=20mm,bottom=40mm}
-
-\usepackage{url}
-\urlstyle{same}
-
-\usepackage{microtype}
-\microtypesetup{verbose=silent}
-
-\usepackage{booktabs,array,longtable}
-\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}p{#1}}
-
-\usepackage{graphicx}
-
-\usepackage{xcolor}
-\definecolor{oldred}{rgb}{.8313,0,0}
-
-\usepackage{pdfpages}
-
-\usepackage{multicol}
-
-\usepackage{scrlayer-scrpage}
-\pagestyle{scrheadings}
-\clearscrheadfoot
-\cfoot[\thepage]{\thepage}
-\pagenumbering{roman}
-
+\documentclass[shorttitlesize=45,tocstyle=ref]{ees}
 
 \makeatletter
 
-\newcommand\fancytitlehead{
-	\headingfont%
-	\fontsize{80}{80}\selectfont\textcolor{black!80}{\@lastname.}\\[15pt]%
-	\fontsize{60}{60}\selectfont\@ifundefined{@shorttitle}{\@title}{\@shorttitle}.%
+\def\splittitle#1|#2\relax{%
+  \def\ees@ref@titlegerman{#1}%
+  \def\ees@ref@titledansk{#2}%
 }
 
-
-\def\firstname#1{\def\@firstname{#1}}
-\def\lastname#1{\def\@lastname{#1}}
-\def\shorttitle#1{\def\@shorttitle{#1}}
-\def\namesuffix#1{\def\@namesuffix{#1}}
-\def\instrumentation#1{\def\@instrumentation{#1}}
-\def\parts#1{\def\@parts{#1}}
-
-\firstname{\relax}
-\lastname{\relax}
-\namesuffix{\relax}
-\instrumentation{\relax}
-\parts{\relax}
-
-
-\def\maketitle{%
-\begin{titlepage}%
-	\Large%
-	{\@titlehead}%
-	\vfill%
-	{\strut\@firstname}\\%
-	{\sbseries\color{oldred}\strut\@lastname}\\%
-	{\strut\@namesuffix}%
-	\vfill%
-	{\sbseries\@title}\\%
-	{\@subtitle}\\[\baselineskip]%
-	{\itshape\@instrumentation}%
-	\vfill%
-	{\itshape\@parts}\hspace*{\fill}\raisebox{0pt}[0pt][0pt]{\includegraphics{ees_logo}}%
-\end{titlepage}%
-}
-
-
-\newif\iftemplate\templatetrue
-\newif\ifprintreport\printreportfalse
-\directlua{
-scores = {
-  fl1 = "Flauto I",
-  fl2 = "Flauto II",
-  ob1 = "Oboe I",
-  ob2 = "Oboe II",
-  cl1 = "Clarinetto I",
-  cl2 = "Clarinetto II",
-  fag1 = "Fagotto I",
-  fag2 = "Fagotto II",
-  ottoni = "Corno I, II\string\\newline Tromba I, II\string\\newline Timpani",
-  trb123 = "Trombone I, II, III",
-  vl1 = "Violino I",
-  vl2 = "Violino II",
-  vla = "Viola",
-  coro_DE = "Coro (German)",
-  coro_DK = "Coro (Danish)",
-  org = "Basso continuo",
-  b = "Violoncello I, II\string\\newline Basso",
-  full_score = "Full Score"
-}
-
-last_arg = arg[\string#arg]
-texio.write("Last argument: " .. last_arg)
-if not (scores[last_arg] == nil) then
-  tex.print("\string\\def\string\\lypdfname{" .. last_arg .. "}")
-  tex.print("\string\\parts{" .. scores[last_arg] .. "}")
-  if (last_arg == "full_score") then
-    tex.print("\string\\printreporttrue")
-  end
-end
-}
-
-\@ifundefined{lypdfname}{%
-  \templatefalse
-  \printreporttrue
-  \parts{Draft}
-}{\templatetrue}
-
-\def\@firstoffour#1#2#3#4{#1}
-\def\@secondoffour#1#2#3#4{#2}
-\def\@thirdoffour#1#2#3#4{#3}
-\def\@lastoffour#1#2#3#4{#4}
-\def\lyrefnumber#1{\expandafter\@setref\csname r@#1\endcsname\@firstoffour{#1}}
-\def\lyreftitle#1{\expandafter\@setref\csname r@#1\endcsname\@secondoffour{#1}}
-\def\lyreftitledansk#1{\expandafter\@setref\csname r@#1\endcsname\@thirdoffour{#1}}
-\def\lyrefpage#1{\expandafter\@setref\csname r@#1\endcsname\@lastoffour{#1}}
-\def\lyref#1{%
+\renewcommand\newtocentry[6]{%
+  \ifPrintFrontMatter%
+    \@ifundefined{ees@toclabel@#1}%
+      \relax%
+      {\ClassWarning{ees}{TOC label '#1' multiply defined}}%
+    \global\@namedef{ees@toclabel@#1}{{#3}{#4}{#5}{#6}}%
+  \fi%
   \begingroup%
+  \edef\@tempa{#5}%
+  \expandafter\splittitle\@tempa\relax%
+  \bookmark[level=#2,dest=score.#6]%
+    {#3 \ees@ref@titlegerman\ (\ees@ref@titledansk)}%
+  \endgroup%
+}%
+
+\def\ees@toc@section#1{%
+  \begingroup%
+  \edef\@tempa{\ees@ref@title{#1}}%
+  \expandafter\splittitle\@tempa\relax%
   \@tempdima.5\linewidth\relax%
   \advance\@tempdima.5\columnsep\relax%
-  \sbseries%
-  \makebox[0pt][r]{\color{oldred}\lyrefnumber{#1}\hspace*{1.5em}}%
-  \makebox[\@tempdima][l]{\lyreftitle{#1}\Dotfill}%
-  \textit{\lyreftitledansk{#1}}%
-  \Dotfill\lyrefpage{#1}%
+  \hyperlink{score.\ees@ref@page{#1}}{%
+    \sbseries%
+    \makebox[0pt][r]{\color{eesred}\ees@ref@number{#1}\hspace*{1.5em}}%
+    \makebox[\@tempdima][l]{\ees@ref@titlegerman\ees@dotfill}%
+    \textit{\ees@ref@titledansk}%
+    \ees@dotfill%
+    \ees@ref@page{#1}%
+  }%
   \endgroup%
 }
 
-\def\Dotfill{\leavevmode\cleaders\hb@xt@ .75em{\hss .\hss }\hfill \kern \z@}
-
 \makeatother
 
-\input{../out/lilypond.ref}
+\usepackage{multicol}
+\shorttitle{Skabningens Halleluja}
+\namesuffix{and Jens Immanuel Baggesen (librettist)}
 
-
-
+\let\oldMetadataSources\MetadataSources
+\def\MetadataSources{\enlargethispage\baselineskip\oldMetadataSources}
 
 \begin{document}
 
-\titlehead{\fancytitlehead}
-\firstname{Friedrich Ludwig Æmilius}
-\lastname{Kunzen}
-\namesuffix{and Jens Immanuel Baggensen (librettist)}
-\title{Skabningens Halleluja}
-\shorttitle{Skabningens\\Halleluja}
-\subtitle{Das Halleluja der Schöpfung\\(DK-Kk mu 6506.1133)}
-\instrumentation{S, A, T, B (solo), S, A, T, B (coro),\\
-2 fl, 2 ob, 2 cl, 2 fag, 2 cor, 2 tr, 3 trb, timp, vl solo, 2 vl, vla, 2 vlc, b}
-\maketitle
+\eesTitlePage
 
+\eesCriticalReport{
+  –  & –     & A     & labeled S 2 in \A1, but A in \C1 \\
+  –  & –     & b     & All bass figures were supplemented by the editor. \\
+  1  & 58    & timp  & 2nd \halfNote\ in \A1: c4–c4 \\
+     & 31    & B     & grace note missing in \A1 \\
+  4  & 43    & cor 2 & 4th \quarterNote\ in \A1: c″4 \\
+  5  & 16    & fag 2 & grace note missing in \A1 \\
+     & 34    & T     & grace note missing in \A1 \\
+     & 44    & vlc   & bar in \A1: G8–d8–f8–e4. \\
+     & 108   & fag 1 & 3rd \quarterNote\ in \A1: \quaverRest–d8 \\
+     & 149   & fag 1 & bar in \A1: \wholeNoteRest \\
+  6  & 33    & T, B  & T solo in \A1, B solo in \C1 \\
+  12 & 81    & vl 2  & 4th \quarterNote\ in \A1: \flat b′8–\flat b′8 \\
+  14 & 55–74 & b     & rests in \A1 \\
+}
 
-\thispagestyle{empty}
-
-\vspace*{\fill}
-
-\raisebox{-4mm}{\includegraphics{byncsaeu}}\hspace*{1em}Wolfgang Esser-Skala, 2020
-
-© 2020 by Wolfgang Esser-Skala. This edition is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. To view a copy of this license, visit \url{http://creativecommons.org/licenses/by-nc-sa/4.0/}. 
-
-Music engraving by LilyPond 2.18.0 (\url{http://www.lilypond.org}).\\
-Front matter typeset with Source Sans Pro and Fredericka the Great.
-
-\textit{First version, April 2020}
-
-\vspace*{2cm}
-
-\ifprintreport
-\chapter*{Critical Report.}
-
-This edition bases upon
-\begin{enumerate}
-	\item the autograph manuscript in the Det Kongelige Bibliotek på Slotsholmen – Den Sorte Diamant, available at \url{http://img.kb.dk/ma/kunzen/SkaHal_m.pdf} (siglum mu 6506.1133);~and
-	\item the printed edition (Hans Georg Nägeli, Zürich, 1802) in the Zentralbibliothek Zürich, available at \url{https://doi.org/10.3931/e-rara-24804} (siglum AMG XIV 316).
-\end{enumerate}
-
-In general, this edition closely follows the autograph manuscript; the printed edition was used as source for the German lyrics. Any changes that were introduced by the editor are indicated by italic type (dynamics and directions), parentheses (expressive marks) or dashes (slurs and ties). Accidentals are used according to modern conventions. Asterisks denote changes that are clarified in the detailed remarks below.
-
-\bigskip
-
-\footnotetext[1]{Abbreviations: A, alto; b, bass; B, basso; cl, clarinet; cor, horn; fag, bassoon; ob, oboe; Ms,~manuscript; r, rest; S, soprano; T, tenore; timp, timpani; tr, trumpet; trb, trombone; vl, violin; vla, viola; vlc, violoncello.}
-
-\begin{longtable}{lll L{10cm}}
-	\toprule
-	\itshape Mov. & \itshape Bar & \itshape Staff & \itshape Note \\
-	\midrule \endhead
-	–  & –     & b     & All bass figures were supplemented by the editor. \\
-	1  & 58    & timp  & 2nd half of bar in Ms: c4–c4 \\
-	   & 31    & B     & 4th quarter: grace note missing in Ms \\
-	4  & 43    & cor 2 & 4th quarter in Ms: c″4 \\
-	5  & 16    & fag 2 & grace note missing in Ms \\
-	   & 34    & T     & grace note missing in Ms \\
-	   & 44    & vlc   & bar in Ms: G8–d8–f8–e4. \\
-	   & 108   & fag 1 & 3rd quarter in Ms: r8–d8 \\
-	   & 149   & fag 1 & bar in Ms: r1 \\
-	6  & 33    & T, B  & T solo in autograph Ms, B solo in printed edition \\
-	12 & 81    & vl 2  & 4th quarter in Ms: bes′8–bes′8 \\
-	14 & 55–74 & b     & rests in Ms \\
-	\bottomrule
-\end{longtable}
-
-
-This edition has been compiled and checked with utmost diligence. Nevertheless, errors and mistakes cannot be totally excluded. Please report any errors and mistakes to \url{wolfgang@esser-skala.at} or create an issue or pull request on the edition’s GitHub page (\url{https://github.com/skafdasschaf/kunzen-skabningens-halleluja}). Your help will be greatly appreciated.
-
-\medskip
-\textit{Salzburg, April 2020\\
-Wolfgang Esser-Skala}
-
-
-\cleardoublepage
-
-\chapter*{Contents. Lyrics.}
-
-
-\begin{multicols}{2}[\lyref{brichnatur}]
+\eesToc{
+\begin{multicols}{2}[\section{brichnatur}]
 Brich, Natur, in Loblied aus!\\
 Lobt Jehoven, alle Zonen!\\
 Lobet, alle Nationen!\\
@@ -289,7 +107,7 @@ toner i foreente Toner,\\
 toner Gud!
 \end{multicols}
 
-\begin{multicols}{2}[\lyref{dieoede}]
+\begin{multicols}{2}[\section{dieoede}]
 Die Öde starrt,\\
 von keinem Strahl erhellt,\\
 im Schlund der Nacht war Leere, Dunkel, Tod.\\
@@ -317,9 +135,7 @@ Halleluja! du er, du var, og du skal være\\
 vor Gud!”
 \end{multicols}
 
-\clearpage
-
-\begin{multicols}{2}[\lyref{vomschlaf}]
+\begin{multicols}{2}[\section{vomschlaf}]
 Vom Schlaf im Schattenwald erwacht,\\
 sieht, wenn der Morgen wieder lacht,\\
 was lebt, sich deine Herrlichkeit erneun!\\
@@ -352,7 +168,7 @@ Vindens Vift, Bækkens Iil\\
 i yndig Kappen stræber den imøde.
 \end{multicols}
 
-\begin{multicols}{2}[\lyref{durollest}]
+\begin{multicols}{2}[\section{durollest}]
 Du rollest auf der Dämmrung Flor!\\
 Die Thräne trocknest du,\\
 die thauend Blumen tränkte!\\
@@ -381,7 +197,7 @@ Halleluja! du er, du var, og du skal være,\\
 vor Gud!
 \end{multicols}
 
-\begin{multicols}{2}[\lyref{ichhoerte}]
+\begin{multicols}{2}[\section{ichhoerte}]
 Ich hörte Haingesang,\\
 die Rose that sich auf, das Laub erbebte;\\
 ich sah das Morgenroth\\
@@ -492,7 +308,7 @@ vor Lyst!
 \end{multicols}
 
 
-\begin{multicols}{2}[\lyref{wirpreisen}]
+\begin{multicols}{2}[\section{wirpreisen}]
 Wir preisen dich, wir danken dir, o Gott!\\
 Im Glanz des Lichts, in stiller Freude Schooß.
 
@@ -510,8 +326,6 @@ Men og vi see dit Vink og høre\\
 i Nattens Mulm, og Skrækkens døve\\
 \hspace*{1em}Lyd.
 \end{multicols}
-
-\clearpage
 
 \begin{multicols}{2}
 Dein Thron wird Nacht, die Sonne fleucht\\
@@ -554,7 +368,7 @@ Retfærdige, forfærdelige Gud!\\
 Vi dybt i Støvet høre dine Bud.
 \end{multicols}
 
-\begin{multicols}{2}[\lyref{selbstwenn}]
+\begin{multicols}{2}[\section{selbstwenn}]
 Selbst wenn des Lebens Engel alle flüchten,\\
 der Tod auf deinen Wink entsteigt des Abgrunds\\
 \hspace*{1em}Schlüchten,\\
@@ -581,7 +395,7 @@ og Ormen i sit Muld med Tillid haabe,\\
 du kommer den, som Seraph selv, ihu.
 \end{multicols}
 
-\begin{multicols}{2}[\lyref{gerechter}]
+\begin{multicols}{2}[\section{gerechter}]
 Gerechter Richter! du bist ewig gut!\\
 Du gabst uns Glauben, Liebe und Vertrauen,\\
 wir dürfen fest auf deine Hülfe bauen,\\
@@ -605,8 +419,7 @@ en Forsmag af Seraphers\\
 \end{multicols}
 
 \clearpage
-
-\begin{multicols}{2}[\lyref{ogott}]
+\begin{multicols}{2}[\section{ogott}]
 O Gott!\\
 Laß schwinden, was du schufst auf dein Gebot!\\
 Laß Sterne fallen, Sonnen untergehn!\\
@@ -627,7 +440,7 @@ I Alt, i Nattens Øde, fiern og nær,\\
 du er! %130
 \end{multicols}
 
-\begin{multicols}{2}[\lyref{undleben}]
+\begin{multicols}{2}[\section{undleben}]
 Und Leben, Licht und Freud ist ewig, so wie du.\\
 O Wonn in unsrer Brust!\\
 Dir, Liebe, Preis! wir leben!\\
@@ -642,7 +455,7 @@ Halleluja! du er, du var, og du skal være\\
 Vor Lyst!
 \end{multicols}
 
-\begin{multicols}{2}[\lyref{heilig}]
+\begin{multicols}{2}[\section{heilig}]
 Heilig! Heilig! Heilig!\\
 Sink, Schöpfung, in den Staub!\\
 Neig dich, o Himmel, Erde knie, bet an!
@@ -653,7 +466,7 @@ Fald hele Skabning ned!\\
 Nedbøi dig, Himmel, knæl, o Jord, tilbed!
 \end{multicols}
 
-\begin{multicols}{2}[\lyref{lobundehre}]
+\begin{multicols}{2}[\section{lobundehre}]
 Lob und Ehre dem Ewigen!\\
 \hspace*{1em}dem Allmächtigen! dem Allweisen!\\
 Preis und Ehre dem Heiligen!\\
@@ -692,9 +505,7 @@ basuner over Jorden:\\
 Du er!
 \end{multicols}
 
-\clearpage
-
-\begin{multicols}{2}[\lyref{dirjubeln}]
+\begin{multicols}{2}[\section{dirjubeln}]
 Dir jubeln aller Welten Myriaden\\
 in hoher Harmonie!\\
 Dich, Schöpfer, dich, o Richter, dich, o Vater!\\
@@ -707,7 +518,7 @@ Dig, Skaber, dig o Dommer, dig, vor Fader!\\
 Dig prise vi.
 \end{multicols}
 
-\begin{multicols}{2}[\lyref{hochins}]
+\begin{multicols}{2}[\section{hochins}]
 Hoch, ins Chor der Himmels Söhne,\\
 töne unser Harfen Klang!\\
 Tönt, des Lebens hellste Töne!\\
@@ -735,15 +546,8 @@ Halleluja! vi ere!\\
 Halleluja! du er, du var, og du skal være\\
 vor Gud!
 \end{multicols}
+}
 
-
-\cleardoublepage
-\fi
-
-\iftemplate
-\includepdf[pages=-]{../out/\lypdfname.pdf}
-\fi
-
-
+\eesScore
 
 \end{document}

@@ -1,24 +1,35 @@
 composer: Kunzen, Friedrich Ludwig Æmilius
-title: Skabningens Halleluja (Das Halleluja der Schöpfung)
-id: (DK-Kk mu 6506.1133)
+title: Skabningens Halleluja
+subtitle: Das Halleluja der Schöpfung
 genre: oratorio
-scoring: S, A, T, B (solo), S, A, T, B (coro), 2 fl, 2 ob, 2 cl (B), 2 fag, 2 cor (C/D/Es/F/B/B basso), 2 clno (D/Es), 3 trb, timp (D–A/Es–B), vl solo, 2 vl, vla, 2 vlc, b
+scoring:
+  - S, A, T, B (solo), S, A, T, B (coro), 2 fl, 2 ob, 2 cl (\flat B), 2 fag,
+  - 2 cor (C/D/\flat E/F/\flat B/\flat B\ basso), 2 clno (C/D/\flat E), 3 trb, timp (C–G/D–A/\flat E–\flat B),
+  - vl solo, 2 vl, vla, 2 vlc, b, [bc]
 sources:
-  1:
+  A1:
     siglum: DK-Kk
     shelfmark: mu 6506.1133
-    type: autograph manuscript
     date: 1797
     rism: 150203209
-    url: http://img.kb.dk/ma/kunzen/SkaHal_m.pdf
-  1:
+    url: https://img.kb.dk/ma/kunzen/SkaHal_m.pdf
+    principal: true
+    notes: source for Danish lyrics, which were verified using \textit{Jens Baggesens Samtlige Værker udgivne af ham selv. I. Bind. Kiöbenhavn 1801. Paa Frederik Brummers Forlag hos E. M. Cohen.} (digital version at \url{https://kalliope.org/en/work/baggesen/1801})
+  C1:
     siglum: CH-Zz
     shelfmark: AMG XIV 316
-    type: print (Hans Georg Nägeli, Zürich) 
     date: 1802
     rism: 990035804
     url: https://doi.org/10.3931/e-rara-24804
-github: kunzen-skabningens-halleluja
+    notes: Hans Georg Nägeli, Zürich; source for German lyrics
 imslp: Das_Halleluja_der_Schöpfung_(Kunzen%2C_Friedrich_Ludwig_Aemilius)
-notes:
-
+parts:
+  cl1: Clarinetto I in \flat B
+  cl2: Clarinetto II in \flat B
+  cor12: Corno I, II in C/D/\flat E/F/\flat B/\flat B\ basso
+  ottoni: Clarino I, II in C/D/\flat E\\Timpani in C–G/D–A/\flat E–\flat B
+  trb123: Trombone I, II, III
+  vl1: Violino I\\Violino solo
+  coro_DE: Coro (German)
+  coro_DK: Coro (Danish)
+  b: Violoncello I, II\\Basso
