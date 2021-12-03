@@ -1,11 +1,11 @@
-composer: Kunzen, Friedrich Ludwig Æmilius
+composer:
+  last: Kunzen
+  first: Friedrich Ludwig Æmilius
 title: Skabningens Halleluja
 subtitle: Das Halleluja der Schöpfung
 genre: oratorio
-scoring:
-  - S, A, T, B (solo), S, A, T, B (coro), 2 fl, 2 ob, 2 cl (\flat B), 2 fag,
-  - 2 cor (C/D/\flat E/F/\flat B/\flat B\ basso), 2 clno (C/D/\flat E), 3 trb, timp (C–G/D–A/\flat E–\flat B),
-  - vl solo, 2 vl, vla, 2 vlc, b, [bc]
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 fl, 2 ob, 2 cl (\flat B), 2 fag,\\2 cor (C/D/\flat E/F/\flat B/\flat B\ basso), 2 clno (C/D/\flat E), 3 trb, timp (C–G/D–A/\flat E–\flat B),\\vl solo, 2 vl, vla, 2 vlc, b, [bc]
+license: cc-by-sa-4.0
 sources:
   A1:
     siglum: DK-Kk
@@ -13,6 +13,7 @@ sources:
     date: 1797
     rism: 150203209
     url: https://img.kb.dk/ma/kunzen/SkaHal_m.pdf
+    license: public domain
     principal: true
     notes: source for Danish lyrics, which were verified using \textit{Jens Baggesens Samtlige Værker udgivne af ham selv. I. Bind. Kiöbenhavn 1801. Paa Frederik Brummers Forlag hos E. M. Cohen.} (digital version at \url{https://kalliope.org/en/work/baggesen/1801})
   C1:
